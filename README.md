@@ -25,6 +25,7 @@ Purpose: Conduct the univariate analysis portion of the broader NAMASTE project 
 	- ANOVA tables and slopes were generated and reported.
 
 **Script Overview**
+
 Script 1 - Dataset Formatting: Import of the plot-level data and summarize by site or vegetation zone for future analyses
 
 Script 2 - Site level regressions - EMI Compilation Analysis: Conduct site-level regressions to calculate p-values and slopes. Calculates compilation analysis scores of Ecotone Migration Index. 
