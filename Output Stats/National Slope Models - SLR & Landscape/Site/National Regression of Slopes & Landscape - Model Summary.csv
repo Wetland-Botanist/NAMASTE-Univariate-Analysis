@@ -1,0 +1,9 @@
+"","Metric","term","estimate","std.error","statistic","p.value","r.squared","adj.r.squared"
+"1","Abiotic Cover","Landscape",0.609,0.165,3.685,0.001,0.214,0.198
+"2","Live Cover","Landscape",-0.61,0.165,-3.694,0.001,0.214,0.199
+"3","Halophyte Cover","Landscape",-0.238,0.157,-1.517,0.136,0.045,0.025
+"4","Freshwater Cover","Landscape",-0.078,0.068,-1.144,0.263,0.05,0.012
+"5","EMI","Landscape",0.004,0.001,3.669,0.001,0.212,0.196
+"6","Richness","Landscape",0.015,0.009,1.705,0.094,0.055,0.036
+"7","Shannon-Weiner Diversity","Landscape",0.005,0.003,1.958,0.056,0.071,0.053
+"8","Salt Ratio","Landscape",0,0.001,0.29,0.773,0.002,-0.018

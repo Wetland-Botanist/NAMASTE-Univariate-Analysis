@@ -1,0 +1,109 @@
+"","Metric","Site_variable","SampleSize","term","sumsq","meansq","statistic","p.value"
+"1","Abiotic Cover","Region",405,"Year",3395.592,3395.592,34.872,0
+"2","Abiotic Cover","Region",405,"Category",14175.266,3543.817,36.394,0
+"3","Abiotic Cover","Region",405,"Year:Category",14186.522,3546.63,36.423,0
+"4","Live Cover","Region",405,"Year",3412.411,3412.411,35.043,0
+"5","Live Cover","Region",405,"Category",14145.684,3536.421,36.317,0
+"6","Live Cover","Region",405,"Year:Category",14157.204,3539.301,36.346,0
+"7","Halophyte Cover","Region",399,"Year",2167.558,2167.558,22.837,0
+"8","Halophyte Cover","Region",399,"Category",9043.421,2260.855,23.82,0
+"9","Halophyte Cover","Region",399,"Year:Category",9080.702,2270.176,23.919,0
+"10","Freshwater Cover","Region",226,"Year",190.425,190.425,40.863,0
+"11","Freshwater Cover","Region",226,"Category",430.44,107.61,23.092,0
+"12","Freshwater Cover","Region",226,"Year:Category",437.469,109.367,23.469,0
+"13","EMI","Region",405,"Year",0.187,0.187,28.527,0
+"14","EMI","Region",405,"Category",0.276,0.069,10.529,0
+"15","EMI","Region",405,"Year:Category",0.278,0.07,10.609,0
+"16","Invasive Cover","Region",219,"Year",0.525,0.525,0.911,0.341
+"17","Invasive Cover","Region",219,"Category",1.529,0.382,0.663,0.618
+"18","Invasive Cover","Region",219,"Year:Category",1.603,0.401,0.695,0.596
+"19","Richness","Region",405,"Year",1.021,1.021,7.919,0.005
+"20","Richness","Region",405,"Category",3.859,0.965,7.479,0
+"21","Richness","Region",405,"Year:Category",3.875,0.969,7.511,0
+"22","Shannon-Weiner Diversity","Region",405,"Year",0.088,0.088,9.491,0.002
+"23","Shannon-Weiner Diversity","Region",405,"Category",0.385,0.096,10.398,0
+"24","Shannon-Weiner Diversity","Region",405,"Year:Category",0.385,0.096,10.401,0
+"25","Salt Ratio","Region",405,"Year",0,0,0.141,0.708
+"26","Salt Ratio","Region",405,"Category",0.001,0,0.54,0.706
+"27","Salt Ratio","Region",405,"Year:Category",0.001,0,0.505,0.732
+"28","Abiotic Cover","Geomorphology",405,"Year",1764.159,1764.159,13.584,0
+"29","Abiotic Cover","Geomorphology",405,"Category",2482.391,1241.196,9.557,0
+"30","Abiotic Cover","Geomorphology",405,"Year:Category",2480.778,1240.389,9.551,0
+"31","Live Cover","Geomorphology",405,"Year",1784.284,1784.284,13.737,0
+"32","Live Cover","Geomorphology",405,"Category",2450.205,1225.102,9.432,0
+"33","Live Cover","Geomorphology",405,"Year:Category",2448.585,1224.293,9.426,0
+"34","Halophyte Cover","Geomorphology",399,"Year",1483.709,1483.709,13.273,0
+"35","Halophyte Cover","Geomorphology",399,"Category",2988.046,1494.023,13.366,0
+"36","Halophyte Cover","Geomorphology",399,"Year:Category",2978.827,1489.413,13.324,0
+"37","Freshwater Cover","Geomorphology",226,"Year",4.451,4.451,0.668,0.415
+"38","Freshwater Cover","Geomorphology",226,"Category",4.344,2.172,0.326,0.722
+"39","Freshwater Cover","Geomorphology",226,"Year:Category",4.4,2.2,0.33,0.719
+"40","EMI","Geomorphology",405,"Year",0.172,0.172,24.065,0
+"41","EMI","Geomorphology",405,"Category",0.059,0.029,4.109,0.017
+"42","EMI","Geomorphology",405,"Year:Category",0.059,0.029,4.12,0.017
+"43","Invasive Cover","Geomorphology",219,"Year",0.43,0.43,0.737,0.392
+"44","Invasive Cover","Geomorphology",219,"Category",0.05,0.025,0.043,0.958
+"45","Invasive Cover","Geomorphology",219,"Year:Category",0.048,0.024,0.042,0.959
+"46","Richness","Geomorphology",405,"Year",0.344,0.344,2.549,0.111
+"47","Richness","Geomorphology",405,"Category",1.49,0.745,5.513,0.004
+"48","Richness","Geomorphology",405,"Year:Category",1.511,0.755,5.59,0.004
+"49","Shannon-Weiner Diversity","Geomorphology",405,"Year",0.023,0.023,2.382,0.124
+"50","Shannon-Weiner Diversity","Geomorphology",405,"Category",0.272,0.136,14.248,0
+"51","Shannon-Weiner Diversity","Geomorphology",405,"Year:Category",0.273,0.137,14.341,0
+"52","Salt Ratio","Geomorphology",405,"Year",0,0,0.249,0.618
+"53","Salt Ratio","Geomorphology",405,"Category",0,0,0.357,0.7
+"54","Salt Ratio","Geomorphology",405,"Year:Category",0,0,0.322,0.725
+"55","Abiotic Cover","tidal_range",405,"Year",70.786,70.786,0.532,0.466
+"56","Abiotic Cover","tidal_range",405,"Category",1466.74,733.37,5.515,0.004
+"57","Abiotic Cover","tidal_range",405,"Year:Category",1486.196,743.098,5.588,0.004
+"58","Live Cover","tidal_range",405,"Year",72.671,72.671,0.547,0.46
+"59","Live Cover","tidal_range",405,"Category",1483.057,741.528,5.582,0.004
+"60","Live Cover","tidal_range",405,"Year:Category",1502.698,751.349,5.656,0.004
+"61","Halophyte Cover","tidal_range",399,"Year",142.086,142.086,1.223,0.269
+"62","Halophyte Cover","tidal_range",399,"Category",1509.086,754.543,6.497,0.002
+"63","Halophyte Cover","tidal_range",399,"Year:Category",1521.911,760.956,6.552,0.002
+"64","Freshwater Cover","tidal_range",226,"Year",3.485,3.485,0.527,0.469
+"65","Freshwater Cover","tidal_range",226,"Category",35.21,17.605,2.662,0.072
+"66","Freshwater Cover","tidal_range",226,"Year:Category",36.251,18.126,2.741,0.067
+"67","EMI","tidal_range",405,"Year",0.051,0.051,6.981,0.009
+"68","EMI","tidal_range",405,"Category",0.026,0.013,1.808,0.165
+"69","EMI","tidal_range",405,"Year:Category",0.027,0.013,1.859,0.157
+"70","Invasive Cover","tidal_range",219,"Year",0.376,0.376,0.658,0.418
+"71","Invasive Cover","tidal_range",219,"Category",0.686,0.686,1.199,0.275
+"72","Invasive Cover","tidal_range",219,"Year:Category",0.701,0.701,1.226,0.27
+"73","Richness","tidal_range",405,"Year",0.004,0.004,0.031,0.861
+"74","Richness","tidal_range",405,"Category",0.579,0.289,2.099,0.124
+"75","Richness","tidal_range",405,"Year:Category",0.586,0.293,2.125,0.121
+"76","Shannon-Weiner Diversity","tidal_range",405,"Year",0.002,0.002,0.206,0.65
+"77","Shannon-Weiner Diversity","tidal_range",405,"Category",0.055,0.027,2.7,0.069
+"78","Shannon-Weiner Diversity","tidal_range",405,"Year:Category",0.057,0.028,2.798,0.062
+"79","Salt Ratio","tidal_range",405,"Year",0,0,0.034,0.853
+"80","Salt Ratio","tidal_range",405,"Category",0.001,0,0.735,0.48
+"81","Salt Ratio","tidal_range",405,"Year:Category",0.001,0,0.624,0.536
+"82","Abiotic Cover","salinity",405,"Year",15.229,15.229,0.115,0.734
+"83","Abiotic Cover","salinity",405,"Category",1802.492,901.246,6.832,0.001
+"84","Abiotic Cover","salinity",405,"Year:Category",1790.607,895.303,6.787,0.001
+"85","Live Cover","salinity",405,"Year",15.864,15.864,0.12,0.729
+"86","Live Cover","salinity",405,"Category",1814.056,907.028,6.882,0.001
+"87","Live Cover","salinity",405,"Year:Category",1802.141,901.071,6.837,0.001
+"88","Halophyte Cover","salinity",399,"Year",0.333,0.333,0.003,0.957
+"89","Halophyte Cover","salinity",399,"Category",1349.01,674.505,5.784,0.003
+"90","Halophyte Cover","salinity",399,"Year:Category",1329.708,664.854,5.702,0.004
+"91","Freshwater Cover","salinity",226,"Year",44.002,44.002,7.221,0.008
+"92","Freshwater Cover","salinity",226,"Category",98.676,49.338,8.096,0
+"93","Freshwater Cover","salinity",226,"Year:Category",99.538,49.769,8.167,0
+"94","EMI","salinity",405,"Year",0.038,0.038,5.378,0.021
+"95","EMI","salinity",405,"Category",0.06,0.03,4.201,0.016
+"96","EMI","salinity",405,"Year:Category",0.06,0.03,4.204,0.016
+"97","Invasive Cover","salinity",219,"Year",0.035,0.035,0.062,0.804
+"98","Invasive Cover","salinity",219,"Category",4.253,2.127,3.801,0.024
+"99","Invasive Cover","salinity",219,"Year:Category",4.252,2.126,3.8,0.024
+"100","Richness","salinity",405,"Year",0.392,0.392,2.956,0.086
+"101","Richness","salinity",405,"Category",2.204,1.102,8.306,0
+"102","Richness","salinity",405,"Year:Category",2.265,1.133,8.537,0
+"103","Shannon-Weiner Diversity","salinity",405,"Year",0.066,0.066,6.968,0.009
+"104","Shannon-Weiner Diversity","salinity",405,"Category",0.267,0.133,14.014,0
+"105","Shannon-Weiner Diversity","salinity",405,"Year:Category",0.271,0.136,14.257,0
+"106","Salt Ratio","salinity",405,"Year",0.001,0.001,2.058,0.152
+"107","Salt Ratio","salinity",405,"Category",0.002,0.001,1.249,0.288
+"108","Salt Ratio","salinity",405,"Year:Category",0.002,0.001,1.258,0.286

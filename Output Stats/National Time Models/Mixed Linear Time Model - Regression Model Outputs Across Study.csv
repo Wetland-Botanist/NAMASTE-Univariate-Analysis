@@ -1,0 +1,10 @@
+"","Metric","SampleSize","term","sumsq","meansq","statistic","p.value"
+"1","Abiotic Cover",424,"Year",1431.01,1431.01,10.787,0.001
+"2","Live Cover",424,"Year",1450.652,1450.652,10.942,0.001
+"3","Halophyte Cover",418,"Year",1297.106,1297.106,11.232,0.001
+"4","Freshwater Cover",231,"Year",5.876,5.876,0.763,0.383
+"5","EMI",424,"Year",0.157,0.157,22.303,0
+"6","Invasive Cover",224,"Year",0.487,0.487,0.826,0.365
+"7","Richness",424,"Year",0.236,0.236,1.278,0.259
+"8","Shannon-Weiner Diversity",424,"Year",0.013,0.013,0.961,0.327
+"9","Salt Ratio",424,"Year",0,0,0.009,0.926

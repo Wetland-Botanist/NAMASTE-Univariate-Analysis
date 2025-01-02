@@ -1,0 +1,913 @@
+"","Reserve","SiteID","Vegetation_Zone","Metric","SampleSize","term","slope","std.error","statistic","pvalue"
+"1","ACE","EIN","Mid","Abiotic Cover",107,"Year",-1.0236,0.9981,-1.0256,0.3075
+"2","ACE","EIN","Low","Abiotic Cover",35,"Year",-1.1172,1.3107,-0.8524,0.4002
+"3","ACE","EIS","Mid","Abiotic Cover",117,"Year",-3.0593,0.8741,-3.4998,7e-04
+"4","ACE","EIS","Low","Abiotic Cover",5,"Year",-0.7788,4.0665,-0.1915,0.8603
+"5","APA","PC","Low","Abiotic Cover",138,"Year",1.7189,1.1325,1.5178,0.1314
+"6","APA","PC","Mid","Abiotic Cover",195,"Year",1.488,0.9,1.6534,0.0999
+"7","APA","PC","Up","Abiotic Cover",13,"Year",-1.7317,1.0475,-1.6532,0.1265
+"8","CBM","MB","Low","Abiotic Cover",121,"Year",-2.0276,0.3042,-6.6652,0
+"9","CBM","MB","Mid","Abiotic Cover",39,"Year",-1.7174,0.9562,-1.7961,0.0807
+"10","CBM","OPC","Low","Abiotic Cover",154,"Year",-3.3951,0.499,-6.8034,0
+"11","CBM","OPC","Mid","Abiotic Cover",265,"Year",-2.3277,0.3037,-7.6656,0
+"12","DEL","SJR","Up","Abiotic Cover",4,"Year",2.25,1.299,1.7321,0.2254
+"13","DEL","SJR","Low","Abiotic Cover",32,"Year",2.2793,1.7331,1.3152,0.1984
+"14","DEL","SJR","Mid","Abiotic Cover",84,"Year",1.7696,1.0698,1.6543,0.1019
+"15","ELK","Upper","Up","Abiotic Cover",6,"Year",9.0043,5.6816,1.5848,0.1882
+"16","ELK","Upper","Low","Abiotic Cover",45,"Year",1.0508,2.1773,0.4826,0.6318
+"17","ELK","Lower","Up","Abiotic Cover",8,"Year",0,0,NA,1
+"18","ELK","Lower","Low","Abiotic Cover",90,"Year",2.1109,1.535,1.3752,0.1726
+"19","ELK","Upper","Mid","Abiotic Cover",9,"Year",0,0,NA,1
+"20","GND","spalt","Low","Abiotic Cover",96,"Year",4.3045,0.9077,4.7423,0
+"21","GND","spalt","Mid","Abiotic Cover",66,"Year",8.9156,0.9931,8.9777,0
+"22","GND","juro low","Low","Abiotic Cover",36,"Year",6.3095,1.9692,3.204,0.0029
+"23","GND","juro low","Mid","Abiotic Cover",174,"Year",8.6975,0.9187,9.4672,0
+"24","GND","juro high","Mid","Abiotic Cover",116,"Year",7.0516,1.046,6.7416,0
+"25","GND","juro high","Low","Abiotic Cover",12,"Year",-0.0071,2.4559,-0.0029,0.9977
+"26","GND","juro mid","Mid","Abiotic Cover",204,"Year",5.742,0.7915,7.2547,0
+"27","GND","juro mid","Low","Abiotic Cover",18,"Year",0.1286,2.9639,0.0434,0.9659
+"28","GND","juro mid","Up","Abiotic Cover",18,"Year",8.0905,3.0537,2.6494,0.0175
+"29","GND","clmaj","Up","Abiotic Cover",150,"Year",-1.62,1.1096,-1.46,0.1464
+"30","GRB","SP","Low","Abiotic Cover",66,"Year",2.1152,0.7535,2.8072,0.0066
+"31","GRB","SP","Mid","Abiotic Cover",363,"Year",-0.6635,0.3465,-1.9145,0.0563
+"32","GRB","SP","Up","Abiotic Cover",62,"Year",-0.6923,0.5178,-1.337,0.1863
+"33","GRB","GBF","Low","Abiotic Cover",66,"Year",0.4002,1.006,0.3978,0.6921
+"34","GRB","GBF","Mid","Abiotic Cover",297,"Year",0.0646,0.3665,0.1763,0.8602
+"35","GRB","GBF","Up","Abiotic Cover",66,"Year",-0.0908,0.8125,-0.1118,0.9113
+"36","GRB","BC","Low","Abiotic Cover",109,"Year",0.5031,0.6596,0.7627,0.4473
+"37","GRB","BC","Mid","Abiotic Cover",154,"Year",1.1677,0.4928,2.3698,0.0191
+"38","GRB","BC","Up","Abiotic Cover",66,"Year",1.2504,0.6576,1.9015,0.0617
+"39","GTM","22","Low","Abiotic Cover",399,"Year",-0.5243,0.4727,-1.1092,0.268
+"40","GTM","0","Low","Abiotic Cover",349,"Year",-0.0082,0.4399,-0.0186,0.9852
+"41","GTM","40","Low","Abiotic Cover",328,"Year",-1.5523,0.4277,-3.6295,3e-04
+"42","GTM","1","Low","Abiotic Cover",375,"Year",0.4985,0.6082,0.8196,0.413
+"43","GTM","46","Low","Abiotic Cover",388,"Year",0.7898,0.6735,1.1726,0.2417
+"44","JAC","Central Segment","Low","Abiotic Cover",270,"Year",-1.73,0.3264,-5.3004,0
+"45","JAC","South Segment","Low","Abiotic Cover",270,"Year",-0.5472,0.3952,-1.3845,0.1674
+"46","KAC","FR","Mid","Abiotic Cover",416,"Year",-0.7221,0.3425,-2.1083,0.0356
+"47","KAC","FR","Low","Abiotic Cover",112,"Year",-1.5585,0.7573,-2.0581,0.0419
+"48","KAC","FR","Up","Abiotic Cover",18,"Year",-1.8221,1.5152,-1.2026,0.2466
+"49","KAC","BS","Low","Abiotic Cover",322,"Year",-0.9854,0.58,-1.6988,0.0903
+"50","KAC","BS","Mid","Abiotic Cover",12,"Year",-0.5009,0.8414,-0.5953,0.5649
+"51","KAC","BS","Up","Abiotic Cover",12,"Year",-0.3349,0.2311,-1.4492,0.1779
+"52","KAC","CP","Mid","Abiotic Cover",313,"Year",-0.2729,0.7053,-0.3869,0.6991
+"53","KAC","CP","Low","Abiotic Cover",150,"Year",-0.2161,0.9554,-0.2262,0.8213
+"54","KAC","SC","Low","Abiotic Cover",81,"Year",-0.4629,0.9632,-0.4805,0.6322
+"55","KAC","SC","Mid","Abiotic Cover",80,"Year",-0.1691,0.4815,-0.3513,0.7263
+"56","MAR","MI-W","Low","Abiotic Cover",548,"Year",0.2627,0.5228,0.5025,0.6155
+"57","MAR","HF1","Low","Abiotic Cover",548,"Year",11.6628,0.4915,23.7271,0
+"58","MAR","HF2","Low","Abiotic Cover",600,"Year",9.0587,0.5072,17.8589,0
+"59","MAR","HF3","Low","Abiotic Cover",548,"Year",9.1453,0.5736,15.9427,0
+"60","NAR","Nag","Low","Abiotic Cover",65,"Year",3.2656,0.5168,6.3184,0
+"61","NAR","Nag","Mid","Abiotic Cover",208,"Year",1.1106,0.29,3.8303,2e-04
+"62","NAR","Nag","Up","Abiotic Cover",39,"Year",0.9003,0.5104,1.7638,0.086
+"63","NAR","Coggeshall","Mid","Abiotic Cover",143,"Year",2.1759,0.4223,5.1524,0
+"64","NAR","Coggeshall","Low","Abiotic Cover",91,"Year",1.7568,0.5571,3.1537,0.0022
+"65","NAR","Coggeshall","Up","Abiotic Cover",39,"Year",1.5501,0.7981,1.9422,0.0598
+"66","NIW","Segment A","Mid","Abiotic Cover",130,"Year",-0.1621,0.6433,-0.252,0.8015
+"67","NIW","Segment A","Low","Abiotic Cover",164,"Year",-1.747,0.5364,-3.2572,0.0014
+"68","NIW","Segment A","Up","Abiotic Cover",25,"Year",2.1643,1.5815,1.3685,0.1844
+"69","NIW","Segment B","Mid","Abiotic Cover",78,"Year",0.9881,0.7611,1.2983,0.1981
+"70","NIW","Segment B","Low","Abiotic Cover",260,"Year",-1.134,0.4643,-2.4425,0.0153
+"71","NOC","MI","Low","Abiotic Cover",681,"Year",-0.7701,0.4468,-1.7234,0.0853
+"72","NOC","MI","Mid","Abiotic Cover",108,"Year",-2.1897,0.7769,-2.8184,0.0058
+"73","NOC","MM","Low","Abiotic Cover",601,"Year",4.8921,0.3954,12.3717,0
+"74","SOS","DM","Low","Abiotic Cover",19,"Year",0,0,NA,1
+"75","SOS","DM","Mid","Abiotic Cover",51,"Year",0,0,NA,1
+"76","SOS","MM","Low","Abiotic Cover",60,"Year",0.1666,0.1945,0.8566,0.3952
+"77","SOS","MM","Mid","Abiotic Cover",60,"Year",-0.4628,0.126,-3.6732,5e-04
+"78","SOS","HC","Mid","Abiotic Cover",92,"Year",0.0116,0.0109,1.0622,0.291
+"79","SOS","HC","Low","Abiotic Cover",30,"Year",0.0475,0.0328,1.4474,0.1589
+"80","SOS","VM","Mid","Abiotic Cover",40,"Year",0.0345,0.0424,0.8137,0.4209
+"81","SOS","VM","Low","Abiotic Cover",60,"Year",0.831,0.5575,1.4906,0.1415
+"82","SOS","VI","Low","Abiotic Cover",54,"Year",0.0267,0.0258,1.0349,0.3055
+"83","SOS","VI","Mid","Abiotic Cover",6,"Year",0,0,NA,1
+"84","SOS","MI","Low","Abiotic Cover",60,"Year",0.354,0.2125,1.6658,0.1011
+"85","TJR","McCoy North","Mid","Abiotic Cover",40,"Year",0.1862,2.1341,0.0872,0.9309
+"86","TJR","McCoy North","Up","Abiotic Cover",10,"Year",-2.5473,1.2989,-1.9611,0.0855
+"87","TJR","McCoy South","Up","Abiotic Cover",90,"Year",2.5629,0.924,2.7737,0.0068
+"88","TJR","McCoy South","Mid","Abiotic Cover",90,"Year",0.8309,0.9598,0.8657,0.389
+"89","TJR","McCoy South","Low","Abiotic Cover",60,"Year",1.2694,0.9475,1.3398,0.1855
+"90","TJR","South Beach","Mid","Abiotic Cover",180,"Year",0.3715,0.9849,0.3772,0.7065
+"91","TJR","South Beach","Up","Abiotic Cover",30,"Year",0.4606,0.5827,0.7904,0.4359
+"92","TJR","V1","Low","Abiotic Cover",40,"Year",-0.4227,0.9155,-0.4618,0.6469
+"93","TJR","V1","Mid","Abiotic Cover",160,"Year",2.0759,0.5141,4.038,1e-04
+"94","TJR","V1","Up","Abiotic Cover",70,"Year",0.5232,0.299,1.7496,0.0847
+"95","TJR","V3","Mid","Abiotic Cover",240,"Year",-0.7436,0.539,-1.3796,0.169
+"96","TJR","V4","Mid","Abiotic Cover",230,"Year",-0.8067,0.4142,-1.9475,0.0527
+"97","TJR","V4","Low","Abiotic Cover",10,"Year",-1.4659,0.7604,-1.9278,0.09
+"98","TJR","Brazo Creek","Mid","Abiotic Cover",40,"Year",-1.879,1.5697,-1.197,0.2387
+"99","TJR","Brazo Creek","Up","Abiotic Cover",8,"Year",-5.915,8.3623,-0.7073,0.5059
+"100","TJR","Horse Trail","Mid","Abiotic Cover",75,"Year",-0.9346,0.6614,-1.413,0.1619
+"101","TJR","Model Marsh","Mid","Abiotic Cover",105,"Year",-2.1205,2.0043,-1.058,0.2926
+"102","TJR","Model Marsh","Low","Abiotic Cover",15,"Year",-4.2733,3.1809,-1.3435,0.2021
+"103","WEL","WB","Low","Abiotic Cover",53,"Year",0.1214,0.6125,0.1983,0.8436
+"104","WEL","WB","Mid","Abiotic Cover",159,"Year",-0.3005,0.3539,-0.8489,0.3972
+"105","WEL","WB","Up","Abiotic Cover",53,"Year",0.1568,0.1603,0.9785,0.3325
+"106","WQB","Section 2","Low","Abiotic Cover",216,"Year",-0.696,0.8099,-0.8593,0.3911
+"107","WQB","Section 2","Mid","Abiotic Cover",180,"Year",0.614,0.3769,1.6292,0.105
+"108","WQB","Section 2","Up","Abiotic Cover",24,"Year",2.0225,0.8354,2.421,0.0242
+"109","WQB","Section 1","Mid","Abiotic Cover",36,"Year",2.2391,0.9425,2.3757,0.0233
+"110","WQB","Section 1","Low","Abiotic Cover",251,"Year",0.238,0.7542,0.3156,0.7526
+"111","WQB","Section 3","Mid","Abiotic Cover",195,"Year",0.6211,0.5012,1.2392,0.2168
+"112","WQB","Section 3","Up","Abiotic Cover",45,"Year",-1.673,0.807,-2.0732,0.0442
+"113","WQB","Section 3","Low","Abiotic Cover",91,"Year",-0.2807,1.0852,-0.2587,0.7965
+"114","WQB","Section 1","Up","Abiotic Cover",20,"Year",0.3855,3.0541,0.1262,0.901
+"115","ACE","EIN","Mid","Live Cover",107,"Year",1.0237,0.9981,1.0257,0.3074
+"116","ACE","EIN","Low","Live Cover",35,"Year",1.1173,1.3107,0.8524,0.4001
+"117","ACE","EIS","Mid","Live Cover",117,"Year",3.0593,0.8741,3.4998,7e-04
+"118","ACE","EIS","Low","Live Cover",5,"Year",0.7788,4.0665,0.1915,0.8603
+"119","APA","PC","Low","Live Cover",138,"Year",-1.7188,1.1325,-1.5177,0.1314
+"120","APA","PC","Mid","Live Cover",195,"Year",-1.4879,0.9,-1.6532,0.0999
+"121","APA","PC","Up","Live Cover",13,"Year",1.7343,1.0473,1.6561,0.1259
+"122","CBM","MB","Low","Live Cover",121,"Year",2.0275,0.3042,6.665,0
+"123","CBM","MB","Mid","Live Cover",39,"Year",1.7177,0.9563,1.7962,0.0806
+"124","CBM","OPC","Low","Live Cover",154,"Year",3.3952,0.499,6.8037,0
+"125","CBM","OPC","Mid","Live Cover",265,"Year",2.3273,0.3036,7.6644,0
+"126","DEL","SJR","Up","Live Cover",4,"Year",-2.25,1.299,-1.7321,0.2254
+"127","DEL","SJR","Low","Live Cover",32,"Year",-2.2793,1.7331,-1.3152,0.1984
+"128","DEL","SJR","Mid","Live Cover",84,"Year",-1.7696,1.0698,-1.6543,0.1019
+"129","ELK","Upper","Up","Live Cover",6,"Year",-9.005,5.6815,-1.585,0.1882
+"130","ELK","Upper","Low","Live Cover",45,"Year",-1.0506,2.1773,-0.4825,0.6319
+"131","ELK","Lower","Up","Live Cover",8,"Year",0.001,8e-04,1.2083,0.2724
+"132","ELK","Lower","Low","Live Cover",90,"Year",-2.1109,1.535,-1.3752,0.1726
+"133","ELK","Upper","Mid","Live Cover",9,"Year",0,0,0.9165,0.3899
+"134","GND","spalt","Low","Live Cover",96,"Year",-4.3045,0.9077,-4.7423,0
+"135","GND","spalt","Mid","Live Cover",66,"Year",-8.9156,0.9931,-8.9777,0
+"136","GND","juro low","Low","Live Cover",36,"Year",-6.3095,1.9692,-3.204,0.0029
+"137","GND","juro low","Mid","Live Cover",174,"Year",-8.6975,0.9187,-9.4672,0
+"138","GND","juro high","Mid","Live Cover",116,"Year",-7.0516,1.046,-6.7416,0
+"139","GND","juro high","Low","Live Cover",12,"Year",0.0071,2.4559,0.0029,0.9977
+"140","GND","juro mid","Mid","Live Cover",204,"Year",-5.742,0.7915,-7.2547,0
+"141","GND","juro mid","Low","Live Cover",18,"Year",-0.1286,2.9639,-0.0434,0.9659
+"142","GND","juro mid","Up","Live Cover",18,"Year",-8.0905,3.0537,-2.6494,0.0175
+"143","GND","clmaj","Up","Live Cover",150,"Year",1.62,1.1096,1.46,0.1464
+"144","GRB","SP","Low","Live Cover",66,"Year",-2.1152,0.7535,-2.8071,0.0066
+"145","GRB","SP","Mid","Live Cover",363,"Year",0.6635,0.3465,1.9147,0.0563
+"146","GRB","SP","Up","Live Cover",62,"Year",0.6926,0.5177,1.3377,0.186
+"147","GRB","GBF","Low","Live Cover",66,"Year",-0.4001,1.006,-0.3977,0.6921
+"148","GRB","GBF","Mid","Live Cover",297,"Year",-0.0645,0.3665,-0.1761,0.8604
+"149","GRB","GBF","Up","Live Cover",66,"Year",0.091,0.8126,0.112,0.9112
+"150","GRB","BC","Low","Live Cover",109,"Year",-0.503,0.6596,-0.7626,0.4474
+"151","GRB","BC","Mid","Live Cover",154,"Year",-1.1677,0.4928,-2.3697,0.0191
+"152","GRB","BC","Up","Live Cover",66,"Year",-1.2504,0.6576,-1.9016,0.0617
+"153","GTM","22","Low","Live Cover",399,"Year",0.5243,0.4727,1.1092,0.268
+"154","GTM","0","Low","Live Cover",349,"Year",0.0082,0.4399,0.0186,0.9852
+"155","GTM","40","Low","Live Cover",328,"Year",1.5523,0.4277,3.6295,3e-04
+"156","GTM","1","Low","Live Cover",375,"Year",-0.4985,0.6082,-0.8196,0.4129
+"157","GTM","46","Low","Live Cover",388,"Year",-0.7897,0.6735,-1.1725,0.2417
+"158","JAC","Central Segment","Low","Live Cover",270,"Year",1.7301,0.3264,5.3008,0
+"159","JAC","South Segment","Low","Live Cover",270,"Year",0.5472,0.3952,1.3846,0.1673
+"160","KAC","FR","Mid","Live Cover",416,"Year",0.7221,0.3425,2.1082,0.0356
+"161","KAC","FR","Low","Live Cover",112,"Year",1.5587,0.7572,2.0584,0.0419
+"162","KAC","FR","Up","Live Cover",18,"Year",1.8212,1.5151,1.2021,0.2468
+"163","KAC","BS","Low","Live Cover",322,"Year",0.9852,0.58,1.6987,0.0904
+"164","KAC","BS","Mid","Live Cover",12,"Year",0.5016,0.8413,0.5962,0.5643
+"165","KAC","BS","Up","Live Cover",12,"Year",0.3346,0.2312,1.4472,0.1785
+"166","KAC","CP","Mid","Live Cover",313,"Year",0.2729,0.7053,0.3869,0.6991
+"167","KAC","CP","Low","Live Cover",150,"Year",0.2162,0.9554,0.2263,0.8213
+"168","KAC","SC","Low","Live Cover",81,"Year",0.463,0.9632,0.4806,0.6321
+"169","KAC","SC","Mid","Live Cover",80,"Year",0.1692,0.4815,0.3515,0.7262
+"170","MAR","MI-W","Low","Live Cover",548,"Year",-0.2629,0.5228,-0.5029,0.6152
+"171","MAR","HF1","Low","Live Cover",548,"Year",-11.6503,0.492,-23.681,0
+"172","MAR","HF2","Low","Live Cover",600,"Year",-9.0587,0.5072,-17.8589,0
+"173","MAR","HF3","Low","Live Cover",548,"Year",-9.1453,0.5736,-15.9427,0
+"174","NAR","Nag","Low","Live Cover",65,"Year",-3.2656,0.5168,-6.3187,0
+"175","NAR","Nag","Mid","Live Cover",208,"Year",-1.1106,0.29,-3.8302,2e-04
+"176","NAR","Nag","Up","Live Cover",39,"Year",-0.9013,0.5104,-1.7658,0.0857
+"177","NAR","Coggeshall","Mid","Live Cover",143,"Year",-2.176,0.4223,-5.1527,0
+"178","NAR","Coggeshall","Low","Live Cover",91,"Year",-1.7569,0.5571,-3.1538,0.0022
+"179","NAR","Coggeshall","Up","Live Cover",39,"Year",-1.5499,0.7981,-1.942,0.0598
+"180","NIW","Segment A","Mid","Live Cover",130,"Year",0.1512,0.6458,0.2341,0.8153
+"181","NIW","Segment A","Low","Live Cover",164,"Year",1.747,0.5364,3.2572,0.0014
+"182","NIW","Segment A","Up","Live Cover",25,"Year",-2.6614,1.6851,-1.5794,0.1279
+"183","NIW","Segment B","Mid","Live Cover",78,"Year",-1.1035,0.7825,-1.4102,0.1626
+"184","NIW","Segment B","Low","Live Cover",260,"Year",1.134,0.4643,2.4426,0.0153
+"185","NOC","MI","Low","Live Cover",681,"Year",0.7701,0.4468,1.7234,0.0853
+"186","NOC","MI","Mid","Live Cover",108,"Year",2.1895,0.777,2.818,0.0058
+"187","NOC","MM","Low","Live Cover",601,"Year",-4.892,0.3954,-12.3714,0
+"188","SOS","DM","Low","Live Cover",19,"Year",-2e-04,6e-04,-0.3953,0.6976
+"189","SOS","DM","Mid","Live Cover",51,"Year",-6e-04,3e-04,-1.7466,0.087
+"190","SOS","MM","Low","Live Cover",60,"Year",-0.1663,0.1945,-0.8553,0.3959
+"191","SOS","MM","Mid","Live Cover",60,"Year",0.4631,0.126,3.6739,5e-04
+"192","SOS","HC","Mid","Live Cover",92,"Year",-0.0118,0.0109,-1.0797,0.2832
+"193","SOS","HC","Low","Live Cover",30,"Year",-0.0479,0.0328,-1.4619,0.1549
+"194","SOS","VM","Mid","Live Cover",40,"Year",-0.0351,0.0424,-0.8272,0.4133
+"195","SOS","VM","Low","Live Cover",60,"Year",-0.8312,0.5575,-1.4909,0.1414
+"196","SOS","VI","Low","Live Cover",54,"Year",-0.0271,0.0258,-1.0494,0.2988
+"197","SOS","VI","Mid","Live Cover",6,"Year",0.0013,9e-04,1.4301,0.2259
+"198","SOS","MI","Low","Live Cover",60,"Year",-0.3545,0.2125,-1.6678,0.1007
+"199","TJR","McCoy North","Mid","Live Cover",40,"Year",-0.186,2.1342,-0.0872,0.931
+"200","TJR","McCoy North","Up","Live Cover",10,"Year",2.5473,1.2989,1.9611,0.0855
+"201","TJR","McCoy South","Up","Live Cover",90,"Year",-2.5629,0.924,-2.7738,0.0068
+"202","TJR","McCoy South","Mid","Live Cover",90,"Year",-0.8309,0.9597,-0.8657,0.389
+"203","TJR","McCoy South","Low","Live Cover",60,"Year",-1.2693,0.9474,-1.3397,0.1856
+"204","TJR","South Beach","Mid","Live Cover",180,"Year",-0.3714,0.9849,-0.3771,0.7066
+"205","TJR","South Beach","Up","Live Cover",30,"Year",-0.4606,0.5827,-0.7904,0.4359
+"206","TJR","V1","Low","Live Cover",40,"Year",0.4227,0.9155,0.4618,0.6469
+"207","TJR","V1","Mid","Live Cover",160,"Year",-2.0759,0.5141,-4.0381,1e-04
+"208","TJR","V1","Up","Live Cover",70,"Year",-0.5229,0.299,-1.7485,0.0849
+"209","TJR","V3","Mid","Live Cover",240,"Year",0.7436,0.539,1.3796,0.169
+"210","TJR","V4","Mid","Live Cover",230,"Year",0.8065,0.4142,1.9471,0.0528
+"211","TJR","V4","Low","Live Cover",10,"Year",1.4655,0.7603,1.9274,0.0901
+"212","TJR","Brazo Creek","Mid","Live Cover",40,"Year",1.8785,1.5698,1.1967,0.2388
+"213","TJR","Brazo Creek","Up","Live Cover",8,"Year",5.913,8.363,0.707,0.5061
+"214","TJR","Horse Trail","Mid","Live Cover",75,"Year",0.9346,0.6614,1.413,0.1619
+"215","TJR","Model Marsh","Mid","Live Cover",105,"Year",2.1204,2.0043,1.0579,0.2926
+"216","TJR","Model Marsh","Low","Live Cover",15,"Year",4.2733,3.1809,1.3435,0.2021
+"217","WEL","WB","Low","Live Cover",53,"Year",-0.1216,0.6125,-0.1986,0.8434
+"218","WEL","WB","Mid","Live Cover",159,"Year",0.3003,0.3539,0.8486,0.3974
+"219","WEL","WB","Up","Live Cover",53,"Year",-0.1567,0.1603,-0.9778,0.3328
+"220","WQB","Section 2","Low","Live Cover",216,"Year",0.6961,0.81,0.8594,0.3911
+"221","WQB","Section 2","Mid","Live Cover",180,"Year",-0.6136,0.3769,-1.6282,0.1052
+"222","WQB","Section 2","Up","Live Cover",24,"Year",-2.0224,0.8351,-2.4216,0.0241
+"223","WQB","Section 1","Mid","Live Cover",36,"Year",-2.2388,0.9425,-2.3754,0.0233
+"224","WQB","Section 1","Low","Live Cover",251,"Year",-0.2379,0.7542,-0.3154,0.7527
+"225","WQB","Section 3","Mid","Live Cover",195,"Year",-0.6207,0.5012,-1.2384,0.2171
+"226","WQB","Section 3","Up","Live Cover",45,"Year",1.6734,0.8068,2.0741,0.0441
+"227","WQB","Section 3","Low","Live Cover",91,"Year",0.2809,1.0852,0.2589,0.7963
+"228","WQB","Section 1","Up","Live Cover",20,"Year",-0.3855,3.0535,-0.1263,0.9009
+"229","ACE","EIN","Mid","Halophyte Cover",107,"Year",1.0237,0.9981,1.0257,0.3074
+"230","ACE","EIN","Low","Halophyte Cover",35,"Year",1.1173,1.3107,0.8524,0.4001
+"231","ACE","EIS","Mid","Halophyte Cover",117,"Year",3.0593,0.8741,3.4998,7e-04
+"232","ACE","EIS","Low","Halophyte Cover",5,"Year",0.7788,4.0665,0.1915,0.8603
+"233","APA","PC","Low","Halophyte Cover",138,"Year",-0.1553,1.6544,-0.0939,0.9253
+"234","APA","PC","Mid","Halophyte Cover",195,"Year",0.3943,0.5342,0.7381,0.4614
+"235","APA","PC","Up","Halophyte Cover",13,"Year",-7.0539,2.9429,-2.3969,0.0354
+"236","CBM","MB","Low","Halophyte Cover",121,"Year",1.6075,0.3101,5.1844,0
+"237","CBM","MB","Mid","Halophyte Cover",39,"Year",0.4681,1.0327,0.4533,0.653
+"238","CBM","OPC","Low","Halophyte Cover",154,"Year",0,0,NA,1
+"239","CBM","OPC","Mid","Halophyte Cover",265,"Year",0,0,NA,1
+"240","DEL","SJR","Up","Halophyte Cover",4,"Year",0,0,NA,1
+"241","DEL","SJR","Low","Halophyte Cover",32,"Year",-2.2793,1.7331,-1.3152,0.1984
+"242","DEL","SJR","Mid","Halophyte Cover",84,"Year",-0.2373,1.741,-0.1363,0.8919
+"243","ELK","Upper","Up","Halophyte Cover",6,"Year",4.1918,5.4972,0.7625,0.4882
+"244","ELK","Upper","Low","Halophyte Cover",45,"Year",0,0,NA,1
+"245","ELK","Lower","Up","Halophyte Cover",8,"Year",0,0,NA,1
+"246","ELK","Lower","Low","Halophyte Cover",90,"Year",0,0,NA,1
+"247","ELK","Upper","Mid","Halophyte Cover",9,"Year",0,0,NA,1
+"248","GND","spalt","Low","Halophyte Cover",96,"Year",0,0,NA,1
+"249","GND","spalt","Mid","Halophyte Cover",66,"Year",0,0,NA,1
+"250","GND","juro low","Low","Halophyte Cover",36,"Year",0,0,NA,1
+"251","GND","juro low","Mid","Halophyte Cover",174,"Year",0,0,NA,1
+"252","GND","juro high","Mid","Halophyte Cover",116,"Year",-0.0723,0.0799,-0.9047,0.3675
+"253","GND","juro high","Low","Halophyte Cover",12,"Year",0.4214,0.2583,1.6317,0.1338
+"254","GND","juro mid","Mid","Halophyte Cover",204,"Year",0.0143,0.0148,0.9681,0.3342
+"255","GND","juro mid","Low","Halophyte Cover",18,"Year",1.019,0.2978,3.4222,0.0035
+"256","GND","juro mid","Up","Halophyte Cover",18,"Year",0.119,0.0784,1.5191,0.1482
+"257","GND","clmaj","Up","Halophyte Cover",150,"Year",0,0,NA,1
+"258","GRB","SP","Low","Halophyte Cover",66,"Year",-3.2781,0.8178,-4.0084,2e-04
+"259","GRB","SP","Mid","Halophyte Cover",363,"Year",0.6124,0.3983,1.5377,0.125
+"260","GRB","SP","Up","Halophyte Cover",62,"Year",0.2973,0.1386,2.1445,0.0361
+"261","GRB","GBF","Low","Halophyte Cover",66,"Year",-0.2725,0.9926,-0.2746,0.7845
+"262","GRB","GBF","Mid","Halophyte Cover",297,"Year",0.1624,0.3816,0.4255,0.6708
+"263","GRB","GBF","Up","Halophyte Cover",66,"Year",0.0401,0.1209,0.3321,0.7409
+"264","GRB","BC","Low","Halophyte Cover",109,"Year",-0.5565,0.6747,-0.8248,0.4113
+"265","GRB","BC","Mid","Halophyte Cover",154,"Year",-0.7391,0.6276,-1.1776,0.2408
+"266","GRB","BC","Up","Halophyte Cover",66,"Year",0.4337,0.6887,0.6297,0.5311
+"267","GTM","22","Low","Halophyte Cover",399,"Year",0.5243,0.4727,1.1092,0.268
+"268","GTM","0","Low","Halophyte Cover",349,"Year",0.0082,0.4399,0.0186,0.9852
+"269","GTM","40","Low","Halophyte Cover",328,"Year",1.5523,0.4277,3.6295,3e-04
+"270","GTM","1","Low","Halophyte Cover",375,"Year",-0.4985,0.6082,-0.8196,0.4129
+"271","GTM","46","Low","Halophyte Cover",388,"Year",-2.0938,0.3664,-5.714,0
+"272","JAC","Central Segment","Low","Halophyte Cover",270,"Year",1.7301,0.3264,5.3008,0
+"273","JAC","South Segment","Low","Halophyte Cover",270,"Year",0.5472,0.3952,1.3846,0.1673
+"274","KAC","FR","Mid","Halophyte Cover",416,"Year",0.5231,0.3078,1.6994,0.09
+"275","KAC","FR","Low","Halophyte Cover",112,"Year",1.0043,0.7503,1.3385,0.1835
+"276","KAC","FR","Up","Halophyte Cover",18,"Year",0.1165,1.1512,0.1012,0.9206
+"277","KAC","BS","Low","Halophyte Cover",322,"Year",1.1552,0.5743,2.0113,0.0451
+"278","KAC","BS","Mid","Halophyte Cover",12,"Year",2.0969,2.6519,0.7907,0.4475
+"279","KAC","BS","Up","Halophyte Cover",12,"Year",0,0,NA,1
+"280","KAC","CP","Mid","Halophyte Cover",313,"Year",0.5512,0.7035,0.7835,0.4339
+"281","KAC","CP","Low","Halophyte Cover",150,"Year",0.2162,0.9554,0.2263,0.8213
+"282","KAC","SC","Low","Halophyte Cover",81,"Year",0.5388,0.9685,0.5563,0.5795
+"283","KAC","SC","Mid","Halophyte Cover",80,"Year",1.1012,0.9437,1.1669,0.2468
+"284","MAR","MI-W","Low","Halophyte Cover",548,"Year",-0.2702,0.5236,-0.5159,0.6061
+"285","MAR","HF1","Low","Halophyte Cover",548,"Year",-11.6902,0.4906,-23.8281,0
+"286","MAR","HF2","Low","Halophyte Cover",600,"Year",-9.2515,0.506,-18.2834,0
+"287","MAR","HF3","Low","Halophyte Cover",548,"Year",-9.2302,0.5717,-16.1455,0
+"288","NAR","Nag","Low","Halophyte Cover",65,"Year",-3.2656,0.5168,-6.3187,0
+"289","NAR","Nag","Mid","Halophyte Cover",208,"Year",-1.1097,0.2899,-3.8272,2e-04
+"290","NAR","Nag","Up","Halophyte Cover",39,"Year",-0.2713,0.5683,-0.4775,0.6358
+"291","NAR","Coggeshall","Mid","Halophyte Cover",143,"Year",-2.176,0.4223,-5.1527,0
+"292","NAR","Coggeshall","Low","Halophyte Cover",91,"Year",-1.7569,0.5571,-3.1538,0.0022
+"293","NAR","Coggeshall","Up","Halophyte Cover",39,"Year",-2.0758,0.7742,-2.6813,0.0109
+"294","NIW","Segment A","Mid","Halophyte Cover",130,"Year",0.4904,0.6698,0.7321,0.4654
+"295","NIW","Segment A","Low","Halophyte Cover",164,"Year",1.747,0.5364,3.2572,0.0014
+"296","NIW","Segment A","Up","Halophyte Cover",25,"Year",-1.895,1.5518,-1.2212,0.2344
+"297","NIW","Segment B","Mid","Halophyte Cover",78,"Year",0.3346,0.8128,0.4117,0.6817
+"298","NIW","Segment B","Low","Halophyte Cover",260,"Year",1.0333,0.4665,2.2151,0.0276
+"299","NOC","MI","Low","Halophyte Cover",681,"Year",0.7701,0.4468,1.7234,0.0853
+"300","NOC","MI","Mid","Halophyte Cover",108,"Year",2.1895,0.777,2.818,0.0058
+"301","NOC","MM","Low","Halophyte Cover",601,"Year",-4.9886,0.397,-12.5654,0
+"302","SOS","DM","Low","Halophyte Cover",19,"Year",0.8634,0.8881,0.9722,0.3446
+"303","SOS","DM","Mid","Halophyte Cover",51,"Year",0.3997,0.4735,0.8442,0.4027
+"304","SOS","MM","Low","Halophyte Cover",60,"Year",-0.0248,0.2068,-0.12,0.9049
+"305","SOS","MM","Mid","Halophyte Cover",60,"Year",-0.1299,0.6604,-0.1967,0.8448
+"306","SOS","HC","Mid","Halophyte Cover",92,"Year",0.2849,0.7492,0.3803,0.7046
+"307","SOS","HC","Low","Halophyte Cover",30,"Year",3.1992,0.8929,3.5829,0.0013
+"308","SOS","VM","Mid","Halophyte Cover",40,"Year",-0.0114,0.997,-0.0114,0.991
+"309","SOS","VM","Low","Halophyte Cover",60,"Year",-0.4088,0.6498,-0.6292,0.5317
+"310","SOS","VI","Low","Halophyte Cover",54,"Year",1.0257,0.3439,2.9827,0.0043
+"311","SOS","VI","Mid","Halophyte Cover",6,"Year",0.7278,0.3642,1.9983,0.1163
+"312","SOS","MI","Low","Halophyte Cover",60,"Year",1.9614,0.3791,5.1737,0
+"313","TJR","McCoy North","Mid","Halophyte Cover",40,"Year",-0.1853,2.1351,-0.0868,0.9313
+"314","TJR","McCoy North","Up","Halophyte Cover",10,"Year",2.7103,0.7432,3.647,0.0065
+"315","TJR","McCoy South","Up","Halophyte Cover",90,"Year",-0.4242,0.994,-0.4267,0.6706
+"316","TJR","McCoy South","Mid","Halophyte Cover",90,"Year",-0.6542,1.0755,-0.6083,0.5446
+"317","TJR","McCoy South","Low","Halophyte Cover",60,"Year",-1.2693,0.9474,-1.3397,0.1856
+"318","TJR","South Beach","Mid","Halophyte Cover",180,"Year",-0.6346,1.0193,-0.6226,0.5344
+"319","TJR","South Beach","Up","Halophyte Cover",30,"Year",-0.4606,0.5827,-0.7904,0.4359
+"320","TJR","V1","Low","Halophyte Cover",40,"Year",0.4227,0.9155,0.4618,0.6469
+"321","TJR","V1","Mid","Halophyte Cover",160,"Year",-2.0759,0.5141,-4.0381,1e-04
+"322","TJR","V1","Up","Halophyte Cover",70,"Year",-0.5132,0.3011,-1.7044,0.0929
+"323","TJR","V3","Mid","Halophyte Cover",240,"Year",0.6115,0.5463,1.1193,0.2641
+"324","TJR","V4","Mid","Halophyte Cover",230,"Year",0.809,0.414,1.9542,0.0519
+"325","TJR","V4","Low","Halophyte Cover",10,"Year",1.4655,0.7603,1.9274,0.0901
+"326","TJR","Brazo Creek","Mid","Halophyte Cover",40,"Year",1.2285,1.8222,0.6742,0.5043
+"327","TJR","Brazo Creek","Up","Halophyte Cover",8,"Year",5.7325,8.6475,0.6629,0.532
+"328","TJR","Horse Trail","Mid","Halophyte Cover",75,"Year",0.9206,0.6623,1.39,0.1687
+"329","TJR","Model Marsh","Mid","Halophyte Cover",105,"Year",2.1204,2.0043,1.0579,0.2926
+"330","TJR","Model Marsh","Low","Halophyte Cover",15,"Year",4.2733,3.1809,1.3435,0.2021
+"331","WEL","WB","Low","Halophyte Cover",53,"Year",-0.3708,0.657,-0.5643,0.575
+"332","WEL","WB","Mid","Halophyte Cover",159,"Year",0.1682,0.3705,0.454,0.6505
+"333","WEL","WB","Up","Halophyte Cover",53,"Year",-1.2757,1.0724,-1.1896,0.2397
+"334","WQB","Section 2","Low","Halophyte Cover",216,"Year",0.4186,0.7938,0.5274,0.5985
+"335","WQB","Section 2","Mid","Halophyte Cover",180,"Year",-0.6615,0.3798,-1.7414,0.0833
+"336","WQB","Section 2","Up","Halophyte Cover",24,"Year",-1.808,0.8134,-2.2227,0.0368
+"337","WQB","Section 1","Mid","Halophyte Cover",36,"Year",-2.0306,0.9302,-2.1829,0.036
+"338","WQB","Section 1","Low","Halophyte Cover",251,"Year",-1.0623,0.7835,-1.3558,0.1764
+"339","WQB","Section 3","Mid","Halophyte Cover",195,"Year",-1.1259,0.7288,-1.5449,0.124
+"340","WQB","Section 3","Up","Halophyte Cover",45,"Year",2.0206,1.0121,1.9964,0.0522
+"341","WQB","Section 3","Low","Halophyte Cover",91,"Year",-0.4697,0.9958,-0.4717,0.6383
+"342","WQB","Section 1","Up","Halophyte Cover",20,"Year",-3.309,1.2092,-2.7365,0.0136
+"343","ACE","EIN","Mid","Freshwater Cover",107,"Year",0,0,NA,1
+"344","ACE","EIN","Low","Freshwater Cover",35,"Year",0,0,NA,1
+"345","ACE","EIS","Mid","Freshwater Cover",117,"Year",0,0,NA,1
+"346","ACE","EIS","Low","Freshwater Cover",5,"Year",0,0,NA,1
+"347","APA","PC","Low","Freshwater Cover",138,"Year",-1.5981,0.6113,-2.6144,0.0099
+"348","APA","PC","Mid","Freshwater Cover",195,"Year",-0.0703,0.0405,-1.7338,0.0846
+"349","APA","PC","Up","Freshwater Cover",13,"Year",0,0,NA,1
+"350","CBM","MB","Low","Freshwater Cover",121,"Year",0,0,NA,1
+"351","CBM","MB","Mid","Freshwater Cover",39,"Year",0,0,NA,1
+"352","CBM","OPC","Low","Freshwater Cover",154,"Year",3.1918,0.5018,6.361,0
+"353","CBM","OPC","Mid","Freshwater Cover",265,"Year",2.1219,0.2821,7.5221,0
+"354","DEL","SJR","Up","Freshwater Cover",4,"Year",0,0,NA,1
+"355","DEL","SJR","Low","Freshwater Cover",32,"Year",0,0,NA,1
+"356","DEL","SJR","Mid","Freshwater Cover",84,"Year",0,0,NA,1
+"357","ELK","Upper","Up","Freshwater Cover",6,"Year",0,0,NA,1
+"358","ELK","Upper","Low","Freshwater Cover",45,"Year",0,0,NA,1
+"359","ELK","Lower","Up","Freshwater Cover",8,"Year",0,0,NA,1
+"360","ELK","Lower","Low","Freshwater Cover",90,"Year",0,0,NA,1
+"361","ELK","Upper","Mid","Freshwater Cover",9,"Year",0,0,NA,1
+"362","GND","spalt","Low","Freshwater Cover",96,"Year",0,0,NA,1
+"363","GND","spalt","Mid","Freshwater Cover",66,"Year",0,0,NA,1
+"364","GND","juro low","Low","Freshwater Cover",36,"Year",0,0,NA,1
+"365","GND","juro low","Mid","Freshwater Cover",174,"Year",0,0,NA,1
+"366","GND","juro high","Mid","Freshwater Cover",116,"Year",0.0676,0.276,0.2451,0.8068
+"367","GND","juro high","Low","Freshwater Cover",12,"Year",0.1786,0.1148,1.5554,0.1509
+"368","GND","juro mid","Mid","Freshwater Cover",204,"Year",0.4097,0.2088,1.9615,0.0512
+"369","GND","juro mid","Low","Freshwater Cover",18,"Year",0,0,NA,1
+"370","GND","juro mid","Up","Freshwater Cover",18,"Year",-7,3.6969,-1.8935,0.0765
+"371","GND","clmaj","Up","Freshwater Cover",150,"Year",-3.2417,1.1438,-2.8341,0.0052
+"372","GRB","SP","Low","Freshwater Cover",66,"Year",0,0,NA,1
+"373","GRB","SP","Mid","Freshwater Cover",363,"Year",-0.0446,0.0347,-1.283,0.2003
+"374","GRB","SP","Up","Freshwater Cover",62,"Year",-0.1971,0.7649,-0.2577,0.7976
+"375","GRB","GBF","Low","Freshwater Cover",66,"Year",-0.0356,0.0156,-2.2791,0.026
+"376","GRB","GBF","Mid","Freshwater Cover",297,"Year",-0.071,0.0733,-0.9695,0.3331
+"377","GRB","GBF","Up","Freshwater Cover",66,"Year",-1.0141,0.4785,-2.1196,0.0379
+"378","GRB","BC","Low","Freshwater Cover",109,"Year",0,0,NA,1
+"379","GRB","BC","Mid","Freshwater Cover",154,"Year",-0.0305,0.0149,-2.0426,0.0428
+"380","GRB","BC","Up","Freshwater Cover",66,"Year",-1.426,0.4619,-3.0873,0.003
+"381","GTM","22","Low","Freshwater Cover",399,"Year",0,0,NA,1
+"382","GTM","0","Low","Freshwater Cover",349,"Year",0,0,NA,1
+"383","GTM","40","Low","Freshwater Cover",328,"Year",0,0,NA,1
+"384","GTM","1","Low","Freshwater Cover",375,"Year",0,0,NA,1
+"385","GTM","46","Low","Freshwater Cover",388,"Year",0,0,NA,1
+"386","JAC","Central Segment","Low","Freshwater Cover",270,"Year",0,0,NA,1
+"387","JAC","South Segment","Low","Freshwater Cover",270,"Year",0,0,NA,1
+"388","KAC","FR","Mid","Freshwater Cover",416,"Year",-0.0293,0.0586,-0.4998,0.6175
+"389","KAC","FR","Low","Freshwater Cover",112,"Year",0.0728,0.0316,2.3074,0.0229
+"390","KAC","FR","Up","Freshwater Cover",18,"Year",2.8698,1.3117,2.1879,0.0439
+"391","KAC","BS","Low","Freshwater Cover",322,"Year",0,0,NA,1
+"392","KAC","BS","Mid","Freshwater Cover",12,"Year",4.0805,1.7064,2.3912,0.0379
+"393","KAC","BS","Up","Freshwater Cover",12,"Year",1.1734,0.4925,2.3822,0.0385
+"394","KAC","CP","Mid","Freshwater Cover",313,"Year",-0.0252,0.0362,-0.6963,0.4867
+"395","KAC","CP","Low","Freshwater Cover",150,"Year",0,0,NA,1
+"396","KAC","SC","Low","Freshwater Cover",81,"Year",0,0,NA,1
+"397","KAC","SC","Mid","Freshwater Cover",80,"Year",0,0,NA,1
+"398","MAR","MI-W","Low","Freshwater Cover",548,"Year",0,0,NA,1
+"399","MAR","HF1","Low","Freshwater Cover",548,"Year",0,0,NA,1
+"400","MAR","HF2","Low","Freshwater Cover",600,"Year",0,0,NA,1
+"401","MAR","HF3","Low","Freshwater Cover",548,"Year",0,0,NA,1
+"402","NAR","Nag","Low","Freshwater Cover",65,"Year",0,0,NA,1
+"403","NAR","Nag","Mid","Freshwater Cover",208,"Year",0,0,NA,1
+"404","NAR","Nag","Up","Freshwater Cover",39,"Year",0,0,NA,1
+"405","NAR","Coggeshall","Mid","Freshwater Cover",143,"Year",0,0,NA,1
+"406","NAR","Coggeshall","Low","Freshwater Cover",91,"Year",0,0,NA,1
+"407","NAR","Coggeshall","Up","Freshwater Cover",39,"Year",0,0,NA,1
+"408","NIW","Segment A","Mid","Freshwater Cover",130,"Year",0.0195,0.0569,0.3427,0.7324
+"409","NIW","Segment A","Low","Freshwater Cover",164,"Year",0,0,NA,1
+"410","NIW","Segment A","Up","Freshwater Cover",25,"Year",0.4331,0.2927,1.4794,0.1526
+"411","NIW","Segment B","Mid","Freshwater Cover",78,"Year",-0.3815,0.2044,-1.867,0.0658
+"412","NIW","Segment B","Low","Freshwater Cover",260,"Year",0,0,NA,1
+"413","NOC","MI","Low","Freshwater Cover",681,"Year",0,0,NA,1
+"414","NOC","MI","Mid","Freshwater Cover",108,"Year",0,0,NA,1
+"415","NOC","MM","Low","Freshwater Cover",601,"Year",0,0,NA,1
+"416","SOS","DM","Low","Freshwater Cover",19,"Year",-0.4699,0.4903,-0.9584,0.3513
+"417","SOS","DM","Mid","Freshwater Cover",51,"Year",0.1403,0.0882,1.5914,0.118
+"418","SOS","MM","Low","Freshwater Cover",60,"Year",0,0,NA,1
+"419","SOS","MM","Mid","Freshwater Cover",60,"Year",0,0,NA,1
+"420","SOS","HC","Mid","Freshwater Cover",92,"Year",0.2121,0.1185,1.7903,0.0768
+"421","SOS","HC","Low","Freshwater Cover",30,"Year",0,0,NA,1
+"422","SOS","VM","Mid","Freshwater Cover",40,"Year",0.0076,0.0368,0.2076,0.8366
+"423","SOS","VM","Low","Freshwater Cover",60,"Year",0,0,NA,1
+"424","SOS","VI","Low","Freshwater Cover",54,"Year",0,0,NA,1
+"425","SOS","VI","Mid","Freshwater Cover",6,"Year",0,0,NA,1
+"426","SOS","MI","Low","Freshwater Cover",60,"Year",0,0,NA,1
+"427","TJR","McCoy North","Mid","Freshwater Cover",40,"Year",0,0,NA,1
+"428","TJR","McCoy North","Up","Freshwater Cover",10,"Year",0,0,NA,1
+"429","TJR","McCoy South","Up","Freshwater Cover",90,"Year",0,0,NA,1
+"430","TJR","McCoy South","Mid","Freshwater Cover",90,"Year",0,0,NA,1
+"431","TJR","McCoy South","Low","Freshwater Cover",60,"Year",0,0,NA,1
+"432","TJR","South Beach","Mid","Freshwater Cover",180,"Year",0,0,NA,1
+"433","TJR","South Beach","Up","Freshwater Cover",30,"Year",0,0,NA,1
+"434","TJR","V1","Low","Freshwater Cover",40,"Year",0,0,NA,1
+"435","TJR","V1","Mid","Freshwater Cover",160,"Year",0,0,NA,1
+"436","TJR","V1","Up","Freshwater Cover",70,"Year",0,0,NA,1
+"437","TJR","V3","Mid","Freshwater Cover",240,"Year",0,0,NA,1
+"438","TJR","V4","Mid","Freshwater Cover",230,"Year",0,0,NA,1
+"439","TJR","V4","Low","Freshwater Cover",10,"Year",0,0,NA,1
+"440","TJR","Brazo Creek","Mid","Freshwater Cover",40,"Year",0,0,NA,1
+"441","TJR","Brazo Creek","Up","Freshwater Cover",8,"Year",0,0,NA,1
+"442","TJR","Horse Trail","Mid","Freshwater Cover",75,"Year",0,0,NA,1
+"443","TJR","Model Marsh","Mid","Freshwater Cover",105,"Year",0,0,NA,1
+"444","TJR","Model Marsh","Low","Freshwater Cover",15,"Year",0,0,NA,1
+"445","WEL","WB","Low","Freshwater Cover",53,"Year",0,0,NA,1
+"446","WEL","WB","Mid","Freshwater Cover",159,"Year",0,0,NA,1
+"447","WEL","WB","Up","Freshwater Cover",53,"Year",0.0758,0.466,0.1626,0.8715
+"448","WQB","Section 2","Low","Freshwater Cover",216,"Year",0,0,NA,1
+"449","WQB","Section 2","Mid","Freshwater Cover",180,"Year",0,0,NA,1
+"450","WQB","Section 2","Up","Freshwater Cover",24,"Year",0,0,NA,1
+"451","WQB","Section 1","Mid","Freshwater Cover",36,"Year",0,0,NA,1
+"452","WQB","Section 1","Low","Freshwater Cover",251,"Year",0,0,NA,1
+"453","WQB","Section 3","Mid","Freshwater Cover",195,"Year",0,0,NA,1
+"454","WQB","Section 3","Up","Freshwater Cover",45,"Year",-0.3897,0.1397,-2.7888,0.0078
+"455","WQB","Section 3","Low","Freshwater Cover",91,"Year",0,0,NA,1
+"456","WQB","Section 1","Up","Freshwater Cover",20,"Year",2.6833,2.0258,1.3245,0.2019
+"457","ACE","EIN","Mid","EMI",107,"Year",0.0102,0.01,1.0256,0.3074
+"458","ACE","EIN","Low","EMI",35,"Year",0.0139,0.013,1.0635,0.2953
+"459","ACE","EIS","Mid","EMI",117,"Year",0.0306,0.0087,3.4998,7e-04
+"460","ACE","EIS","Low","EMI",5,"Year",0.0077,0.0383,0.201,0.8536
+"461","APA","PC","Low","EMI",138,"Year",0.0131,0.011,1.1962,0.2337
+"462","APA","PC","Mid","EMI",195,"Year",0.0017,0.0063,0.2731,0.785
+"463","APA","PC","Up","EMI",13,"Year",-1e-04,0,-2.2227,0.0481
+"464","CBM","MB","Low","EMI",121,"Year",-0.0084,0.0044,-1.9372,0.0551
+"465","CBM","MB","Mid","EMI",39,"Year",0.032,0.0123,2.6103,0.013
+"466","CBM","OPC","Low","EMI",154,"Year",0.0127,0.0032,3.9256,1e-04
+"467","CBM","OPC","Mid","EMI",265,"Year",0.0063,0.0015,4.1801,0
+"468","DEL","SJR","Up","EMI",4,"Year",0,0,NA,1
+"469","DEL","SJR","Low","EMI",32,"Year",0.0228,0.0173,1.3152,0.1984
+"470","DEL","SJR","Mid","EMI",84,"Year",0.0057,0.0213,0.2667,0.7904
+"471","ELK","Upper","Up","EMI",6,"Year",0.0268,0.0659,0.4062,0.7054
+"472","ELK","Upper","Low","EMI",45,"Year",0.0092,0.0218,0.4228,0.6746
+"473","ELK","Lower","Up","EMI",8,"Year",0.033,0.0342,0.9647,0.3719
+"474","ELK","Lower","Low","EMI",90,"Year",0.0076,0.0154,0.4964,0.6208
+"475","ELK","Upper","Mid","EMI",9,"Year",0,0,NA,1
+"476","GND","spalt","Low","EMI",96,"Year",0.043,0.0091,4.7423,0
+"477","GND","spalt","Mid","EMI",66,"Year",0.0804,0.0121,6.6469,0
+"478","GND","juro low","Low","EMI",36,"Year",0.0631,0.0197,3.204,0.0029
+"479","GND","juro low","Mid","EMI",174,"Year",0.0858,0.0102,8.4326,0
+"480","GND","juro high","Mid","EMI",116,"Year",0.0708,0.0105,6.7687,0
+"481","GND","juro high","Low","EMI",12,"Year",0.0016,0.0262,0.0627,0.9512
+"482","GND","juro mid","Mid","EMI",204,"Year",0.0574,0.0079,7.2547,0
+"483","GND","juro mid","Low","EMI",18,"Year",-0.0097,0.0119,-0.8135,0.4279
+"484","GND","juro mid","Up","EMI",18,"Year",-0.0213,0.023,-0.9241,0.3691
+"485","GND","clmaj","Up","EMI",150,"Year",0,0,NA,1
+"486","GRB","SP","Low","EMI",66,"Year",0.0342,0.0081,4.2447,1e-04
+"487","GRB","SP","Mid","EMI",363,"Year",0.0119,0.0048,2.4654,0.0141
+"488","GRB","SP","Up","EMI",62,"Year",0.0128,0.0086,1.4861,0.1425
+"489","GRB","GBF","Low","EMI",66,"Year",-0.0049,0.0098,-0.4986,0.6198
+"490","GRB","GBF","Mid","EMI",297,"Year",0.0133,0.006,2.205,0.0282
+"491","GRB","GBF","Up","EMI",66,"Year",8e-04,0.0064,0.1307,0.8964
+"492","GRB","BC","Low","EMI",109,"Year",0.0082,0.0065,1.2636,0.2091
+"493","GRB","BC","Mid","EMI",154,"Year",0.0161,0.0081,1.99,0.0484
+"494","GRB","BC","Up","EMI",66,"Year",0.0125,0.0058,2.1663,0.034
+"495","GTM","22","Low","EMI",399,"Year",-0.0052,0.0047,-1.1092,0.268
+"496","GTM","0","Low","EMI",349,"Year",-1e-04,0.0044,-0.0186,0.9852
+"497","GTM","40","Low","EMI",328,"Year",-0.0155,0.0043,-3.6295,3e-04
+"498","GTM","1","Low","EMI",375,"Year",0.005,0.0061,0.8196,0.413
+"499","GTM","46","Low","EMI",388,"Year",0.0079,0.0067,1.1726,0.2417
+"500","JAC","Central Segment","Low","EMI",270,"Year",-0.0171,0.0034,-5.0013,0
+"501","JAC","South Segment","Low","EMI",270,"Year",-0.0041,0.004,-1.0221,0.3076
+"502","KAC","FR","Mid","EMI",416,"Year",-0.0021,0.0018,-1.162,0.2459
+"503","KAC","FR","Low","EMI",112,"Year",0.0039,0.0091,0.4282,0.6694
+"504","KAC","FR","Up","EMI",18,"Year",0,0,NA,1
+"505","KAC","BS","Low","EMI",322,"Year",0.002,0.0038,0.5317,0.5953
+"506","KAC","BS","Mid","EMI",12,"Year",0,0,NA,1
+"507","KAC","BS","Up","EMI",12,"Year",0,0,NA,1
+"508","KAC","CP","Mid","EMI",313,"Year",0.0023,0.0015,1.6063,0.1092
+"509","KAC","CP","Low","EMI",150,"Year",0.0014,0.0018,0.769,0.4431
+"510","KAC","SC","Low","EMI",81,"Year",0.0081,0.0081,0.9994,0.3206
+"511","KAC","SC","Mid","EMI",80,"Year",0.0048,0.0116,0.4156,0.6789
+"512","MAR","MI-W","Low","EMI",548,"Year",-0.0208,0.0052,-4.0107,1e-04
+"513","MAR","HF1","Low","EMI",548,"Year",0.0431,0.0047,9.1677,0
+"514","MAR","HF2","Low","EMI",600,"Year",0.0278,0.0052,5.3971,0
+"515","MAR","HF3","Low","EMI",548,"Year",0.0539,0.0057,9.4815,0
+"516","NAR","Nag","Low","EMI",65,"Year",0.0325,0.0052,6.3099,0
+"517","NAR","Nag","Mid","EMI",208,"Year",0.0139,0.0057,2.4284,0.016
+"518","NAR","Nag","Up","EMI",39,"Year",0.0073,0.0079,0.9343,0.3562
+"519","NAR","Coggeshall","Mid","EMI",143,"Year",0.0078,0.0058,1.3526,0.1783
+"520","NAR","Coggeshall","Low","EMI",91,"Year",0.0175,0.0056,3.1508,0.0022
+"521","NAR","Coggeshall","Up","EMI",39,"Year",-0.0074,0.0051,-1.4626,0.152
+"522","NIW","Segment A","Mid","EMI",130,"Year",0,0,NA,1
+"523","NIW","Segment A","Low","EMI",164,"Year",-0.0141,0.005,-2.8302,0.0052
+"524","NIW","Segment A","Up","EMI",25,"Year",-0.03,0.0161,-1.8654,0.0749
+"525","NIW","Segment B","Mid","EMI",78,"Year",0.0026,0.0012,2.2094,0.0302
+"526","NIW","Segment B","Low","EMI",260,"Year",-0.0106,0.0046,-2.3049,0.022
+"527","NOC","MI","Low","EMI",681,"Year",-0.0084,0.0041,-2.0394,0.0418
+"528","NOC","MI","Mid","EMI",108,"Year",0,0,NA,1
+"529","NOC","MM","Low","EMI",601,"Year",0.0361,0.0037,9.6477,0
+"530","SOS","DM","Low","EMI",19,"Year",0,0,NA,1
+"531","SOS","DM","Mid","EMI",51,"Year",0.0034,0.0037,0.9322,0.3558
+"532","SOS","MM","Low","EMI",60,"Year",0.0017,0.0019,0.8566,0.3952
+"533","SOS","MM","Mid","EMI",60,"Year",7e-04,0.0064,0.1068,0.9153
+"534","SOS","HC","Mid","EMI",92,"Year",-0.0031,0.005,-0.6286,0.5312
+"535","SOS","HC","Low","EMI",30,"Year",5e-04,3e-04,1.4474,0.1589
+"536","SOS","VM","Mid","EMI",40,"Year",0.0028,0.0126,0.2223,0.8253
+"537","SOS","VM","Low","EMI",60,"Year",0.0083,0.0056,1.4906,0.1415
+"538","SOS","VI","Low","EMI",54,"Year",3e-04,3e-04,1.0349,0.3055
+"539","SOS","VI","Mid","EMI",6,"Year",0,0,NA,1
+"540","SOS","MI","Low","EMI",60,"Year",0.0035,0.0021,1.6658,0.1011
+"541","TJR","McCoy North","Mid","EMI",40,"Year",0,0,NA,1
+"542","TJR","McCoy North","Up","EMI",10,"Year",0,0,NA,1
+"543","TJR","McCoy South","Up","EMI",90,"Year",0,0,NA,1
+"544","TJR","McCoy South","Mid","EMI",90,"Year",-0.0035,0.0019,-1.79,0.0769
+"545","TJR","McCoy South","Low","EMI",60,"Year",0.01,0.0097,1.0314,0.3066
+"546","TJR","South Beach","Mid","EMI",180,"Year",-0.0037,0.0048,-0.7638,0.446
+"547","TJR","South Beach","Up","EMI",30,"Year",0,0,NA,1
+"548","TJR","V1","Low","EMI",40,"Year",-0.0042,0.0092,-0.4618,0.6469
+"549","TJR","V1","Mid","EMI",160,"Year",-0.0031,0.0035,-0.8744,0.3832
+"550","TJR","V1","Up","EMI",70,"Year",0,0,NA,1
+"551","TJR","V3","Mid","EMI",240,"Year",-0.001,0.0031,-0.3113,0.7558
+"552","TJR","V4","Mid","EMI",230,"Year",0.0013,0.0031,0.4307,0.6671
+"553","TJR","V4","Low","EMI",10,"Year",-0.0147,0.0076,-1.9278,0.09
+"554","TJR","Brazo Creek","Mid","EMI",40,"Year",-0.0212,0.0318,-0.6646,0.5103
+"555","TJR","Brazo Creek","Up","EMI",8,"Year",0,0,NA,1
+"556","TJR","Horse Trail","Mid","EMI",75,"Year",-2e-04,0.0025,-0.0797,0.9367
+"557","TJR","Model Marsh","Mid","EMI",105,"Year",-0.0148,0.006,-2.4775,0.0149
+"558","TJR","Model Marsh","Low","EMI",15,"Year",-0.0555,0.0291,-1.9042,0.0793
+"559","WEL","WB","Low","EMI",53,"Year",0.002,0.0065,0.3143,0.7545
+"560","WEL","WB","Mid","EMI",159,"Year",0.0032,0.0048,0.6809,0.4969
+"561","WEL","WB","Up","EMI",53,"Year",-0.0059,0.0056,-1.0432,0.3018
+"562","WQB","Section 2","Low","EMI",216,"Year",0.0035,0.0023,1.5112,0.1322
+"563","WQB","Section 2","Mid","EMI",180,"Year",0.0189,0.0082,2.308,0.0221
+"564","WQB","Section 2","Up","EMI",24,"Year",-0.0178,0.0078,-2.2799,0.0327
+"565","WQB","Section 1","Mid","EMI",36,"Year",0.0115,0.0187,0.615,0.5427
+"566","WQB","Section 1","Low","EMI",251,"Year",0.011,0.0057,1.9286,0.0549
+"567","WQB","Section 3","Mid","EMI",195,"Year",0.0109,0.0074,1.4759,0.1416
+"568","WQB","Section 3","Up","EMI",45,"Year",0.0244,0.0079,3.0928,0.0035
+"569","WQB","Section 3","Low","EMI",91,"Year",0.0071,0.005,1.4056,0.1633
+"570","WQB","Section 1","Up","EMI",20,"Year",-0.059,0.0126,-4.6902,2e-04
+"571","ACE","EIN","Mid","Richness",107,"Year",0.013,0.0174,0.7439,0.4586
+"572","ACE","EIN","Low","Richness",35,"Year",-0.0448,0.0206,-2.1718,0.0372
+"573","ACE","EIS","Mid","Richness",117,"Year",0.0636,0.0195,3.2565,0.0015
+"574","ACE","EIS","Low","Richness",5,"Year",-0.1765,0.1449,-1.218,0.3103
+"575","APA","PC","Low","Richness",138,"Year",-0.0249,0.0764,-0.3261,0.7449
+"576","APA","PC","Mid","Richness",195,"Year",-0.0472,0.0703,-0.6706,0.5033
+"577","APA","PC","Up","Richness",13,"Year",-0.0664,0.071,-0.9364,0.3692
+"578","CBM","MB","Low","Richness",121,"Year",0.0882,0.0397,2.223,0.0281
+"579","CBM","MB","Mid","Richness",39,"Year",-0.0823,0.0688,-1.1953,0.2396
+"580","CBM","OPC","Low","Richness",154,"Year",0.0638,0.0517,1.2345,0.2189
+"581","CBM","OPC","Mid","Richness",265,"Year",0.0709,0.0605,1.1722,0.2422
+"582","DEL","SJR","Up","Richness",4,"Year",-0.4,0.1414,-2.8284,0.1056
+"583","DEL","SJR","Low","Richness",32,"Year",-0.0563,0.0296,-1.8988,0.0672
+"584","DEL","SJR","Mid","Richness",84,"Year",-0.0476,0.0265,-1.7968,0.0761
+"585","ELK","Upper","Up","Richness",6,"Year",-0.1071,0.0676,-1.5848,0.1882
+"586","ELK","Upper","Low","Richness",45,"Year",0.019,0.0318,0.5992,0.5522
+"587","ELK","Lower","Up","Richness",8,"Year",0.0367,0.1268,0.2893,0.7821
+"588","ELK","Lower","Low","Richness",90,"Year",0.0224,0.0263,0.8513,0.3969
+"589","ELK","Upper","Mid","Richness",9,"Year",0,0,NA,1
+"590","GND","spalt","Low","Richness",96,"Year",0.0196,0.0301,0.6521,0.5159
+"591","GND","spalt","Mid","Richness",66,"Year",0.0909,0.0336,2.7027,0.0088
+"592","GND","juro low","Low","Richness",36,"Year",0.081,0.0602,1.3441,0.1878
+"593","GND","juro low","Mid","Richness",174,"Year",0.0473,0.0199,2.371,0.0188
+"594","GND","juro high","Mid","Richness",116,"Year",0.3746,0.0921,4.0672,1e-04
+"595","GND","juro high","Low","Richness",12,"Year",0.3429,0.0666,5.1481,4e-04
+"596","GND","juro mid","Mid","Richness",204,"Year",0.1412,0.0607,2.3276,0.0209
+"597","GND","juro mid","Low","Richness",18,"Year",0.2952,0.2228,1.3251,0.2038
+"598","GND","juro mid","Up","Richness",18,"Year",0.7619,0.1226,6.2123,0
+"599","GND","clmaj","Up","Richness",150,"Year",0.8767,0.1418,6.1813,0
+"600","GRB","SP","Low","Richness",66,"Year",0.0323,0.031,1.043,0.3009
+"601","GRB","SP","Mid","Richness",363,"Year",-0.0267,0.0245,-1.0866,0.2779
+"602","GRB","SP","Up","Richness",62,"Year",-0.0739,0.1151,-0.6418,0.5234
+"603","GRB","GBF","Low","Richness",66,"Year",-0.0473,0.0302,-1.5674,0.122
+"604","GRB","GBF","Mid","Richness",297,"Year",-0.0564,0.0245,-2.3063,0.0218
+"605","GRB","GBF","Up","Richness",66,"Year",-0.0107,0.0519,-0.2064,0.8371
+"606","GRB","BC","Low","Richness",109,"Year",0.041,0.0169,2.4264,0.0169
+"607","GRB","BC","Mid","Richness",154,"Year",-0.0842,0.044,-1.9122,0.0577
+"608","GRB","BC","Up","Richness",66,"Year",-0.1866,0.0907,-2.0578,0.0437
+"609","GTM","22","Low","Richness",399,"Year",0.0407,0.0119,3.4136,7e-04
+"610","GTM","0","Low","Richness",349,"Year",-0.025,0.0101,-2.4829,0.0135
+"611","GTM","40","Low","Richness",328,"Year",-0.025,0.005,-5.02,0
+"612","GTM","1","Low","Richness",375,"Year",0.109,0.023,4.748,0
+"613","GTM","46","Low","Richness",388,"Year",-0.1266,0.0226,-5.6013,0
+"614","JAC","Central Segment","Low","Richness",270,"Year",-0.0118,0.012,-0.985,0.3255
+"615","JAC","South Segment","Low","Richness",270,"Year",-0.0058,0.016,-0.3638,0.7163
+"616","KAC","FR","Mid","Richness",416,"Year",0.0427,0.02,2.1366,0.0332
+"617","KAC","FR","Low","Richness",112,"Year",0.0526,0.0569,0.9246,0.3572
+"618","KAC","FR","Up","Richness",18,"Year",0.3849,0.0807,4.7672,2e-04
+"619","KAC","BS","Low","Richness",322,"Year",0.1103,0.0286,3.858,1e-04
+"620","KAC","BS","Mid","Richness",12,"Year",0.1951,0.106,1.841,0.0954
+"621","KAC","BS","Up","Richness",12,"Year",-0.0854,0.1908,-0.4473,0.6642
+"622","KAC","CP","Mid","Richness",313,"Year",-0.0625,0.0298,-2.0949,0.037
+"623","KAC","CP","Low","Richness",150,"Year",-0.0315,0.0363,-0.8691,0.3862
+"624","KAC","SC","Low","Richness",81,"Year",0.0435,0.0402,1.0801,0.2834
+"625","KAC","SC","Mid","Richness",80,"Year",-0.0029,0.0526,-0.0559,0.9555
+"626","MAR","MI-W","Low","Richness",548,"Year",-0.109,0.0165,-6.6186,0
+"627","MAR","HF1","Low","Richness",548,"Year",-0.2648,0.0172,-15.4415,0
+"628","MAR","HF2","Low","Richness",600,"Year",-0.1965,0.0172,-11.4542,0
+"629","MAR","HF3","Low","Richness",548,"Year",-0.2051,0.0177,-11.5988,0
+"630","NAR","Nag","Low","Richness",65,"Year",-0.0341,0.0356,-0.9566,0.3424
+"631","NAR","Nag","Mid","Richness",208,"Year",-0.0155,0.0174,-0.8897,0.3747
+"632","NAR","Nag","Up","Richness",39,"Year",-0.0696,0.0641,-1.0852,0.2849
+"633","NAR","Coggeshall","Mid","Richness",143,"Year",-0.0559,0.0251,-2.2244,0.0277
+"634","NAR","Coggeshall","Low","Richness",91,"Year",-0.0557,0.0242,-2.3019,0.0237
+"635","NAR","Coggeshall","Up","Richness",39,"Year",0.0238,0.0464,0.5135,0.6107
+"636","NIW","Segment A","Mid","Richness",130,"Year",-0.0095,0.0304,-0.3144,0.7537
+"637","NIW","Segment A","Low","Richness",164,"Year",0.0077,0.0066,1.1702,0.2436
+"638","NIW","Segment A","Up","Richness",25,"Year",-0.2438,0.1154,-2.1131,0.0457
+"639","NIW","Segment B","Mid","Richness",78,"Year",-0.0664,0.0307,-2.1636,0.0336
+"640","NIW","Segment B","Low","Richness",260,"Year",-0.0042,0.0041,-1.0297,0.3041
+"641","NOC","MI","Low","Richness",681,"Year",-0.0158,0.0084,-1.8652,0.0626
+"642","NOC","MI","Mid","Richness",108,"Year",0.0595,0.0327,1.82,0.0716
+"643","NOC","MM","Low","Richness",601,"Year",8e-04,0.0043,0.1924,0.8475
+"644","SOS","DM","Low","Richness",19,"Year",-0.1822,0.1528,-1.192,0.2496
+"645","SOS","DM","Mid","Richness",51,"Year",0.0271,0.0627,0.4328,0.6671
+"646","SOS","MM","Low","Richness",60,"Year",-0.0881,0.0355,-2.4825,0.016
+"647","SOS","MM","Mid","Richness",60,"Year",0.166,0.0515,3.225,0.0021
+"648","SOS","HC","Mid","Richness",92,"Year",0.1001,0.0542,1.8467,0.0681
+"649","SOS","HC","Low","Richness",30,"Year",-0.1049,0.0725,-1.447,0.159
+"650","SOS","VM","Mid","Richness",40,"Year",0.009,0.126,0.0713,0.9435
+"651","SOS","VM","Low","Richness",60,"Year",0.0289,0.0614,0.4705,0.6397
+"652","SOS","VI","Low","Richness",54,"Year",0.0172,0.0434,0.3968,0.6931
+"653","SOS","VI","Mid","Richness",6,"Year",-0.2152,0.0763,-2.8187,0.0479
+"654","SOS","MI","Low","Richness",60,"Year",0.1487,0.0392,3.7982,4e-04
+"655","TJR","McCoy North","Mid","Richness",40,"Year",-0.0121,0.1305,-0.0929,0.9265
+"656","TJR","McCoy North","Up","Richness",10,"Year",0.1758,0.0544,3.2322,0.012
+"657","TJR","McCoy South","Up","Richness",90,"Year",-0.1461,0.0392,-3.7266,3e-04
+"658","TJR","McCoy South","Mid","Richness",90,"Year",-0.1017,0.0338,-3.0084,0.0034
+"659","TJR","McCoy South","Low","Richness",60,"Year",-0.0222,0.0275,-0.8085,0.4221
+"660","TJR","South Beach","Mid","Richness",180,"Year",-0.0128,0.0354,-0.3612,0.7184
+"661","TJR","South Beach","Up","Richness",30,"Year",-0.0081,0.0786,-0.1028,0.9188
+"662","TJR","V1","Low","Richness",40,"Year",0,0,1.5976,0.1184
+"663","TJR","V1","Mid","Richness",160,"Year",-0.008,0.0427,-0.1861,0.8526
+"664","TJR","V1","Up","Richness",70,"Year",0.0416,0.0617,0.6734,0.503
+"665","TJR","V3","Mid","Richness",240,"Year",-3e-04,0.0406,-0.0062,0.995
+"666","TJR","V4","Mid","Richness",230,"Year",-0.1191,0.029,-4.1102,1e-04
+"667","TJR","V4","Low","Richness",10,"Year",-0.2242,0.0597,-3.7568,0.0056
+"668","TJR","Brazo Creek","Mid","Richness",40,"Year",0.08,0.1557,0.5137,0.6104
+"669","TJR","Brazo Creek","Up","Richness",8,"Year",0,0.1581,0,1
+"670","TJR","Horse Trail","Mid","Richness",75,"Year",-0.0267,0.0617,-0.4322,0.6669
+"671","TJR","Model Marsh","Mid","Richness",105,"Year",-0.0429,0.0674,-0.6362,0.526
+"672","TJR","Model Marsh","Low","Richness",15,"Year",0,0.0925,0,1
+"673","WEL","WB","Low","Richness",53,"Year",-0.0457,0.039,-1.1731,0.2462
+"674","WEL","WB","Mid","Richness",159,"Year",-0.0474,0.0345,-1.3714,0.1722
+"675","WEL","WB","Up","Richness",53,"Year",0.1003,0.0542,1.8519,0.0698
+"676","WQB","Section 2","Low","Richness",216,"Year",-0.0052,0.0345,-0.1511,0.8801
+"677","WQB","Section 2","Mid","Richness",180,"Year",-0.0204,0.0497,-0.4116,0.6811
+"678","WQB","Section 2","Up","Richness",24,"Year",-0.0825,0.1173,-0.7037,0.489
+"679","WQB","Section 1","Mid","Richness",36,"Year",0.1232,0.1073,1.1474,0.2592
+"680","WQB","Section 1","Low","Richness",251,"Year",0.0988,0.0239,4.1409,0
+"681","WQB","Section 3","Mid","Richness",195,"Year",0.037,0.05,0.7402,0.4601
+"682","WQB","Section 3","Up","Richness",45,"Year",-0.1109,0.1342,-0.8262,0.4133
+"683","WQB","Section 3","Low","Richness",91,"Year",0.042,0.0503,0.8346,0.4062
+"684","WQB","Section 1","Up","Richness",20,"Year",0.0164,0.1858,0.0881,0.9307
+"685","ACE","EIN","Mid","Shannon-Weiner Diversity",107,"Year",0.004,0.0069,0.5797,0.5634
+"686","ACE","EIN","Low","Shannon-Weiner Diversity",35,"Year",-0.0177,0.0101,-1.7502,0.0894
+"687","ACE","EIS","Mid","Shannon-Weiner Diversity",117,"Year",0.0081,0.007,1.1529,0.2514
+"688","ACE","EIS","Low","Shannon-Weiner Diversity",5,"Year",-0.0389,0.0375,-1.036,0.3764
+"689","APA","PC","Low","Shannon-Weiner Diversity",138,"Year",-0.0028,0.0162,-0.1724,0.8634
+"690","APA","PC","Mid","Shannon-Weiner Diversity",195,"Year",0.0198,0.0128,1.5453,0.1239
+"691","APA","PC","Up","Shannon-Weiner Diversity",13,"Year",0.001,0.017,0.0578,0.955
+"692","CBM","MB","Low","Shannon-Weiner Diversity",121,"Year",0.0215,0.0109,1.9648,0.0518
+"693","CBM","MB","Mid","Shannon-Weiner Diversity",39,"Year",-0.0226,0.0192,-1.1758,0.2472
+"694","CBM","OPC","Low","Shannon-Weiner Diversity",154,"Year",0.0139,0.0117,1.1916,0.2353
+"695","CBM","OPC","Mid","Shannon-Weiner Diversity",265,"Year",0.0149,0.0083,1.7921,0.0743
+"696","DEL","SJR","Up","Shannon-Weiner Diversity",4,"Year",-0.1358,0.0432,-3.1407,0.0882
+"697","DEL","SJR","Low","Shannon-Weiner Diversity",32,"Year",-0.0216,0.0132,-1.6345,0.1126
+"698","DEL","SJR","Mid","Shannon-Weiner Diversity",84,"Year",-0.0187,0.0116,-1.6077,0.1117
+"699","ELK","Upper","Up","Shannon-Weiner Diversity",6,"Year",-0.0297,0.0252,-1.1746,0.3053
+"700","ELK","Upper","Low","Shannon-Weiner Diversity",45,"Year",0.0182,0.0171,1.0618,0.2942
+"701","ELK","Lower","Up","Shannon-Weiner Diversity",8,"Year",-0.0085,0.0433,-0.1964,0.8508
+"702","ELK","Lower","Low","Shannon-Weiner Diversity",90,"Year",0.0076,0.009,0.8418,0.4022
+"703","ELK","Upper","Mid","Shannon-Weiner Diversity",9,"Year",0,0,NA,1
+"704","GND","spalt","Low","Shannon-Weiner Diversity",96,"Year",0.0195,0.0161,1.2112,0.2288
+"705","GND","spalt","Mid","Shannon-Weiner Diversity",66,"Year",0.0303,0.0161,1.8757,0.0653
+"706","GND","juro low","Low","Shannon-Weiner Diversity",36,"Year",0.0551,0.0261,2.1123,0.0421
+"707","GND","juro low","Mid","Shannon-Weiner Diversity",174,"Year",0.0055,0.0077,0.7103,0.4785
+"708","GND","juro high","Mid","Shannon-Weiner Diversity",116,"Year",0.1288,0.0257,5.0023,0
+"709","GND","juro high","Low","Shannon-Weiner Diversity",12,"Year",0.0991,0.0385,2.5731,0.0277
+"710","GND","juro mid","Mid","Shannon-Weiner Diversity",204,"Year",0.054,0.0183,2.9491,0.0036
+"711","GND","juro mid","Low","Shannon-Weiner Diversity",18,"Year",0.0352,0.0688,0.512,0.6157
+"712","GND","juro mid","Up","Shannon-Weiner Diversity",18,"Year",0.2157,0.0438,4.9205,2e-04
+"713","GND","clmaj","Up","Shannon-Weiner Diversity",150,"Year",0.2381,0.0314,7.5753,0
+"714","GRB","SP","Low","Shannon-Weiner Diversity",66,"Year",0.0093,0.0103,0.9036,0.3696
+"715","GRB","SP","Mid","Shannon-Weiner Diversity",363,"Year",-0.009,0.0059,-1.5292,0.1271
+"716","GRB","SP","Up","Shannon-Weiner Diversity",62,"Year",-0.0067,0.0232,-0.288,0.7744
+"717","GRB","GBF","Low","Shannon-Weiner Diversity",66,"Year",-0.0078,0.0076,-1.0268,0.3084
+"718","GRB","GBF","Mid","Shannon-Weiner Diversity",297,"Year",-0.0181,0.007,-2.5898,0.0101
+"719","GRB","GBF","Up","Shannon-Weiner Diversity",66,"Year",-0.0097,0.0135,-0.7196,0.4744
+"720","GRB","BC","Low","Shannon-Weiner Diversity",109,"Year",0.0061,0.0061,0.9993,0.3199
+"721","GRB","BC","Mid","Shannon-Weiner Diversity",154,"Year",-0.021,0.0103,-2.0405,0.043
+"722","GRB","BC","Up","Shannon-Weiner Diversity",66,"Year",-0.0287,0.0162,-1.7721,0.0811
+"723","GTM","22","Low","Shannon-Weiner Diversity",399,"Year",0.0281,0.0039,7.2046,0
+"724","GTM","0","Low","Shannon-Weiner Diversity",349,"Year",0.0044,0.0041,1.0635,0.2883
+"725","GTM","40","Low","Shannon-Weiner Diversity",328,"Year",0,2e-04,-0.267,0.7897
+"726","GTM","1","Low","Shannon-Weiner Diversity",375,"Year",0.0531,0.0071,7.4431,0
+"727","GTM","46","Low","Shannon-Weiner Diversity",388,"Year",-0.027,0.0077,-3.5155,5e-04
+"728","JAC","Central Segment","Low","Shannon-Weiner Diversity",270,"Year",-0.0093,0.0045,-2.0667,0.0397
+"729","JAC","South Segment","Low","Shannon-Weiner Diversity",270,"Year",-0.0071,0.0044,-1.6186,0.1067
+"730","KAC","FR","Mid","Shannon-Weiner Diversity",416,"Year",0.0083,0.0053,1.5609,0.1193
+"731","KAC","FR","Low","Shannon-Weiner Diversity",112,"Year",0.0134,0.0134,0.9971,0.3209
+"732","KAC","FR","Up","Shannon-Weiner Diversity",18,"Year",0.0459,0.0135,3.406,0.0036
+"733","KAC","BS","Low","Shannon-Weiner Diversity",322,"Year",0.0369,0.0074,5.0005,0
+"734","KAC","BS","Mid","Shannon-Weiner Diversity",12,"Year",0.0098,0.0329,0.2989,0.7711
+"735","KAC","BS","Up","Shannon-Weiner Diversity",12,"Year",-0.0036,0.0316,-0.1132,0.9121
+"736","KAC","CP","Mid","Shannon-Weiner Diversity",313,"Year",0.0012,0.0073,0.1627,0.8709
+"737","KAC","CP","Low","Shannon-Weiner Diversity",150,"Year",-0.0027,0.0099,-0.2757,0.7831
+"738","KAC","SC","Low","Shannon-Weiner Diversity",81,"Year",-0.0046,0.0103,-0.441,0.6604
+"739","KAC","SC","Mid","Shannon-Weiner Diversity",80,"Year",-0.006,0.0132,-0.4575,0.6486
+"740","MAR","MI-W","Low","Shannon-Weiner Diversity",548,"Year",-0.0339,0.0049,-6.8769,0
+"741","MAR","HF1","Low","Shannon-Weiner Diversity",548,"Year",-0.0705,0.0052,-13.5285,0
+"742","MAR","HF2","Low","Shannon-Weiner Diversity",600,"Year",-0.0676,0.0054,-12.565,0
+"743","MAR","HF3","Low","Shannon-Weiner Diversity",548,"Year",-0.0551,0.0057,-9.7264,0
+"744","NAR","Nag","Low","Shannon-Weiner Diversity",65,"Year",-0.0121,0.0101,-1.1971,0.2357
+"745","NAR","Nag","Mid","Shannon-Weiner Diversity",208,"Year",-0.0165,0.0056,-2.9355,0.0037
+"746","NAR","Nag","Up","Shannon-Weiner Diversity",39,"Year",-0.0096,0.0135,-0.7062,0.4845
+"747","NAR","Coggeshall","Mid","Shannon-Weiner Diversity",143,"Year",-0.0371,0.0083,-4.4827,0
+"748","NAR","Coggeshall","Low","Shannon-Weiner Diversity",91,"Year",-0.0118,0.0039,-3.0458,0.0031
+"749","NAR","Coggeshall","Up","Shannon-Weiner Diversity",39,"Year",-2e-04,0.0097,-0.0155,0.9877
+"750","NIW","Segment A","Mid","Shannon-Weiner Diversity",130,"Year",-0.0038,0.0073,-0.5177,0.6055
+"751","NIW","Segment A","Low","Shannon-Weiner Diversity",164,"Year",8e-04,0.0019,0.415,0.6787
+"752","NIW","Segment A","Up","Shannon-Weiner Diversity",25,"Year",-0.0366,0.0252,-1.4536,0.1596
+"753","NIW","Segment B","Mid","Shannon-Weiner Diversity",78,"Year",-0.0128,0.0074,-1.7179,0.0899
+"754","NIW","Segment B","Low","Shannon-Weiner Diversity",260,"Year",-1e-04,1e-04,-1.6533,0.0995
+"755","NOC","MI","Low","Shannon-Weiner Diversity",681,"Year",4e-04,0.0022,0.1766,0.8599
+"756","NOC","MI","Mid","Shannon-Weiner Diversity",108,"Year",0.0312,0.0118,2.6428,0.0095
+"757","NOC","MM","Low","Shannon-Weiner Diversity",601,"Year",0.0013,5e-04,2.4481,0.0146
+"758","SOS","DM","Low","Shannon-Weiner Diversity",19,"Year",-0.0453,0.0272,-1.6625,0.1147
+"759","SOS","DM","Mid","Shannon-Weiner Diversity",51,"Year",0.018,0.0084,2.1473,0.0367
+"760","SOS","MM","Low","Shannon-Weiner Diversity",60,"Year",0.0021,0.0071,0.296,0.7683
+"761","SOS","MM","Mid","Shannon-Weiner Diversity",60,"Year",0.0273,0.0091,2.9954,0.004
+"762","SOS","HC","Mid","Shannon-Weiner Diversity",92,"Year",0.0287,0.0062,4.615,0
+"763","SOS","HC","Low","Shannon-Weiner Diversity",30,"Year",0.0077,0.0124,0.6239,0.5378
+"764","SOS","VM","Mid","Shannon-Weiner Diversity",40,"Year",0.0189,0.0103,1.834,0.0745
+"765","SOS","VM","Low","Shannon-Weiner Diversity",60,"Year",0.0289,0.0176,1.645,0.1054
+"766","SOS","VI","Low","Shannon-Weiner Diversity",54,"Year",0.0242,0.0113,2.1368,0.0373
+"767","SOS","VI","Mid","Shannon-Weiner Diversity",6,"Year",-0.012,0.0128,-0.9416,0.3997
+"768","SOS","MI","Low","Shannon-Weiner Diversity",60,"Year",0.0298,0.0086,3.4779,0.001
+"769","TJR","McCoy North","Mid","Shannon-Weiner Diversity",40,"Year",-0.0182,0.0206,-0.8819,0.3834
+"770","TJR","McCoy North","Up","Shannon-Weiner Diversity",10,"Year",0.0088,0.0051,1.7321,0.1215
+"771","TJR","McCoy South","Up","Shannon-Weiner Diversity",90,"Year",-0.0258,0.0119,-2.1722,0.0325
+"772","TJR","McCoy South","Mid","Shannon-Weiner Diversity",90,"Year",-0.0253,0.0102,-2.485,0.0148
+"773","TJR","McCoy South","Low","Shannon-Weiner Diversity",60,"Year",0.002,0.0115,0.169,0.8664
+"774","TJR","South Beach","Mid","Shannon-Weiner Diversity",180,"Year",-0.0026,0.0093,-0.2838,0.7769
+"775","TJR","South Beach","Up","Shannon-Weiner Diversity",30,"Year",0.0083,0.022,0.3782,0.7081
+"776","TJR","V1","Low","Shannon-Weiner Diversity",40,"Year",0,0,NA,1
+"777","TJR","V1","Mid","Shannon-Weiner Diversity",160,"Year",-0.0012,0.012,-0.098,0.9221
+"778","TJR","V1","Up","Shannon-Weiner Diversity",70,"Year",0.005,0.02,0.2518,0.802
+"779","TJR","V3","Mid","Shannon-Weiner Diversity",240,"Year",0.011,0.0077,1.4346,0.1527
+"780","TJR","V4","Mid","Shannon-Weiner Diversity",230,"Year",-0.0171,0.0072,-2.3984,0.0173
+"781","TJR","V4","Low","Shannon-Weiner Diversity",10,"Year",-0.0249,0.0187,-1.3359,0.2183
+"782","TJR","Brazo Creek","Mid","Shannon-Weiner Diversity",40,"Year",0.0758,0.0502,1.5094,0.1395
+"783","TJR","Brazo Creek","Up","Shannon-Weiner Diversity",8,"Year",0.0301,0.0747,0.4033,0.7007
+"784","TJR","Horse Trail","Mid","Shannon-Weiner Diversity",75,"Year",-0.0147,0.0198,-0.7438,0.4594
+"785","TJR","Model Marsh","Mid","Shannon-Weiner Diversity",105,"Year",-0.0111,0.023,-0.4832,0.63
+"786","TJR","Model Marsh","Low","Shannon-Weiner Diversity",15,"Year",0.0367,0.0475,0.7728,0.4535
+"787","WEL","WB","Low","Shannon-Weiner Diversity",53,"Year",-0.0207,0.0089,-2.3167,0.0246
+"788","WEL","WB","Mid","Shannon-Weiner Diversity",159,"Year",-0.0083,0.0081,-1.0237,0.3075
+"789","WEL","WB","Up","Shannon-Weiner Diversity",53,"Year",0.0226,0.0142,1.593,0.1173
+"790","WQB","Section 2","Low","Shannon-Weiner Diversity",216,"Year",-0.0084,0.0078,-1.0844,0.2794
+"791","WQB","Section 2","Mid","Shannon-Weiner Diversity",180,"Year",-0.0307,0.0106,-2.8964,0.0042
+"792","WQB","Section 2","Up","Shannon-Weiner Diversity",24,"Year",-0.075,0.022,-3.4134,0.0025
+"793","WQB","Section 1","Mid","Shannon-Weiner Diversity",36,"Year",-0.0253,0.0289,-0.8752,0.3876
+"794","WQB","Section 1","Low","Shannon-Weiner Diversity",251,"Year",0.022,0.006,3.6638,3e-04
+"795","WQB","Section 3","Mid","Shannon-Weiner Diversity",195,"Year",-0.0091,0.0106,-0.8523,0.3951
+"796","WQB","Section 3","Up","Shannon-Weiner Diversity",45,"Year",-0.0268,0.0168,-1.5949,0.1181
+"797","WQB","Section 3","Low","Shannon-Weiner Diversity",91,"Year",0.0194,0.0147,1.3194,0.1904
+"798","WQB","Section 1","Up","Shannon-Weiner Diversity",20,"Year",0.0229,0.0303,0.7553,0.4599
+"799","ACE","EIN","Mid","Salt Ratio",107,"Year",0.0153,0.009,1.6966,0.0927
+"800","ACE","EIN","Low","Salt Ratio",35,"Year",-0.0147,0.0107,-1.3742,0.1786
+"801","ACE","EIS","Mid","Salt Ratio",117,"Year",0.0278,0.0112,2.4756,0.0148
+"802","ACE","EIS","Low","Salt Ratio",5,"Year",-0.1176,0.0568,-2.0702,0.1302
+"803","APA","PC","Low","Salt Ratio",138,"Year",0.0177,0.009,1.9579,0.0523
+"804","APA","PC","Mid","Salt Ratio",195,"Year",-0.0011,0.0048,-0.226,0.8215
+"805","APA","PC","Up","Salt Ratio",13,"Year",0,0,NA,1
+"806","CBM","MB","Low","Salt Ratio",121,"Year",-2e-04,1e-04,-1.7752,0.0784
+"807","CBM","MB","Mid","Salt Ratio",39,"Year",0,1e-04,-0.4008,0.6909
+"808","CBM","OPC","Low","Salt Ratio",154,"Year",0.0016,0.0011,1.3728,0.1718
+"809","CBM","OPC","Mid","Salt Ratio",265,"Year",0.0028,0.002,1.3768,0.1697
+"810","DEL","SJR","Up","Salt Ratio",4,"Year",0,0,NA,1
+"811","DEL","SJR","Low","Salt Ratio",32,"Year",0,0,1.3599,0.184
+"812","DEL","SJR","Mid","Salt Ratio",84,"Year",0,0,1.3482,0.1813
+"813","ELK","Upper","Up","Salt Ratio",6,"Year",0.0831,0.0408,2.0382,0.1112
+"814","ELK","Upper","Low","Salt Ratio",45,"Year",0,0,NA,1
+"815","ELK","Lower","Up","Salt Ratio",8,"Year",0,0,NA,1
+"816","ELK","Lower","Low","Salt Ratio",90,"Year",0,0,NA,1
+"817","ELK","Upper","Mid","Salt Ratio",9,"Year",0,0,NA,1
+"818","GND","spalt","Low","Salt Ratio",96,"Year",0.0239,0.0205,1.1666,0.2463
+"819","GND","spalt","Mid","Salt Ratio",66,"Year",-0.0133,0.0142,-0.9379,0.3518
+"820","GND","juro low","Low","Salt Ratio",36,"Year",-0.0748,0.0378,-1.98,0.0558
+"821","GND","juro low","Mid","Salt Ratio",174,"Year",-0.0087,0.012,-0.7256,0.469
+"822","GND","juro high","Mid","Salt Ratio",116,"Year",-0.0172,0.0139,-1.24,0.2175
+"823","GND","juro high","Low","Salt Ratio",12,"Year",-0.0073,0.0056,-1.303,0.2218
+"824","GND","juro mid","Mid","Salt Ratio",204,"Year",-0.0153,0.0055,-2.7999,0.0056
+"825","GND","juro mid","Low","Salt Ratio",18,"Year",0.1602,0.0516,3.1069,0.0068
+"826","GND","juro mid","Up","Salt Ratio",18,"Year",-0.0105,0.0471,-0.2233,0.8261
+"827","GND","clmaj","Up","Salt Ratio",150,"Year",0.0614,0.0116,5.2748,0
+"828","GRB","SP","Low","Salt Ratio",66,"Year",0,0,-0.6589,0.5123
+"829","GRB","SP","Mid","Salt Ratio",363,"Year",9e-04,0.0011,0.7625,0.4463
+"830","GRB","SP","Up","Salt Ratio",62,"Year",0.014,0.0115,1.2197,0.2273
+"831","GRB","GBF","Low","Salt Ratio",66,"Year",0.0072,0.0105,0.6832,0.497
+"832","GRB","GBF","Mid","Salt Ratio",297,"Year",0.0016,0.003,0.5339,0.5938
+"833","GRB","GBF","Up","Salt Ratio",66,"Year",9e-04,0.0104,0.0882,0.93
+"834","GRB","BC","Low","Salt Ratio",109,"Year",-0.0012,0.0034,-0.366,0.7151
+"835","GRB","BC","Mid","Salt Ratio",154,"Year",4e-04,2e-04,1.872,0.0631
+"836","GRB","BC","Up","Salt Ratio",66,"Year",0.011,0.0108,1.0111,0.3158
+"837","GTM","22","Low","Salt Ratio",399,"Year",-0.0242,0.0057,-4.2787,0
+"838","GTM","0","Low","Salt Ratio",349,"Year",-0.0288,0.0047,-6.1644,0
+"839","GTM","40","Low","Salt Ratio",328,"Year",-0.0246,0.0048,-5.1434,0
+"840","GTM","1","Low","Salt Ratio",375,"Year",-0.0302,0.005,-6.0784,0
+"841","GTM","46","Low","Salt Ratio",388,"Year",-0.0241,0.0049,-4.9513,0
+"842","JAC","Central Segment","Low","Salt Ratio",270,"Year",-0.0011,0.0016,-0.6805,0.4968
+"843","JAC","South Segment","Low","Salt Ratio",270,"Year",0.0013,0.0067,0.1993,0.8422
+"844","KAC","FR","Mid","Salt Ratio",416,"Year",-0.0042,0.0022,-1.9441,0.0526
+"845","KAC","FR","Low","Salt Ratio",112,"Year",1e-04,0.0044,0.0169,0.9866
+"846","KAC","FR","Up","Salt Ratio",18,"Year",-0.0166,0.0214,-0.7739,0.4503
+"847","KAC","BS","Low","Salt Ratio",322,"Year",0.0061,0.0032,1.9085,0.0572
+"848","KAC","BS","Mid","Salt Ratio",12,"Year",-0.0394,0.0169,-2.3251,0.0424
+"849","KAC","BS","Up","Salt Ratio",12,"Year",0,0,NA,1
+"850","KAC","CP","Mid","Salt Ratio",313,"Year",0.0033,0.0032,1.0135,0.3116
+"851","KAC","CP","Low","Salt Ratio",150,"Year",-0.0068,0.0074,-0.9171,0.3606
+"852","KAC","SC","Low","Salt Ratio",81,"Year",0.0037,0.0072,0.5156,0.6076
+"853","KAC","SC","Mid","Salt Ratio",80,"Year",0.004,0.0041,0.993,0.3238
+"854","MAR","MI-W","Low","Salt Ratio",548,"Year",-0.0173,0.0048,-3.6241,3e-04
+"855","MAR","HF1","Low","Salt Ratio",548,"Year",-0.1009,0.0061,-16.4565,0
+"856","MAR","HF2","Low","Salt Ratio",600,"Year",-0.0619,0.0065,-9.4509,0
+"857","MAR","HF3","Low","Salt Ratio",548,"Year",-0.0649,0.007,-9.3155,0
+"858","NAR","Nag","Low","Salt Ratio",65,"Year",0,0,1.6239,0.1094
+"859","NAR","Nag","Mid","Salt Ratio",208,"Year",0,0,1.3389,0.1821
+"860","NAR","Nag","Up","Salt Ratio",39,"Year",6e-04,3e-04,1.6668,0.104
+"861","NAR","Coggeshall","Mid","Salt Ratio",143,"Year",0,0,-1.6126,0.1091
+"862","NAR","Coggeshall","Low","Salt Ratio",91,"Year",0,0,1.6179,0.1092
+"863","NAR","Coggeshall","Up","Salt Ratio",39,"Year",0,0,-1.6387,0.1097
+"864","NIW","Segment A","Mid","Salt Ratio",130,"Year",-0.002,0.0054,-0.3693,0.7125
+"865","NIW","Segment A","Low","Salt Ratio",164,"Year",0.0037,0.0053,0.6946,0.4883
+"866","NIW","Segment A","Up","Salt Ratio",25,"Year",-0.027,0.0153,-1.7665,0.0906
+"867","NIW","Segment B","Mid","Salt Ratio",78,"Year",-0.0063,0.0068,-0.9238,0.3585
+"868","NIW","Segment B","Low","Salt Ratio",260,"Year",-0.0028,0.004,-0.6991,0.4851
+"869","NOC","MI","Low","Salt Ratio",681,"Year",-0.018,0.0044,-4.0697,1e-04
+"870","NOC","MI","Mid","Salt Ratio",108,"Year",0,0,1.4167,0.1595
+"871","NOC","MM","Low","Salt Ratio",601,"Year",-0.0015,0.0042,-0.3519,0.725
+"872","SOS","DM","Low","Salt Ratio",19,"Year",0.0047,0.0049,0.9584,0.3513
+"873","SOS","DM","Mid","Salt Ratio",51,"Year",-0.0014,9e-04,-1.6028,0.1154
+"874","SOS","MM","Low","Salt Ratio",60,"Year",0,0,-1.9504,0.056
+"875","SOS","MM","Mid","Salt Ratio",60,"Year",0,0,0.0511,0.9594
+"876","SOS","HC","Mid","Salt Ratio",92,"Year",-0.0023,0.0016,-1.4553,0.1491
+"877","SOS","HC","Low","Salt Ratio",30,"Year",0,0,-2.3077,0.0286
+"878","SOS","VM","Mid","Salt Ratio",40,"Year",-1e-04,5e-04,-0.2279,0.8209
+"879","SOS","VM","Low","Salt Ratio",60,"Year",0,0,-1.8675,0.0669
+"880","SOS","VI","Low","Salt Ratio",54,"Year",0,1e-04,-0.3155,0.7536
+"881","SOS","VI","Mid","Salt Ratio",6,"Year",0,0,-1.519,0.2034
+"882","SOS","MI","Low","Salt Ratio",60,"Year",0,1e-04,-0.3158,0.7533
+"883","TJR","McCoy North","Mid","Salt Ratio",40,"Year",1e-04,6e-04,0.1719,0.8644
+"884","TJR","McCoy North","Up","Salt Ratio",10,"Year",0.1252,0.0338,3.7018,0.006
+"885","TJR","McCoy South","Up","Salt Ratio",90,"Year",0.0059,0.0154,0.3815,0.7038
+"886","TJR","McCoy South","Mid","Salt Ratio",90,"Year",-0.0081,0.0074,-1.1003,0.2742
+"887","TJR","McCoy South","Low","Salt Ratio",60,"Year",0,0,-1.5867,0.118
+"888","TJR","South Beach","Mid","Salt Ratio",180,"Year",9e-04,0.0094,0.0934,0.9257
+"889","TJR","South Beach","Up","Salt Ratio",30,"Year",0,0,-1.609,0.1188
+"890","TJR","V1","Low","Salt Ratio",40,"Year",0,0,1.5976,0.1184
+"891","TJR","V1","Mid","Salt Ratio",160,"Year",0,0,1.574,0.1175
+"892","TJR","V1","Up","Salt Ratio",70,"Year",1e-04,1e-04,1.0239,0.3095
+"893","TJR","V3","Mid","Salt Ratio",240,"Year",9e-04,0.0018,0.48,0.6317
+"894","TJR","V4","Mid","Salt Ratio",230,"Year",0,1e-04,0.4899,0.6247
+"895","TJR","V4","Low","Salt Ratio",10,"Year",0,0,NA,1
+"896","TJR","Brazo Creek","Mid","Salt Ratio",40,"Year",-0.0063,0.0087,-0.7284,0.4708
+"897","TJR","Brazo Creek","Up","Salt Ratio",8,"Year",-0.0042,0.0134,-0.311,0.7663
+"898","TJR","Horse Trail","Mid","Salt Ratio",75,"Year",-1e-04,2e-04,-0.6882,0.4935
+"899","TJR","Model Marsh","Mid","Salt Ratio",105,"Year",0.0095,0.0067,1.4211,0.1583
+"900","TJR","Model Marsh","Low","Salt Ratio",15,"Year",0,0,1.472,0.1648
+"901","WEL","WB","Low","Salt Ratio",53,"Year",1e-04,1e-04,1.6638,0.1023
+"902","WEL","WB","Mid","Salt Ratio",159,"Year",0,0,-1.645,0.102
+"903","WEL","WB","Up","Salt Ratio",53,"Year",-0.0043,0.0055,-0.7741,0.4424
+"904","WQB","Section 2","Low","Salt Ratio",216,"Year",-4e-04,0.0074,-0.058,0.9538
+"905","WQB","Section 2","Mid","Salt Ratio",180,"Year",-3e-04,7e-04,-0.4598,0.6462
+"906","WQB","Section 2","Up","Salt Ratio",24,"Year",0,0,-1.6749,0.1081
+"907","WQB","Section 1","Mid","Salt Ratio",36,"Year",0,0,-1.4819,0.1476
+"908","WQB","Section 1","Low","Salt Ratio",251,"Year",0.0128,0.0071,1.7936,0.0741
+"909","WQB","Section 3","Mid","Salt Ratio",195,"Year",0,0,0.3446,0.7308
+"910","WQB","Section 3","Up","Salt Ratio",45,"Year",0.0099,0.003,3.3419,0.0017
+"911","WQB","Section 3","Low","Salt Ratio",91,"Year",-0.0028,0.0082,-0.3438,0.7318
+"912","WQB","Section 1","Up","Salt Ratio",20,"Year",-0.0479,0.0146,-3.2751,0.0042

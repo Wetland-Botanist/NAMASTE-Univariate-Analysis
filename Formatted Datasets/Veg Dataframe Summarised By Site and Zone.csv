@@ -1,0 +1,885 @@
+"","Reserve","SiteID","Year","Vegetation_Zone","Region","Geomorphology","tidal_range","salinity","abiotic_cover","live_cover","halophyte","freshwater","EIR","invasive_cover","Richness","SWdiv","salt_ratio"
+"1","ACE","EIN",2012,"Low","Southeast","Riverine","Microtidal","Polyhaline",70.42,29.58,29.58,NA,0.29,NA,1.17,0.11,1
+"2","ACE","EIN",2012,"Mid","Southeast","Riverine","Microtidal","Polyhaline",73.62,26.38,26.38,NA,0.26,NA,1.06,0.04,1
+"3","ACE","EIN",2013,"Low","Southeast","Riverine","Microtidal","Polyhaline",31.49,68.51,68.51,NA,0.66,NA,1.17,0.09,1
+"4","ACE","EIN",2013,"Mid","Southeast","Riverine","Microtidal","Polyhaline",51.78,48.22,48.22,NA,0.48,NA,1.11,0.08,1
+"5","ACE","EIN",2014,"Low","Southeast","Riverine","Microtidal","Polyhaline",49.58,50.42,50.42,NA,0.48,NA,1.17,0.08,1
+"6","ACE","EIN",2014,"Mid","Southeast","Riverine","Microtidal","Polyhaline",64.15,35.85,35.85,NA,0.36,NA,1,0.07,1
+"7","ACE","EIN",2017,"Low","Southeast","Riverine","Microtidal","Polyhaline",36.14,63.86,63.86,NA,0.64,NA,1,0,1
+"8","ACE","EIN",2017,"Mid","Southeast","Riverine","Microtidal","Polyhaline",50.68,49.32,49.32,NA,0.49,NA,1.24,0.11,1
+"9","ACE","EIN",2018,"Low","Southeast","Riverine","Microtidal","Polyhaline",38.23,61.77,61.77,NA,0.62,NA,1,0,1
+"10","ACE","EIN",2018,"Mid","Southeast","Riverine","Microtidal","Polyhaline",64.15,35.84,35.84,NA,0.36,NA,1.11,0.07,1
+"11","ACE","EIN",2019,"Low","Southeast","Riverine","Microtidal","Polyhaline",57.36,42.64,42.64,NA,0.43,NA,0.83,0,1
+"12","ACE","EIN",2019,"Mid","Southeast","Riverine","Microtidal","Polyhaline",58.22,41.78,41.78,NA,0.42,NA,1.11,0.08,1
+"13","ACE","EIS",2012,"Low","Southeast","Riverine","Microtidal","Polyhaline",90.7,9.3,9.3,NA,0.07,NA,2,0.54,1
+"14","ACE","EIS",2012,"Mid","Southeast","Riverine","Microtidal","Polyhaline",81.21,18.79,18.79,NA,0.19,NA,0.9,0.08,1
+"15","ACE","EIS",2013,"Low","Southeast","Riverine","Microtidal","Polyhaline",79.69,20.31,20.31,NA,0.2,NA,1,0,1
+"16","ACE","EIS",2013,"Mid","Southeast","Riverine","Microtidal","Polyhaline",61.49,38.51,38.51,NA,0.39,NA,0.9,0.05,1
+"17","ACE","EIS",2014,"Low","Southeast","Riverine","Microtidal","Polyhaline",87.46,12.54,12.54,NA,0.12,NA,2,0.22,1
+"18","ACE","EIS",2014,"Mid","Southeast","Riverine","Microtidal","Polyhaline",73.03,26.97,26.97,NA,0.27,NA,1.05,0.1,1
+"19","ACE","EIS",2017,"Low","Southeast","Riverine","Microtidal","Polyhaline",46.23,53.77,53.77,NA,0.5,NA,2,0.25,1
+"20","ACE","EIS",2017,"Mid","Southeast","Riverine","Microtidal","Polyhaline",55.32,44.68,44.68,NA,0.45,NA,1.2,0.08,1
+"21","ACE","EIS",2018,"Mid","Southeast","Riverine","Microtidal","Polyhaline",54.73,45.27,45.27,NA,0.45,NA,1.21,0.11,1
+"22","ACE","EIS",2019,"Low","Southeast","Riverine","Microtidal","Polyhaline",100,0,0,NA,0,NA,0,0,NA
+"23","ACE","EIS",2019,"Mid","Southeast","Riverine","Microtidal","Polyhaline",57.42,42.58,42.58,NA,0.43,NA,1.37,0.14,1
+"24","APA","PC",2014,"Low","Gulf Coast","Bay Front","Microtidal","Polyhaline",14.93,85.07,30.04,10.84,0.15,0,2.75,0.48,0.82
+"25","APA","PC",2014,"Mid","Gulf Coast","Bay Front","Microtidal","Polyhaline",20.65,79.35,4.1,1,0.08,0,3.8,0.34,0.99
+"26","APA","PC",2014,"Up","Gulf Coast","Bay Front","Microtidal","Polyhaline",12.74,87.24,74.5,0,0,0,4,0.43,1
+"27","APA","PC",2015,"Low","Gulf Coast","Bay Front","Microtidal","Polyhaline",17.25,82.75,37.09,6.88,0.17,0,2.62,0.43,0.92
+"28","APA","PC",2015,"Mid","Gulf Coast","Bay Front","Microtidal","Polyhaline",12.04,87.96,9.25,0,0.11,0,3.7,0.31,0.99
+"29","APA","PC",2015,"Up","Gulf Coast","Bay Front","Microtidal","Polyhaline",22.3,77.7,62.7,0,0,0,4,0.51,1
+"30","APA","PC",2016,"Low","Gulf Coast","Bay Front","Microtidal","Polyhaline",20.78,79.22,38.88,1.54,0.21,0,2.52,0.31,0.98
+"31","APA","PC",2016,"Mid","Gulf Coast","Bay Front","Microtidal","Polyhaline",12.33,87.67,6.76,0,0.05,0,3.7,0.34,0.99
+"32","APA","PC",2016,"Up","Gulf Coast","Bay Front","Microtidal","Polyhaline",22.4,77.6,40.1,0,0,0,3,0.7,1
+"33","APA","PC",2017,"Low","Gulf Coast","Bay Front","Microtidal","Polyhaline",19.72,80.29,35.71,7.27,0.2,0,2.14,0.27,0.91
+"34","APA","PC",2017,"Mid","Gulf Coast","Bay Front","Microtidal","Polyhaline",18.39,81.61,3.76,0,0.06,0,3.6,0.22,1
+"35","APA","PC",2017,"Up","Gulf Coast","Bay Front","Microtidal","Polyhaline",14.97,85.03,42.61,0,0,0,4,0.52,1
+"36","APA","PC",2018,"Low","Gulf Coast","Bay Front","Microtidal","Polyhaline",14.96,85.04,29.92,0,0.15,0,2.48,0.38,0.99
+"37","APA","PC",2018,"Mid","Gulf Coast","Bay Front","Microtidal","Polyhaline",14.23,85.77,8.41,0,0.05,0,3.4,0.31,0.99
+"38","APA","PC",2018,"Up","Gulf Coast","Bay Front","Microtidal","Polyhaline",12.48,87.53,40.12,0,0,0,4,0.63,1
+"39","APA","PC",2019,"Low","Gulf Coast","Bay Front","Microtidal","Polyhaline",26,74.01,28.46,0,0.2,0,2.61,0.39,0.98
+"40","APA","PC",2019,"Mid","Gulf Coast","Bay Front","Microtidal","Polyhaline",23.96,76.04,6.53,0,0.09,0,3.5,0.4,0.99
+"41","APA","PC",2019,"Up","Gulf Coast","Bay Front","Microtidal","Polyhaline",14.97,85.03,15.17,0,0,0,4,0.47,1
+"42","APA","PC",2020,"Low","Gulf Coast","Bay Front","Microtidal","Polyhaline",27.82,72.18,40.14,0,0.28,0,2.5,0.44,0.95
+"43","APA","PC",2020,"Mid","Gulf Coast","Bay Front","Microtidal","Polyhaline",21.93,78.07,9.95,0,0.11,0,3.57,0.44,0.99
+"44","APA","PC",2020,"Up","Gulf Coast","Bay Front","Microtidal","Polyhaline",9.09,90.92,35.52,0,0,0,3,0.55,1
+"45","CBM","MB",2010,"Low","Mid-Atlantic","Bay Front","Microtidal","Mesohaline",63.56,36.44,32.91,NA,0.01,2.23,3.04,0.63,1
+"46","CBM","MB",2010,"Mid","Mid-Atlantic","Bay Front","Microtidal","Mesohaline",51.27,48.73,42.28,NA,0.19,5.53,3.7,0.85,1
+"47","CBM","MB",2011,"Low","Mid-Atlantic","Bay Front","Microtidal","Mesohaline",79.53,20.47,18.34,NA,0.36,1.94,2.89,0.57,1
+"48","CBM","MB",2011,"Mid","Mid-Atlantic","Bay Front","Microtidal","Mesohaline",75.88,24.12,21.4,NA,0.43,2.52,4.5,0.94,1
+"49","CBM","MB",2015,"Low","Mid-Atlantic","Bay Front","Microtidal","Mesohaline",63.94,36.06,30.61,NA,0.22,2.63,3.12,0.72,1
+"50","CBM","MB",2015,"Mid","Mid-Atlantic","Bay Front","Microtidal","Mesohaline",66.61,33.39,26.02,NA,0.45,3.89,3.57,0.7,1
+"51","CBM","MB",2017,"Low","Mid-Atlantic","Bay Front","Microtidal","Mesohaline",58.46,41.54,38.93,NA,0.12,1.27,3,0.54,1
+"52","CBM","MB",2017,"Mid","Mid-Atlantic","Bay Front","Microtidal","Mesohaline",28.23,71.77,54.11,NA,0.42,13.96,3,0.52,1
+"53","CBM","MB",2019,"Low","Mid-Atlantic","Bay Front","Microtidal","Mesohaline",51.3,48.7,39.99,NA,0.05,3.04,4.21,0.94,1
+"54","CBM","MB",2019,"Mid","Mid-Atlantic","Bay Front","Microtidal","Mesohaline",56.88,43.13,29.42,NA,0.61,5.2,3.67,0.86,1
+"55","CBM","OPC",2008,"Low","Mid-Atlantic","Riverine","Microtidal","Oligohaline",67,33,NA,32.83,0.01,0.98,3.41,0.79,0
+"56","CBM","OPC",2008,"Mid","Mid-Atlantic","Riverine","Microtidal","Oligohaline",60.67,39.33,NA,36.85,0.05,0.45,6,1.27,0.02
+"57","CBM","OPC",2009,"Low","Mid-Atlantic","Riverine","Microtidal","Oligohaline",70.7,29.3,NA,28.65,0.03,2.73,3.37,0.82,0.02
+"58","CBM","OPC",2009,"Mid","Mid-Atlantic","Riverine","Microtidal","Oligohaline",66.81,33.19,NA,31.09,0.05,0.13,6.34,1.33,0.03
+"59","CBM","OPC",2011,"Low","Mid-Atlantic","Riverine","Microtidal","Oligohaline",68.41,31.59,NA,31.16,0.09,9.37,3.78,0.95,0.01
+"60","CBM","OPC",2011,"Mid","Mid-Atlantic","Riverine","Microtidal","Oligohaline",73,27,NA,25.06,0.04,0.39,5.89,1.24,0.05
+"61","CBM","OPC",2012,"Low","Mid-Atlantic","Riverine","Microtidal","Oligohaline",47.62,52.38,NA,51.5,0.02,1.88,3.64,0.78,0.01
+"62","CBM","OPC",2012,"Mid","Mid-Atlantic","Riverine","Microtidal","Oligohaline",40.33,59.67,NA,55.27,0.1,0.2,6.65,1.35,0.04
+"63","CBM","OPC",2014,"Low","Mid-Atlantic","Riverine","Microtidal","Oligohaline",19.77,80.23,NA,77.81,0.13,12.75,3.75,0.93,0.01
+"64","CBM","OPC",2014,"Mid","Mid-Atlantic","Riverine","Microtidal","Oligohaline",39.22,60.78,NA,56.39,0.11,0.81,5.64,1.26,0.04
+"65","CBM","OPC",2018,"Low","Mid-Atlantic","Riverine","Microtidal","Oligohaline",46.46,53.54,NA,51.56,0.13,13.45,4.04,0.94,0.03
+"66","CBM","OPC",2018,"Mid","Mid-Atlantic","Riverine","Microtidal","Oligohaline",46.95,53.05,NA,49.2,0.1,2.67,7.02,1.46,0.05
+"67","DEL","SJR",2012,"Low","Mid-Atlantic","Riverine","Microtidal","Mesohaline",15.43,84.57,84.57,NA,0.15,0,1.38,0.14,1
+"68","DEL","SJR",2012,"Mid","Mid-Atlantic","Riverine","Microtidal","Mesohaline",17.01,82.99,66.03,NA,0.37,16.96,1.38,0.2,1
+"69","DEL","SJR",2012,"Up","Mid-Atlantic","Riverine","Microtidal","Mesohaline",90,10,0,NA,0,0,2,0.69,0
+"70","DEL","SJR",2014,"Low","Mid-Atlantic","Riverine","Microtidal","Mesohaline",34.38,65.62,65.62,NA,0.34,0,1,0,1
+"71","DEL","SJR",2014,"Mid","Mid-Atlantic","Riverine","Microtidal","Mesohaline",10.95,89.05,70.71,NA,0.34,17.62,1.43,0.12,1
+"72","DEL","SJR",2014,"Up","Mid-Atlantic","Riverine","Microtidal","Mesohaline",85,15,0,NA,0,0,2,0.64,0
+"73","DEL","SJR",2016,"Low","Mid-Atlantic","Riverine","Microtidal","Mesohaline",19.38,80.62,80.62,NA,0.19,0,1,0,1
+"74","DEL","SJR",2016,"Mid","Mid-Atlantic","Riverine","Microtidal","Mesohaline",11.67,88.33,74.05,NA,0.41,12.38,1.19,0.13,1
+"75","DEL","SJR",2016,"Up","Mid-Atlantic","Riverine","Microtidal","Mesohaline",100,0,0,NA,0,0,0,0,NA
+"76","DEL","SJR",2018,"Low","Mid-Atlantic","Riverine","Microtidal","Mesohaline",35.62,64.38,64.38,NA,0.36,0,1,0,1
+"77","DEL","SJR",2018,"Mid","Mid-Atlantic","Riverine","Microtidal","Mesohaline",28.57,71.43,63.33,NA,0.38,6.67,1.14,0.07,1
+"78","DEL","SJR",2018,"Up","Mid-Atlantic","Riverine","Microtidal","Mesohaline",100,0,0,NA,0,0,0,0,NA
+"79","ELK","Lower",2016,"Low","West Coast","Riverine","Mesotidal","Polyhaline",25.26,74.74,0,NA,0.25,NA,1.06,0.07,0
+"80","ELK","Lower",2016,"Mid","West Coast","Riverine","Mesotidal","Polyhaline",0,99.99,0,NA,0.05,NA,4,1.23,0
+"81","ELK","Lower",2016,"Up","West Coast","Riverine","Mesotidal","Polyhaline",0,100,0,NA,0.17,NA,3.67,0.95,0
+"82","ELK","Lower",2017,"Low","West Coast","Riverine","Mesotidal","Polyhaline",23.15,76.85,0,NA,0.23,NA,0.94,0,0
+"83","ELK","Lower",2017,"Up","West Coast","Riverine","Mesotidal","Polyhaline",0,100,0,NA,0.06,NA,3,0.88,0
+"84","ELK","Lower",2021,"Low","West Coast","Riverine","Mesotidal","Polyhaline",34.91,65.09,0,NA,0.28,NA,1.14,0.09,0
+"85","ELK","Lower",2021,"Mid","West Coast","Riverine","Mesotidal","Polyhaline",44.61,55.39,0,NA,0.02,NA,5,1.38,0
+"86","ELK","Lower",2021,"Up","West Coast","Riverine","Mesotidal","Polyhaline",0,100,0,NA,0.3,NA,3.67,0.89,0
+"87","ELK","Upper",2016,"Low","West Coast","Riverine","Mesotidal","Polyhaline",16.1,83.9,0,NA,0.16,NA,1.13,0.08,0
+"88","ELK","Upper",2016,"Mid","West Coast","Riverine","Mesotidal","Polyhaline",0,100,0,NA,1,NA,1,0,0
+"89","ELK","Upper",2016,"Up","West Coast","Riverine","Mesotidal","Polyhaline",0,100,10.96,NA,0.37,NA,3,0.95,0.11
+"90","ELK","Upper",2017,"Low","West Coast","Riverine","Mesotidal","Polyhaline",13.2,86.8,0,NA,0.13,NA,1.07,0.04,0
+"91","ELK","Upper",2017,"Mid","West Coast","Riverine","Mesotidal","Polyhaline",0,100,0,NA,1,NA,1,0,0
+"92","ELK","Upper",2017,"Up","West Coast","Riverine","Mesotidal","Polyhaline",0,100,26.45,NA,0.5,NA,3,0.97,0.26
+"93","ELK","Upper",2021,"Low","West Coast","Riverine","Mesotidal","Polyhaline",20.04,79.96,0,NA,0.19,NA,1.2,0.16,0
+"94","ELK","Upper",2021,"Mid","West Coast","Riverine","Mesotidal","Polyhaline",0,100,0,NA,1,NA,1,0,0
+"95","ELK","Upper",2021,"Up","West Coast","Riverine","Mesotidal","Polyhaline",42.02,57.98,35.69,NA,0.54,NA,2.5,0.82,0.55
+"96","GND","clmaj",2016,"Up","Gulf Coast","Riverine","Microtidal","Oligohaline",63.97,36.03,0,35.5,0,0,1.13,0.05,0.01
+"97","GND","clmaj",2017,"Up","Gulf Coast","Riverine","Microtidal","Oligohaline",47.35,52.65,0,27.33,0,2.53,5.3,1.22,0.23
+"98","GND","clmaj",2018,"Up","Gulf Coast","Riverine","Microtidal","Oligohaline",66.5,33.5,0,17.83,0,1.42,5.2,1.27,0.26
+"99","GND","clmaj",2019,"Up","Gulf Coast","Riverine","Microtidal","Oligohaline",50.42,49.58,0,27.42,0,1.08,7,1.44,0.22
+"100","GND","clmaj",2020,"Up","Gulf Coast","Riverine","Microtidal","Oligohaline",54.33,45.67,0,19.25,0,0,4.67,1.12,0.32
+"101","GND","juro high",2015,"Low","Gulf Coast","Riverine","Microtidal","Mesohaline",81.5,18.5,0,0,0.82,0,2,0.65,1
+"102","GND","juro high",2015,"Mid","Gulf Coast","Riverine","Microtidal","Mesohaline",41.26,58.74,0.53,1.05,0.41,0,1.32,0.13,0.96
+"103","GND","juro high",2016,"Low","Gulf Coast","Riverine","Microtidal","Mesohaline",78,22,0.5,0,0.78,0,2.5,0.8,1
+"104","GND","juro high",2016,"Mid","Gulf Coast","Riverine","Microtidal","Mesohaline",35.21,64.79,0.53,4,0.35,0.11,2.74,0.35,0.88
+"105","GND","juro high",2017,"Low","Gulf Coast","Riverine","Microtidal","Mesohaline",78.75,21.25,1.25,0,0.8,0,2.5,0.75,1
+"106","GND","juro high",2017,"Mid","Gulf Coast","Riverine","Microtidal","Mesohaline",54.47,45.53,0.26,1.71,0.55,0.26,2.89,0.53,0.89
+"107","GND","juro high",2018,"Low","Gulf Coast","Riverine","Microtidal","Mesohaline",82.5,17.5,1.25,0,0.84,1.25,3,1.01,0.95
+"108","GND","juro high",2018,"Mid","Gulf Coast","Riverine","Microtidal","Mesohaline",74.88,25.12,0.12,2.14,0.75,0.6,2.62,0.63,0.75
+"109","GND","juro high",2019,"Low","Gulf Coast","Riverine","Microtidal","Mesohaline",81.25,18.75,1.25,0,0.82,0,3,0.9,1
+"110","GND","juro high",2019,"Mid","Gulf Coast","Riverine","Microtidal","Mesohaline",69.08,30.92,0.39,1.58,0.69,0.39,3.53,0.74,0.89
+"111","GND","juro high",2020,"Low","Gulf Coast","Riverine","Microtidal","Mesohaline",78.75,21.25,2.5,1.25,0.8,0,4,1.23,0.96
+"112","GND","juro high",2020,"Mid","Gulf Coast","Riverine","Microtidal","Mesohaline",65.92,34.08,0.13,2.89,0.66,0,3.53,0.77,0.88
+"113","GND","juro low",2015,"Low","Gulf Coast","Bay Front","Microtidal","Mesohaline",41.67,58.33,0,0,0.42,0,1.5,0.16,0.78
+"114","GND","juro low",2015,"Mid","Gulf Coast","Bay Front","Microtidal","Mesohaline",25.17,74.83,0,0,0.28,0,1.21,0.1,0.93
+"115","GND","juro low",2016,"Low","Gulf Coast","Bay Front","Microtidal","Mesohaline",36.67,63.33,0,0,0.37,0,1.5,0.22,0.66
+"116","GND","juro low",2016,"Mid","Gulf Coast","Bay Front","Microtidal","Mesohaline",31.86,68.14,0,0,0.35,0,1.1,0.04,0.9
+"117","GND","juro low",2017,"Low","Gulf Coast","Bay Front","Microtidal","Mesohaline",70,30,0,0,0.7,0,1.67,0.24,0.6
+"118","GND","juro low",2017,"Mid","Gulf Coast","Bay Front","Microtidal","Mesohaline",61.55,38.45,0,0,0.64,0,1.21,0.09,0.89
+"119","GND","juro low",2018,"Low","Gulf Coast","Bay Front","Microtidal","Mesohaline",75.42,24.58,0,0,0.75,0,1.83,0.33,0.57
+"120","GND","juro low",2018,"Mid","Gulf Coast","Bay Front","Microtidal","Mesohaline",81.03,18.97,0,0,0.82,0,1.24,0.1,0.88
+"121","GND","juro low",2019,"Low","Gulf Coast","Bay Front","Microtidal","Mesohaline",71.67,28.33,0,0,0.72,0,1.83,0.39,0.42
+"122","GND","juro low",2019,"Mid","Gulf Coast","Bay Front","Microtidal","Mesohaline",67.5,32.5,0,0,0.7,0,1.24,0.07,0.89
+"123","GND","juro low",2020,"Low","Gulf Coast","Bay Front","Microtidal","Mesohaline",63.75,36.25,0,0,0.64,0,1.83,0.42,0.41
+"124","GND","juro low",2020,"Mid","Gulf Coast","Bay Front","Microtidal","Mesohaline",60.78,39.22,0,0,0.64,0,1.45,0.11,0.88
+"125","GND","juro mid",2015,"Low","Gulf Coast","Riverine","Microtidal","Mesohaline",83.33,16.67,0,0,0.92,0,0.67,0.23,1
+"126","GND","juro mid",2015,"Mid","Gulf Coast","Riverine","Microtidal","Mesohaline",41.84,58.16,0.03,0.15,0.42,0,2.21,0.37,0.99
+"127","GND","juro mid",2015,"Up","Gulf Coast","Riverine","Microtidal","Mesohaline",26,74,0,51.67,0.19,0,2.67,0.46,0.31
+"128","GND","juro mid",2016,"Low","Gulf Coast","Riverine","Microtidal","Mesohaline",77.67,22.33,0.33,0,0.94,0,1.33,0.23,1
+"129","GND","juro mid",2016,"Mid","Gulf Coast","Riverine","Microtidal","Mesohaline",24.53,75.47,0.03,0.15,0.25,0.03,2.94,0.46,0.99
+"130","GND","juro mid",2016,"Up","Gulf Coast","Riverine","Microtidal","Mesohaline",18.67,81.33,0,58.33,0.17,0,3,0.57,0.23
+"131","GND","juro mid",2017,"Low","Gulf Coast","Riverine","Microtidal","Mesohaline",91.67,8.33,0.83,0,0.95,0,1.33,0.32,1
+"132","GND","juro mid",2017,"Mid","Gulf Coast","Riverine","Microtidal","Mesohaline",71.4,28.6,0.07,1.76,0.71,0.22,3.24,0.8,0.97
+"133","GND","juro mid",2017,"Up","Gulf Coast","Riverine","Microtidal","Mesohaline",81.67,18.33,0,3.33,0.11,0,3.33,1.03,0.51
+"134","GND","juro mid",2018,"Low","Gulf Coast","Riverine","Microtidal","Mesohaline",90,10,2.5,0,0.93,0,2,0.4,1
+"135","GND","juro mid",2018,"Mid","Gulf Coast","Riverine","Microtidal","Mesohaline",69.71,30.29,0.07,1.76,0.7,0.22,3.44,0.77,0.93
+"136","GND","juro mid",2018,"Up","Gulf Coast","Riverine","Microtidal","Mesohaline",71.67,28.33,0,10.83,0.11,0.83,4.67,1.35,0.4
+"137","GND","juro mid",2019,"Low","Gulf Coast","Riverine","Microtidal","Mesohaline",82.5,17.5,3.33,0,0.89,0.83,2.33,0.41,0.98
+"138","GND","juro mid",2019,"Mid","Gulf Coast","Riverine","Microtidal","Mesohaline",66.47,33.53,0,2.72,0.66,0.22,3.15,0.69,0.9
+"139","GND","juro mid",2019,"Up","Gulf Coast","Riverine","Microtidal","Mesohaline",58.33,41.67,0,28.33,0.08,0.83,5.33,1.23,0.24
+"140","GND","juro mid",2020,"Low","Gulf Coast","Riverine","Microtidal","Mesohaline",81.67,18.33,5,0,0.88,0,2,0.35,1
+"141","GND","juro mid",2020,"Mid","Gulf Coast","Riverine","Microtidal","Mesohaline",57.21,42.79,0.15,1.47,0.57,0.07,3.03,0.62,0.95
+"142","GND","juro mid",2020,"Up","Gulf Coast","Riverine","Microtidal","Mesohaline",60.83,39.17,0.83,19.17,0.09,0,6.33,1.51,0.24
+"143","GND","spalt",2015,"Low","Gulf Coast","Bay Front","Microtidal","Polyhaline",39.69,60.31,0,0,0.4,0,1.44,0.18,0.16
+"144","GND","spalt",2015,"Mid","Gulf Coast","Bay Front","Microtidal","Polyhaline",25.45,74.55,0,0,0.35,0,1.27,0.13,0.86
+"145","GND","spalt",2016,"Low","Gulf Coast","Bay Front","Microtidal","Polyhaline",52.44,47.56,0,0,0.52,0,1.5,0.23,0.25
+"146","GND","spalt",2016,"Mid","Gulf Coast","Bay Front","Microtidal","Polyhaline",38.18,61.82,0,0,0.45,0,1.55,0.23,0.9
+"147","GND","spalt",2017,"Low","Gulf Coast","Bay Front","Microtidal","Polyhaline",49.22,50.78,0,0,0.49,0,1.44,0.19,0.24
+"148","GND","spalt",2017,"Mid","Gulf Coast","Bay Front","Microtidal","Polyhaline",45,55,0,0,0.5,0,1.64,0.24,0.9
+"149","GND","spalt",2018,"Low","Gulf Coast","Bay Front","Microtidal","Polyhaline",66.88,33.12,0,0,0.67,0,1.5,0.27,0.34
+"150","GND","spalt",2018,"Mid","Gulf Coast","Bay Front","Microtidal","Polyhaline",72.5,27.5,0,0,0.75,0,1.73,0.29,0.9
+"151","GND","spalt",2019,"Low","Gulf Coast","Bay Front","Microtidal","Polyhaline",64.22,35.78,0,0,0.64,0,1.5,0.28,0.36
+"152","GND","spalt",2019,"Mid","Gulf Coast","Bay Front","Microtidal","Polyhaline",67.5,32.5,0,0,0.71,0,1.82,0.27,0.89
+"153","GND","spalt",2020,"Low","Gulf Coast","Bay Front","Microtidal","Polyhaline",59.22,40.78,0,0,0.59,0,1.56,0.28,0.24
+"154","GND","spalt",2020,"Mid","Gulf Coast","Bay Front","Microtidal","Polyhaline",64.77,35.23,0,0,0.7,0,1.73,0.31,0.77
+"155","GRB","BC",2010,"Low","Northeast","Riverine","Mesotidal","Polyhaline",47.78,52.22,51.11,0,0.44,0,1.22,0.12,1
+"156","GRB","BC",2010,"Mid","Northeast","Riverine","Mesotidal","Polyhaline",30.25,69.75,60.97,0.14,0.35,0,3,0.45,1
+"157","GRB","BC",2010,"Up","Northeast","Riverine","Mesotidal","Polyhaline",42.41,57.6,22.17,23.67,0.28,0.84,9.33,1.55,0.49
+"158","GRB","BC",2011,"Low","Northeast","Riverine","Mesotidal","Polyhaline",36.1,63.9,63.9,0,0.33,0,1.2,0.13,1
+"159","GRB","BC",2011,"Mid","Northeast","Riverine","Mesotidal","Polyhaline",19.92,80.08,72.33,0.57,0.4,0,3,0.53,0.99
+"160","GRB","BC",2011,"Up","Northeast","Riverine","Mesotidal","Polyhaline",43.36,56.64,22.2,20.65,0.5,1,7.33,1.4,0.52
+"161","GRB","BC",2013,"Low","Northeast","Riverine","Mesotidal","Polyhaline",36.3,63.7,63.7,0,0.35,0,0.9,0,1
+"162","GRB","BC",2013,"Mid","Northeast","Riverine","Mesotidal","Polyhaline",17.11,82.89,72.64,0.18,0.42,0,3.79,0.54,1
+"163","GRB","BC",2013,"Up","Northeast","Riverine","Mesotidal","Polyhaline",52.67,47.33,26.67,8,0.69,0,6.67,1.29,0.75
+"164","GRB","BC",2014,"Low","Northeast","Riverine","Mesotidal","Polyhaline",42.4,57.6,54.6,0,0.4,0,1.3,0.09,1
+"165","GRB","BC",2014,"Mid","Northeast","Riverine","Mesotidal","Polyhaline",24.14,75.86,68.57,0.14,0.44,0,3.36,0.54,0.99
+"166","GRB","BC",2014,"Up","Northeast","Riverine","Mesotidal","Polyhaline",46.92,53.08,26.33,18.08,0.57,0,6.67,1.39,0.59
+"167","GRB","BC",2016,"Low","Northeast","Riverine","Mesotidal","Polyhaline",41.7,58.3,58.3,0,0.41,0,1.2,0.08,1
+"168","GRB","BC",2016,"Mid","Northeast","Riverine","Mesotidal","Polyhaline",31.36,68.64,65.29,0.07,0.46,0,3.14,0.45,1
+"169","GRB","BC",2016,"Up","Northeast","Riverine","Mesotidal","Polyhaline",51.67,48.33,28.83,12,0.52,0,6.17,1.21,0.63
+"170","GRB","BC",2017,"Low","Northeast","Riverine","Mesotidal","Polyhaline",44.5,55.5,55.5,0,0.44,0,1.2,0.11,1
+"171","GRB","BC",2017,"Mid","Northeast","Riverine","Mesotidal","Polyhaline",24.68,75.32,69.04,0.14,0.51,0,2.57,0.39,1
+"172","GRB","BC",2017,"Up","Northeast","Riverine","Mesotidal","Polyhaline",61.19,38.8,20.54,8.4,0.53,0,5.5,1.07,0.52
+"173","GRB","BC",2018,"Low","Northeast","Riverine","Mesotidal","Polyhaline",42.51,57.49,57.24,0,0.42,0,1.4,0.1,1
+"174","GRB","BC",2018,"Mid","Northeast","Riverine","Mesotidal","Polyhaline",33.14,66.86,62,0,0.46,0,2.29,0.38,1
+"175","GRB","BC",2018,"Up","Northeast","Riverine","Mesotidal","Polyhaline",50.33,49.67,36,6.17,0.66,1.67,6,1.2,0.67
+"176","GRB","BC",2019,"Low","Northeast","Riverine","Mesotidal","Polyhaline",46.52,53.49,52.74,0,0.47,0,1.8,0.24,1
+"177","GRB","BC",2019,"Mid","Northeast","Riverine","Mesotidal","Polyhaline",31.15,68.85,62.96,0,0.5,0,2.36,0.34,1
+"178","GRB","BC",2019,"Up","Northeast","Riverine","Mesotidal","Polyhaline",50.03,49.98,30.49,7.49,0.54,2.42,6.5,1.27,0.65
+"179","GRB","BC",2020,"Low","Northeast","Riverine","Mesotidal","Polyhaline",31,69,64.85,0,0.33,0,1.9,0.25,1
+"180","GRB","BC",2020,"Mid","Northeast","Riverine","Mesotidal","Polyhaline",39.63,60.37,56.44,0,0.53,0,2.36,0.33,1
+"181","GRB","BC",2020,"Up","Northeast","Riverine","Mesotidal","Polyhaline",62.42,37.58,26.08,5.83,0.49,1,6.5,1.15,0.65
+"182","GRB","BC",2021,"Low","Northeast","Riverine","Mesotidal","Polyhaline",50.4,49.6,48.3,0,0.51,0,1.8,0.16,1
+"183","GRB","BC",2021,"Mid","Northeast","Riverine","Mesotidal","Polyhaline",36.29,63.71,57.39,0,0.58,0,2.64,0.33,1
+"184","GRB","BC",2021,"Up","Northeast","Riverine","Mesotidal","Polyhaline",60.12,39.88,25.12,5.42,0.62,0,6.33,1.23,0.67
+"185","GRB","BC",2022,"Low","Northeast","Riverine","Mesotidal","Polyhaline",51,49,49,0,0.5,0,1,0.05,1
+"186","GRB","BC",2022,"Mid","Northeast","Riverine","Mesotidal","Polyhaline",31.93,68.07,65.28,0,0.55,0,2.43,0.27,1
+"187","GRB","BC",2022,"Up","Northeast","Riverine","Mesotidal","Polyhaline",54.31,45.69,27.69,5.83,0.6,0,5.67,1.09,0.68
+"188","GRB","GBF",2010,"Low","Northeast","Riverine","Mesotidal","Polyhaline",37.83,62.17,60.17,0.33,0.35,0,2.5,0.28,0.96
+"189","GRB","GBF",2010,"Mid","Northeast","Riverine","Mesotidal","Polyhaline",21.81,78.19,77.82,0.11,0.27,0.07,3.48,0.71,1
+"190","GRB","GBF",2010,"Up","Northeast","Riverine","Mesotidal","Polyhaline",56,44,1.67,16.67,0.32,0,3.33,0.81,0.24
+"191","GRB","GBF",2011,"Low","Northeast","Riverine","Mesotidal","Polyhaline",56.33,43.67,43,0.67,0.55,0,1.17,0.08,0.99
+"192","GRB","GBF",2011,"Mid","Northeast","Riverine","Mesotidal","Polyhaline",26.05,73.95,73.36,0.04,0.37,0,3.3,0.71,1
+"193","GRB","GBF",2011,"Up","Northeast","Riverine","Mesotidal","Polyhaline",45.17,54.83,0.33,9.83,0.44,0,3.83,0.76,0.29
+"194","GRB","GBF",2013,"Low","Northeast","Riverine","Mesotidal","Polyhaline",68,32,30.83,0,0.68,0,0.83,0.06,1
+"195","GRB","GBF",2013,"Mid","Northeast","Riverine","Mesotidal","Polyhaline",12.19,87.81,79.69,2.96,0.38,0,3.04,0.58,0.96
+"196","GRB","GBF",2013,"Up","Northeast","Riverine","Mesotidal","Polyhaline",51.92,48.08,3.67,23.08,0.28,0,4,0.73,0.34
+"197","GRB","GBF",2014,"Low","Northeast","Riverine","Mesotidal","Polyhaline",53.83,46.17,44.33,0,0.52,0,1.33,0.14,1
+"198","GRB","GBF",2014,"Mid","Northeast","Riverine","Mesotidal","Polyhaline",25.44,74.56,71.41,0.74,0.43,0,2.96,0.58,0.98
+"199","GRB","GBF",2014,"Up","Northeast","Riverine","Mesotidal","Polyhaline",47.33,52.67,1.33,17.67,0.29,0.17,3.83,0.76,0.25
+"200","GRB","GBF",2016,"Low","Northeast","Riverine","Mesotidal","Polyhaline",62.67,37.33,33.17,0,0.64,0,0.83,0.11,1
+"201","GRB","GBF",2016,"Mid","Northeast","Riverine","Mesotidal","Polyhaline",24.52,75.48,73.19,0,0.39,0,2.41,0.46,0.99
+"202","GRB","GBF",2016,"Up","Northeast","Riverine","Mesotidal","Polyhaline",50.33,49.67,1.33,12.17,0.36,0,3.67,0.77,0.25
+"203","GRB","GBF",2017,"Low","Northeast","Riverine","Mesotidal","Polyhaline",39.96,60.04,60.04,0,0.29,0,1.33,0.04,1
+"204","GRB","GBF",2017,"Mid","Northeast","Riverine","Mesotidal","Polyhaline",15.11,84.89,83.41,0,0.39,0,2.85,0.57,1
+"205","GRB","GBF",2017,"Up","Northeast","Riverine","Mesotidal","Polyhaline",54.62,45.39,0.66,10.15,0.35,0,3.17,0.7,0.27
+"206","GRB","GBF",2018,"Low","Northeast","Riverine","Mesotidal","Polyhaline",60.67,39.33,39.33,0,0.43,0,1,0,1
+"207","GRB","GBF",2018,"Mid","Northeast","Riverine","Mesotidal","Polyhaline",16.06,83.94,83.55,0,0.46,0,2.78,0.51,1
+"208","GRB","GBF",2018,"Up","Northeast","Riverine","Mesotidal","Polyhaline",47.25,52.75,1.5,10,0.31,0,3.67,0.67,0.22
+"209","GRB","GBF",2019,"Low","Northeast","Riverine","Mesotidal","Polyhaline",59.33,40.67,40.67,0,0.38,0,1.33,0.12,1
+"210","GRB","GBF",2019,"Mid","Northeast","Riverine","Mesotidal","Polyhaline",20.09,79.91,78.98,0.56,0.49,0,2.93,0.49,0.96
+"211","GRB","GBF",2019,"Up","Northeast","Riverine","Mesotidal","Polyhaline",52.02,47.98,2.82,8.66,0.45,0,4.67,0.83,0.35
+"212","GRB","GBF",2020,"Low","Northeast","Riverine","Mesotidal","Polyhaline",49.95,50.06,48.3,0,0.31,0,1.83,0.28,0.99
+"213","GRB","GBF",2020,"Mid","Northeast","Riverine","Mesotidal","Polyhaline",27.61,72.39,72.07,0,0.46,0,2.78,0.48,1
+"214","GRB","GBF",2020,"Up","Northeast","Riverine","Mesotidal","Polyhaline",52.34,47.66,1.41,6.84,0.33,0,3.67,0.74,0.22
+"215","GRB","GBF",2021,"Low","Northeast","Riverine","Mesotidal","Polyhaline",56.33,43.67,43.67,0,0.54,0,1,0.07,1
+"216","GRB","GBF",2021,"Mid","Northeast","Riverine","Mesotidal","Polyhaline",21.9,78.1,78.1,0,0.5,0,2.59,0.53,1
+"217","GRB","GBF",2021,"Up","Northeast","Riverine","Mesotidal","Polyhaline",45.42,54.58,2.33,9,0.31,0,3.67,0.69,0.3
+"218","GRB","GBF",2022,"Low","Northeast","Riverine","Mesotidal","Polyhaline",56.33,43.67,43.67,0,0.54,0,0.83,0,1
+"219","GRB","GBF",2022,"Mid","Northeast","Riverine","Mesotidal","Polyhaline",22.99,77.02,76.9,0,0.45,0,2.74,0.48,1
+"220","GRB","GBF",2022,"Up","Northeast","Riverine","Mesotidal","Polyhaline",51.25,48.75,1.83,3,0.37,0,3,0.59,0.29
+"221","GRB","SP",2010,"Low","Northeast","Bay Front","Mesotidal","Polyhaline",33.42,66.59,64.25,0,0.26,0,1.67,0.16,1
+"222","GRB","SP",2010,"Mid","Northeast","Bay Front","Mesotidal","Polyhaline",34.34,65.66,59.18,0.23,0.25,2.88,4.12,0.78,1
+"223","GRB","SP",2010,"Up","Northeast","Bay Front","Mesotidal","Polyhaline",39.47,60.53,2.5,20.75,0.29,7.25,10.5,1.42,0.38
+"224","GRB","SP",2011,"Low","Northeast","Bay Front","Mesotidal","Polyhaline",31,69,66.5,0,0.31,0,1.67,0.17,1
+"225","GRB","SP",2011,"Mid","Northeast","Bay Front","Mesotidal","Polyhaline",30.82,69.18,61.96,0.12,0.35,1.55,3.55,0.68,1
+"226","GRB","SP",2011,"Up","Northeast","Bay Front","Mesotidal","Polyhaline",25.57,74.43,2.38,22.32,0.39,10.4,9.8,1.79,0.44
+"227","GRB","SP",2013,"Low","Northeast","Bay Front","Mesotidal","Polyhaline",23.45,76.54,67.8,0,0.25,0,2.67,0.36,1
+"228","GRB","SP",2013,"Mid","Northeast","Bay Front","Mesotidal","Polyhaline",20.66,79.35,71.38,0.7,0.37,0.06,4.18,0.8,0.99
+"229","GRB","SP",2013,"Up","Northeast","Bay Front","Mesotidal","Polyhaline",40.7,59.3,1.8,14.5,0.43,14.2,8.4,1.32,0.42
+"230","GRB","SP",2014,"Low","Northeast","Bay Front","Mesotidal","Polyhaline",22.67,77.33,58.5,0,0.38,0,2.83,0.68,1
+"231","GRB","SP",2014,"Mid","Northeast","Bay Front","Mesotidal","Polyhaline",24.12,75.88,70.09,1.88,0.3,0,3.52,0.8,0.97
+"232","GRB","SP",2014,"Up","Northeast","Bay Front","Mesotidal","Polyhaline",22.33,77.67,0.67,31,0.36,3.33,7.17,1.21,0.39
+"233","GRB","SP",2016,"Low","Northeast","Bay Front","Mesotidal","Polyhaline",27,73,64.67,0,0.34,0,2.33,0.47,1
+"234","GRB","SP",2016,"Mid","Northeast","Bay Front","Mesotidal","Polyhaline",29.21,70.79,66,0.67,0.32,0.03,3.39,0.78,0.99
+"235","GRB","SP",2016,"Up","Northeast","Bay Front","Mesotidal","Polyhaline",39.33,60.67,0.67,17.67,0.29,0.83,7,1.05,0.48
+"236","GRB","SP",2017,"Low","Northeast","Bay Front","Mesotidal","Polyhaline",34.93,65.08,45.12,0,0.54,0,3.17,0.64,1
+"237","GRB","SP",2017,"Mid","Northeast","Bay Front","Mesotidal","Polyhaline",15.16,84.85,77.31,0.03,0.42,0,3.06,0.62,0.99
+"238","GRB","SP",2017,"Up","Northeast","Bay Front","Mesotidal","Polyhaline",36.17,63.83,0.33,20.5,0.41,3.33,7.5,1.39,0.51
+"239","GRB","SP",2018,"Low","Northeast","Bay Front","Mesotidal","Polyhaline",50.22,49.78,41.78,0,0.57,0,2.33,0.41,1
+"240","GRB","SP",2018,"Mid","Northeast","Bay Front","Mesotidal","Polyhaline",31.12,68.88,61.81,0,0.33,0.03,3.7,0.77,1
+"241","GRB","SP",2018,"Up","Northeast","Bay Front","Mesotidal","Polyhaline",36,64.02,1.66,10.34,0.57,0,7.67,1.14,0.62
+"242","GRB","SP",2019,"Low","Northeast","Bay Front","Mesotidal","Polyhaline",34.79,65.21,41.24,0,0.58,0,2.33,0.34,1
+"243","GRB","SP",2019,"Mid","Northeast","Bay Front","Mesotidal","Polyhaline",22.64,77.37,71.27,0.02,0.41,0.48,3.61,0.7,1
+"244","GRB","SP",2019,"Up","Northeast","Bay Front","Mesotidal","Polyhaline",28.72,71.28,1.92,24.07,0.4,0.99,8.83,1.53,0.5
+"245","GRB","SP",2020,"Low","Northeast","Bay Front","Mesotidal","Polyhaline",37.42,62.58,45.67,0,0.51,0,2.17,0.34,1
+"246","GRB","SP",2020,"Mid","Northeast","Bay Front","Mesotidal","Polyhaline",27.9,72.1,68.21,0.36,0.37,0.61,3.36,0.63,0.99
+"247","GRB","SP",2020,"Up","Northeast","Bay Front","Mesotidal","Polyhaline",25.51,74.5,7.6,22.52,0.47,4.85,8.17,1.41,0.53
+"248","GRB","SP",2021,"Low","Northeast","Bay Front","Mesotidal","Polyhaline",41.47,58.53,36.67,0,0.53,0,2.5,0.37,1
+"249","GRB","SP",2021,"Mid","Northeast","Bay Front","Mesotidal","Polyhaline",23.16,76.84,68.34,0,0.48,1,3.27,0.59,0.99
+"250","GRB","SP",2021,"Up","Northeast","Bay Front","Mesotidal","Polyhaline",23.07,76.93,4.61,20.8,0.45,7.12,9,1.4,0.53
+"251","GRB","SP",2022,"Low","Northeast","Bay Front","Mesotidal","Polyhaline",67,33,23.17,0,0.72,0,2.17,0.34,1
+"252","GRB","SP",2022,"Mid","Northeast","Bay Front","Mesotidal","Polyhaline",19.37,80.63,71.53,0.15,0.43,2,4.12,0.75,0.99
+"253","GRB","SP",2022,"Up","Northeast","Bay Front","Mesotidal","Polyhaline",26.53,73.47,4.42,17.98,0.5,5,8.33,1.38,0.54
+"254","GTM","0",2012,"Low","Southeast","Back Barrier","Microtidal","Oligohaline",56.67,43.33,43.33,0,0.57,0,1.07,0.04,1
+"255","GTM","0",2013,"Low","Southeast","Back Barrier","Microtidal","Oligohaline",70.6,29.4,29.4,0,0.71,0,1.13,0.05,1
+"256","GTM","0",2014,"Low","Southeast","Back Barrier","Microtidal","Oligohaline",60.77,39.23,39.23,0,0.61,0,1.14,0.06,1
+"257","GTM","0",2015,"Low","Southeast","Back Barrier","Microtidal","Oligohaline",50.47,49.53,49.53,0,0.5,0,1.17,0.07,1
+"258","GTM","0",2016,"Low","Southeast","Back Barrier","Microtidal","Oligohaline",51.5,48.5,48.5,0,0.52,0,1,0.06,1
+"259","GTM","0",2017,"Low","Southeast","Back Barrier","Microtidal","Oligohaline",61.79,38.21,38.21,0,0.62,0,1.14,0.06,1
+"260","GTM","0",2018,"Low","Southeast","Back Barrier","Microtidal","Oligohaline",59.6,40.4,40.4,0,0.6,0,1.12,0.08,1
+"261","GTM","0",2019,"Low","Southeast","Back Barrier","Microtidal","Oligohaline",64.8,35.2,35.2,0,0.65,0,0.97,0.08,1
+"262","GTM","0",2020,"Low","Southeast","Back Barrier","Microtidal","Oligohaline",59,41,41,0,0.59,0,0.93,0.08,1
+"263","GTM","1",2012,"Low","Southeast","Riverine","Microtidal","Oligohaline",46.47,53.53,53.53,0,0.46,0,2.13,0.46,1
+"264","GTM","1",2013,"Low","Southeast","Riverine","Microtidal","Oligohaline",37.87,62.13,62.13,0,0.38,0,2.2,0.23,1
+"265","GTM","1",2014,"Low","Southeast","Riverine","Microtidal","Oligohaline",44.47,55.53,55.53,0,0.44,0,2.05,0.32,1
+"266","GTM","1",2015,"Low","Southeast","Riverine","Microtidal","Oligohaline",38.03,61.97,61.97,0,0.38,0,2.03,0.32,1
+"267","GTM","1",2016,"Low","Southeast","Riverine","Microtidal","Oligohaline",41.6,58.4,58.4,0,0.42,0,2.37,0.45,1
+"268","GTM","1",2017,"Low","Southeast","Riverine","Microtidal","Oligohaline",54.2,45.8,45.8,0,0.54,0,2.6,0.48,1
+"269","GTM","1",2018,"Low","Southeast","Riverine","Microtidal","Oligohaline",43,57,57,0,0.43,0,2.53,0.48,1
+"270","GTM","1",2019,"Low","Southeast","Riverine","Microtidal","Oligohaline",49.38,50.62,50.62,0,0.49,0,2.6,0.65,1
+"271","GTM","1",2020,"Low","Southeast","Riverine","Microtidal","Oligohaline",42.13,57.87,57.87,0,0.42,0,2.83,0.67,1
+"272","GTM","22",2012,"Low","Southeast","Riverine","Microtidal","Oligohaline",55.13,44.87,44.87,0,0.55,0,1.1,0.05,1
+"273","GTM","22",2013,"Low","Southeast","Riverine","Microtidal","Oligohaline",70.47,29.53,29.53,0,0.7,0,1.17,0.05,1
+"274","GTM","22",2014,"Low","Southeast","Riverine","Microtidal","Oligohaline",67.96,32.04,32.04,0,0.68,0,1.11,0.04,1
+"275","GTM","22",2015,"Low","Southeast","Riverine","Microtidal","Oligohaline",65.03,34.97,34.97,0,0.65,0,1.2,0.1,1
+"276","GTM","22",2016,"Low","Southeast","Riverine","Microtidal","Oligohaline",50.87,49.13,49.13,0,0.51,0,1.17,0.07,1
+"277","GTM","22",2017,"Low","Southeast","Riverine","Microtidal","Oligohaline",70.2,29.8,29.8,0,0.7,0,1.4,0.16,1
+"278","GTM","22",2018,"Low","Southeast","Riverine","Microtidal","Oligohaline",70.8,29.2,29.2,0,0.71,0,1.3,0.16,1
+"279","GTM","22",2019,"Low","Southeast","Riverine","Microtidal","Oligohaline",64.19,35.81,35.81,0,0.64,0,1.33,0.21,1
+"280","GTM","22",2020,"Low","Southeast","Riverine","Microtidal","Oligohaline",54.6,45.4,45.4,0,0.55,0,1.37,0.24,1
+"281","GTM","40",2012,"Low","Southeast","Riverine","Microtidal","Oligohaline",64,36,36,0,0.64,0,1,0,1
+"282","GTM","40",2013,"Low","Southeast","Riverine","Microtidal","Oligohaline",83.33,16.67,16.67,0,0.83,0,1,0,1
+"283","GTM","40",2014,"Low","Southeast","Riverine","Microtidal","Oligohaline",67.7,32.3,32.3,0,0.68,0,1,0,1
+"284","GTM","40",2015,"Low","Southeast","Riverine","Microtidal","Oligohaline",69.97,30.03,30.03,0,0.7,0,1.03,0,1
+"285","GTM","40",2016,"Low","Southeast","Riverine","Microtidal","Oligohaline",60.33,39.67,39.67,0,0.6,0,0.93,0,1
+"286","GTM","40",2017,"Low","Southeast","Riverine","Microtidal","Oligohaline",71.33,28.67,28.67,0,0.71,0,0.87,0,1
+"287","GTM","40",2018,"Low","Southeast","Riverine","Microtidal","Oligohaline",60,40,40,0,0.6,0,0.93,0,1
+"288","GTM","40",2019,"Low","Southeast","Riverine","Microtidal","Oligohaline",62.5,37.5,37.5,0,0.62,0,0.87,0,1
+"289","GTM","40",2020,"Low","Southeast","Riverine","Microtidal","Oligohaline",58.17,41.83,41.83,0,0.58,0,0.83,0,1
+"290","GTM","46",2012,"Low","Southeast","Riverine","Microtidal","Oligohaline",58,42,14.33,0,0.58,0,2,0.36,1
+"291","GTM","46",2013,"Low","Southeast","Riverine","Microtidal","Oligohaline",75.13,24.87,9.4,0,0.75,0,2.53,0.47,1
+"292","GTM","46",2014,"Low","Southeast","Riverine","Microtidal","Oligohaline",37.68,62.32,23.44,0,0.38,0,2.59,0.53,1
+"293","GTM","46",2015,"Low","Southeast","Riverine","Microtidal","Oligohaline",30.4,69.6,22.71,0,0.3,0,2.6,0.53,1
+"294","GTM","46",2016,"Low","Southeast","Riverine","Microtidal","Oligohaline",35.72,64.28,9.1,0,0.36,0,2.14,0.3,1
+"295","GTM","46",2017,"Low","Southeast","Riverine","Microtidal","Oligohaline",46.1,53.9,14.84,0,0.46,0,2.1,0.5,1
+"296","GTM","46",2018,"Low","Southeast","Riverine","Microtidal","Oligohaline",51.8,48.2,17.7,0,0.52,0,2.23,0.56,1
+"297","GTM","46",2019,"Low","Southeast","Riverine","Microtidal","Oligohaline",57.3,42.7,7.98,0,0.57,0,2.03,0.4,1
+"298","GTM","46",2020,"Low","Southeast","Riverine","Microtidal","Oligohaline",43.76,56.24,6.56,0,0.44,0,1.54,0.25,1
+"299","GTM","46",2020,"Mid","Southeast","Riverine","Microtidal","Oligohaline",25,75,3.67,21.33,0.25,0,6,1.05,0.34
+"300","GTM","46",2020,"Up","Southeast","Riverine","Microtidal","Oligohaline",35.67,64.33,2.4,36.33,0.13,0.07,7.93,1.23,0.39
+"301","JAC","Central Segment",2011,"Low","Mid-Atlantic","Bay Front","Microtidal","Oligohaline",59.88,40.12,40.12,NA,0.59,0,1.27,0.11,1
+"302","JAC","Central Segment",2013,"Low","Mid-Atlantic","Bay Front","Microtidal","Oligohaline",52.57,47.43,47.43,NA,0.51,0,1.53,0.18,1
+"303","JAC","Central Segment",2017,"Low","Mid-Atlantic","Bay Front","Microtidal","Oligohaline",50,50,50,NA,0.5,0,1.27,0.11,1
+"304","JAC","Central Segment",2021,"Low","Mid-Atlantic","Bay Front","Microtidal","Oligohaline",41.66,58.34,58.34,NA,0.41,0,1.17,0,1
+"305","JAC","South Segment",2011,"Low","Mid-Atlantic","Bay Front","Microtidal","Oligohaline",64.67,35.33,35.33,NA,0.63,0,1.22,0.13,1
+"306","JAC","South Segment",2013,"Low","Mid-Atlantic","Bay Front","Microtidal","Oligohaline",64.06,35.94,35.94,NA,0.64,0,1.21,0.12,1
+"307","JAC","South Segment",2017,"Low","Mid-Atlantic","Bay Front","Microtidal","Oligohaline",62,38,38,NA,0.62,0,1.17,0.11,1
+"308","JAC","South Segment",2021,"Low","Mid-Atlantic","Bay Front","Microtidal","Oligohaline",58.99,41.01,41.01,NA,0.59,0,1.17,0.05,1
+"309","KAC","BS",2010,"Low","West Coast","Back Barrier","Macrotidal","Oligohaline",48.66,51.34,44.48,0,0.13,NA,3.2,0.61,1
+"310","KAC","BS",2010,"Mid","West Coast","Back Barrier","Macrotidal","Oligohaline",0,100,21.64,0,0,NA,2.5,0.46,1
+"311","KAC","BS",2010,"Up","West Coast","Back Barrier","Macrotidal","Oligohaline",5,95.01,0,86.41,0,NA,4.5,0.39,0
+"312","KAC","BS",2011,"Low","West Coast","Back Barrier","Macrotidal","Oligohaline",49.28,50.72,44.78,0,0.15,NA,3.35,0.57,1
+"313","KAC","BS",2011,"Mid","West Coast","Back Barrier","Macrotidal","Oligohaline",0,100,25.73,0,0,NA,2.5,0.5,0.98
+"314","KAC","BS",2011,"Up","West Coast","Back Barrier","Macrotidal","Oligohaline",2.5,97.5,0,87.29,0,NA,5.5,0.46,0
+"315","KAC","BS",2012,"Low","West Coast","Back Barrier","Macrotidal","Oligohaline",40.18,59.82,53.74,0,0.17,NA,3.46,0.64,1
+"316","KAC","BS",2012,"Mid","West Coast","Back Barrier","Macrotidal","Oligohaline",14.29,85.72,20.84,0,0,NA,3,0.48,0.99
+"317","KAC","BS",2012,"Up","West Coast","Back Barrier","Macrotidal","Oligohaline",0,100,0,87.04,0,NA,4,0.5,0
+"318","KAC","BS",2013,"Low","West Coast","Back Barrier","Macrotidal","Oligohaline",43.42,56.58,49.52,0,0.16,NA,3.5,0.68,1
+"319","KAC","BS",2013,"Mid","West Coast","Back Barrier","Macrotidal","Oligohaline",12.5,87.5,17.5,0,0,NA,3.5,0.75,0.92
+"320","KAC","BS",2013,"Up","West Coast","Back Barrier","Macrotidal","Oligohaline",0,100,0,87.67,0,NA,5.5,0.46,0
+"321","KAC","BS",2018,"Low","West Coast","Back Barrier","Macrotidal","Oligohaline",38.81,61.19,55.76,0,0.15,NA,4.3,0.86,1
+"322","KAC","BS",2018,"Mid","West Coast","Back Barrier","Macrotidal","Oligohaline",0,100,49.9,19.96,0,NA,4,0.36,0.8
+"323","KAC","BS",2018,"Up","West Coast","Back Barrier","Macrotidal","Oligohaline",0,100,0,96.26,0,NA,3.5,0.43,0
+"324","KAC","BS",2020,"Low","West Coast","Back Barrier","Macrotidal","Oligohaline",38.39,61.61,56.81,0,0.18,NA,4.19,0.96,1
+"325","KAC","BS",2020,"Mid","West Coast","Back Barrier","Macrotidal","Oligohaline",0,100,32.55,42.46,0,NA,4.5,0.74,0.57
+"326","KAC","BS",2020,"Up","West Coast","Back Barrier","Macrotidal","Oligohaline",0,100,0,96.74,0,NA,4.5,0.4,0
+"327","KAC","CP",2011,"Low","West Coast","Bay Front","Macrotidal","Mesohaline",55.36,44.64,44.64,0,0.03,NA,2.7,0.57,1
+"328","KAC","CP",2011,"Mid","West Coast","Bay Front","Macrotidal","Mesohaline",38.88,61.13,54.78,0.44,0,NA,3.98,0.77,0.98
+"329","KAC","CP",2012,"Low","West Coast","Bay Front","Macrotidal","Mesohaline",55.93,44.08,44.08,0,0.03,NA,2.85,0.64,1
+"330","KAC","CP",2012,"Mid","West Coast","Bay Front","Macrotidal","Mesohaline",37.06,62.94,57.08,0.44,0.01,NA,3.98,0.81,0.98
+"331","KAC","CP",2013,"Low","West Coast","Bay Front","Macrotidal","Mesohaline",52.2,47.8,47.8,0,0.03,NA,3.15,0.68,1
+"332","KAC","CP",2013,"Mid","West Coast","Bay Front","Macrotidal","Mesohaline",42.21,57.79,52.55,0.18,0.01,NA,3.67,0.71,0.98
+"333","KAC","CP",2016,"Low","West Coast","Bay Front","Macrotidal","Mesohaline",54.57,45.44,45.44,0,0.06,NA,2.57,0.53,1
+"334","KAC","CP",2016,"Mid","West Coast","Bay Front","Macrotidal","Mesohaline",36.08,63.92,61.18,0,0,NA,3.3,0.75,1
+"335","KAC","CP",2018,"Low","West Coast","Bay Front","Macrotidal","Mesohaline",51.82,48.18,48.18,0,0.05,NA,2.59,0.6,1
+"336","KAC","CP",2018,"Mid","West Coast","Bay Front","Macrotidal","Mesohaline",37.06,62.94,61.97,0.02,0.02,NA,3.69,0.84,0.98
+"337","KAC","CP",2019,"Mid","West Coast","Bay Front","Macrotidal","Mesohaline",30.85,69.15,13.75,2.75,0,NA,2.75,0.56,0.97
+"338","KAC","CP",2020,"Low","West Coast","Bay Front","Macrotidal","Mesohaline",53.99,46.01,46.01,0,0.03,NA,2.64,0.61,1
+"339","KAC","CP",2020,"Mid","West Coast","Bay Front","Macrotidal","Mesohaline",37.39,62.61,59.83,0.18,0.03,NA,3.37,0.75,0.98
+"340","KAC","FR",2010,"Low","West Coast","Bay Front","Macrotidal","Mesohaline",40.71,59.29,53.44,0,0.38,NA,2.63,0.42,0.97
+"341","KAC","FR",2010,"Mid","West Coast","Bay Front","Macrotidal","Mesohaline",56.43,43.57,39.76,0.48,0.05,NA,3.23,0.69,0.99
+"342","KAC","FR",2010,"Up","West Coast","Bay Front","Macrotidal","Mesohaline",23.1,76.9,13.01,13.38,0,NA,5.67,1.18,0.52
+"343","KAC","FR",2011,"Low","West Coast","Bay Front","Macrotidal","Mesohaline",41.39,58.61,49.87,0,0.32,NA,2.56,0.37,0.96
+"344","KAC","FR",2011,"Mid","West Coast","Bay Front","Macrotidal","Mesohaline",59.3,40.7,37.31,0.46,0.04,NA,3.39,0.68,0.99
+"345","KAC","FR",2011,"Up","West Coast","Bay Front","Macrotidal","Mesohaline",24.95,75.04,16.2,8.04,0,NA,6.67,1.18,0.54
+"346","KAC","FR",2012,"Low","West Coast","Bay Front","Macrotidal","Mesohaline",38.73,61.27,52.82,0,0.38,NA,2.79,0.42,0.96
+"347","KAC","FR",2012,"Mid","West Coast","Bay Front","Macrotidal","Mesohaline",60.95,39.05,34.29,0.31,0.03,NA,3.23,0.69,1
+"348","KAC","FR",2012,"Up","West Coast","Bay Front","Macrotidal","Mesohaline",19.98,80.03,13.36,18.16,0,NA,7,1.37,0.43
+"349","KAC","FR",2013,"Low","West Coast","Bay Front","Macrotidal","Mesohaline",46.28,53.72,48.16,0,0.34,NA,2.5,0.41,0.96
+"350","KAC","FR",2013,"Mid","West Coast","Bay Front","Macrotidal","Mesohaline",64.82,35.18,31.07,1.51,0.04,NA,2.97,0.61,0.98
+"351","KAC","FR",2013,"Up","West Coast","Bay Front","Macrotidal","Mesohaline",16.34,83.66,19.75,20.83,0,NA,6.67,1.47,0.44
+"352","KAC","FR",2019,"Low","West Coast","Bay Front","Macrotidal","Mesohaline",18.41,81.59,69.88,0.82,0.38,NA,3.26,0.59,0.95
+"353","KAC","FR",2019,"Mid","West Coast","Bay Front","Macrotidal","Mesohaline",50.6,49.4,43.96,0.35,0.02,NA,3.91,0.84,0.99
+"354","KAC","FR",2019,"Up","West Coast","Bay Front","Macrotidal","Mesohaline",6.65,93.35,18.33,28.31,0,NA,9.67,1.66,0.33
+"355","KAC","FR",2021,"Low","West Coast","Bay Front","Macrotidal","Mesohaline",32.84,67.16,54.54,0.55,0.4,NA,3,0.48,0.95
+"356","KAC","FR",2021,"Mid","West Coast","Bay Front","Macrotidal","Mesohaline",54.04,45.97,40.03,0.25,0.02,NA,3.44,0.69,0.98
+"357","KAC","FR",2021,"Up","West Coast","Bay Front","Macrotidal","Mesohaline",4.85,95.13,14.15,47.91,0,NA,10,1.68,0.36
+"358","KAC","SC",2011,"Low","West Coast","Bay Front","Macrotidal","Mesohaline",28.1,71.9,62.7,0,0.31,NA,3.35,0.83,1
+"359","KAC","SC",2011,"Mid","West Coast","Bay Front","Macrotidal","Mesohaline",9.28,90.72,65.89,0,0.34,NA,3.12,0.49,0.96
+"360","KAC","SC",2012,"Low","West Coast","Bay Front","Macrotidal","Mesohaline",18.63,81.38,72.1,0,0.38,NA,3.67,0.88,1
+"361","KAC","SC",2012,"Mid","West Coast","Bay Front","Macrotidal","Mesohaline",8.74,91.26,67.68,0,0.34,NA,3.75,0.59,0.95
+"362","KAC","SC",2013,"Low","West Coast","Bay Front","Macrotidal","Mesohaline",17.85,82.15,70.68,0,0.44,NA,3,0.73,1
+"363","KAC","SC",2013,"Mid","West Coast","Bay Front","Macrotidal","Mesohaline",8.04,91.96,67.52,0,0.35,NA,2.81,0.42,0.95
+"364","KAC","SC",2019,"Low","West Coast","Bay Front","Macrotidal","Mesohaline",18.63,81.37,70.82,0,0.39,NA,3.71,0.81,1
+"365","KAC","SC",2019,"Mid","West Coast","Bay Front","Macrotidal","Mesohaline",10.19,89.81,75.98,0,0.41,NA,3.31,0.53,0.99
+"366","KAC","SC",2021,"Low","West Coast","Bay Front","Macrotidal","Mesohaline",19.13,80.87,72.73,0,0.45,NA,3.76,0.77,1
+"367","KAC","SC",2021,"Mid","West Coast","Bay Front","Macrotidal","Mesohaline",5.56,94.44,76.23,0,0.37,NA,3.19,0.41,0.99
+"368","MAR","HF1",2012,"Low","Gulf Coast","Bay Front","Microtidal","Polyhaline",1.87,98.13,98.05,NA,0.61,NA,2.55,0.62,1
+"369","MAR","HF1",2013,"Low","Gulf Coast","Bay Front","Microtidal","Polyhaline",15.36,84.64,84.64,NA,0.57,NA,2.33,0.59,1
+"370","MAR","HF1",2014,"Low","Gulf Coast","Bay Front","Microtidal","Polyhaline",29.76,69.87,69.85,NA,0.6,NA,2.36,0.49,1
+"371","MAR","HF1",2015,"Low","Gulf Coast","Bay Front","Microtidal","Polyhaline",35.73,64.27,64.27,NA,0.67,NA,2.29,0.64,1
+"372","MAR","HF1",2016,"Low","Gulf Coast","Bay Front","Microtidal","Polyhaline",64.25,35.75,35.75,NA,0.73,NA,1.96,0.44,1
+"373","MAR","HF1",2017,"Low","Gulf Coast","Bay Front","Microtidal","Polyhaline",74.65,25.35,25.29,NA,0.79,NA,1.37,0.27,1
+"374","MAR","HF1",2018,"Low","Gulf Coast","Bay Front","Microtidal","Polyhaline",64.13,35.87,34.77,NA,0.72,NA,1.53,0.27,1
+"375","MAR","HF1",2019,"Low","Gulf Coast","Bay Front","Microtidal","Polyhaline",92.64,7.36,7.15,NA,0.94,NA,0.55,0.11,1
+"376","MAR","HF1",2020,"Low","Gulf Coast","Bay Front","Microtidal","Polyhaline",89.25,10.75,10.75,NA,0.88,NA,0.58,0.14,1
+"377","MAR","HF2",2012,"Low","Gulf Coast","Bay Front","Microtidal","Polyhaline",8.22,91.78,91.75,NA,0.47,NA,2.44,0.6,1
+"378","MAR","HF2",2013,"Low","Gulf Coast","Bay Front","Microtidal","Polyhaline",16.73,83.27,83.27,NA,0.53,NA,2.45,0.69,1
+"379","MAR","HF2",2014,"Low","Gulf Coast","Bay Front","Microtidal","Polyhaline",25.8,74.2,74.18,NA,0.55,NA,2.51,0.72,1
+"380","MAR","HF2",2015,"Low","Gulf Coast","Bay Front","Microtidal","Polyhaline",54.98,45.02,45.02,NA,0.6,NA,1.65,0.45,1
+"381","MAR","HF2",2016,"Low","Gulf Coast","Bay Front","Microtidal","Polyhaline",71.73,28.27,28.27,NA,0.63,NA,1.4,0.34,1
+"382","MAR","HF2",2017,"Low","Gulf Coast","Bay Front","Microtidal","Polyhaline",74.09,25.91,25.88,NA,0.72,NA,0.99,0.13,1
+"383","MAR","HF2",2018,"Low","Gulf Coast","Bay Front","Microtidal","Polyhaline",53.78,46.22,45.15,NA,0.58,NA,1.24,0.16,1
+"384","MAR","HF2",2019,"Low","Gulf Coast","Bay Front","Microtidal","Polyhaline",83.69,16.31,13.71,NA,0.83,NA,1.02,0.17,1
+"385","MAR","HF2",2020,"Low","Gulf Coast","Bay Front","Microtidal","Polyhaline",80.02,19.98,19.1,NA,0.66,NA,1.18,0.25,0.97
+"386","MAR","HF3",2012,"Low","Gulf Coast","Bay Front","Microtidal","Polyhaline",13.69,86.31,86.27,NA,0.32,NA,2.04,0.38,1
+"387","MAR","HF3",2013,"Low","Gulf Coast","Bay Front","Microtidal","Polyhaline",20.28,79.72,79.72,NA,0.5,NA,2.24,0.51,1
+"388","MAR","HF3",2014,"Low","Gulf Coast","Bay Front","Microtidal","Polyhaline",38.38,61.62,61.62,NA,0.47,NA,2.27,0.55,1
+"389","MAR","HF3",2015,"Low","Gulf Coast","Bay Front","Microtidal","Polyhaline",46.53,53.47,53.47,NA,0.51,NA,1.91,0.51,1
+"390","MAR","HF3",2016,"Low","Gulf Coast","Bay Front","Microtidal","Polyhaline",63.96,36.04,36.04,NA,0.55,NA,1.65,0.34,1
+"391","MAR","HF3",2017,"Low","Gulf Coast","Bay Front","Microtidal","Polyhaline",66.85,33.15,33.15,NA,0.67,NA,1.16,0.17,1
+"392","MAR","HF3",2018,"Low","Gulf Coast","Bay Front","Microtidal","Polyhaline",49.05,50.95,50.51,NA,0.53,NA,1.35,0.16,1
+"393","MAR","HF3",2019,"Low","Gulf Coast","Bay Front","Microtidal","Polyhaline",80.62,19.38,17.84,NA,0.81,NA,1.11,0.22,0.99
+"394","MAR","HF3",2020,"Low","Gulf Coast","Bay Front","Microtidal","Polyhaline",94.15,5.85,5.85,NA,0.82,NA,0.51,0.08,1
+"395","MAR","MI-W",2011,"Low","Gulf Coast","Bay Front","Microtidal","Polyhaline",59.84,40.16,40.16,NA,0.57,NA,2.29,0.53,1
+"396","MAR","MI-W",2012,"Low","Gulf Coast","Bay Front","Microtidal","Polyhaline",27.4,72.6,72.58,NA,0.39,NA,2.11,0.43,1
+"397","MAR","MI-W",2013,"Low","Gulf Coast","Bay Front","Microtidal","Polyhaline",46.31,53.69,53.62,NA,0.53,NA,1.76,0.27,1
+"398","MAR","MI-W",2014,"Low","Gulf Coast","Bay Front","Microtidal","Polyhaline",35.78,64.22,64.19,NA,0.4,NA,2.48,0.37,1
+"399","MAR","MI-W",2015,"Low","Gulf Coast","Bay Front","Microtidal","Polyhaline",35.24,64.76,64.76,NA,0.3,NA,2.43,0.43,1
+"400","MAR","MI-W",2016,"Low","Gulf Coast","Bay Front","Microtidal","Polyhaline",50.22,49.75,49.75,NA,0.32,NA,2.02,0.38,1
+"401","MAR","MI-W",2017,"Low","Gulf Coast","Bay Front","Microtidal","Polyhaline",52.85,47.15,46.55,NA,0.49,NA,1.64,0.23,1
+"402","MAR","MI-W",2018,"Low","Gulf Coast","Bay Front","Microtidal","Polyhaline",43.67,56.33,56.33,NA,0.39,NA,1.27,0.15,1
+"403","MAR","MI-W",2019,"Low","Gulf Coast","Bay Front","Microtidal","Polyhaline",40.62,59.38,59.38,NA,0.19,NA,1.38,0.2,1
+"404","MAR","MI-W",2020,"Low","Gulf Coast","Bay Front","Microtidal","Polyhaline",48.55,51.45,51.45,NA,0.4,NA,1.45,0.21,1
+"405","NAR","Coggeshall",2010,"Low","Northeast","Bay Front","Microtidal","Polyhaline",17.93,82.07,82.07,NA,0.18,0,2.14,0.15,1
+"406","NAR","Coggeshall",2010,"Mid","Northeast","Bay Front","Microtidal","Polyhaline",3.96,96.04,96.04,NA,0.48,0,3.45,0.78,1
+"407","NAR","Coggeshall",2010,"Up","Northeast","Bay Front","Microtidal","Polyhaline",6.34,93.66,93.66,NA,0.52,0,4,1.06,1
+"408","NAR","Coggeshall",2011,"Low","Northeast","Bay Front","Microtidal","Polyhaline",15.64,84.36,84.36,NA,0.16,0,2.14,0.18,1
+"409","NAR","Coggeshall",2011,"Mid","Northeast","Bay Front","Microtidal","Polyhaline",6.01,93.99,93.99,NA,0.54,0,3.91,0.72,1
+"410","NAR","Coggeshall",2011,"Up","Northeast","Bay Front","Microtidal","Polyhaline",16.64,83.36,83.36,NA,0.47,0,3.67,1.05,1
+"411","NAR","Coggeshall",2012,"Low","Northeast","Bay Front","Microtidal","Polyhaline",11.5,88.5,88.5,NA,0.12,0,1.86,0.14,1
+"412","NAR","Coggeshall",2012,"Mid","Northeast","Bay Front","Microtidal","Polyhaline",2.84,97.16,97.16,NA,0.56,0,3.82,0.82,1
+"413","NAR","Coggeshall",2012,"Up","Northeast","Bay Front","Microtidal","Polyhaline",3.15,96.85,96.85,NA,0.56,0,4.33,1.19,1
+"414","NAR","Coggeshall",2013,"Low","Northeast","Bay Front","Microtidal","Polyhaline",5.87,94.13,94.13,NA,0.06,0,1.29,0.04,1
+"415","NAR","Coggeshall",2013,"Mid","Northeast","Bay Front","Microtidal","Polyhaline",3.94,96.06,96.06,NA,0.62,0,3,0.66,1
+"416","NAR","Coggeshall",2013,"Up","Northeast","Bay Front","Microtidal","Polyhaline",1.17,98.83,98.83,NA,0.62,0,4.33,1.13,1
+"417","NAR","Coggeshall",2014,"Low","Northeast","Bay Front","Microtidal","Polyhaline",17.74,82.26,82.26,NA,0.18,0,1.71,0.08,1
+"418","NAR","Coggeshall",2014,"Mid","Northeast","Bay Front","Microtidal","Polyhaline",11.42,88.57,88.57,NA,0.6,0,3.18,0.57,1
+"419","NAR","Coggeshall",2014,"Up","Northeast","Bay Front","Microtidal","Polyhaline",2.18,97.82,97.33,NA,0.66,0.49,5,1.2,1
+"420","NAR","Coggeshall",2015,"Low","Northeast","Bay Front","Microtidal","Polyhaline",15.57,84.43,84.43,NA,0.16,0,1.43,0.06,1
+"421","NAR","Coggeshall",2015,"Mid","Northeast","Bay Front","Microtidal","Polyhaline",16.21,83.79,83.79,NA,0.6,0,3.18,0.52,1
+"422","NAR","Coggeshall",2015,"Up","Northeast","Bay Front","Microtidal","Polyhaline",3.37,96.63,96.63,NA,0.68,0,4.67,1.11,1
+"423","NAR","Coggeshall",2016,"Low","Northeast","Bay Front","Microtidal","Polyhaline",25.86,74.14,74.14,NA,0.26,0,1.43,0.05,1
+"424","NAR","Coggeshall",2016,"Mid","Northeast","Bay Front","Microtidal","Polyhaline",20.76,79.24,79.24,NA,0.54,0,3.55,0.5,1
+"425","NAR","Coggeshall",2016,"Up","Northeast","Bay Front","Microtidal","Polyhaline",11.08,88.92,86.68,NA,0.54,2.24,5.67,1.17,1
+"426","NAR","Coggeshall",2017,"Low","Northeast","Bay Front","Microtidal","Polyhaline",34.13,65.87,65.87,NA,0.33,0,1.29,0.04,1
+"427","NAR","Coggeshall",2017,"Mid","Northeast","Bay Front","Microtidal","Polyhaline",26,74,74,NA,0.54,0,3.36,0.46,1
+"428","NAR","Coggeshall",2017,"Up","Northeast","Bay Front","Microtidal","Polyhaline",4.91,95.09,91.31,NA,0.61,3.78,4.67,1.14,1
+"429","NAR","Coggeshall",2018,"Low","Northeast","Bay Front","Microtidal","Polyhaline",39.93,60.07,60.07,NA,0.4,0,1.57,0.07,1
+"430","NAR","Coggeshall",2018,"Mid","Northeast","Bay Front","Microtidal","Polyhaline",31.73,68.26,68.26,NA,0.52,0,3.36,0.47,1
+"431","NAR","Coggeshall",2018,"Up","Northeast","Bay Front","Microtidal","Polyhaline",26.84,73.16,69.46,NA,0.51,3.7,5.33,1.06,1
+"432","NAR","Coggeshall",2019,"Low","Northeast","Bay Front","Microtidal","Polyhaline",37.08,62.92,62.92,NA,0.37,0,1,0,1
+"433","NAR","Coggeshall",2019,"Mid","Northeast","Bay Front","Microtidal","Polyhaline",34.51,65.48,65.48,NA,0.52,0,2.55,0.39,1
+"434","NAR","Coggeshall",2019,"Up","Northeast","Bay Front","Microtidal","Polyhaline",27.03,72.97,68.96,NA,0.52,4,4.33,1.03,1
+"435","NAR","Coggeshall",2020,"Low","Northeast","Bay Front","Microtidal","Polyhaline",37.96,62.04,62.04,NA,0.38,0,1.57,0.04,1
+"436","NAR","Coggeshall",2020,"Mid","Northeast","Bay Front","Microtidal","Polyhaline",26.2,73.81,73.81,NA,0.59,0,3.27,0.42,1
+"437","NAR","Coggeshall",2020,"Up","Northeast","Bay Front","Microtidal","Polyhaline",12.41,87.6,85.47,NA,0.54,2.13,4.33,1.12,1
+"438","NAR","Coggeshall",2021,"Low","Northeast","Bay Front","Microtidal","Polyhaline",13.76,86.24,86.24,NA,0.14,0,1.29,0.01,1
+"439","NAR","Coggeshall",2021,"Mid","Northeast","Bay Front","Microtidal","Polyhaline",13.15,86.85,86.85,NA,0.71,0,2.91,0.39,1
+"440","NAR","Coggeshall",2021,"Up","Northeast","Bay Front","Microtidal","Polyhaline",24.64,75.36,69.5,NA,0.47,5.86,4,1.05,1
+"441","NAR","Coggeshall",2022,"Low","Northeast","Bay Front","Microtidal","Polyhaline",29.05,70.94,70.94,NA,0.29,0,1.57,0.03,1
+"442","NAR","Coggeshall",2022,"Mid","Northeast","Bay Front","Microtidal","Polyhaline",24.75,75.25,75.25,NA,0.64,0,3.09,0.37,1
+"443","NAR","Coggeshall",2022,"Up","Northeast","Bay Front","Microtidal","Polyhaline",19.11,80.89,74.93,NA,0.42,5.95,4.33,1.2,1
+"444","NAR","Nag",2010,"Low","Northeast","Bay Front","Microtidal","Polyhaline",0.6,99.4,99.4,NA,0.01,0,1.8,0.37,1
+"445","NAR","Nag",2010,"Mid","Northeast","Bay Front","Microtidal","Polyhaline",6.27,93.74,93.74,NA,0.35,0,2.81,0.62,1
+"446","NAR","Nag",2010,"Up","Northeast","Bay Front","Microtidal","Polyhaline",0,100.01,92.39,NA,0.77,0,4.33,1.12,1
+"447","NAR","Nag",2011,"Low","Northeast","Bay Front","Microtidal","Polyhaline",7.22,92.78,92.78,NA,0.07,0,2.2,0.27,1
+"448","NAR","Nag",2011,"Mid","Northeast","Bay Front","Microtidal","Polyhaline",8.8,91.19,91.16,NA,0.35,0,2.75,0.61,1
+"449","NAR","Nag",2011,"Up","Northeast","Bay Front","Microtidal","Polyhaline",0,100,87.9,NA,0.73,0,4.67,1.03,1
+"450","NAR","Nag",2012,"Low","Northeast","Bay Front","Microtidal","Polyhaline",3.88,96.12,96.12,NA,0.04,0,2.2,0.24,1
+"451","NAR","Nag",2012,"Mid","Northeast","Bay Front","Microtidal","Polyhaline",9.41,90.59,90.59,NA,0.37,0,3.25,0.63,1
+"452","NAR","Nag",2012,"Up","Northeast","Bay Front","Microtidal","Polyhaline",0,100.01,96.82,NA,0.79,0,5.67,1.08,0.99
+"453","NAR","Nag",2013,"Low","Northeast","Bay Front","Microtidal","Polyhaline",3.86,96.14,96.14,NA,0.04,0,2.6,0.32,1
+"454","NAR","Nag",2013,"Mid","Northeast","Bay Front","Microtidal","Polyhaline",3.82,96.18,96.18,NA,0.41,0,3.25,0.71,1
+"455","NAR","Nag",2013,"Up","Northeast","Bay Front","Microtidal","Polyhaline",1.34,98.66,89.68,NA,0.74,0,5.33,1.2,0.98
+"456","NAR","Nag",2014,"Low","Northeast","Bay Front","Microtidal","Polyhaline",11.91,88.09,88.09,NA,0.12,0,1.6,0.15,1
+"457","NAR","Nag",2014,"Mid","Northeast","Bay Front","Microtidal","Polyhaline",11.72,88.28,88.28,NA,0.41,0,2.75,0.58,1
+"458","NAR","Nag",2014,"Up","Northeast","Bay Front","Microtidal","Polyhaline",0,100,96.06,NA,0.84,0,4.67,1,1
+"459","NAR","Nag",2015,"Low","Northeast","Bay Front","Microtidal","Polyhaline",30.01,69.99,69.99,NA,0.3,0,1.6,0.15,1
+"460","NAR","Nag",2015,"Mid","Northeast","Bay Front","Microtidal","Polyhaline",21.01,78.99,78.99,NA,0.34,0,2.69,0.52,1
+"461","NAR","Nag",2015,"Up","Northeast","Bay Front","Microtidal","Polyhaline",15.45,84.55,78.01,NA,0.79,0,4,1.04,1
+"462","NAR","Nag",2016,"Low","Northeast","Bay Front","Microtidal","Polyhaline",28.18,71.82,71.82,NA,0.28,0,1.8,0.18,1
+"463","NAR","Nag",2016,"Mid","Northeast","Bay Front","Microtidal","Polyhaline",14.5,85.5,85.5,NA,0.41,0,3.12,0.53,1
+"464","NAR","Nag",2016,"Up","Northeast","Bay Front","Microtidal","Polyhaline",17.39,82.61,78.23,NA,0.79,0,4.67,1.06,1
+"465","NAR","Nag",2017,"Low","Northeast","Bay Front","Microtidal","Polyhaline",3.36,96.64,96.64,NA,0.03,0,1.8,0.23,1
+"466","NAR","Nag",2017,"Mid","Northeast","Bay Front","Microtidal","Polyhaline",6.16,93.84,93.84,NA,0.5,0,2.69,0.51,1
+"467","NAR","Nag",2017,"Up","Northeast","Bay Front","Microtidal","Polyhaline",19.19,80.82,68.43,NA,0.7,0,3.67,0.93,1
+"468","NAR","Nag",2018,"Low","Northeast","Bay Front","Microtidal","Polyhaline",14.94,85.06,85.06,NA,0.15,0,1.6,0.11,1
+"469","NAR","Nag",2018,"Mid","Northeast","Bay Front","Microtidal","Polyhaline",18.63,81.37,81.37,NA,0.45,0,2.69,0.45,1
+"470","NAR","Nag",2018,"Up","Northeast","Bay Front","Microtidal","Polyhaline",2.24,97.76,96.83,NA,0.83,0,4.33,0.82,0.99
+"471","NAR","Nag",2019,"Low","Northeast","Bay Front","Microtidal","Polyhaline",36.96,63.04,63.04,NA,0.36,0,1.4,0.12,1
+"472","NAR","Nag",2019,"Mid","Northeast","Bay Front","Microtidal","Polyhaline",19.48,80.52,80.52,NA,0.47,0,2.5,0.43,1
+"473","NAR","Nag",2019,"Up","Northeast","Bay Front","Microtidal","Polyhaline",6.61,93.39,93.23,NA,0.82,0,4,0.93,1
+"474","NAR","Nag",2020,"Low","Northeast","Bay Front","Microtidal","Polyhaline",45.58,54.42,54.42,NA,0.46,0,1.8,0.17,1
+"475","NAR","Nag",2020,"Mid","Northeast","Bay Front","Microtidal","Polyhaline",22.64,77.36,77.36,NA,0.44,0,2.75,0.45,1
+"476","NAR","Nag",2020,"Up","Northeast","Bay Front","Microtidal","Polyhaline",12.26,87.74,85.44,NA,0.88,0,4.67,1.06,0.99
+"477","NAR","Nag",2021,"Low","Northeast","Bay Front","Microtidal","Polyhaline",33.61,66.39,66.39,NA,0.34,0,2.2,0.28,1
+"478","NAR","Nag",2021,"Mid","Northeast","Bay Front","Microtidal","Polyhaline",14.81,85.19,85.19,NA,0.5,0,3.06,0.56,1
+"479","NAR","Nag",2021,"Up","Northeast","Bay Front","Microtidal","Polyhaline",12.51,87.48,83.9,NA,0.79,0,4.33,1.07,1
+"480","NAR","Nag",2022,"Low","Northeast","Bay Front","Microtidal","Polyhaline",36.75,63.25,63.25,NA,0.37,0,1.6,0.14,1
+"481","NAR","Nag",2022,"Mid","Northeast","Bay Front","Microtidal","Polyhaline",18.47,81.52,81.52,NA,0.51,0,2.81,0.47,1
+"482","NAR","Nag",2022,"Up","Northeast","Bay Front","Microtidal","Polyhaline",4.7,95.29,94.65,NA,0.86,0,4,1.02,1
+"483","NIW","Segment A",2006,"Low","Southeast","Riverine","Microtidal","Polyhaline",65,35,35,0,0.49,NA,0.92,0,1
+"484","NIW","Segment A",2006,"Mid","Southeast","Riverine","Microtidal","Polyhaline",29.64,70.36,69.26,0.17,0,NA,2.3,0.22,0.99
+"485","NIW","Segment A",2006,"Up","Southeast","Riverine","Microtidal","Polyhaline",20,80,59,0,0.8,NA,6,1.13,1
+"486","NIW","Segment A",2007,"Low","Southeast","Riverine","Microtidal","Polyhaline",51.88,48.12,48.12,0,0.44,NA,1,0.05,1
+"487","NIW","Segment A",2007,"Mid","Southeast","Riverine","Microtidal","Polyhaline",31.05,68.95,61.98,1.86,0,NA,2.3,0.4,0.95
+"488","NIW","Segment A",2007,"Up","Southeast","Riverine","Microtidal","Polyhaline",28,72,53.5,0,0.69,NA,4,1.13,0.96
+"489","NIW","Segment A",2008,"Low","Southeast","Riverine","Microtidal","Polyhaline",48.85,51.15,51.15,0,0.38,NA,0.85,0,1
+"490","NIW","Segment A",2008,"Mid","Southeast","Riverine","Microtidal","Polyhaline",24.03,75.97,69.54,0.2,0,NA,2.3,0.33,0.99
+"491","NIW","Segment A",2008,"Up","Southeast","Riverine","Microtidal","Polyhaline",14.7,85.3,27.94,0,0.85,NA,4,0.56,0.99
+"492","NIW","Segment A",2010,"Low","Southeast","Riverine","Microtidal","Polyhaline",67.5,32.5,32.5,0,0.53,NA,0.79,0,1
+"493","NIW","Segment A",2010,"Mid","Southeast","Riverine","Microtidal","Polyhaline",33.34,66.66,60.57,0.52,0,NA,2.4,0.4,0.98
+"494","NIW","Segment A",2010,"Up","Southeast","Riverine","Microtidal","Polyhaline",39.5,60.5,52.75,0,0.59,NA,5.5,0.86,0.97
+"495","NIW","Segment A",2011,"Low","Southeast","Riverine","Microtidal","Polyhaline",70.77,29.23,29.23,0,0.63,NA,0.85,0,1
+"496","NIW","Segment A",2011,"Mid","Southeast","Riverine","Microtidal","Polyhaline",38.06,61.94,53.99,0.1,0,NA,2.9,0.46,0.93
+"497","NIW","Segment A",2011,"Up","Southeast","Riverine","Microtidal","Polyhaline",37.98,62.02,58,0,0.62,NA,5,0.62,1
+"498","NIW","Segment A",2013,"Low","Southeast","Riverine","Microtidal","Polyhaline",28.46,71.54,71.54,0,0.21,NA,0.92,0,1
+"499","NIW","Segment A",2013,"Mid","Southeast","Riverine","Microtidal","Polyhaline",12.45,87.55,76.23,0.12,0,NA,3.7,0.58,0.95
+"500","NIW","Segment A",2013,"Up","Southeast","Riverine","Microtidal","Polyhaline",38.88,61.12,44.53,0.49,0.6,NA,7,0.94,0.99
+"501","NIW","Segment A",2014,"Low","Southeast","Riverine","Microtidal","Polyhaline",33.46,66.54,66.54,0,0.26,NA,1,0.02,1
+"502","NIW","Segment A",2014,"Mid","Southeast","Riverine","Microtidal","Polyhaline",13.9,86.1,82.74,0.21,0,NA,3.2,0.46,0.98
+"503","NIW","Segment A",2014,"Up","Southeast","Riverine","Microtidal","Polyhaline",24.39,75.61,61.33,0.49,0.75,NA,7,1.01,0.99
+"504","NIW","Segment A",2015,"Low","Southeast","Riverine","Microtidal","Polyhaline",35,65,65,0,0.24,NA,1,0.07,1
+"505","NIW","Segment A",2015,"Mid","Southeast","Riverine","Microtidal","Polyhaline",10.89,89.11,82.16,0.07,0,NA,2.8,0.47,0.94
+"506","NIW","Segment A",2015,"Up","Southeast","Riverine","Microtidal","Polyhaline",14.85,85.15,51.05,0,0.85,NA,5,1.1,1
+"507","NIW","Segment A",2016,"Low","Southeast","Riverine","Microtidal","Polyhaline",30.69,69.31,69.31,0,0.23,NA,1,0.05,1
+"508","NIW","Segment A",2016,"Mid","Southeast","Riverine","Microtidal","Polyhaline",20.26,79.74,77.04,0.07,0,NA,2.5,0.39,0.98
+"509","NIW","Segment A",2016,"Up","Southeast","Riverine","Microtidal","Polyhaline",19.42,80.59,37.49,0.16,0.8,NA,3.33,0.54,1
+"510","NIW","Segment A",2017,"Low","Southeast","Riverine","Microtidal","Polyhaline",35,65,65,0,0.27,NA,1,0.05,1
+"511","NIW","Segment A",2017,"Mid","Southeast","Riverine","Microtidal","Polyhaline",23.36,76.05,75.95,0.05,0,NA,1.9,0.25,1
+"512","NIW","Segment A",2017,"Up","Southeast","Riverine","Microtidal","Polyhaline",97.3,0,0,0,0,NA,0,0,NA
+"513","NIW","Segment A",2018,"Low","Southeast","Riverine","Microtidal","Polyhaline",45.77,54.23,54.23,0,0.38,NA,1,0.01,1
+"514","NIW","Segment A",2018,"Mid","Southeast","Riverine","Microtidal","Polyhaline",29.06,70.79,70.66,0.08,0,NA,2.1,0.24,1
+"515","NIW","Segment A",2018,"Up","Southeast","Riverine","Microtidal","Polyhaline",72.48,2.98,2.48,0.25,0.03,NA,2,0.57,0.92
+"516","NIW","Segment A",2019,"Low","Southeast","Riverine","Microtidal","Polyhaline",48.32,51.68,51.68,0,0.4,NA,1,0,1
+"517","NIW","Segment A",2019,"Mid","Southeast","Riverine","Microtidal","Polyhaline",38.98,61.02,60.91,0.05,0,NA,2,0.27,1
+"518","NIW","Segment A",2019,"Up","Southeast","Riverine","Microtidal","Polyhaline",25.68,74.33,33.94,15.38,0.59,NA,2.5,0.49,0.84
+"519","NIW","Segment A",2020,"Low","Southeast","Riverine","Microtidal","Polyhaline",40.42,59.58,59.58,0,0.32,NA,0.92,0,1
+"520","NIW","Segment A",2020,"Mid","Southeast","Riverine","Microtidal","Polyhaline",29.62,70.38,67.25,3.03,0,NA,2.6,0.31,0.92
+"521","NIW","Segment A",2020,"Up","Southeast","Riverine","Microtidal","Polyhaline",45,55,49.38,2.4,0.53,NA,3.5,0.54,0.98
+"522","NIW","Segment B",2006,"Low","Southeast","Riverine","Microtidal","Polyhaline",25.3,74.7,74.65,0,0.25,NA,1.05,0,1
+"523","NIW","Segment B",2006,"Mid","Southeast","Riverine","Microtidal","Polyhaline",21.69,78.31,56.89,12,0,NA,2.67,0.31,0.81
+"524","NIW","Segment B",2007,"Low","Southeast","Riverine","Microtidal","Polyhaline",36.51,63.49,63.49,0,0.34,NA,0.95,0,1
+"525","NIW","Segment B",2007,"Mid","Southeast","Riverine","Microtidal","Polyhaline",28.06,71.94,59.35,0.79,0,NA,2.5,0.51,0.91
+"526","NIW","Segment B",2008,"Low","Southeast","Riverine","Microtidal","Polyhaline",61.83,38.17,38.17,0,0.59,NA,0.9,0,1
+"527","NIW","Segment B",2008,"Mid","Southeast","Riverine","Microtidal","Polyhaline",37.85,62.14,47.96,0.68,0,NA,2.5,0.39,0.99
+"528","NIW","Segment B",2010,"Low","Southeast","Riverine","Microtidal","Polyhaline",67.25,32.75,32.75,0,0.67,NA,0.8,0,1
+"529","NIW","Segment B",2010,"Mid","Southeast","Riverine","Microtidal","Polyhaline",25.01,74.99,61.64,0.14,0,NA,3,0.37,1
+"530","NIW","Segment B",2011,"Low","Southeast","Riverine","Microtidal","Polyhaline",73.67,26.32,26.32,0,0.74,NA,0.9,0,1
+"531","NIW","Segment B",2011,"Mid","Southeast","Riverine","Microtidal","Polyhaline",24.77,75.23,62.62,0.66,0,NA,2.67,0.4,0.99
+"532","NIW","Segment B",2013,"Low","Southeast","Riverine","Microtidal","Polyhaline",46.91,53.09,53.09,0,0.43,NA,0.95,0,1
+"533","NIW","Segment B",2013,"Mid","Southeast","Riverine","Microtidal","Polyhaline",4.29,95.71,92.64,1.62,0.01,NA,3,0.29,0.98
+"534","NIW","Segment B",2014,"Low","Southeast","Riverine","Microtidal","Polyhaline",32.75,67.25,67.25,0,0.33,NA,0.9,0,1
+"535","NIW","Segment B",2014,"Mid","Southeast","Riverine","Microtidal","Polyhaline",18.22,81.78,80.54,0.16,0.01,NA,2.67,0.22,1
+"536","NIW","Segment B",2015,"Low","Southeast","Riverine","Microtidal","Polyhaline",50.25,49.75,49.75,0,0.5,NA,0.9,0,1
+"537","NIW","Segment B",2015,"Mid","Southeast","Riverine","Microtidal","Polyhaline",19.3,80.7,78.25,0.07,0.01,NA,2.83,0.33,1
+"538","NIW","Segment B",2016,"Low","Southeast","Riverine","Microtidal","Polyhaline",36.25,63.75,63.75,0,0.36,NA,0.9,0,1
+"539","NIW","Segment B",2016,"Mid","Southeast","Riverine","Microtidal","Polyhaline",19.93,80.06,78.37,0.08,0.01,NA,3,0.22,0.99
+"540","NIW","Segment B",2017,"Low","Southeast","Riverine","Microtidal","Polyhaline",38,62,62,0,0.38,NA,0.9,0,1
+"541","NIW","Segment B",2017,"Mid","Southeast","Riverine","Microtidal","Polyhaline",43.29,56.71,56.46,0,0.01,NA,1.83,0.2,1
+"542","NIW","Segment B",2018,"Low","Southeast","Riverine","Microtidal","Polyhaline",41.98,58.02,58.02,0,0.39,NA,0.9,0,1
+"543","NIW","Segment B",2018,"Mid","Southeast","Riverine","Microtidal","Polyhaline",45.7,51.8,51.72,0,0,NA,1.5,0.15,1
+"544","NIW","Segment B",2019,"Low","Southeast","Riverine","Microtidal","Polyhaline",29.5,70.5,65.75,0,0.3,NA,0.9,0,1
+"545","NIW","Segment B",2019,"Mid","Southeast","Riverine","Microtidal","Polyhaline",38.94,57.73,57.73,0,0.06,NA,1.33,0.15,1
+"546","NIW","Segment B",2020,"Low","Southeast","Riverine","Microtidal","Polyhaline",28,72,72,0,0.28,NA,0.9,0,1
+"547","NIW","Segment B",2020,"Mid","Southeast","Riverine","Microtidal","Polyhaline",40.18,59.82,58.99,0,0.05,NA,2.17,0.47,1
+"548","NOC","MI",2010,"Low","Southeast","Back Barrier","Microtidal","Polyhaline",43.29,56.71,56.71,NA,0.37,NA,0.97,0.02,1
+"549","NOC","MI",2010,"Mid","Southeast","Back Barrier","Microtidal","Polyhaline",12.24,87.76,87.76,NA,0,NA,3,0.5,1
+"550","NOC","MI",2011,"Low","Southeast","Back Barrier","Microtidal","Polyhaline",46.13,53.87,53.87,NA,0.39,NA,0.97,0.03,1
+"551","NOC","MI",2011,"Mid","Southeast","Back Barrier","Microtidal","Polyhaline",53.71,46.29,46.29,NA,0,NA,2.38,0.37,1
+"552","NOC","MI",2012,"Low","Southeast","Back Barrier","Microtidal","Polyhaline",39.11,60.89,60.89,NA,0.37,NA,1.01,0.04,1
+"553","NOC","MI",2012,"Mid","Southeast","Back Barrier","Microtidal","Polyhaline",16.59,83.41,83.41,NA,0,NA,2.58,0.52,1
+"554","NOC","MI",2013,"Low","Southeast","Back Barrier","Microtidal","Polyhaline",32.29,67.71,67.71,NA,0.29,NA,1.07,0.04,1
+"555","NOC","MI",2013,"Mid","Southeast","Back Barrier","Microtidal","Polyhaline",7.73,92.27,92.27,NA,0,NA,3.5,0.74,1
+"556","NOC","MI",2014,"Low","Southeast","Back Barrier","Microtidal","Polyhaline",40.75,59.25,59.25,NA,0.33,NA,0.97,0.04,1
+"557","NOC","MI",2014,"Mid","Southeast","Back Barrier","Microtidal","Polyhaline",4.24,95.76,95.76,NA,0,NA,3.25,0.68,1
+"558","NOC","MI",2015,"Low","Southeast","Back Barrier","Microtidal","Polyhaline",32.9,67.1,67.1,NA,0.27,NA,0.96,0.04,1
+"559","NOC","MI",2015,"Mid","Southeast","Back Barrier","Microtidal","Polyhaline",2.43,97.56,97.56,NA,0,NA,3.25,0.68,1
+"560","NOC","MI",2016,"Low","Southeast","Back Barrier","Microtidal","Polyhaline",42.44,57.56,57.56,NA,0.29,NA,0.92,0.04,1
+"561","NOC","MI",2016,"Mid","Southeast","Back Barrier","Microtidal","Polyhaline",8.79,91.22,91.22,NA,0,NA,3.08,0.78,1
+"562","NOC","MI",2018,"Low","Southeast","Back Barrier","Microtidal","Polyhaline",24.73,75.27,75.27,NA,0.17,NA,0.96,0.04,1
+"563","NOC","MI",2018,"Mid","Southeast","Back Barrier","Microtidal","Polyhaline",0,100,100,NA,0,NA,3.25,0.66,1
+"564","NOC","MI",2019,"Low","Southeast","Back Barrier","Microtidal","Polyhaline",97.14,2.86,2.86,NA,0.92,NA,0.33,0,1
+"565","NOC","MI",2020,"Low","Southeast","Back Barrier","Microtidal","Polyhaline",37.59,62.41,62.41,NA,0.35,NA,0.84,0.03,1
+"566","NOC","MI",2020,"Mid","Southeast","Back Barrier","Microtidal","Polyhaline",16.05,83.95,83.95,NA,0,NA,3.25,0.76,1
+"567","NOC","MM",2008,"Low","Southeast","Back Barrier","Microtidal","Polyhaline",30.17,69.83,69.83,NA,0.21,NA,0.89,0,1
+"568","NOC","MM",2009,"Low","Southeast","Back Barrier","Microtidal","Polyhaline",31.82,68.18,68.18,NA,0.27,NA,0.92,0,1
+"569","NOC","MM",2010,"Low","Southeast","Back Barrier","Microtidal","Polyhaline",34.17,65.83,65.83,NA,0.19,NA,0.86,0,1
+"570","NOC","MM",2011,"Low","Southeast","Back Barrier","Microtidal","Polyhaline",42.9,57.1,57.1,NA,0.34,NA,0.91,0,1
+"571","NOC","MM",2012,"Low","Southeast","Back Barrier","Microtidal","Polyhaline",30.04,69.96,69.96,NA,0.26,NA,0.85,0,1
+"572","NOC","MM",2013,"Low","Southeast","Back Barrier","Microtidal","Polyhaline",24.29,75.71,75.71,NA,0.19,NA,0.83,0,1
+"573","NOC","MM",2014,"Low","Southeast","Back Barrier","Microtidal","Polyhaline",60.87,39.13,39.11,NA,0.44,NA,0.83,0,1
+"574","NOC","MM",2015,"Low","Southeast","Back Barrier","Microtidal","Polyhaline",66.48,33.52,33.52,NA,0.48,NA,0.75,0,1
+"575","NOC","MM",2016,"Low","Southeast","Back Barrier","Microtidal","Polyhaline",65.64,34.36,34.1,NA,0.49,NA,0.88,0.01,1
+"576","NOC","MM",2017,"Low","Southeast","Back Barrier","Microtidal","Polyhaline",71.94,28.06,27.61,NA,0.58,NA,0.88,0,1
+"577","NOC","MM",2019,"Low","Southeast","Back Barrier","Microtidal","Polyhaline",76.37,23.63,22.1,NA,0.53,NA,0.98,0.02,1
+"578","SOS","DM",2010,"Low","West Coast","Riverine","Mesotidal","Mesohaline",0,100,27.11,3.73,0,0,7.23,1.62,0.96
+"579","SOS","DM",2010,"Mid","West Coast","Riverine","Mesotidal","Mesohaline",0,100,26.31,0.27,0.03,0,7.2,1.56,1
+"580","SOS","DM",2016,"Low","West Coast","Riverine","Mesotidal","Mesohaline",0,100,36.93,0,0,0,6,1.2,1
+"581","SOS","DM",2016,"Mid","West Coast","Riverine","Mesotidal","Mesohaline",0,100,28.74,0.23,0.06,0,7.94,1.72,1
+"582","SOS","DM",2019,"Low","West Coast","Riverine","Mesotidal","Mesohaline",0,100,32.34,0,0,0,5.67,1.29,1
+"583","SOS","DM",2019,"Mid","West Coast","Riverine","Mesotidal","Mesohaline",0,100,29.9,1.7,0.06,0,7.33,1.71,0.98
+"584","SOS","HC",2010,"Low","West Coast","Riverine","Mesotidal","Mesohaline",0,100,56.86,0,0,0,7.5,1.56,1
+"585","SOS","HC",2010,"Mid","West Coast","Riverine","Mesotidal","Mesohaline",0,100,49.44,0.21,0.09,0,7.38,1.56,1
+"586","SOS","HC",2015,"Low","West Coast","Riverine","Mesotidal","Mesohaline",0,100,73.72,0,0,0,5.75,1.6,1
+"587","SOS","HC",2015,"Mid","West Coast","Riverine","Mesotidal","Mesohaline",0,100,53.33,0.51,0.1,0.16,8.12,1.78,0.99
+"588","SOS","HC",2016,"Low","West Coast","Riverine","Mesotidal","Mesohaline",0,100,78.46,0,0,0,5.18,1.51,1
+"589","SOS","HC",2016,"Mid","West Coast","Riverine","Mesotidal","Mesohaline",0,100,56.16,2.21,0.08,0,8.07,1.81,0.97
+"590","SOS","HC",2019,"Low","West Coast","Riverine","Mesotidal","Mesohaline",0.38,99.63,85.92,0,0,0,6.27,1.63,1
+"591","SOS","HC",2019,"Mid","West Coast","Riverine","Mesotidal","Mesohaline",0.1,99.9,51.94,1.97,0.07,0,8.3,1.82,0.98
+"592","SOS","MI",2010,"Low","West Coast","Bay Front","Mesotidal","Polyhaline",0,100,71.94,0,0,0,3.85,1.09,1
+"593","SOS","MI",2017,"Low","West Coast","Bay Front","Mesotidal","Polyhaline",1.45,98.54,96.35,0,0.01,0,4.85,1.27,1
+"594","SOS","MI",2020,"Low","West Coast","Bay Front","Mesotidal","Polyhaline",3.86,96.14,88.27,0,0.04,0,5.35,1.4,1
+"595","SOS","MM",2010,"Low","West Coast","Bay Front","Mesotidal","Polyhaline",0,100,98.56,0,0,0,4.2,0.96,1
+"596","SOS","MM",2010,"Mid","West Coast","Bay Front","Mesotidal","Polyhaline",4.52,95.48,38.08,0,0.29,0,5,1.18,1
+"597","SOS","MM",2015,"Low","West Coast","Bay Front","Mesotidal","Polyhaline",2.74,97.26,97.26,0,0.03,0,3.1,0.83,1
+"598","SOS","MM",2015,"Mid","West Coast","Bay Front","Mesotidal","Polyhaline",1.03,98.97,40.08,0,0.34,0,6.1,1.45,1
+"599","SOS","MM",2016,"Low","West Coast","Bay Front","Mesotidal","Polyhaline",0,100,100,0,0,0,2.7,0.87,1
+"600","SOS","MM",2016,"Mid","West Coast","Bay Front","Mesotidal","Polyhaline",0,100,44.52,0,0.38,0,5.9,1.49,1
+"601","SOS","MM",2017,"Low","West Coast","Bay Front","Mesotidal","Polyhaline",2.71,97.29,97.29,0,0.03,0,2.8,0.87,1
+"602","SOS","MM",2017,"Mid","West Coast","Bay Front","Mesotidal","Polyhaline",0,100,35.77,0,0.29,0,5.4,1.35,1
+"603","SOS","MM",2019,"Low","West Coast","Bay Front","Mesotidal","Polyhaline",1.16,98.84,98.84,0,0.01,0,3.2,1.01,1
+"604","SOS","MM",2019,"Mid","West Coast","Bay Front","Mesotidal","Polyhaline",0,100,34.83,0,0.28,0,6.5,1.43,1
+"605","SOS","MM",2020,"Low","West Coast","Bay Front","Mesotidal","Polyhaline",2.11,97.89,97.89,0,0.02,0,3.4,0.94,1
+"606","SOS","MM",2020,"Mid","West Coast","Bay Front","Mesotidal","Polyhaline",0,100,39.75,0,0.32,0,6.9,1.5,1
+"607","SOS","VI",2010,"Low","West Coast","Riverine","Mesotidal","Polyhaline",0,100,86.73,0,0,0,4.56,0.96,1
+"608","SOS","VI",2010,"Mid","West Coast","Riverine","Mesotidal","Polyhaline",0,100,67.61,0,0,0,8,1.54,1
+"609","SOS","VI",2017,"Low","West Coast","Riverine","Mesotidal","Polyhaline",0,100,97.45,0,0,0,4.33,1.13,1
+"610","SOS","VI",2017,"Mid","West Coast","Riverine","Mesotidal","Polyhaline",0,100.02,70.34,0,0,0,6,1.41,1
+"611","SOS","VI",2020,"Low","West Coast","Riverine","Mesotidal","Polyhaline",0.32,99.67,95.9,0,0,0,4.83,1.2,1
+"612","SOS","VI",2020,"Mid","West Coast","Riverine","Mesotidal","Polyhaline",0,100,75.61,0,0,0,6,1.44,1
+"613","SOS","VM",2010,"Low","West Coast","Riverine","Mesotidal","Polyhaline",0,100,93.72,0,0,0,3.42,0.61,1
+"614","SOS","VM",2010,"Mid","West Coast","Riverine","Mesotidal","Polyhaline",0.23,99.78,59.15,0.14,0.28,0,7.62,1.52,1
+"615","SOS","VM",2016,"Low","West Coast","Riverine","Mesotidal","Polyhaline",0,100,98.73,0,0,0,3.42,0.73,1
+"616","SOS","VM",2016,"Mid","West Coast","Riverine","Mesotidal","Polyhaline",0,100,61.33,0.37,0.32,0,8.5,1.73,1
+"617","SOS","VM",2017,"Low","West Coast","Riverine","Mesotidal","Polyhaline",1,99,94.03,0,0.01,0,3.33,0.79,1
+"618","SOS","VM",2017,"Mid","West Coast","Riverine","Mesotidal","Polyhaline",0.26,99.74,54.81,0.32,0.28,0,9.12,1.79,0.99
+"619","SOS","VM",2019,"Low","West Coast","Riverine","Mesotidal","Polyhaline",8.36,91.64,87.67,0,0.08,0,4,0.93,1
+"620","SOS","VM",2019,"Mid","West Coast","Riverine","Mesotidal","Polyhaline",0.53,99.46,64.58,0.52,0.34,0,7.62,1.67,0.99
+"621","SOS","VM",2020,"Low","West Coast","Riverine","Mesotidal","Polyhaline",7.92,92.08,91.65,0,0.08,0,3.5,0.85,1
+"622","SOS","VM",2020,"Mid","West Coast","Riverine","Mesotidal","Polyhaline",0.56,99.44,55.99,0,0.28,0,7.62,1.71,1
+"623","TJR","Brazo Creek",2017,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",9.23,90.77,90.47,NA,0.09,NA,2.1,0.2,1
+"624","TJR","Brazo Creek",2017,"Up","West Coast","Back Barrier","Mesotidal","Polyhaline",37.4,62.6,62.6,NA,0,NA,2.5,0.21,1
+"625","TJR","Brazo Creek",2018,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",2.5,97.5,95.15,NA,0.09,NA,2.2,0.27,0.97
+"626","TJR","Brazo Creek",2018,"Up","West Coast","Back Barrier","Mesotidal","Polyhaline",8.5,91.5,90.2,NA,0,NA,3,0.6,0.99
+"627","TJR","Brazo Creek",2019,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",7.95,92.05,91.33,NA,0.06,NA,2.1,0.34,0.99
+"628","TJR","Brazo Creek",2019,"Up","West Coast","Back Barrier","Mesotidal","Polyhaline",27.32,72.67,69.57,NA,0,NA,3,0.43,0.94
+"629","TJR","Brazo Creek",2020,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",1.15,98.85,95.84,NA,0.03,NA,2.4,0.43,0.97
+"630","TJR","Brazo Creek",2020,"Up","West Coast","Back Barrier","Mesotidal","Polyhaline",11.41,88.59,88.59,NA,0,NA,2.5,0.36,1
+"631","TJR","Horse Trail",2017,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",1.99,98.01,98.01,NA,0.01,NA,2.07,0.23,1
+"632","TJR","Horse Trail",2018,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",11.05,88.95,88.95,NA,0,NA,2.2,0.27,1
+"633","TJR","Horse Trail",2019,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",2.3,97.7,97.67,NA,0.02,NA,1.93,0.2,1
+"634","TJR","Horse Trail",2020,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",2.73,97.27,97.13,NA,0.01,NA,2.07,0.2,1
+"635","TJR","Horse Trail",2021,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",1.47,98.53,98.53,NA,0.01,NA,2,0.19,1
+"636","TJR","McCoy North",2012,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",36.09,63.91,63.91,NA,0,NA,4.5,0.76,1
+"637","TJR","McCoy North",2012,"Up","West Coast","Back Barrier","Mesotidal","Polyhaline",100,0,0,NA,0,NA,0,0,NA
+"638","TJR","McCoy North",2013,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",44.48,55.52,55.52,NA,0,NA,3.75,0.63,1
+"639","TJR","McCoy North",2013,"Up","West Coast","Back Barrier","Mesotidal","Polyhaline",100,0,0,NA,0,NA,0,0,NA
+"640","TJR","McCoy North",2014,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",44.25,55.75,55.75,NA,0,NA,3.25,0.54,1
+"641","TJR","McCoy North",2014,"Up","West Coast","Back Barrier","Mesotidal","Polyhaline",100,0,0,NA,0,NA,0,0,NA
+"642","TJR","McCoy North",2015,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",45.47,54.53,54.53,NA,0,NA,3.25,0.45,1
+"643","TJR","McCoy North",2015,"Up","West Coast","Back Barrier","Mesotidal","Polyhaline",100,0,0,NA,0,NA,0,0,NA
+"644","TJR","McCoy North",2016,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",39.5,60.5,60.38,NA,0,NA,3.5,0.41,0.98
+"645","TJR","McCoy North",2016,"Up","West Coast","Back Barrier","Mesotidal","Polyhaline",65,35,0,NA,0,NA,1,0,0
+"646","TJR","McCoy North",2017,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",38.25,61.75,61.75,NA,0,NA,3.25,0.49,1
+"647","TJR","McCoy North",2017,"Up","West Coast","Back Barrier","Mesotidal","Polyhaline",100,0,0,NA,0,NA,0,0,NA
+"648","TJR","McCoy North",2018,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",47.25,52.75,52.75,NA,0,NA,2.75,0.23,1
+"649","TJR","McCoy North",2018,"Up","West Coast","Back Barrier","Mesotidal","Polyhaline",100,0,0,NA,0,NA,0,0,NA
+"650","TJR","McCoy North",2019,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",45.05,54.95,54.95,NA,0,NA,4,0.61,1
+"651","TJR","McCoy North",2019,"Up","West Coast","Back Barrier","Mesotidal","Polyhaline",76.9,23.1,23.1,NA,0,NA,1,0,1
+"652","TJR","McCoy North",2020,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",38.53,61.46,61.46,NA,0,NA,3.5,0.37,1
+"653","TJR","McCoy North",2020,"Up","West Coast","Back Barrier","Mesotidal","Polyhaline",81.8,18.2,18.2,NA,0,NA,1,0,1
+"654","TJR","McCoy North",2021,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",43.23,56.78,56.78,NA,0,NA,4.25,0.66,1
+"655","TJR","McCoy North",2021,"Up","West Coast","Back Barrier","Mesotidal","Polyhaline",76.4,23.6,22.7,NA,0,NA,2,0.16,0.96
+"656","TJR","McCoy South",2012,"Low","West Coast","Back Barrier","Mesotidal","Polyhaline",34,66,66,NA,0.34,NA,2,0.09,1
+"657","TJR","McCoy South",2012,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",14.83,85.17,85.17,NA,0.04,NA,3.33,0.75,1
+"658","TJR","McCoy South",2012,"Up","West Coast","Back Barrier","Mesotidal","Polyhaline",58.39,41.61,13.43,NA,0,NA,2.22,0.33,0.4
+"659","TJR","McCoy South",2013,"Low","West Coast","Back Barrier","Mesotidal","Polyhaline",46.67,53.33,53.33,NA,0.47,NA,1.83,0.24,1
+"660","TJR","McCoy South",2013,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",7.77,92.23,85.64,NA,0.04,NA,4.33,0.94,0.9
+"661","TJR","McCoy South",2013,"Up","West Coast","Back Barrier","Mesotidal","Polyhaline",35.74,64.26,17.93,NA,0,NA,3.56,0.63,0.25
+"662","TJR","McCoy South",2014,"Low","West Coast","Back Barrier","Mesotidal","Polyhaline",53.33,46.67,46.67,NA,0.53,NA,1.5,0.29,1
+"663","TJR","McCoy South",2014,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",12.42,87.58,87.58,NA,0.02,NA,3.67,0.89,1
+"664","TJR","McCoy South",2014,"Up","West Coast","Back Barrier","Mesotidal","Polyhaline",64.62,35.38,16.92,NA,0,NA,2.67,0.49,0.44
+"665","TJR","McCoy South",2015,"Low","West Coast","Back Barrier","Mesotidal","Polyhaline",60.83,39.17,39.17,NA,0.61,NA,1.5,0.29,1
+"666","TJR","McCoy South",2015,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",7.55,92.45,88.92,NA,0.01,NA,4,0.88,0.95
+"667","TJR","McCoy South",2015,"Up","West Coast","Back Barrier","Mesotidal","Polyhaline",61.83,38.17,18.87,NA,0,NA,3.56,0.62,0.37
+"668","TJR","McCoy South",2016,"Low","West Coast","Back Barrier","Mesotidal","Polyhaline",69.83,30.17,30.17,NA,0.7,NA,1.5,0.19,1
+"669","TJR","McCoy South",2016,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",12.1,87.9,87.58,NA,0,NA,3.78,0.88,0.96
+"670","TJR","McCoy South",2016,"Up","West Coast","Back Barrier","Mesotidal","Polyhaline",63.9,36.1,22.22,NA,0,NA,2.67,0.45,0.57
+"671","TJR","McCoy South",2017,"Low","West Coast","Back Barrier","Mesotidal","Polyhaline",58.33,41.67,41.67,NA,0.58,NA,1.5,0.22,1
+"672","TJR","McCoy South",2017,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",19.95,80.05,79.94,NA,0,NA,3.56,0.77,0.98
+"673","TJR","McCoy South",2017,"Up","West Coast","Back Barrier","Mesotidal","Polyhaline",62.44,37.56,23.2,NA,0,NA,2.11,0.4,0.56
+"674","TJR","McCoy South",2018,"Low","West Coast","Back Barrier","Mesotidal","Polyhaline",56.63,43.37,43.37,NA,0.42,NA,1.67,0.33,1
+"675","TJR","McCoy South",2018,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",10.59,89.41,85.67,NA,0.01,NA,3.67,0.73,0.9
+"676","TJR","McCoy South",2018,"Up","West Coast","Back Barrier","Mesotidal","Polyhaline",67.13,32.87,23.6,NA,0,NA,2.44,0.45,0.51
+"677","TJR","McCoy South",2019,"Low","West Coast","Back Barrier","Mesotidal","Polyhaline",65.08,34.92,34.92,NA,0.65,NA,1.5,0.24,1
+"678","TJR","McCoy South",2019,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",16.01,83.99,82.22,NA,0,NA,3.11,0.74,0.88
+"679","TJR","McCoy South",2019,"Up","West Coast","Back Barrier","Mesotidal","Polyhaline",63.14,36.86,20.44,NA,0,NA,1.56,0.14,0.45
+"680","TJR","McCoy South",2020,"Low","West Coast","Back Barrier","Mesotidal","Polyhaline",42.5,57.5,57.5,NA,0.42,NA,1.67,0.25,1
+"681","TJR","McCoy South",2020,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",20.12,79.88,79.59,NA,0,NA,3.22,0.7,0.94
+"682","TJR","McCoy South",2020,"Up","West Coast","Back Barrier","Mesotidal","Polyhaline",71.02,28.98,12.96,NA,0,NA,1.89,0.34,0.39
+"683","TJR","McCoy South",2021,"Low","West Coast","Back Barrier","Mesotidal","Polyhaline",56.67,43.33,43.33,NA,0.57,NA,1.67,0.14,1
+"684","TJR","McCoy South",2021,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",16.57,83.43,82.8,NA,0.01,NA,2.78,0.62,0.91
+"685","TJR","McCoy South",2021,"Up","West Coast","Back Barrier","Mesotidal","Polyhaline",77.16,22.84,5.88,NA,0,NA,1.89,0.33,0.3
+"686","TJR","Model Marsh",2017,"Low","West Coast","Back Barrier","Mesotidal","Polyhaline",41.67,58.33,58.33,NA,0.42,NA,1.67,0.19,1
+"687","TJR","Model Marsh",2017,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",33.33,66.67,66.67,NA,0.09,NA,2.14,0.35,1
+"688","TJR","Model Marsh",2018,"Low","West Coast","Back Barrier","Mesotidal","Polyhaline",41.83,58.17,58.17,NA,0.42,NA,1.67,0.24,1
+"689","TJR","Model Marsh",2018,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",32.31,67.69,67.69,NA,0.04,NA,2.14,0.38,1
+"690","TJR","Model Marsh",2019,"Low","West Coast","Back Barrier","Mesotidal","Polyhaline",49.83,50.17,50.17,NA,0.5,NA,1.67,0.27,1
+"691","TJR","Model Marsh",2019,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",30.1,69.9,69.9,NA,0.02,NA,2.1,0.38,1
+"692","TJR","Model Marsh",2020,"Low","West Coast","Back Barrier","Mesotidal","Polyhaline",49.5,50.5,50.5,NA,0.45,NA,1.67,0.4,1
+"693","TJR","Model Marsh",2020,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",23.19,76.81,76.81,NA,0.02,NA,1.9,0.31,1
+"694","TJR","Model Marsh",2021,"Low","West Coast","Back Barrier","Mesotidal","Polyhaline",16.47,83.53,83.53,NA,0.12,NA,1.67,0.3,1
+"695","TJR","Model Marsh",2021,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",27.29,72.71,72.71,NA,0.02,NA,2.05,0.33,1
+"696","TJR","South Beach",2012,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",40.44,59.56,59.39,NA,0.08,NA,1.67,0.26,0.95
+"697","TJR","South Beach",2012,"Up","West Coast","Back Barrier","Mesotidal","Polyhaline",0,100,100,NA,0,NA,1.67,0.18,1
+"698","TJR","South Beach",2013,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",35.76,64.25,54.98,NA,0.07,NA,2.5,0.42,0.69
+"699","TJR","South Beach",2013,"Up","West Coast","Back Barrier","Mesotidal","Polyhaline",2.33,97.67,97.67,NA,0,NA,1.67,0.18,1
+"700","TJR","South Beach",2014,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",47.87,52.13,50.62,NA,0.07,NA,2.06,0.32,0.85
+"701","TJR","South Beach",2014,"Up","West Coast","Back Barrier","Mesotidal","Polyhaline",4.33,95.67,95.67,NA,0,NA,2,0.22,1
+"702","TJR","South Beach",2015,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",47.47,52.53,52.29,NA,0.08,NA,1.89,0.22,0.88
+"703","TJR","South Beach",2015,"Up","West Coast","Back Barrier","Mesotidal","Polyhaline",8.33,91.67,91.67,NA,0,NA,1.67,0.24,1
+"704","TJR","South Beach",2016,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",45.76,54.24,53.51,NA,0.08,NA,2.11,0.34,0.84
+"705","TJR","South Beach",2016,"Up","West Coast","Back Barrier","Mesotidal","Polyhaline",8.33,91.67,91.67,NA,0,NA,2,0.25,1
+"706","TJR","South Beach",2017,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",48.37,51.63,51.28,NA,0.07,NA,1.94,0.24,0.87
+"707","TJR","South Beach",2017,"Up","West Coast","Back Barrier","Mesotidal","Polyhaline",24.33,75.67,75.67,NA,0,NA,2,0.26,1
+"708","TJR","South Beach",2018,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",49.49,50.51,49.55,NA,0.06,NA,1.94,0.28,0.89
+"709","TJR","South Beach",2018,"Up","West Coast","Back Barrier","Mesotidal","Polyhaline",7.33,92.67,92.67,NA,0,NA,2,0.25,1
+"710","TJR","South Beach",2019,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",51.12,48.88,47.84,NA,0.02,NA,1.67,0.22,0.97
+"711","TJR","South Beach",2019,"Up","West Coast","Back Barrier","Mesotidal","Polyhaline",8.67,91.33,91.33,NA,0,NA,2,0.24,1
+"712","TJR","South Beach",2020,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",45.13,54.87,47.42,NA,0.05,NA,1.83,0.26,0.78
+"713","TJR","South Beach",2020,"Up","West Coast","Back Barrier","Mesotidal","Polyhaline",2.67,97.33,97.33,NA,0,NA,1.33,0.23,1
+"714","TJR","South Beach",2021,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",37.2,62.81,56.34,NA,0.06,NA,2.17,0.38,0.84
+"715","TJR","South Beach",2021,"Up","West Coast","Back Barrier","Mesotidal","Polyhaline",4.33,95.67,95.67,NA,0,NA,1.67,0.28,1
+"716","TJR","V1",2012,"Low","West Coast","Back Barrier","Mesotidal","Polyhaline",6.25,93.75,93.75,NA,0.06,NA,1,0,1
+"717","TJR","V1",2012,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",3.31,96.69,96.69,NA,0.06,NA,1.94,0.34,1
+"718","TJR","V1",2012,"Up","West Coast","Back Barrier","Mesotidal","Polyhaline",2.14,97.86,97.86,NA,0,NA,2.43,0.5,1
+"719","TJR","V1",2013,"Low","West Coast","Back Barrier","Mesotidal","Polyhaline",29.5,70.5,70.5,NA,0.3,NA,1,0,1
+"720","TJR","V1",2013,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",3.25,96.75,96.75,NA,0.06,NA,2.25,0.32,1
+"721","TJR","V1",2013,"Up","West Coast","Back Barrier","Mesotidal","Polyhaline",5,95,94.74,NA,0,NA,2.86,0.48,1
+"722","TJR","V1",2014,"Low","West Coast","Back Barrier","Mesotidal","Polyhaline",37.5,62.5,62.5,NA,0.38,NA,1,0,1
+"723","TJR","V1",2014,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",6.62,93.37,93.37,NA,0.07,NA,2.44,0.37,1
+"724","TJR","V1",2014,"Up","West Coast","Back Barrier","Mesotidal","Polyhaline",6.43,93.57,93.57,NA,0,NA,3.14,0.51,1
+"725","TJR","V1",2015,"Low","West Coast","Back Barrier","Mesotidal","Polyhaline",30,70,70,NA,0.3,NA,1,0,1
+"726","TJR","V1",2015,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",18.44,81.56,81.56,NA,0.05,NA,2.31,0.37,1
+"727","TJR","V1",2015,"Up","West Coast","Back Barrier","Mesotidal","Polyhaline",10,90,90,NA,0,NA,2.57,0.42,1
+"728","TJR","V1",2016,"Low","West Coast","Back Barrier","Mesotidal","Polyhaline",23.75,76.25,76.25,NA,0.24,NA,1,0,1
+"729","TJR","V1",2016,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",20.39,79.61,79.61,NA,0.05,NA,2.06,0.37,1
+"730","TJR","V1",2016,"Up","West Coast","Back Barrier","Mesotidal","Polyhaline",10.28,89.72,89.72,NA,0,NA,2.86,0.5,1
+"731","TJR","V1",2017,"Low","West Coast","Back Barrier","Mesotidal","Polyhaline",40,60,60,NA,0.4,NA,1,0,1
+"732","TJR","V1",2017,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",20.42,79.58,79.58,NA,0.03,NA,2.25,0.38,1
+"733","TJR","V1",2017,"Up","West Coast","Back Barrier","Mesotidal","Polyhaline",6.57,93.43,93.43,NA,0,NA,2.71,0.41,1
+"734","TJR","V1",2018,"Low","West Coast","Back Barrier","Mesotidal","Polyhaline",20.75,79.25,79.25,NA,0.21,NA,1,0,1
+"735","TJR","V1",2018,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",9.81,90.19,90.19,NA,0.03,NA,2.25,0.36,1
+"736","TJR","V1",2018,"Up","West Coast","Back Barrier","Mesotidal","Polyhaline",6.07,93.93,93.86,NA,0,NA,3.14,0.43,1
+"737","TJR","V1",2019,"Low","West Coast","Back Barrier","Mesotidal","Polyhaline",18.75,81.25,81.25,NA,0.19,NA,1,0,1
+"738","TJR","V1",2019,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",12.7,87.3,87.3,NA,0.04,NA,2.44,0.35,1
+"739","TJR","V1",2019,"Up","West Coast","Back Barrier","Mesotidal","Polyhaline",10.27,89.73,89.73,NA,0,NA,3,0.53,1
+"740","TJR","V1",2020,"Low","West Coast","Back Barrier","Mesotidal","Polyhaline",16.25,83.75,83.75,NA,0.16,NA,1,0,1
+"741","TJR","V1",2020,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",28.89,71.11,71.11,NA,0.04,NA,2.06,0.35,1
+"742","TJR","V1",2020,"Up","West Coast","Back Barrier","Mesotidal","Polyhaline",9.9,90.1,90.1,NA,0,NA,2.43,0.44,1
+"743","TJR","V1",2021,"Low","West Coast","Back Barrier","Mesotidal","Polyhaline",20.5,79.5,79.5,NA,0.21,NA,1,0,1
+"744","TJR","V1",2021,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",20.92,79.08,79.08,NA,0.04,NA,1.94,0.32,1
+"745","TJR","V1",2021,"Up","West Coast","Back Barrier","Mesotidal","Polyhaline",7.51,92.49,92.49,NA,0,NA,3.43,0.62,1
+"746","TJR","V3",2012,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",19.5,80.5,80.5,NA,0.04,NA,4.75,0.69,1
+"747","TJR","V3",2013,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",15.34,84.66,83.4,NA,0.04,NA,5.17,0.95,0.98
+"748","TJR","V3",2014,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",23.13,76.87,76.87,NA,0.04,NA,5.25,0.91,1
+"749","TJR","V3",2015,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",21.71,78.29,78.29,NA,0.04,NA,4.96,0.87,1
+"750","TJR","V3",2016,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",22,78,78,NA,0.04,NA,4.38,0.76,1
+"751","TJR","V3",2017,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",18.24,81.76,80.9,NA,0,NA,5.04,0.87,0.99
+"752","TJR","V3",2018,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",17.19,82.81,81.81,NA,0.03,NA,4.67,0.86,0.98
+"753","TJR","V3",2019,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",17.62,82.38,82.38,NA,0.03,NA,4.88,0.95,1
+"754","TJR","V3",2020,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",16.02,83.98,83.98,NA,0.04,NA,4.71,0.9,1
+"755","TJR","V3",2021,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",10.33,89.68,86.7,NA,0.04,NA,5.33,0.9,0.97
+"756","TJR","V4",2012,"Low","West Coast","Back Barrier","Mesotidal","Polyhaline",3,97,97,NA,0.03,NA,5,0.45,1
+"757","TJR","V4",2012,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",17.35,82.65,82.65,NA,0.05,NA,4.74,0.81,1
+"758","TJR","V4",2013,"Low","West Coast","Back Barrier","Mesotidal","Polyhaline",10,90,90,NA,0.1,NA,5,0.73,1
+"759","TJR","V4",2013,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",15.91,84.09,84.09,NA,0.04,NA,4.87,0.85,1
+"760","TJR","V4",2014,"Low","West Coast","Back Barrier","Mesotidal","Polyhaline",24.98,75.02,75.02,NA,0.25,NA,5,0.78,1
+"761","TJR","V4",2014,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",16.75,83.25,83.25,NA,0.1,NA,4.52,0.91,1
+"762","TJR","V4",2015,"Low","West Coast","Back Barrier","Mesotidal","Polyhaline",15,85,85,NA,0.15,NA,5,0.85,1
+"763","TJR","V4",2015,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",11.01,88.99,88.84,NA,0.08,NA,4.57,0.86,1
+"764","TJR","V4",2016,"Low","West Coast","Back Barrier","Mesotidal","Polyhaline",9.99,90.02,90.02,NA,0.1,NA,5,0.88,1
+"765","TJR","V4",2016,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",7.15,92.85,92.85,NA,0.09,NA,3.83,0.65,1
+"766","TJR","V4",2017,"Low","West Coast","Back Barrier","Mesotidal","Polyhaline",10.01,89.99,89.99,NA,0.1,NA,5,0.58,1
+"767","TJR","V4",2017,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",19.61,80.38,80.36,NA,0.03,NA,4.74,0.84,1
+"768","TJR","V4",2018,"Low","West Coast","Back Barrier","Mesotidal","Polyhaline",2,98,98,NA,0.02,NA,5,0.71,1
+"769","TJR","V4",2018,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",10.53,89.47,89.47,NA,0.05,NA,4.09,0.68,1
+"770","TJR","V4",2019,"Low","West Coast","Back Barrier","Mesotidal","Polyhaline",2,98,98,NA,0.02,NA,4,0.58,1
+"771","TJR","V4",2019,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",15.08,84.92,84.92,NA,0.03,NA,3.96,0.71,1
+"772","TJR","V4",2020,"Low","West Coast","Back Barrier","Mesotidal","Polyhaline",0,99.99,99.99,NA,0,NA,3,0.36,1
+"773","TJR","V4",2020,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",7.19,92.81,92.81,NA,0.09,NA,3.43,0.67,1
+"774","TJR","V4",2021,"Low","West Coast","Back Barrier","Mesotidal","Polyhaline",1,99,99,NA,0.01,NA,3,0.47,1
+"775","TJR","V4",2021,"Mid","West Coast","Back Barrier","Mesotidal","Polyhaline",9.05,90.95,90.95,NA,0.08,NA,4.04,0.78,1
+"776","WEL","WB",2005,"Low","Northeast","Back Barrier","Mesotidal","Polyhaline",17.7,82.3,81.97,0,0.17,0,4.62,0.86,1
+"777","WEL","WB",2005,"Mid","Northeast","Back Barrier","Mesotidal","Polyhaline",11.72,88.28,87.87,0,0.55,0.15,4.92,0.88,1
+"778","WEL","WB",2005,"Up","Northeast","Back Barrier","Mesotidal","Polyhaline",4.57,95.43,76.17,2.7,0.91,15.2,3.25,0.67,0.95
+"779","WEL","WB",2008,"Low","Northeast","Back Barrier","Mesotidal","Polyhaline",1.94,98.06,98.06,0,0,0,3.67,0.78,1
+"780","WEL","WB",2008,"Mid","Northeast","Back Barrier","Mesotidal","Polyhaline",3.39,96.62,96.62,0,0.76,0,3.11,0.54,1
+"781","WEL","WB",2008,"Up","Northeast","Back Barrier","Mesotidal","Polyhaline",0,100,96.41,0,1,0,4.67,0.69,1
+"782","WEL","WB",2009,"Low","Northeast","Back Barrier","Mesotidal","Polyhaline",19.67,80.33,80.33,0,0.2,0,3.33,0.74,1
+"783","WEL","WB",2009,"Mid","Northeast","Back Barrier","Mesotidal","Polyhaline",42.11,57.89,56.91,0,0.84,0,3.22,0.53,1
+"784","WEL","WB",2009,"Up","Northeast","Back Barrier","Mesotidal","Polyhaline",0,100,95.89,0,1,0,4.33,0.74,1
+"785","WEL","WB",2010,"Low","Northeast","Back Barrier","Mesotidal","Polyhaline",2.69,97.3,97.3,0,0.03,0,3.67,0.79,1
+"786","WEL","WB",2010,"Mid","Northeast","Back Barrier","Mesotidal","Polyhaline",2.32,97.68,85.49,0,0.66,0,2.44,0.54,1
+"787","WEL","WB",2010,"Up","Northeast","Back Barrier","Mesotidal","Polyhaline",0,100,79.62,7.8,0.87,7.8,4,0.72,0.87
+"788","WEL","WB",2011,"Low","Northeast","Back Barrier","Mesotidal","Polyhaline",8.46,91.54,91.54,0,0.08,0,4,0.8,1
+"789","WEL","WB",2011,"Mid","Northeast","Back Barrier","Mesotidal","Polyhaline",14.31,85.69,85.69,0,0.66,0,4.12,0.73,1
+"790","WEL","WB",2011,"Up","Northeast","Back Barrier","Mesotidal","Polyhaline",0,100,60.53,8.91,0.91,14.4,3.88,0.78,0.91
+"791","WEL","WB",2014,"Low","Northeast","Back Barrier","Mesotidal","Polyhaline",7.29,92.71,92.61,0,0.07,0,2.88,0.42,1
+"792","WEL","WB",2014,"Mid","Northeast","Back Barrier","Mesotidal","Polyhaline",14.11,85.89,85.86,0,0.7,0,2.92,0.54,1
+"793","WEL","WB",2014,"Up","Northeast","Back Barrier","Mesotidal","Polyhaline",0.61,99.38,68.35,6.34,0.87,18.89,3.38,0.7,0.87
+"794","WEL","WB",2016,"Low","Northeast","Back Barrier","Mesotidal","Polyhaline",12.28,87.71,87.71,0,0.12,0,3.75,0.61,1
+"795","WEL","WB",2016,"Mid","Northeast","Back Barrier","Mesotidal","Polyhaline",11.63,88.36,86.66,0,0.7,0,3.5,0.58,1
+"796","WEL","WB",2016,"Up","Northeast","Back Barrier","Mesotidal","Polyhaline",0.3,99.71,49.3,13.43,0.78,24.59,4.38,0.72,0.78
+"797","WEL","WB",2017,"Low","Northeast","Back Barrier","Mesotidal","Polyhaline",10.51,89.49,89.49,0,0.11,0,3.75,0.73,1
+"798","WEL","WB",2017,"Mid","Northeast","Back Barrier","Mesotidal","Polyhaline",13.26,86.74,86.74,0,0.84,0,2.42,0.38,1
+"799","WEL","WB",2017,"Up","Northeast","Back Barrier","Mesotidal","Polyhaline",0,100,77.78,1.1,0.99,6.35,5.75,1.27,0.99
+"800","WEL","WB",2019,"Low","Northeast","Back Barrier","Mesotidal","Polyhaline",12.62,87.38,80.37,0,0.11,0,4,0.73,1
+"801","WEL","WB",2019,"Mid","Northeast","Back Barrier","Mesotidal","Polyhaline",8.15,91.85,90.48,0,0.6,0,4.33,0.85,1
+"802","WEL","WB",2019,"Up","Northeast","Back Barrier","Mesotidal","Polyhaline",10.93,89.07,83.14,0,0.89,0.36,6.25,1.02,1
+"803","WEL","WB",2020,"Low","Northeast","Back Barrier","Mesotidal","Polyhaline",24.49,75.5,70.89,0,0.27,0,3.75,0.47,1
+"804","WEL","WB",2020,"Mid","Northeast","Back Barrier","Mesotidal","Polyhaline",7.16,92.83,85.65,0,0.56,0,4.42,0.8,1
+"805","WEL","WB",2020,"Up","Northeast","Back Barrier","Mesotidal","Polyhaline",6.01,93.98,56.01,0,0.84,13.14,3.75,0.96,0.89
+"806","WQB","Section 1",2011,"Low","Northeast","Back Barrier","Microtidal","Polyhaline",42.16,57.84,56.55,0,0.12,0,1.48,0.11,1
+"807","WQB","Section 1",2011,"Mid","Northeast","Back Barrier","Microtidal","Polyhaline",25.38,74.62,74.62,0,0.39,0,4.5,1.04,1
+"808","WQB","Section 1",2012,"Low","Northeast","Back Barrier","Microtidal","Polyhaline",49.59,50.41,48.37,0,0.15,0,1.32,0.1,1
+"809","WQB","Section 1",2012,"Mid","Northeast","Back Barrier","Microtidal","Polyhaline",15.12,84.88,79.38,0,0.4,0,4.5,1.15,1
+"810","WQB","Section 1",2013,"Low","Northeast","Back Barrier","Microtidal","Polyhaline",46.89,53.11,51.92,0,0.16,0,1.52,0.13,1
+"811","WQB","Section 1",2013,"Mid","Northeast","Back Barrier","Microtidal","Polyhaline",9.55,90.45,90.45,0,0.41,0,6.5,1.13,1
+"812","WQB","Section 1",2013,"Up","Northeast","Back Barrier","Microtidal","Polyhaline",30.35,69.66,47.52,15.36,0.71,0,6.67,1.13,0.8
+"813","WQB","Section 1",2014,"Low","Northeast","Back Barrier","Microtidal","Polyhaline",56.67,43.33,41.87,0,0.14,0,1.55,0.14,1
+"814","WQB","Section 1",2014,"Mid","Northeast","Back Barrier","Microtidal","Polyhaline",22.68,77.33,77.33,0,0.44,0,5.5,1.04,1
+"815","WQB","Section 1",2014,"Up","Northeast","Back Barrier","Microtidal","Polyhaline",34.12,65.89,36.11,13.34,0.61,0,6,1.21,0.77
+"816","WQB","Section 1",2015,"Low","Northeast","Back Barrier","Microtidal","Polyhaline",47.97,52.03,47.69,0,0.19,0,1.81,0.17,1
+"817","WQB","Section 1",2015,"Mid","Northeast","Back Barrier","Microtidal","Polyhaline",31.23,68.77,68.77,0,0.39,0,5.5,1.09,1
+"818","WQB","Section 1",2015,"Up","Northeast","Back Barrier","Microtidal","Polyhaline",48.24,51.77,22.62,14.41,0.46,0,6.67,1.34,0.68
+"819","WQB","Section 1",2016,"Low","Northeast","Back Barrier","Microtidal","Polyhaline",40.62,59.38,58.04,0,0.14,0,2.03,0.22,1
+"820","WQB","Section 1",2016,"Mid","Northeast","Back Barrier","Microtidal","Polyhaline",43.12,56.88,56.88,0,0.36,0,5,0.82,1
+"821","WQB","Section 1",2016,"Up","Northeast","Back Barrier","Microtidal","Polyhaline",33.19,66.83,29.91,15.94,0.52,0,7,1.51,0.67
+"822","WQB","Section 1",2017,"Low","Northeast","Back Barrier","Microtidal","Polyhaline",51.8,48.2,39.91,0,0.22,0,2.06,0.29,1
+"823","WQB","Section 1",2017,"Mid","Northeast","Back Barrier","Microtidal","Polyhaline",31.14,68.87,68.62,0,0.39,0,5.75,1.02,1
+"824","WQB","Section 1",2017,"Up","Northeast","Back Barrier","Microtidal","Polyhaline",26,74.01,29.46,16.32,0.57,0,7.33,1.46,0.7
+"825","WQB","Section 1",2019,"Low","Northeast","Back Barrier","Microtidal","Polyhaline",43.37,56.63,49.45,0,0.21,0,2.13,0.23,1
+"826","WQB","Section 1",2019,"Mid","Northeast","Back Barrier","Microtidal","Polyhaline",39.2,60.8,60.55,0,0.52,0,6.25,0.83,1
+"827","WQB","Section 1",2019,"Up","Northeast","Back Barrier","Microtidal","Polyhaline",34.31,65.7,23.16,26.33,0.32,0,6.33,1.3,0.5
+"828","WQB","Section 1",2020,"Low","Northeast","Back Barrier","Microtidal","Polyhaline",87.33,12.67,6,0,0.28,0,1.33,0.23,1
+"829","WQB","Section 1",2020,"Mid","Northeast","Back Barrier","Microtidal","Polyhaline",30.12,69.88,69.75,0,0.51,0,5.75,0.97,1
+"830","WQB","Section 1",2020,"Up","Northeast","Back Barrier","Microtidal","Polyhaline",43.3,56.72,16.48,36.48,0.21,0,6.5,1.3,0.45
+"831","WQB","Section 2",2011,"Low","Northeast","Back Barrier","Microtidal","Polyhaline",58.65,41.35,41.14,0,0.04,0,2,0.21,1
+"832","WQB","Section 2",2011,"Mid","Northeast","Back Barrier","Microtidal","Polyhaline",14.42,85.58,85.58,0,0.27,0,5.6,1.02,1
+"833","WQB","Section 2",2011,"Up","Northeast","Back Barrier","Microtidal","Polyhaline",11.75,88.25,87.25,0,0.89,0,8,1.6,1
+"834","WQB","Section 2",2012,"Low","Northeast","Back Barrier","Microtidal","Polyhaline",63.71,36.29,34.48,0,0.02,0,1.88,0.28,1
+"835","WQB","Section 2",2012,"Mid","Northeast","Back Barrier","Microtidal","Polyhaline",22.25,77.75,77.4,0,0.23,0,5.4,1.03,1
+"836","WQB","Section 2",2012,"Up","Northeast","Back Barrier","Microtidal","Polyhaline",23.44,76.57,73.08,0,0.87,0,9,1.59,1
+"837","WQB","Section 2",2013,"Low","Northeast","Back Barrier","Microtidal","Polyhaline",54.26,45.74,42.66,0,0.03,0,2.04,0.28,1
+"838","WQB","Section 2",2013,"Mid","Northeast","Back Barrier","Microtidal","Polyhaline",16.72,83.28,83.28,0,0.34,0,5.5,1.02,1
+"839","WQB","Section 2",2013,"Up","Northeast","Back Barrier","Microtidal","Polyhaline",9.76,90.24,83.89,0,0.9,1.68,7.67,1.34,1
+"840","WQB","Section 2",2014,"Low","Northeast","Back Barrier","Microtidal","Polyhaline",50.02,49.98,46.14,0,0.05,0,2.21,0.31,1
+"841","WQB","Section 2",2014,"Mid","Northeast","Back Barrier","Microtidal","Polyhaline",30.74,69.27,69,0,0.31,0,5.45,0.89,1
+"842","WQB","Section 2",2014,"Up","Northeast","Back Barrier","Microtidal","Polyhaline",19.39,80.62,77.6,0,0.81,2.02,7.5,0.92,1
+"843","WQB","Section 2",2015,"Low","Northeast","Back Barrier","Microtidal","Polyhaline",53.61,46.39,45.31,0,0.02,0,2.04,0.19,1
+"844","WQB","Section 2",2015,"Mid","Northeast","Back Barrier","Microtidal","Polyhaline",29.56,70.44,70.44,0,0.31,0,5.15,0.82,1
+"845","WQB","Section 2",2015,"Up","Northeast","Back Barrier","Microtidal","Polyhaline",27.73,72.28,70.28,0,0.74,1,8,1.11,1
+"846","WQB","Section 2",2016,"Low","Northeast","Back Barrier","Microtidal","Polyhaline",57.19,42.81,39.81,0,0.06,0,2.25,0.27,1
+"847","WQB","Section 2",2016,"Mid","Northeast","Back Barrier","Microtidal","Polyhaline",21.08,78.93,78.43,0,0.35,0,5.55,0.93,1
+"848","WQB","Section 2",2016,"Up","Northeast","Back Barrier","Microtidal","Polyhaline",35.23,64.79,64.13,0,0.67,0.17,8.67,1.15,1
+"849","WQB","Section 2",2017,"Low","Northeast","Back Barrier","Microtidal","Polyhaline",58.04,41.96,35.81,0,0.06,0,2.17,0.24,1
+"850","WQB","Section 2",2017,"Mid","Northeast","Back Barrier","Microtidal","Polyhaline",24.63,75.38,73.98,0,0.37,0,5.6,0.87,0.98
+"851","WQB","Section 2",2017,"Up","Northeast","Back Barrier","Microtidal","Polyhaline",26.95,73.06,70.73,0,0.77,1.66,8.33,1.13,1
+"852","WQB","Section 2",2019,"Low","Northeast","Back Barrier","Microtidal","Polyhaline",42.65,57.35,52.24,0,0.08,0,2.32,0.22,1
+"853","WQB","Section 2",2019,"Mid","Northeast","Back Barrier","Microtidal","Polyhaline",33.19,66.81,66.71,0,0.35,0,5.15,0.75,1
+"854","WQB","Section 2",2019,"Up","Northeast","Back Barrier","Microtidal","Polyhaline",27.7,72.3,71.87,0,0.77,0.03,8.67,0.81,1
+"855","WQB","Section 2",2020,"Low","Northeast","Back Barrier","Microtidal","Polyhaline",60.37,39.63,38.35,0,0.04,0,1.52,0.15,1
+"856","WQB","Section 2",2020,"Mid","Northeast","Back Barrier","Microtidal","Polyhaline",15.63,84.37,83.99,0,0.48,0,5.4,0.78,1
+"857","WQB","Section 2",2020,"Up","Northeast","Back Barrier","Microtidal","Polyhaline",31,69,66,0,0.74,1.67,6.33,0.93,1
+"858","WQB","Section 3",2011,"Low","Northeast","Back Barrier","Microtidal","Polyhaline",62.33,37.67,33.35,0,0.04,0,2.27,0.36,1
+"859","WQB","Section 3",2011,"Mid","Northeast","Back Barrier","Microtidal","Polyhaline",22.11,77.89,71.18,0,0.28,0,3.96,0.77,1
+"860","WQB","Section 3",2011,"Up","Northeast","Back Barrier","Microtidal","Polyhaline",31.36,68.64,53.99,5.51,0.62,0,8.4,1.53,0.86
+"861","WQB","Section 3",2012,"Low","Northeast","Back Barrier","Microtidal","Polyhaline",62.83,37.17,30.9,0,0.05,0,2.27,0.41,1
+"862","WQB","Section 3",2012,"Mid","Northeast","Back Barrier","Microtidal","Polyhaline",29.75,70.25,60.89,0,0.28,0,3.65,0.72,1
+"863","WQB","Section 3",2012,"Up","Northeast","Back Barrier","Microtidal","Polyhaline",29.5,70.5,64.1,2.6,0.68,0,7.8,1.3,0.95
+"864","WQB","Section 3",2013,"Low","Northeast","Back Barrier","Microtidal","Polyhaline",65.23,34.78,32.22,0,0.03,0,2.36,0.32,1
+"865","WQB","Section 3",2013,"Mid","Northeast","Back Barrier","Microtidal","Polyhaline",26.8,73.21,64.16,0,0.3,0,4.22,0.8,1
+"866","WQB","Section 3",2013,"Up","Northeast","Back Barrier","Microtidal","Polyhaline",28.41,71.6,64.58,1.4,0.7,0,7.2,1.36,0.97
+"867","WQB","Section 3",2014,"Low","Northeast","Back Barrier","Microtidal","Polyhaline",68.41,31.59,26.87,0,0.03,0,2.27,0.33,1
+"868","WQB","Section 3",2014,"Mid","Northeast","Back Barrier","Microtidal","Polyhaline",34.17,65.84,59.3,0,0.27,0,4.48,0.74,1
+"869","WQB","Section 3",2014,"Up","Northeast","Back Barrier","Microtidal","Polyhaline",28.99,71.01,66.59,2,0.69,0,7,1.36,0.97
+"870","WQB","Section 3",2015,"Low","Northeast","Back Barrier","Microtidal","Polyhaline",66.58,33.42,33.42,0,0.03,0,2,0.17,1
+"871","WQB","Section 3",2015,"Mid","Northeast","Back Barrier","Microtidal","Polyhaline",32.72,67.29,62.4,0,0.33,0,4.39,0.72,1
+"872","WQB","Section 3",2015,"Up","Northeast","Back Barrier","Microtidal","Polyhaline",33.19,66.82,63.32,0.7,0.66,0,7,1.36,0.97
+"873","WQB","Section 3",2016,"Low","Northeast","Back Barrier","Microtidal","Polyhaline",60.43,39.57,35.77,0,0.05,0,2.27,0.4,1
+"874","WQB","Section 3",2016,"Mid","Northeast","Back Barrier","Microtidal","Polyhaline",26.89,73.12,67.04,0,0.39,0,4.05,0.65,1
+"875","WQB","Section 3",2016,"Up","Northeast","Back Barrier","Microtidal","Polyhaline",41.12,58.89,54.19,1.2,0.59,0,7.2,1.35,0.97
+"876","WQB","Section 3",2017,"Low","Northeast","Back Barrier","Microtidal","Polyhaline",68.04,31.96,25.5,0,0.11,0,2.18,0.33,1
+"877","WQB","Section 3",2017,"Mid","Northeast","Back Barrier","Microtidal","Polyhaline",27.52,72.48,61.23,0,0.38,0,4.13,0.75,1
+"878","WQB","Section 3",2017,"Up","Northeast","Back Barrier","Microtidal","Polyhaline",26.31,73.69,69.1,1,0.78,0,6.6,1.38,0.98
+"879","WQB","Section 3",2019,"Low","Northeast","Back Barrier","Microtidal","Polyhaline",60.82,39.18,30.24,0,0.12,0,2.36,0.41,1
+"880","WQB","Section 3",2019,"Mid","Northeast","Back Barrier","Microtidal","Polyhaline",30.55,69.46,59.61,0,0.41,0,4.26,0.62,1
+"881","WQB","Section 3",2019,"Up","Northeast","Back Barrier","Microtidal","Polyhaline",15.48,84.52,77.88,0.62,0.86,0.8,7.8,1.16,0.99
+"882","WQB","Section 3",2020,"Low","Northeast","Back Barrier","Microtidal","Polyhaline",55.67,44.33,23.67,0,0,0,4,1.07,1
+"883","WQB","Section 3",2020,"Mid","Northeast","Back Barrier","Microtidal","Polyhaline",34.33,65.68,50.14,0,0.24,0,4.25,0.8,1
+"884","WQB","Section 3",2020,"Up","Northeast","Back Barrier","Microtidal","Polyhaline",14.6,85.4,76.8,0.6,0.86,0,6.6,1.19,0.99
