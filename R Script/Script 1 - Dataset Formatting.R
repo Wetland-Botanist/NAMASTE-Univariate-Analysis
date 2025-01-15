@@ -26,7 +26,8 @@
 #Data Analysis
 
 library(dplyr)
-library(tidyr)
+library(tidyverse)
+library(skimr)
 
 #--------------------------------------------------------------
 #Chapter 2: Import and Format the National Plot Dataframe
@@ -71,8 +72,10 @@ write.csv(veg_format,
 veg_zone <- veg_format %>%
   select(-TransectID, -PlotID) %>%
   group_by(Reserve, SiteID, Year, Vegetation_Zone, Region, Geomorphology, tidal_range, salinity) %>%
-  summarise(across(abiotic_cover:salt_ratio, ~mean(., na.rm = TRUE))) %>%
-  mutate(across(abiotic_cover:salt_ratio, ~round(., 2))) %>%
+  summarise(across(abiotic_cover:salt_ratio, 
+                   ~mean(., na.rm = TRUE))) %>%
+  mutate(across(abiotic_cover:salt_ratio, 
+                ~round(., 2))) %>%
   ungroup()
 
 glimpse(veg_zone)
@@ -85,8 +88,10 @@ write.csv(veg_zone, "Formatted Datasets\\Veg Dataframe Summarised By Site and Zo
 veg_site <- veg_format %>%
   select(-TransectID, -PlotID) %>%
   group_by(Reserve, SiteID, Year, Region, Geomorphology, tidal_range, salinity) %>%
-  summarise(across(abiotic_cover:salt_ratio, ~mean(., na.rm = TRUE))) %>%
-  mutate(across(abiotic_cover:salt_ratio, ~round(., 2))) %>%
+  summarise(across(abiotic_cover:salt_ratio, 
+                   ~mean(., na.rm = TRUE))) %>%
+  mutate(across(abiotic_cover:salt_ratio, 
+                ~round(., 2))) %>%
   ungroup()
 
 glimpse(veg_site)
@@ -165,3 +170,55 @@ glimpse(slope_format)
 
 write.csv(slope_format,
           "Formatted Datasets\\Veg Slope by Site and Zone Formatted.csv")
+
+#-----------------------------------------------------------------------
+#Chapter 5: Summary Statistics for the Plot & Site Datasets
+#----------------------------------------------------------------------
+
+#Create a data summary table for the entire plot dataframe with the skim() function
+# from the skimr package
+
+#Task 1: Create and export a summary table for the Plot Dataframe
+
+veg_plot_skim <- veg %>%
+  select(Total.unvegetated:Salicornia.pacifica) %>%
+  mutate(across(c(Total.unvegetated:Other.live.vegetation,
+                  Invasive_Cover, Spartina.alterniflora:Salicornia.pacifica),
+                ~ifelse(. == 0, NA, .))) %>%
+  skim_without_charts(.) %>%
+  mutate(across(complete_rate:numeric.p100,
+                ~round(., 2)))
+       
+
+veg_plot_skim
+
+write.csv(veg_plot_skim,
+          "Output Stats\\Dataset Summary - Skim - Plot Dataframe.csv")
+
+
+#Task 2: Create and export a summary table for the Site Dataframe
+
+veg_site_skim <- veg_site %>%
+  rename(Live_Cover = live_cover,
+         Abiotic_Cover = abiotic_cover,
+         Halophyte_Cover = halophyte,
+         Freshwater_Cover = freshwater,
+         Salt_Ratio = salt_ratio,
+         Shannon_Weiner = SWdiv,
+         Species_Richness = Richness) %>%
+  select(Abiotic_Cover:Salt_Ratio) %>%
+  skim_without_charts(.)
+
+veg_site_skim
+
+write.csv(veg_site_skim,
+          "Output Stats\\Dataset Summary - Skim - Site Dataframe.csv")
+
+
+
+
+
+
+
+
+

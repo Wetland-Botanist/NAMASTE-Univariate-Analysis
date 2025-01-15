@@ -28,29 +28,9 @@ library(tidyr)
 
 library(corrplot)
 
-#---------------------------------------------------------------------------------------------
+#--------------------------------------------
 #Chapter 2: Format the vegetation dataset
-#---------------------------------------------------------------------------------------------
-
-#Task 1: Import the national plot dataframe
-veg <- read.csv("Formatted Datasets\\Veg Plot Dataframe Formatted.csv") %>%
-  select(-X, -invasive_cover) %>%
-  select(Reserve:Year, Region:salinity, abiotic_cover:salt_ratio) %>%
-  rename(EMI = EIR) %>%
-  mutate(across(abiotic_cover:salt_ratio,
-                ~ifelse(is.na(.), 0, .))) %>%
-  rename(Live_Cover = live_cover,
-         Abiotic_Cover = abiotic_cover,
-         Halophyte_Cover = halophyte,
-         Freshwater_Cover = freshwater,
-         Ecotone_Migraiton_Index = EMI,
-         Salt_Ratio = salt_ratio,
-         Shannon_Weiner = SWdiv,
-         Species_Richness = Richness)
-
-glimpse(veg)
-
-
+#------------------------------------------
 #-------------------------------------------------------------
 # Chapter 3: Create Correlation Matrix, Create Plot
 #------------------------------------------------------------

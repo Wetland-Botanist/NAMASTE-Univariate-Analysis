@@ -172,12 +172,12 @@ write.csv(regression_slopes,
 #and Freshwater Cover
 
 regression_predicted_cover <- regression_predicted %>%
-  filter(Metric == "Freshwater Cover") %>%
-  mutate(stderr.high = ifelse(stderr.high > 100, 100, stderr.high), 
+  filter(Metric == "EMI") %>%
+  mutate(stderr.high = ifelse(stderr.high > 1, 1, stderr.high), 
          stderr.low = ifelse(stderr.low < 0, 0, stderr.low))
   
 veg_graph <- veg_format %>%
-  filter(Metric == "Freshwater Cover")
+  filter(Metric == "EMI")
          
          
 national_cover_graph <- ggplot(data = regression_predicted_cover,
@@ -186,13 +186,14 @@ national_cover_graph <- ggplot(data = regression_predicted_cover,
           geom_point(data = veg_graph,
                      aes(x = Year,
                          y = Value),
+                     colour = "darkblue",
                      size = 4.5, alpha = 0.35) +
   geom_ribbon(aes(x = Year, ymin = stderr.low, ymax = stderr.high),
               alpha = 0.75, fill = "gray") + 
-           geom_line(linewidth = 1.5, 
-                     linetype = "dashed") + 
-           scale_y_continuous(limits = c(0, 102),
-                              breaks = seq(0, 100, 20),
+           geom_line(linewidth = 1.25, 
+                     colour = "orange") + 
+           scale_y_continuous(limits = c(0, 1.02),
+                              breaks = seq(0, 1, 0.20),
                               expand = c(0,0)) +
            scale_x_continuous(limits = c(2005, 2022.5),
                               breaks = seq(2006, 2022, 2),
@@ -216,7 +217,7 @@ national_cover_graph <- ggplot(data = regression_predicted_cover,
          
          
          ggsave(national_cover_graph,
-                filename = "Output Figures\\National Time Mixed Model - Freshwater Cover - Whole Study.jpg",
+                filename = "Output Figures\\National Time Mixed Model - EMI - Whole Study.jpg",
                 units = "in",
                 height = 8, width = 12, dpi = 300, limitsize = FALSE)
          

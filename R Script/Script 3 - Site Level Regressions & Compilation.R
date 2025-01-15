@@ -76,70 +76,134 @@ glimpse(veg_format)
 
 
 #-----------------------------------------------------------------------------------
-#Chapter 3: Compilation Analysis by Vegetation Zone
+#Chapter 3: Compilation Analysis with Vegetation Zone as an Interaction (for pvalues)
 #-----------------------------------------------------------------------------------
 
-#Task 1: Formatting and organizing the dataset for regression slopes including:
+#To calculate the p-value of the compilation analysis, regressions will be run at the site-level
+# with models of: Vegetation Metric ~ Year + Veg_Zone * Veg_Zone
 
-veg_zone <- veg_format %>%
-# For data visualization down the road, assign factors to the Vegetation Zone
-  mutate(Vegetation_Zone = factor(Vegetation_Zone,
-                                  levels = c("Low", "Mid", "Up"))) %>%
-# Reduce the formatted vegetation dataset to only focus on vegetation zone
-  select(-c(Region, Geomorphology, tidal_range, salinity))
+#However, there are a handful of sites with only 1 vegetation zone, which is not compatible with
+# an ANCOVA analysis. Therefore, those sites will be run with a model of: Metric ~ Year. A
+# simple linear regression. 
 
-glimpse(veg_zone)
+#Then, the p-values will be counted for each site. In the interaction model, a site will be
+# assigned a score of 1 if Year or Interaction terms are significant. In the linear regression models,
+# a site will be assigned a score of 1 if the Year term is significant.
+
+#After all the p-value scores are assigned, the two datasets will be row combined and then 
+# the percent of sites with significant p-values will be calculated and visualized
 
 
-#Task 2: Calculate the slopes and p-values of individual linear regressions for each vegetation
-# zone within each site across all vegetation metrics 
+
+#Task 1: Calculate the p-values of the regressions of sites with 2 or more vegetation zones
+# The model is Year * Vegetation Zone, which will provide three instances for 
 
 # This is accomplished by nesting the data essentially by Site, Vegetation Zone, and Metric
-regression_slopes_zone <- veg_zone %>%
-  group_by(Reserve, SiteID, Vegetation_Zone, Metric) %>%
-  mutate(SampleSize = n()) %>%
+regression_multi_zones <- veg_format %>%
+  group_by(Reserve, SiteID, Metric) %>%
+  mutate(Veg_Zone_Count = length(unique(Vegetation_Zone)),
+         SampleSize = n()) %>%
   ungroup() %>%
-  filter(SampleSize > 2) %>%
-  group_by(Reserve, SiteID, Vegetation_Zone, Metric, SampleSize) %>%
+  filter(Veg_Zone_Count > 1) %>%
+  group_by(Reserve, SiteID, Metric, SampleSize, Region, salinity, tidal_range, Geomorphology) %>%
   nest() %>%
   mutate(regression = map(.x = data,
-                          ~summary(lm(Value ~ Year,
+                          ~anova(lm(Value ~ Year * Vegetation_Zone,
                                       data = .x)) %>%
                             tidy())) %>%
   unnest(regression) %>%
   #Format the summary table by removing unwanted terms, keeping the "Year" term, and 
   # formatting the number of decimal points
-  filter(term == 'Year') %>%
-  select(-data) %>% 
-  mutate(across(estimate:p.value, ~round(., 4))) %>%
+  select(-data) %>%
+  mutate(across(sumsq:p.value, ~round(., 4))) %>%
   ungroup() %>%
   #There were a handful of sites - vegetation zones with "perfect" regressions (aka values never
   # changed and was typically 1 or 0), so manually assigning a p-value of 1, since they are perfect
   # horizontal lines by definition of a statistical regression. 
   mutate(p.value = ifelse(is.na(p.value), 1, p.value)) %>%
-  rename(slope = estimate,
-         pvalue = p.value)
+  rename(pvalue = p.value)
 
 
-glimpse(regression_slopes_zone)
+glimpse(regression_slopes_zones)
 
-write.csv(regression_slopes_zone,
-          "Output Stats\\Compilation Analysis - Veg Metrics Trends - Vegetation Zone.csv")
 
-#Task 3: Calculate descriptive statistics for the slope and score by vegetation zone
+#Determine the number of significant p-values for each site based on the vegetation zone interaction
+# regressions
+
+pvalue_multi_zones <- regression_multi_zones %>%
+  filter(term != "Vegetation_Zone",
+         term != "Residuals") %>%
+  group_by(Reserve, SiteID, Metric, Region, salinity, tidal_range, Geomorphology) %>%
+  summarise(pvalue_count = sum(pvalue <= 0.05)) %>%
+  ungroup() %>%
+  mutate(pvalue_check = ifelse(pvalue_count > 0, 1, 0))
+
+
+#Task 2: Calculate the p-values of the regressions of sites with only 1 site using simple linear 
+# regressions
+
+# This is accomplished by nesting the data essentially by Site, Vegetation Zone, and Metric
+regression_single_zone <- veg_format %>%
+  group_by(Reserve, SiteID, Metric) %>%
+  mutate(Veg_Zone_Count = length(unique(Vegetation_Zone)),
+         SampleSize = n()) %>%
+  ungroup() %>%
+  filter(Veg_Zone_Count == 1) %>%
+  group_by(Reserve, SiteID, Metric, SampleSize, Region, salinity, tidal_range, Geomorphology) %>%
+  nest() %>%
+  mutate(regression = map(.x = data,
+                          ~anova(lm(Value ~ Year,
+                                    data = .x)) %>%
+                            tidy())) %>%
+  unnest(regression) %>%
+  #Format the summary table by removing unwanted terms, keeping the "Year" term, and 
+  # formatting the number of decimal points
+  select(-data) %>%
+mutate(across(sumsq:p.value, ~round(., 4))) %>%
+  ungroup() %>%
+  #There were a handful of sites - vegetation zones with "perfect" regressions (aka values never
+  # changed and was typically 1 or 0), so manually assigning a p-value of 1, since they are perfect
+  # horizontal lines by definition of a statistical regression. 
+  mutate(p.value = ifelse(is.na(p.value), 1, p.value)) %>%
+  rename(pvalue = p.value)
+
+
+glimpse(regression_single_zone)
+
+
+#Determine the number of significant p-values for each site based on the vegetation zone interaction
+# regressions
+
+pvalue_single_zone <- regression_single_zone %>%
+  filter(term != "Residuals") %>%
+  group_by(Reserve, SiteID, Metric, Region, salinity, tidal_range, Geomorphology) %>%
+  summarise(pvalue_count = sum(pvalue <= 0.05)) %>%
+  ungroup() %>%
+  mutate(pvalue_check = ifelse(pvalue_count > 0, 1, 0))
+
+
+#Task 3: Combine the two pvalue score datasets of the single and multi vegetation zone models
+# into one dataset using row combine
+
+pvalue_scores <- rbind(pvalue_multi_zones, pvalue_single_zone)
+
+glimpse(pvalue_scores)
+
+
+#Task 3: Calculate the percent of significant p-values for sites across metrics and site categories
 
 # The compilation analysis for vegetation metrics, not EMI, are calculated differently:
-# (1) slopes of the regressions are averaged +/- standard error for each vegetation zone
 # (2) p-values are averaged +/- standard for each vegetation zone
 
-regression_stats_zone <- regression_slopes_zone %>%
-  group_by(Vegetation_Zone, Metric) %>%
-  summarise(slope.m = mean(slope, na.rm = TRUE),
-            slope.se = sd(slope, na.rm = TRUE)/sqrt(n()),
-            #Calculates the % of sites that have a significant trend
-            pvalue.score = (length(pvalue[pvalue <= 0.05]) / n()) * 100 ) %>%
+regression_stats_zone <- pvalue_scores %>%
+  gather(Region:Geomorphology,
+         key = site_variable,
+         value = Category) %>%
+  group_by(Metric, site_variable, value = Category) %>%
+  summarise(pvalue.percent = (length(pvalue_check[pvalue_check == 1]) / n()) * 100,
+            SampleSize = n()) %>%
   ungroup() %>%
-  mutate(across(slope.m:pvalue.score, ~round(., 3)))
+  mutate(pvalue.percent = round(pvalue.percent, 3))
 
 glimpse(regression_stats_zone)
 
@@ -158,23 +222,27 @@ write.csv(regression_stats_zone,
 # Filter out the vegetation metrics not to be contained in the pannelled graph
 
 pvalue_vegzone <- regression_stats_zone %>%
-  filter(Metric != "EMI",
-           Metric != "Abiotic Cover")
+  filter(Metric != "Abiotic Cover",
+         site_variable == "salinity") %>%
+  mutate(value = factor(value, levels = c("Oligohaline", "Mesohaline", "Polyhaline")))
 
 
 #Graph of the percent of significant regressions based on p-value < 0.05
 
 pvalue_vegzone_graph <- ggplot(data = pvalue_vegzone,
-                               aes(x = Vegetation_Zone,
-                                   y = pvalue.score,
-                                   group = Vegetation_Zone)) + 
-  geom_bar(aes(fill = Vegetation_Zone),
+                               aes(x = value,
+                                   y = pvalue.percent)) + 
+  geom_bar(aes(fill = value),
                     stat = 'identity', position = position_dodge(0.9),
-                    linewidth = 1.5, colour = "black") +  
+                    linewidth = 1.5, colour = "black") + 
+#  geom_text(aes(label = SampleSize),
+ #           stat = 'identity', vjust = -0.75,
+  #          size = 6, fontface = "bold") +
   labs(y = "Percent Regressions Significant (p < 0.05)",
-       x = "Vegetation Zone") +
-  #scale_y_continuous(limits = c(0, 100),
-  #                   breaks = seq(0, 100, 20)) + 
+       x = "") +
+  scale_y_continuous(limits = c(0, 102),
+                     breaks = seq(0, 100, 20),
+                     expand = c(0,0)) + 
   theme_bw() +
   theme(
     legend.position = "none",
@@ -187,14 +255,14 @@ pvalue_vegzone_graph <- ggplot(data = pvalue_vegzone,
     strip.background = element_blank(),
     strip.text = element_text(size = 18)) +
 facet_wrap(~Metric,
-           nrow = 2, ncol = 3)
+           nrow = 2, ncol = 4)
 
 pvalue_vegzone_graph
 
 ggsave(pvalue_vegzone_graph,
-       filename = "Output Figures\\Site Level Regressions - significant pvalues - Veg Zone 40 x-axis.jpg",
+       filename = "Output Figures\\Site Level Regressions - pvalues - veg interaction - no label.jpg",
        units = "in",
-       height = 10, width = 14, dpi = 300, limitsize = FALSE)
+       height = 10, width = 18, dpi = 300, limitsize = FALSE)
 
 
 
@@ -359,6 +427,17 @@ glimpse(regression_slopes_site)
 
 write.csv(regression_slopes_site,
           "Output Stats\\Compilation Analysis - Veg Metrics Trends - Site Level.csv")
+
+slopes_site_stats <- regression_slopes_site %>%
+  filter(site_variable == "Region") %>%
+  group_by(Metric) %>%
+  summarise(slope.mean = mean(slope, na.rm = TRUE),
+            slope.se = sd(slope, na.rm = TRUE)/sqrt(n())) %>%
+  mutate(across(slope.mean:slope.se, ~round(., 3)))
+  
+
+write.csv(slopes_site_stats,
+          "Output Stats\\Compilation Analysis - Veg Metrics Trends - Site - National Summ.csv")
 
 #Task 5: Calculate descriptive statistics for the slope and score by site characteristic
 

@@ -1,0 +1,1305 @@
+"","Reserve","SiteID","Region","Geomorphology","tidal_range","salinity","Metric","SampleSize","term","df","sumsq","meansq","statistic","pvalue"
+"1","ACE","EIN","Southeast","Riverine","Microtidal","Polyhaline","Abiotic Cover",142,"Year",1,1040.3437,1040.3437,1.5664,0.2128
+"2","ACE","EIN","Southeast","Riverine","Microtidal","Polyhaline","Abiotic Cover",142,"Vegetation_Zone",1,4544.7276,4544.7276,6.843,0.0099
+"3","ACE","EIN","Southeast","Riverine","Microtidal","Polyhaline","Abiotic Cover",142,"Year:Vegetation_Zone",1,1.6018,1.6018,0.0024,0.9609
+"4","ACE","EIN","Southeast","Riverine","Microtidal","Polyhaline","Abiotic Cover",142,"Residuals",138,91652.309,664.1472,NA,1
+"5","ACE","EIS","Southeast","Riverine","Microtidal","Polyhaline","Abiotic Cover",122,"Year",1,7637.6227,7637.6227,12.3825,6e-04
+"6","ACE","EIS","Southeast","Riverine","Microtidal","Polyhaline","Abiotic Cover",122,"Vegetation_Zone",1,1154.1753,1154.1753,1.8712,0.1739
+"7","ACE","EIS","Southeast","Riverine","Microtidal","Polyhaline","Abiotic Cover",122,"Year:Vegetation_Zone",1,169.6885,169.6885,0.2751,0.6009
+"8","ACE","EIS","Southeast","Riverine","Microtidal","Polyhaline","Abiotic Cover",122,"Residuals",118,72783.536,616.8096,NA,1
+"9","APA","PC","Gulf Coast","Bay Front","Microtidal","Polyhaline","Abiotic Cover",346,"Year",1,2450.4528,2450.4528,4.3122,0.0386
+"10","APA","PC","Gulf Coast","Bay Front","Microtidal","Polyhaline","Abiotic Cover",346,"Vegetation_Zone",2,870.272,435.136,0.7657,0.4658
+"11","APA","PC","Gulf Coast","Bay Front","Microtidal","Polyhaline","Abiotic Cover",346,"Year:Vegetation_Zone",2,504.5907,252.2954,0.444,0.6418
+"12","APA","PC","Gulf Coast","Bay Front","Microtidal","Polyhaline","Abiotic Cover",346,"Residuals",340,193207.1419,568.2563,NA,1
+"13","CBM","MB","Mid-Atlantic","Bay Front","Microtidal","Mesohaline","Abiotic Cover",160,"Year",1,6704.9091,6704.9091,34.0615,0
+"14","CBM","MB","Mid-Atlantic","Bay Front","Microtidal","Mesohaline","Abiotic Cover",160,"Vegetation_Zone",1,1608.4514,1608.4514,8.1711,0.0048
+"15","CBM","MB","Mid-Atlantic","Bay Front","Microtidal","Mesohaline","Abiotic Cover",160,"Year:Vegetation_Zone",1,32.9849,32.9849,0.1676,0.6828
+"16","CBM","MB","Mid-Atlantic","Bay Front","Microtidal","Mesohaline","Abiotic Cover",160,"Residuals",156,30708.1408,196.8471,NA,1
+"17","CBM","OPC","Mid-Atlantic","Riverine","Microtidal","Oligohaline","Abiotic Cover",419,"Year",1,35398.9291,35398.9291,105.2203,0
+"18","CBM","OPC","Mid-Atlantic","Riverine","Microtidal","Oligohaline","Abiotic Cover",419,"Vegetation_Zone",1,105.935,105.935,0.3149,0.575
+"19","CBM","OPC","Mid-Atlantic","Riverine","Microtidal","Oligohaline","Abiotic Cover",419,"Year:Vegetation_Zone",1,1267.4459,1267.4459,3.7674,0.0529
+"20","CBM","OPC","Mid-Atlantic","Riverine","Microtidal","Oligohaline","Abiotic Cover",419,"Residuals",415,139617.0824,336.4267,NA,1
+"21","DEL","SJR","Mid-Atlantic","Riverine","Microtidal","Mesohaline","Abiotic Cover",120,"Year",1,2215.4126,2215.4126,4.686,0.0325
+"22","DEL","SJR","Mid-Atlantic","Riverine","Microtidal","Mesohaline","Abiotic Cover",120,"Vegetation_Zone",2,23214.5113,11607.2556,24.5512,0
+"23","DEL","SJR","Mid-Atlantic","Riverine","Microtidal","Mesohaline","Abiotic Cover",120,"Year:Vegetation_Zone",2,32.3213,16.1607,0.0342,0.9664
+"24","DEL","SJR","Mid-Atlantic","Riverine","Microtidal","Mesohaline","Abiotic Cover",120,"Residuals",114,53896.5647,472.7769,NA,1
+"25","ELK","Upper","West Coast","Riverine","Mesotidal","Polyhaline","Abiotic Cover",60,"Year",1,798.289,798.289,0.9286,0.3395
+"26","ELK","Upper","West Coast","Riverine","Mesotidal","Polyhaline","Abiotic Cover",60,"Vegetation_Zone",2,2029.4571,1014.7285,1.1803,0.315
+"27","ELK","Upper","West Coast","Riverine","Mesotidal","Polyhaline","Abiotic Cover",60,"Year:Vegetation_Zone",2,1703.7326,851.8663,0.9909,0.3779
+"28","ELK","Upper","West Coast","Riverine","Mesotidal","Polyhaline","Abiotic Cover",60,"Residuals",54,46423.1405,859.6878,NA,1
+"29","ELK","Lower","West Coast","Riverine","Mesotidal","Polyhaline","Abiotic Cover",100,"Year",1,2438.275,2438.275,2.2915,0.1334
+"30","ELK","Lower","West Coast","Riverine","Mesotidal","Polyhaline","Abiotic Cover",100,"Vegetation_Zone",2,6026.4299,3013.2149,2.8319,0.0639
+"31","ELK","Lower","West Coast","Riverine","Mesotidal","Polyhaline","Abiotic Cover",100,"Year:Vegetation_Zone",2,762.021,381.0105,0.3581,0.7
+"32","ELK","Lower","West Coast","Riverine","Mesotidal","Polyhaline","Abiotic Cover",100,"Residuals",94,100019.1322,1064.0333,NA,1
+"33","GND","spalt","Gulf Coast","Bay Front","Microtidal","Polyhaline","Abiotic Cover",162,"Year",1,18063.8354,18063.8354,84.355,0
+"34","GND","spalt","Gulf Coast","Bay Front","Microtidal","Polyhaline","Abiotic Cover",162,"Vegetation_Zone",1,361.733,361.733,1.6892,0.1956
+"35","GND","spalt","Gulf Coast","Bay Front","Microtidal","Polyhaline","Abiotic Cover",162,"Year:Vegetation_Zone",1,2425.4919,2425.4919,11.3266,0.001
+"36","GND","spalt","Gulf Coast","Bay Front","Microtidal","Polyhaline","Abiotic Cover",162,"Residuals",158,33834.2174,214.1406,NA,1
+"37","GND","juro low","Gulf Coast","Bay Front","Microtidal","Mesohaline","Abiotic Cover",210,"Year",1,42074.8608,42074.8608,99.0359,0
+"38","GND","juro low","Gulf Coast","Bay Front","Microtidal","Mesohaline","Abiotic Cover",210,"Vegetation_Zone",1,810.1938,810.1938,1.907,0.1688
+"39","GND","juro low","Gulf Coast","Bay Front","Microtidal","Mesohaline","Abiotic Cover",210,"Year:Vegetation_Zone",1,496.1268,496.1268,1.1678,0.2811
+"40","GND","juro low","Gulf Coast","Bay Front","Microtidal","Mesohaline","Abiotic Cover",210,"Residuals",206,87517.9329,424.8443,NA,1
+"41","GND","juro high","Gulf Coast","Riverine","Microtidal","Mesohaline","Abiotic Cover",128,"Year",1,14952.5813,14952.5813,42.4828,0
+"42","GND","juro high","Gulf Coast","Riverine","Microtidal","Mesohaline","Abiotic Cover",128,"Vegetation_Zone",1,5784.7337,5784.7337,16.4354,1e-04
+"43","GND","juro high","Gulf Coast","Riverine","Microtidal","Mesohaline","Abiotic Cover",128,"Year:Vegetation_Zone",1,1578.056,1578.056,4.4835,0.0362
+"44","GND","juro high","Gulf Coast","Riverine","Microtidal","Mesohaline","Abiotic Cover",128,"Residuals",124,43644.0587,351.9682,NA,1
+"45","GND","juro mid","Gulf Coast","Riverine","Microtidal","Mesohaline","Abiotic Cover",240,"Year",1,21153.0057,21153.0057,54.6899,0
+"46","GND","juro mid","Gulf Coast","Riverine","Microtidal","Mesohaline","Abiotic Cover",240,"Vegetation_Zone",2,14549.9795,7274.9897,18.8091,0
+"47","GND","juro mid","Gulf Coast","Riverine","Microtidal","Mesohaline","Abiotic Cover",240,"Year:Vegetation_Zone",2,1901.8923,950.9462,2.4586,0.0878
+"48","GND","juro mid","Gulf Coast","Riverine","Microtidal","Mesohaline","Abiotic Cover",240,"Residuals",234,90506.785,386.7811,NA,1
+"49","GRB","SP","Northeast","Bay Front","Mesotidal","Polyhaline","Abiotic Cover",491,"Year",1,560.6726,560.6726,0.9647,0.3265
+"50","GRB","SP","Northeast","Bay Front","Mesotidal","Polyhaline","Abiotic Cover",491,"Vegetation_Zone",2,8030.369,4015.1845,6.9089,0.0011
+"51","GRB","SP","Northeast","Bay Front","Mesotidal","Polyhaline","Abiotic Cover",491,"Year:Vegetation_Zone",2,6533.9062,3266.9531,5.6214,0.0039
+"52","GRB","SP","Northeast","Bay Front","Mesotidal","Polyhaline","Abiotic Cover",491,"Residuals",485,281863.5096,581.1619,NA,1
+"53","GRB","GBF","Northeast","Riverine","Mesotidal","Polyhaline","Abiotic Cover",429,"Year",1,54.0811,54.0811,0.0821,0.7746
+"54","GRB","GBF","Northeast","Riverine","Mesotidal","Polyhaline","Abiotic Cover",429,"Vegetation_Zone",2,89809.9802,44904.9901,68.1788,0
+"55","GRB","GBF","Northeast","Riverine","Mesotidal","Polyhaline","Abiotic Cover",429,"Year:Vegetation_Zone",2,128.6715,64.3358,0.0977,0.907
+"56","GRB","GBF","Northeast","Riverine","Mesotidal","Polyhaline","Abiotic Cover",429,"Residuals",423,278603.0523,658.6361,NA,1
+"57","GRB","BC","Northeast","Riverine","Mesotidal","Polyhaline","Abiotic Cover",329,"Year",1,4578.3168,4578.3168,7.9979,0.005
+"58","GRB","BC","Northeast","Riverine","Mesotidal","Polyhaline","Abiotic Cover",329,"Vegetation_Zone",2,28172.9041,14086.4521,24.6078,0
+"59","GRB","BC","Northeast","Riverine","Mesotidal","Polyhaline","Abiotic Cover",329,"Year:Vegetation_Zone",2,511.3909,255.6955,0.4467,0.6401
+"60","GRB","BC","Northeast","Riverine","Mesotidal","Polyhaline","Abiotic Cover",329,"Residuals",323,184897.953,572.4395,NA,1
+"61","GTM","46","Southeast","Riverine","Microtidal","Oligohaline","Abiotic Cover",406,"Year",1,520.0534,520.0534,0.5097,0.4757
+"62","GTM","46","Southeast","Riverine","Microtidal","Oligohaline","Abiotic Cover",406,"Vegetation_Zone",2,2671.2468,1335.6234,1.309,0.2712
+"63","GTM","46","Southeast","Riverine","Microtidal","Oligohaline","Abiotic Cover",406,"Residuals",402,410185.9731,1020.3631,NA,1
+"64","KAC","FR","West Coast","Bay Front","Macrotidal","Mesohaline","Abiotic Cover",546,"Year",1,8204.3198,8204.3198,9.1562,0.0026
+"65","KAC","FR","West Coast","Bay Front","Macrotidal","Mesohaline","Abiotic Cover",546,"Vegetation_Zone",2,64424.2338,32212.1169,35.9494,0
+"66","KAC","FR","West Coast","Bay Front","Macrotidal","Mesohaline","Abiotic Cover",546,"Year:Vegetation_Zone",2,1328.2373,664.1187,0.7412,0.477
+"67","KAC","FR","West Coast","Bay Front","Macrotidal","Mesohaline","Abiotic Cover",546,"Residuals",540,483862.3083,896.0413,NA,1
+"68","KAC","BS","West Coast","Back Barrier","Macrotidal","Oligohaline","Abiotic Cover",346,"Year",1,4260.5511,4260.5511,3.067,0.0808
+"69","KAC","BS","West Coast","Back Barrier","Macrotidal","Oligohaline","Abiotic Cover",346,"Vegetation_Zone",2,36275.8873,18137.9437,13.0567,0
+"70","KAC","BS","West Coast","Back Barrier","Macrotidal","Oligohaline","Abiotic Cover",346,"Year:Vegetation_Zone",2,100.513,50.2565,0.0362,0.9645
+"71","KAC","BS","West Coast","Back Barrier","Macrotidal","Oligohaline","Abiotic Cover",346,"Residuals",340,472316.0521,1389.1649,NA,1
+"72","KAC","CP","West Coast","Bay Front","Macrotidal","Mesohaline","Abiotic Cover",463,"Year",1,227.726,227.726,0.1306,0.718
+"73","KAC","CP","West Coast","Bay Front","Macrotidal","Mesohaline","Abiotic Cover",463,"Vegetation_Zone",1,24850.8396,24850.8396,14.2526,2e-04
+"74","KAC","CP","West Coast","Bay Front","Macrotidal","Mesohaline","Abiotic Cover",463,"Year:Vegetation_Zone",1,3.801,3.801,0.0022,0.9628
+"75","KAC","CP","West Coast","Bay Front","Macrotidal","Mesohaline","Abiotic Cover",463,"Residuals",459,800312.0159,1743.5992,NA,1
+"76","KAC","SC","West Coast","Bay Front","Macrotidal","Mesohaline","Abiotic Cover",161,"Year",1,227.4843,227.4843,0.2934,0.5888
+"77","KAC","SC","West Coast","Bay Front","Macrotidal","Mesohaline","Abiotic Cover",161,"Vegetation_Zone",1,6043.846,6043.846,7.7943,0.0059
+"78","KAC","SC","West Coast","Bay Front","Macrotidal","Mesohaline","Abiotic Cover",161,"Year:Vegetation_Zone",1,56.8185,56.8185,0.0733,0.787
+"79","KAC","SC","West Coast","Bay Front","Macrotidal","Mesohaline","Abiotic Cover",161,"Residuals",157,121741.4314,775.4231,NA,1
+"80","NAR","Nag","Northeast","Bay Front","Microtidal","Polyhaline","Abiotic Cover",312,"Year",1,10269.132,10269.132,44.2505,0
+"81","NAR","Nag","Northeast","Bay Front","Microtidal","Polyhaline","Abiotic Cover",312,"Vegetation_Zone",2,4086.2925,2043.1462,8.8041,2e-04
+"82","NAR","Nag","Northeast","Bay Front","Microtidal","Polyhaline","Abiotic Cover",312,"Year:Vegetation_Zone",2,3469.9726,1734.9863,7.4762,7e-04
+"83","NAR","Nag","Northeast","Bay Front","Microtidal","Polyhaline","Abiotic Cover",312,"Residuals",306,71012.8875,232.0683,NA,1
+"84","NAR","Coggeshall","Northeast","Bay Front","Microtidal","Polyhaline","Abiotic Cover",273,"Year",1,14485.4582,14485.4582,39.3059,0
+"85","NAR","Coggeshall","Northeast","Bay Front","Microtidal","Polyhaline","Abiotic Cover",273,"Vegetation_Zone",2,3879.1648,1939.5824,5.263,0.0057
+"86","NAR","Coggeshall","Northeast","Bay Front","Microtidal","Polyhaline","Abiotic Cover",273,"Year:Vegetation_Zone",2,236.965,118.4825,0.3215,0.7253
+"87","NAR","Coggeshall","Northeast","Bay Front","Microtidal","Polyhaline","Abiotic Cover",273,"Residuals",267,98397.7728,368.531,NA,1
+"88","NIW","Segment A","Southeast","Riverine","Microtidal","Polyhaline","Abiotic Cover",319,"Year",1,4773.0791,4773.0791,4.7102,0.0307
+"89","NIW","Segment A","Southeast","Riverine","Microtidal","Polyhaline","Abiotic Cover",319,"Vegetation_Zone",2,31406.048,15703.024,15.496,0
+"90","NIW","Segment A","Southeast","Riverine","Microtidal","Polyhaline","Abiotic Cover",319,"Year:Vegetation_Zone",2,7745.8154,3872.9077,3.8218,0.0229
+"91","NIW","Segment A","Southeast","Riverine","Microtidal","Polyhaline","Abiotic Cover",319,"Residuals",313,317181.5847,1013.3597,NA,1
+"92","NIW","Segment B","Southeast","Riverine","Microtidal","Polyhaline","Abiotic Cover",338,"Year",1,2817.7494,2817.7494,2.6191,0.1065
+"93","NIW","Segment B","Southeast","Riverine","Microtidal","Polyhaline","Abiotic Cover",338,"Vegetation_Zone",1,14339.816,14339.816,13.329,3e-04
+"94","NIW","Segment B","Southeast","Riverine","Microtidal","Polyhaline","Abiotic Cover",338,"Year:Vegetation_Zone",1,5426.2873,5426.2873,5.0438,0.0254
+"95","NIW","Segment B","Southeast","Riverine","Microtidal","Polyhaline","Abiotic Cover",338,"Residuals",334,359329.9993,1075.8383,NA,1
+"96","NOC","MI","Southeast","Back Barrier","Microtidal","Polyhaline","Abiotic Cover",789,"Year",1,7010.0006,7010.0006,5.8038,0.0162
+"97","NOC","MI","Southeast","Back Barrier","Microtidal","Polyhaline","Abiotic Cover",789,"Vegetation_Zone",1,55609.1359,55609.1359,46.0403,0
+"98","NOC","MI","Southeast","Back Barrier","Microtidal","Polyhaline","Abiotic Cover",789,"Year:Vegetation_Zone",1,1783.7671,1783.7671,1.4768,0.2246
+"99","NOC","MI","Southeast","Back Barrier","Microtidal","Polyhaline","Abiotic Cover",789,"Residuals",785,948150.6747,1207.8353,NA,1
+"100","SOS","DM","West Coast","Riverine","Mesotidal","Mesohaline","Abiotic Cover",70,"Year",1,0,0,NA,1
+"101","SOS","DM","West Coast","Riverine","Mesotidal","Mesohaline","Abiotic Cover",70,"Vegetation_Zone",1,0,0,NA,1
+"102","SOS","DM","West Coast","Riverine","Mesotidal","Mesohaline","Abiotic Cover",70,"Year:Vegetation_Zone",1,0,0,NA,1
+"103","SOS","DM","West Coast","Riverine","Mesotidal","Mesohaline","Abiotic Cover",70,"Residuals",66,0,0,NA,1
+"104","SOS","MM","West Coast","Bay Front","Mesotidal","Polyhaline","Abiotic Cover",120,"Year",1,27.5655,27.5655,1.634,0.2037
+"105","SOS","MM","West Coast","Bay Front","Mesotidal","Polyhaline","Abiotic Cover",120,"Vegetation_Zone",1,8.3952,8.3952,0.4976,0.482
+"106","SOS","MM","West Coast","Bay Front","Mesotidal","Polyhaline","Abiotic Cover",120,"Year:Vegetation_Zone",1,124.4598,124.4598,7.3776,0.0076
+"107","SOS","MM","West Coast","Bay Front","Mesotidal","Polyhaline","Abiotic Cover",120,"Residuals",116,1956.9251,16.87,NA,1
+"108","SOS","HC","West Coast","Riverine","Mesotidal","Mesohaline","Abiotic Cover",122,"Year",1,0.4604,0.4604,3.2762,0.0728
+"109","SOS","HC","West Coast","Riverine","Mesotidal","Mesohaline","Abiotic Cover",122,"Vegetation_Zone",1,0.2098,0.2098,1.4927,0.2242
+"110","SOS","HC","West Coast","Riverine","Mesotidal","Mesohaline","Abiotic Cover",122,"Year:Vegetation_Zone",1,0.2474,0.2474,1.7603,0.1872
+"111","SOS","HC","West Coast","Riverine","Mesotidal","Mesohaline","Abiotic Cover",122,"Residuals",118,16.582,0.1405,NA,1
+"112","SOS","VM","West Coast","Riverine","Mesotidal","Polyhaline","Abiotic Cover",100,"Year",1,321.3662,321.3662,2.3243,0.1307
+"113","SOS","VM","West Coast","Riverine","Mesotidal","Polyhaline","Abiotic Cover",100,"Vegetation_Zone",1,236.7686,236.7686,1.7125,0.1938
+"114","SOS","VM","West Coast","Riverine","Mesotidal","Polyhaline","Abiotic Cover",100,"Year:Vegetation_Zone",1,186.3894,186.3894,1.3481,0.2485
+"115","SOS","VM","West Coast","Riverine","Mesotidal","Polyhaline","Abiotic Cover",100,"Residuals",96,13273.0954,138.2614,NA,1
+"116","SOS","VI","West Coast","Riverine","Mesotidal","Polyhaline","Abiotic Cover",60,"Year",1,0.6101,0.6101,1.0381,0.3126
+"117","SOS","VI","West Coast","Riverine","Mesotidal","Polyhaline","Abiotic Cover",60,"Vegetation_Zone",1,0.0634,0.0634,0.1078,0.7438
+"118","SOS","VI","West Coast","Riverine","Mesotidal","Polyhaline","Abiotic Cover",60,"Year:Vegetation_Zone",1,0.0678,0.0678,0.1153,0.7354
+"119","SOS","VI","West Coast","Riverine","Mesotidal","Polyhaline","Abiotic Cover",60,"Residuals",56,32.9109,0.5877,NA,1
+"120","TJR","McCoy North","West Coast","Back Barrier","Mesotidal","Polyhaline","Abiotic Cover",50,"Year",1,53.6077,53.6077,0.0424,0.8379
+"121","TJR","McCoy North","West Coast","Back Barrier","Mesotidal","Polyhaline","Abiotic Cover",50,"Vegetation_Zone",1,18279.676,18279.676,14.4412,4e-04
+"122","TJR","McCoy North","West Coast","Back Barrier","Mesotidal","Polyhaline","Abiotic Cover",50,"Year:Vegetation_Zone",1,493.1425,493.1425,0.3896,0.5356
+"123","TJR","McCoy North","West Coast","Back Barrier","Mesotidal","Polyhaline","Abiotic Cover",50,"Residuals",46,58226.7136,1265.7981,NA,1
+"124","TJR","McCoy South","West Coast","Back Barrier","Mesotidal","Polyhaline","Abiotic Cover",240,"Year",1,5005.9401,5005.9401,8.264,0.0044
+"125","TJR","McCoy South","West Coast","Back Barrier","Mesotidal","Polyhaline","Abiotic Cover",240,"Vegetation_Zone",2,118779.9728,59389.9864,98.0427,0
+"126","TJR","McCoy South","West Coast","Back Barrier","Mesotidal","Polyhaline","Abiotic Cover",240,"Year:Vegetation_Zone",2,1181.5973,590.7986,0.9753,0.3786
+"127","TJR","McCoy South","West Coast","Back Barrier","Mesotidal","Polyhaline","Abiotic Cover",240,"Residuals",234,141746.9487,605.7562,NA,1
+"128","TJR","South Beach","West Coast","Back Barrier","Mesotidal","Polyhaline","Abiotic Cover",210,"Year",1,255.7748,255.7748,0.2036,0.6523
+"129","TJR","South Beach","West Coast","Back Barrier","Mesotidal","Polyhaline","Abiotic Cover",210,"Vegetation_Zone",1,36730.1529,36730.1529,29.2409,0
+"130","TJR","South Beach","West Coast","Back Barrier","Mesotidal","Polyhaline","Abiotic Cover",210,"Year:Vegetation_Zone",1,1.6843,1.6843,0.0013,0.9708
+"131","TJR","South Beach","West Coast","Back Barrier","Mesotidal","Polyhaline","Abiotic Cover",210,"Residuals",206,258761.679,1256.1247,NA,1
+"132","TJR","V1","West Coast","Back Barrier","Mesotidal","Polyhaline","Abiotic Cover",270,"Year",1,3782.7752,3782.7752,14.4442,2e-04
+"133","TJR","V1","West Coast","Back Barrier","Mesotidal","Polyhaline","Abiotic Cover",270,"Vegetation_Zone",2,7329.8907,3664.9454,13.9942,0
+"134","TJR","V1","West Coast","Back Barrier","Mesotidal","Polyhaline","Abiotic Cover",270,"Year:Vegetation_Zone",2,2122.4743,1061.2371,4.0522,0.0185
+"135","TJR","V1","West Coast","Back Barrier","Mesotidal","Polyhaline","Abiotic Cover",270,"Residuals",264,69138.8251,261.8895,NA,1
+"136","TJR","V4","West Coast","Back Barrier","Mesotidal","Polyhaline","Abiotic Cover",240,"Year",1,1377.7931,1377.7931,4.3578,0.0379
+"137","TJR","V4","West Coast","Back Barrier","Mesotidal","Polyhaline","Abiotic Cover",240,"Vegetation_Zone",1,255.7256,255.7256,0.8088,0.3694
+"138","TJR","V4","West Coast","Back Barrier","Mesotidal","Polyhaline","Abiotic Cover",240,"Year:Vegetation_Zone",1,34.3591,34.3591,0.1087,0.742
+"139","TJR","V4","West Coast","Back Barrier","Mesotidal","Polyhaline","Abiotic Cover",240,"Residuals",236,74614.6109,316.1636,NA,1
+"140","TJR","Brazo Creek","West Coast","Back Barrier","Mesotidal","Polyhaline","Abiotic Cover",48,"Year",1,390.6602,390.6602,1.9363,0.1711
+"141","TJR","Brazo Creek","West Coast","Back Barrier","Mesotidal","Polyhaline","Abiotic Cover",48,"Vegetation_Zone",1,1696.0167,1696.0167,8.4061,0.0058
+"142","TJR","Brazo Creek","West Coast","Back Barrier","Mesotidal","Polyhaline","Abiotic Cover",48,"Year:Vegetation_Zone",1,135.7441,135.7441,0.6728,0.4165
+"143","TJR","Brazo Creek","West Coast","Back Barrier","Mesotidal","Polyhaline","Abiotic Cover",48,"Residuals",44,8877.407,201.7592,NA,1
+"144","TJR","Model Marsh","West Coast","Back Barrier","Mesotidal","Polyhaline","Abiotic Cover",120,"Year",1,1370.426,1370.426,1.75,0.1885
+"145","TJR","Model Marsh","West Coast","Back Barrier","Mesotidal","Polyhaline","Abiotic Cover",120,"Vegetation_Zone",1,1479.605,1479.605,1.8894,0.1719
+"146","TJR","Model Marsh","West Coast","Back Barrier","Mesotidal","Polyhaline","Abiotic Cover",120,"Year:Vegetation_Zone",1,121.6633,121.6633,0.1554,0.6942
+"147","TJR","Model Marsh","West Coast","Back Barrier","Mesotidal","Polyhaline","Abiotic Cover",120,"Residuals",116,90839.7372,783.1012,NA,1
+"148","WEL","WB","Northeast","Back Barrier","Mesotidal","Polyhaline","Abiotic Cover",265,"Year",1,91.1045,91.1045,0.2532,0.6153
+"149","WEL","WB","Northeast","Back Barrier","Mesotidal","Polyhaline","Abiotic Cover",265,"Vegetation_Zone",2,4585.8178,2292.9089,6.3714,0.002
+"150","WEL","WB","Northeast","Back Barrier","Mesotidal","Polyhaline","Abiotic Cover",265,"Year:Vegetation_Zone",2,272.8182,136.4091,0.379,0.6849
+"151","WEL","WB","Northeast","Back Barrier","Mesotidal","Polyhaline","Abiotic Cover",265,"Residuals",259,93207.6485,359.8751,NA,1
+"152","WQB","Section 2","Northeast","Back Barrier","Microtidal","Polyhaline","Abiotic Cover",420,"Year",1,2.077,2.077,0.0029,0.9569
+"153","WQB","Section 2","Northeast","Back Barrier","Microtidal","Polyhaline","Abiotic Cover",420,"Vegetation_Zone",2,107661.0889,53830.5445,75.6625,0
+"154","WQB","Section 2","Northeast","Back Barrier","Microtidal","Polyhaline","Abiotic Cover",420,"Year:Vegetation_Zone",2,2235.6064,1117.8032,1.5711,0.209
+"155","WQB","Section 2","Northeast","Back Barrier","Microtidal","Polyhaline","Abiotic Cover",420,"Residuals",414,294542.8769,711.4562,NA,1
+"156","WQB","Section 1","Northeast","Back Barrier","Microtidal","Polyhaline","Abiotic Cover",307,"Year",1,125.5513,125.5513,0.1467,0.702
+"157","WQB","Section 1","Northeast","Back Barrier","Microtidal","Polyhaline","Abiotic Cover",307,"Vegetation_Zone",2,15405.968,7702.984,8.9991,2e-04
+"158","WQB","Section 1","Northeast","Back Barrier","Microtidal","Polyhaline","Abiotic Cover",307,"Year:Vegetation_Zone",2,1023.7499,511.875,0.598,0.5506
+"159","WQB","Section 1","Northeast","Back Barrier","Microtidal","Polyhaline","Abiotic Cover",307,"Residuals",301,257648.1722,855.974,NA,1
+"160","WQB","Section 3","Northeast","Back Barrier","Microtidal","Polyhaline","Abiotic Cover",331,"Year",1,54.9146,54.9146,0.1204,0.7288
+"161","WQB","Section 3","Northeast","Back Barrier","Microtidal","Polyhaline","Abiotic Cover",331,"Vegetation_Zone",2,81641.7774,40820.8887,89.5153,0
+"162","WQB","Section 3","Northeast","Back Barrier","Microtidal","Polyhaline","Abiotic Cover",331,"Year:Vegetation_Zone",2,1670.4669,835.2335,1.8316,0.1618
+"163","WQB","Section 3","Northeast","Back Barrier","Microtidal","Polyhaline","Abiotic Cover",331,"Residuals",325,148206.9707,456.0214,NA,1
+"164","ACE","EIN","Southeast","Riverine","Microtidal","Polyhaline","Live Cover",142,"Year",1,1040.5684,1040.5684,1.5668,0.2128
+"165","ACE","EIN","Southeast","Riverine","Microtidal","Polyhaline","Live Cover",142,"Vegetation_Zone",1,4544.5989,4544.5989,6.8429,0.0099
+"166","ACE","EIN","Southeast","Riverine","Microtidal","Polyhaline","Live Cover",142,"Year:Vegetation_Zone",1,1.6032,1.6032,0.0024,0.9609
+"167","ACE","EIN","Southeast","Riverine","Microtidal","Polyhaline","Live Cover",142,"Residuals",138,91650.4512,664.1337,NA,1
+"168","ACE","EIS","Southeast","Riverine","Microtidal","Polyhaline","Live Cover",122,"Year",1,7637.7765,7637.7765,12.3826,6e-04
+"169","ACE","EIS","Southeast","Riverine","Microtidal","Polyhaline","Live Cover",122,"Vegetation_Zone",1,1154.1859,1154.1859,1.8712,0.1739
+"170","ACE","EIS","Southeast","Riverine","Microtidal","Polyhaline","Live Cover",122,"Year:Vegetation_Zone",1,169.6932,169.6932,0.2751,0.6009
+"171","ACE","EIS","Southeast","Riverine","Microtidal","Polyhaline","Live Cover",122,"Residuals",118,72784.0752,616.8142,NA,1
+"172","APA","PC","Gulf Coast","Bay Front","Microtidal","Polyhaline","Live Cover",346,"Year",1,2449.6699,2449.6699,4.3108,0.0386
+"173","APA","PC","Gulf Coast","Bay Front","Microtidal","Polyhaline","Live Cover",346,"Vegetation_Zone",2,870.3918,435.1959,0.7658,0.4657
+"174","APA","PC","Gulf Coast","Bay Front","Microtidal","Polyhaline","Live Cover",346,"Year:Vegetation_Zone",2,505.3246,252.6623,0.4446,0.6414
+"175","APA","PC","Gulf Coast","Bay Front","Microtidal","Polyhaline","Live Cover",346,"Residuals",340,193210.8908,568.2673,NA,1
+"176","CBM","MB","Mid-Atlantic","Bay Front","Microtidal","Mesohaline","Live Cover",160,"Year",1,6704.6417,6704.6417,34.059,0
+"177","CBM","MB","Mid-Atlantic","Bay Front","Microtidal","Mesohaline","Live Cover",160,"Vegetation_Zone",1,1608.6037,1608.6037,8.1716,0.0048
+"178","CBM","MB","Mid-Atlantic","Bay Front","Microtidal","Mesohaline","Live Cover",160,"Year:Vegetation_Zone",1,32.9157,32.9157,0.1672,0.6832
+"179","CBM","MB","Mid-Atlantic","Bay Front","Microtidal","Mesohaline","Live Cover",160,"Residuals",156,30709.1466,196.8535,NA,1
+"180","CBM","OPC","Mid-Atlantic","Riverine","Microtidal","Oligohaline","Live Cover",419,"Year",1,35394.1883,35394.1883,105.2081,0
+"181","CBM","OPC","Mid-Atlantic","Riverine","Microtidal","Oligohaline","Live Cover",419,"Vegetation_Zone",1,105.9544,105.9544,0.3149,0.575
+"182","CBM","OPC","Mid-Atlantic","Riverine","Microtidal","Oligohaline","Live Cover",419,"Year:Vegetation_Zone",1,1268.7423,1268.7423,3.7713,0.0528
+"183","CBM","OPC","Mid-Atlantic","Riverine","Microtidal","Oligohaline","Live Cover",419,"Residuals",415,139614.6436,336.4208,NA,1
+"184","DEL","SJR","Mid-Atlantic","Riverine","Microtidal","Mesohaline","Live Cover",120,"Year",1,2215.4126,2215.4126,4.686,0.0325
+"185","DEL","SJR","Mid-Atlantic","Riverine","Microtidal","Mesohaline","Live Cover",120,"Vegetation_Zone",2,23214.5113,11607.2556,24.5512,0
+"186","DEL","SJR","Mid-Atlantic","Riverine","Microtidal","Mesohaline","Live Cover",120,"Year:Vegetation_Zone",2,32.3213,16.1607,0.0342,0.9664
+"187","DEL","SJR","Mid-Atlantic","Riverine","Microtidal","Mesohaline","Live Cover",120,"Residuals",114,53896.5951,472.7771,NA,1
+"188","ELK","Upper","West Coast","Riverine","Mesotidal","Polyhaline","Live Cover",60,"Year",1,798.2553,798.2553,0.9285,0.3395
+"189","ELK","Upper","West Coast","Riverine","Mesotidal","Polyhaline","Live Cover",60,"Vegetation_Zone",2,2029.3974,1014.6987,1.1803,0.315
+"190","ELK","Upper","West Coast","Riverine","Mesotidal","Polyhaline","Live Cover",60,"Year:Vegetation_Zone",2,1704.0635,852.0318,0.9911,0.3778
+"191","ELK","Upper","West Coast","Riverine","Mesotidal","Polyhaline","Live Cover",60,"Residuals",54,46423.4526,859.6936,NA,1
+"192","ELK","Lower","West Coast","Riverine","Mesotidal","Polyhaline","Live Cover",100,"Year",1,2438.0105,2438.0105,2.2913,0.1335
+"193","ELK","Lower","West Coast","Riverine","Mesotidal","Polyhaline","Live Cover",100,"Vegetation_Zone",2,6026.3409,3013.1704,2.8319,0.0639
+"194","ELK","Lower","West Coast","Riverine","Mesotidal","Polyhaline","Live Cover",100,"Year:Vegetation_Zone",2,761.8491,380.9245,0.358,0.7
+"195","ELK","Lower","West Coast","Riverine","Mesotidal","Polyhaline","Live Cover",100,"Residuals",94,100018.2112,1064.0235,NA,1
+"196","GND","spalt","Gulf Coast","Bay Front","Microtidal","Polyhaline","Live Cover",162,"Year",1,18063.8354,18063.8354,84.355,0
+"197","GND","spalt","Gulf Coast","Bay Front","Microtidal","Polyhaline","Live Cover",162,"Vegetation_Zone",1,361.733,361.733,1.6892,0.1956
+"198","GND","spalt","Gulf Coast","Bay Front","Microtidal","Polyhaline","Live Cover",162,"Year:Vegetation_Zone",1,2425.4919,2425.4919,11.3266,0.001
+"199","GND","spalt","Gulf Coast","Bay Front","Microtidal","Polyhaline","Live Cover",162,"Residuals",158,33834.2174,214.1406,NA,1
+"200","GND","juro low","Gulf Coast","Bay Front","Microtidal","Mesohaline","Live Cover",210,"Year",1,42074.8608,42074.8608,99.0359,0
+"201","GND","juro low","Gulf Coast","Bay Front","Microtidal","Mesohaline","Live Cover",210,"Vegetation_Zone",1,810.1938,810.1938,1.907,0.1688
+"202","GND","juro low","Gulf Coast","Bay Front","Microtidal","Mesohaline","Live Cover",210,"Year:Vegetation_Zone",1,496.1268,496.1268,1.1678,0.2811
+"203","GND","juro low","Gulf Coast","Bay Front","Microtidal","Mesohaline","Live Cover",210,"Residuals",206,87517.9329,424.8443,NA,1
+"204","GND","juro high","Gulf Coast","Riverine","Microtidal","Mesohaline","Live Cover",128,"Year",1,14952.5813,14952.5813,42.4828,0
+"205","GND","juro high","Gulf Coast","Riverine","Microtidal","Mesohaline","Live Cover",128,"Vegetation_Zone",1,5784.7337,5784.7337,16.4354,1e-04
+"206","GND","juro high","Gulf Coast","Riverine","Microtidal","Mesohaline","Live Cover",128,"Year:Vegetation_Zone",1,1578.056,1578.056,4.4835,0.0362
+"207","GND","juro high","Gulf Coast","Riverine","Microtidal","Mesohaline","Live Cover",128,"Residuals",124,43644.0587,351.9682,NA,1
+"208","GND","juro mid","Gulf Coast","Riverine","Microtidal","Mesohaline","Live Cover",240,"Year",1,21153.0057,21153.0057,54.6899,0
+"209","GND","juro mid","Gulf Coast","Riverine","Microtidal","Mesohaline","Live Cover",240,"Vegetation_Zone",2,14549.9795,7274.9897,18.8091,0
+"210","GND","juro mid","Gulf Coast","Riverine","Microtidal","Mesohaline","Live Cover",240,"Year:Vegetation_Zone",2,1901.8923,950.9462,2.4586,0.0878
+"211","GND","juro mid","Gulf Coast","Riverine","Microtidal","Mesohaline","Live Cover",240,"Residuals",234,90506.785,386.7811,NA,1
+"212","GRB","SP","Northeast","Bay Front","Mesotidal","Polyhaline","Live Cover",491,"Year",1,560.9857,560.9857,0.9653,0.3263
+"213","GRB","SP","Northeast","Bay Front","Mesotidal","Polyhaline","Live Cover",491,"Vegetation_Zone",2,8029.7033,4014.8516,6.9083,0.0011
+"214","GRB","SP","Northeast","Bay Front","Mesotidal","Polyhaline","Live Cover",491,"Year:Vegetation_Zone",2,6534.4321,3267.2161,5.6219,0.0039
+"215","GRB","SP","Northeast","Bay Front","Mesotidal","Polyhaline","Live Cover",491,"Residuals",485,281863.6063,581.1621,NA,1
+"216","GRB","GBF","Northeast","Riverine","Mesotidal","Polyhaline","Live Cover",429,"Year",1,53.9849,53.9849,0.082,0.7748
+"217","GRB","GBF","Northeast","Riverine","Mesotidal","Polyhaline","Live Cover",429,"Vegetation_Zone",2,89809.8553,44904.9276,68.1776,0
+"218","GRB","GBF","Northeast","Riverine","Mesotidal","Polyhaline","Live Cover",429,"Year:Vegetation_Zone",2,128.7258,64.3629,0.0977,0.9069
+"219","GRB","GBF","Northeast","Riverine","Mesotidal","Polyhaline","Live Cover",429,"Residuals",423,278607.2714,658.646,NA,1
+"220","GRB","BC","Northeast","Riverine","Mesotidal","Polyhaline","Live Cover",329,"Year",1,4578.2873,4578.2873,7.9977,0.005
+"221","GRB","BC","Northeast","Riverine","Mesotidal","Polyhaline","Live Cover",329,"Vegetation_Zone",2,28173.4303,14086.7151,24.6077,0
+"222","GRB","BC","Northeast","Riverine","Mesotidal","Polyhaline","Live Cover",329,"Year:Vegetation_Zone",2,511.4586,255.7293,0.4467,0.6401
+"223","GRB","BC","Northeast","Riverine","Mesotidal","Polyhaline","Live Cover",329,"Residuals",323,184901.6629,572.451,NA,1
+"224","GTM","46","Southeast","Riverine","Microtidal","Oligohaline","Live Cover",406,"Year",1,520.0358,520.0358,0.5097,0.4757
+"225","GTM","46","Southeast","Riverine","Microtidal","Oligohaline","Live Cover",406,"Vegetation_Zone",2,2671.2443,1335.6221,1.309,0.2712
+"226","GTM","46","Southeast","Riverine","Microtidal","Oligohaline","Live Cover",406,"Residuals",402,410185.1397,1020.361,NA,1
+"227","KAC","FR","West Coast","Bay Front","Macrotidal","Mesohaline","Live Cover",546,"Year",1,8204.0805,8204.0805,9.1557,0.0026
+"228","KAC","FR","West Coast","Bay Front","Macrotidal","Mesohaline","Live Cover",546,"Vegetation_Zone",2,64416.6311,32208.3156,35.9444,0
+"229","KAC","FR","West Coast","Bay Front","Macrotidal","Mesohaline","Live Cover",546,"Year:Vegetation_Zone",2,1328.1355,664.0678,0.7411,0.4771
+"230","KAC","FR","West Coast","Bay Front","Macrotidal","Mesohaline","Live Cover",546,"Residuals",540,483872.4217,896.06,NA,1
+"231","KAC","BS","West Coast","Back Barrier","Macrotidal","Oligohaline","Live Cover",346,"Year",1,4259.7012,4259.7012,3.0665,0.0808
+"232","KAC","BS","West Coast","Back Barrier","Macrotidal","Oligohaline","Live Cover",346,"Vegetation_Zone",2,36276.1242,18138.0621,13.0572,0
+"233","KAC","BS","West Coast","Back Barrier","Macrotidal","Oligohaline","Live Cover",346,"Year:Vegetation_Zone",2,100.4266,50.2133,0.0361,0.9645
+"234","KAC","BS","West Coast","Back Barrier","Macrotidal","Oligohaline","Live Cover",346,"Residuals",340,472303.0683,1389.1267,NA,1
+"235","KAC","CP","West Coast","Bay Front","Macrotidal","Mesohaline","Live Cover",463,"Year",1,227.704,227.704,0.1306,0.718
+"236","KAC","CP","West Coast","Bay Front","Macrotidal","Mesohaline","Live Cover",463,"Vegetation_Zone",1,24849.5336,24849.5336,14.2516,2e-04
+"237","KAC","CP","West Coast","Bay Front","Macrotidal","Mesohaline","Live Cover",463,"Year:Vegetation_Zone",1,3.7907,3.7907,0.0022,0.9628
+"238","KAC","CP","West Coast","Bay Front","Macrotidal","Mesohaline","Live Cover",463,"Residuals",459,800324.6503,1743.6267,NA,1
+"239","KAC","SC","West Coast","Bay Front","Macrotidal","Mesohaline","Live Cover",161,"Year",1,227.6108,227.6108,0.2935,0.5887
+"240","KAC","SC","West Coast","Bay Front","Macrotidal","Mesohaline","Live Cover",161,"Vegetation_Zone",1,6043.499,6043.499,7.7936,0.0059
+"241","KAC","SC","West Coast","Bay Front","Macrotidal","Mesohaline","Live Cover",161,"Year:Vegetation_Zone",1,56.8153,56.8153,0.0733,0.787
+"242","KAC","SC","West Coast","Bay Front","Macrotidal","Mesohaline","Live Cover",161,"Residuals",157,121744.1807,775.4406,NA,1
+"243","NAR","Nag","Northeast","Bay Front","Microtidal","Polyhaline","Live Cover",312,"Year",1,10270.4814,10270.4814,44.2576,0
+"244","NAR","Nag","Northeast","Bay Front","Microtidal","Polyhaline","Live Cover",312,"Vegetation_Zone",2,4085.1799,2042.59,8.8019,2e-04
+"245","NAR","Nag","Northeast","Bay Front","Microtidal","Polyhaline","Live Cover",312,"Year:Vegetation_Zone",2,3469.1154,1734.5577,7.4746,7e-04
+"246","NAR","Nag","Northeast","Bay Front","Microtidal","Polyhaline","Live Cover",312,"Residuals",306,71010.8654,232.0617,NA,1
+"247","NAR","Coggeshall","Northeast","Bay Front","Microtidal","Polyhaline","Live Cover",273,"Year",1,14486.1591,14486.1591,39.3084,0
+"248","NAR","Coggeshall","Northeast","Bay Front","Microtidal","Polyhaline","Live Cover",273,"Vegetation_Zone",2,3879.9769,1939.9885,5.2642,0.0057
+"249","NAR","Coggeshall","Northeast","Bay Front","Microtidal","Polyhaline","Live Cover",273,"Year:Vegetation_Zone",2,237.1601,118.58,0.3218,0.7251
+"250","NAR","Coggeshall","Northeast","Bay Front","Microtidal","Polyhaline","Live Cover",273,"Residuals",267,98396.3844,368.5258,NA,1
+"251","NIW","Segment A","Southeast","Riverine","Microtidal","Polyhaline","Live Cover",319,"Year",1,4307.8316,4307.8316,4.1933,0.0414
+"252","NIW","Segment A","Southeast","Riverine","Microtidal","Polyhaline","Live Cover",319,"Vegetation_Zone",2,31383.937,15691.9685,15.2749,0
+"253","NIW","Segment A","Southeast","Riverine","Microtidal","Polyhaline","Live Cover",319,"Year:Vegetation_Zone",2,9141.2482,4570.6241,4.4491,0.0124
+"254","NIW","Segment A","Southeast","Riverine","Microtidal","Polyhaline","Live Cover",319,"Residuals",313,321546.2777,1027.3044,NA,1
+"255","NIW","Segment B","Southeast","Riverine","Microtidal","Polyhaline","Live Cover",338,"Year",1,2589.7387,2589.7387,2.3811,0.1238
+"256","NIW","Segment B","Southeast","Riverine","Microtidal","Polyhaline","Live Cover",338,"Vegetation_Zone",1,13519.8534,13519.8534,12.4307,5e-04
+"257","NIW","Segment B","Southeast","Riverine","Microtidal","Polyhaline","Live Cover",338,"Year:Vegetation_Zone",1,6032.4443,6032.4443,5.5465,0.0191
+"258","NIW","Segment B","Southeast","Riverine","Microtidal","Polyhaline","Live Cover",338,"Residuals",334,363265.8814,1087.6224,NA,1
+"259","NOC","MI","Southeast","Back Barrier","Microtidal","Polyhaline","Live Cover",789,"Year",1,7009.5234,7009.5234,5.8034,0.0162
+"260","NOC","MI","Southeast","Back Barrier","Microtidal","Polyhaline","Live Cover",789,"Vegetation_Zone",1,55608.689,55608.689,46.04,0
+"261","NOC","MI","Southeast","Back Barrier","Microtidal","Polyhaline","Live Cover",789,"Year:Vegetation_Zone",1,1783.1431,1783.1431,1.4763,0.2247
+"262","NOC","MI","Southeast","Back Barrier","Microtidal","Polyhaline","Live Cover",789,"Residuals",785,948149.5723,1207.8339,NA,1
+"263","SOS","DM","West Coast","Riverine","Mesotidal","Mesohaline","Live Cover",70,"Year",1,2e-04,2e-04,2.6987,0.1052
+"264","SOS","DM","West Coast","Riverine","Mesotidal","Mesohaline","Live Cover",70,"Vegetation_Zone",1,0,0,0.1897,0.6646
+"265","SOS","DM","West Coast","Riverine","Mesotidal","Mesohaline","Live Cover",70,"Year:Vegetation_Zone",1,0,0,0.2984,0.5867
+"266","SOS","DM","West Coast","Riverine","Mesotidal","Mesohaline","Live Cover",70,"Residuals",66,0.0048,1e-04,NA,1
+"267","SOS","MM","West Coast","Bay Front","Mesotidal","Polyhaline","Live Cover",120,"Year",1,27.6648,27.6648,1.6395,0.2029
+"268","SOS","MM","West Coast","Bay Front","Mesotidal","Polyhaline","Live Cover",120,"Vegetation_Zone",1,8.3688,8.3688,0.496,0.4827
+"269","SOS","MM","West Coast","Bay Front","Mesotidal","Polyhaline","Live Cover",120,"Year:Vegetation_Zone",1,124.4587,124.4587,7.3758,0.0076
+"270","SOS","MM","West Coast","Bay Front","Mesotidal","Polyhaline","Live Cover",120,"Residuals",116,1957.3728,16.8739,NA,1
+"271","SOS","HC","West Coast","Riverine","Mesotidal","Mesohaline","Live Cover",122,"Year",1,0.4698,0.4698,3.3512,0.0697
+"272","SOS","HC","West Coast","Riverine","Mesotidal","Mesohaline","Live Cover",122,"Vegetation_Zone",1,0.1999,0.1999,1.4256,0.2349
+"273","SOS","HC","West Coast","Riverine","Mesotidal","Mesohaline","Live Cover",122,"Year:Vegetation_Zone",1,0.2497,0.2497,1.7811,0.1846
+"274","SOS","HC","West Coast","Riverine","Mesotidal","Mesohaline","Live Cover",122,"Residuals",118,16.5432,0.1402,NA,1
+"275","SOS","VM","West Coast","Riverine","Mesotidal","Polyhaline","Live Cover",100,"Year",1,321.7947,321.7947,2.3275,0.1304
+"276","SOS","VM","West Coast","Riverine","Mesotidal","Polyhaline","Live Cover",100,"Vegetation_Zone",1,236.7183,236.7183,1.7121,0.1938
+"277","SOS","VM","West Coast","Riverine","Mesotidal","Polyhaline","Live Cover",100,"Year:Vegetation_Zone",1,186.1906,186.1906,1.3467,0.2487
+"278","SOS","VM","West Coast","Riverine","Mesotidal","Polyhaline","Live Cover",100,"Residuals",96,13272.8152,138.2585,NA,1
+"279","SOS","VI","West Coast","Riverine","Mesotidal","Polyhaline","Live Cover",60,"Year",1,0.6204,0.6204,1.0558,0.3086
+"280","SOS","VI","West Coast","Riverine","Mesotidal","Polyhaline","Live Cover",60,"Vegetation_Zone",1,0.0682,0.0682,0.1161,0.7346
+"281","SOS","VI","West Coast","Riverine","Mesotidal","Polyhaline","Live Cover",60,"Year:Vegetation_Zone",1,0.0767,0.0767,0.1305,0.7193
+"282","SOS","VI","West Coast","Riverine","Mesotidal","Polyhaline","Live Cover",60,"Residuals",56,32.9051,0.5876,NA,1
+"283","TJR","McCoy North","West Coast","Back Barrier","Mesotidal","Polyhaline","Live Cover",50,"Year",1,53.6438,53.6438,0.0424,0.8378
+"284","TJR","McCoy North","West Coast","Back Barrier","Mesotidal","Polyhaline","Live Cover",50,"Vegetation_Zone",1,18280.0584,18280.0584,14.4407,4e-04
+"285","TJR","McCoy North","West Coast","Back Barrier","Mesotidal","Polyhaline","Live Cover",50,"Year:Vegetation_Zone",1,493.0879,493.0879,0.3895,0.5356
+"286","TJR","McCoy North","West Coast","Back Barrier","Mesotidal","Polyhaline","Live Cover",50,"Residuals",46,58230.0862,1265.8714,NA,1
+"287","TJR","McCoy South","West Coast","Back Barrier","Mesotidal","Polyhaline","Live Cover",240,"Year",1,5005.7334,5005.7334,8.2638,0.0044
+"288","TJR","McCoy South","West Coast","Back Barrier","Mesotidal","Polyhaline","Live Cover",240,"Vegetation_Zone",2,118780.3777,59390.1889,98.0458,0
+"289","TJR","McCoy South","West Coast","Back Barrier","Mesotidal","Polyhaline","Live Cover",240,"Year:Vegetation_Zone",2,1181.6521,590.8261,0.9754,0.3786
+"290","TJR","McCoy South","West Coast","Back Barrier","Mesotidal","Polyhaline","Live Cover",240,"Residuals",234,141742.9596,605.7391,NA,1
+"291","TJR","South Beach","West Coast","Back Barrier","Mesotidal","Polyhaline","Live Cover",210,"Year",1,255.625,255.625,0.2035,0.6524
+"292","TJR","South Beach","West Coast","Back Barrier","Mesotidal","Polyhaline","Live Cover",210,"Vegetation_Zone",1,36728.9651,36728.9651,29.2396,0
+"293","TJR","South Beach","West Coast","Back Barrier","Mesotidal","Polyhaline","Live Cover",210,"Year:Vegetation_Zone",1,1.6893,1.6893,0.0013,0.9708
+"294","TJR","South Beach","West Coast","Back Barrier","Mesotidal","Polyhaline","Live Cover",210,"Residuals",206,258764.5135,1256.1384,NA,1
+"295","TJR","V1","West Coast","Back Barrier","Mesotidal","Polyhaline","Live Cover",270,"Year",1,3782.3843,3782.3843,14.4426,2e-04
+"296","TJR","V1","West Coast","Back Barrier","Mesotidal","Polyhaline","Live Cover",270,"Vegetation_Zone",2,7330.552,3665.276,13.9955,0
+"297","TJR","V1","West Coast","Back Barrier","Mesotidal","Polyhaline","Live Cover",270,"Year:Vegetation_Zone",2,2122.786,1061.393,4.0528,0.0185
+"298","TJR","V1","West Coast","Back Barrier","Mesotidal","Polyhaline","Live Cover",270,"Residuals",264,69139.0297,261.8903,NA,1
+"299","TJR","V4","West Coast","Back Barrier","Mesotidal","Polyhaline","Live Cover",240,"Year",1,1377.1759,1377.1759,4.3559,0.038
+"300","TJR","V4","West Coast","Back Barrier","Mesotidal","Polyhaline","Live Cover",240,"Vegetation_Zone",1,255.674,255.674,0.8087,0.3694
+"301","TJR","V4","West Coast","Back Barrier","Mesotidal","Polyhaline","Live Cover",240,"Year:Vegetation_Zone",1,34.3267,34.3267,0.1086,0.7421
+"302","TJR","V4","West Coast","Back Barrier","Mesotidal","Polyhaline","Live Cover",240,"Residuals",236,74614.954,316.1651,NA,1
+"303","TJR","Brazo Creek","West Coast","Back Barrier","Mesotidal","Polyhaline","Live Cover",48,"Year",1,390.4306,390.4306,1.9349,0.1712
+"304","TJR","Brazo Creek","West Coast","Back Barrier","Mesotidal","Polyhaline","Live Cover",48,"Vegetation_Zone",1,1696.6016,1696.6016,8.4082,0.0058
+"305","TJR","Brazo Creek","West Coast","Back Barrier","Mesotidal","Polyhaline","Live Cover",48,"Year:Vegetation_Zone",1,135.6433,135.6433,0.6722,0.4167
+"306","TJR","Brazo Creek","West Coast","Back Barrier","Mesotidal","Polyhaline","Live Cover",48,"Residuals",44,8878.277,201.779,NA,1
+"307","TJR","Model Marsh","West Coast","Back Barrier","Mesotidal","Polyhaline","Live Cover",120,"Year",1,1370.3305,1370.3305,1.7499,0.1885
+"308","TJR","Model Marsh","West Coast","Back Barrier","Mesotidal","Polyhaline","Live Cover",120,"Vegetation_Zone",1,1479.6581,1479.6581,1.8895,0.1719
+"309","TJR","Model Marsh","West Coast","Back Barrier","Mesotidal","Polyhaline","Live Cover",120,"Year:Vegetation_Zone",1,121.6741,121.6741,0.1554,0.6942
+"310","TJR","Model Marsh","West Coast","Back Barrier","Mesotidal","Polyhaline","Live Cover",120,"Residuals",116,90838.3025,783.0888,NA,1
+"311","WEL","WB","Northeast","Back Barrier","Mesotidal","Polyhaline","Live Cover",265,"Year",1,90.9664,90.9664,0.2528,0.6156
+"312","WEL","WB","Northeast","Back Barrier","Mesotidal","Polyhaline","Live Cover",265,"Vegetation_Zone",2,4586.0533,2293.0267,6.3717,0.002
+"313","WEL","WB","Northeast","Back Barrier","Mesotidal","Polyhaline","Live Cover",265,"Year:Vegetation_Zone",2,272.6958,136.3479,0.3789,0.685
+"314","WEL","WB","Northeast","Back Barrier","Mesotidal","Polyhaline","Live Cover",265,"Residuals",259,93208.3764,359.8779,NA,1
+"315","WQB","Section 2","Northeast","Back Barrier","Microtidal","Polyhaline","Live Cover",420,"Year",1,2.1106,2.1106,0.003,0.9566
+"316","WQB","Section 2","Northeast","Back Barrier","Microtidal","Polyhaline","Live Cover",420,"Vegetation_Zone",2,107682.7412,53841.3706,75.6759,0
+"317","WQB","Section 2","Northeast","Back Barrier","Microtidal","Polyhaline","Live Cover",420,"Year:Vegetation_Zone",2,2235.1684,1117.5842,1.5708,0.2091
+"318","WQB","Section 2","Northeast","Back Barrier","Microtidal","Polyhaline","Live Cover",420,"Residuals",414,294549.9094,711.4732,NA,1
+"319","WQB","Section 1","Northeast","Back Barrier","Microtidal","Polyhaline","Live Cover",307,"Year",1,125.3191,125.3191,0.1464,0.7023
+"320","WQB","Section 1","Northeast","Back Barrier","Microtidal","Polyhaline","Live Cover",307,"Vegetation_Zone",2,15409.0991,7704.5495,9.0007,2e-04
+"321","WQB","Section 1","Northeast","Back Barrier","Microtidal","Polyhaline","Live Cover",307,"Year:Vegetation_Zone",2,1023.6396,511.8198,0.5979,0.5506
+"322","WQB","Section 1","Northeast","Back Barrier","Microtidal","Polyhaline","Live Cover",307,"Residuals",301,257654.5485,855.9952,NA,1
+"323","WQB","Section 3","Northeast","Back Barrier","Microtidal","Polyhaline","Live Cover",331,"Year",1,55.1771,55.1771,0.121,0.7282
+"324","WQB","Section 3","Northeast","Back Barrier","Microtidal","Polyhaline","Live Cover",331,"Vegetation_Zone",2,81646.7991,40823.3995,89.5209,0
+"325","WQB","Section 3","Northeast","Back Barrier","Microtidal","Polyhaline","Live Cover",331,"Year:Vegetation_Zone",2,1670.4317,835.2159,1.8315,0.1618
+"326","WQB","Section 3","Northeast","Back Barrier","Microtidal","Polyhaline","Live Cover",331,"Residuals",325,148206.7428,456.0207,NA,1
+"327","ACE","EIN","Southeast","Riverine","Microtidal","Polyhaline","Halophyte Cover",142,"Year",1,1040.5684,1040.5684,1.5668,0.2128
+"328","ACE","EIN","Southeast","Riverine","Microtidal","Polyhaline","Halophyte Cover",142,"Vegetation_Zone",1,4544.5989,4544.5989,6.8429,0.0099
+"329","ACE","EIN","Southeast","Riverine","Microtidal","Polyhaline","Halophyte Cover",142,"Year:Vegetation_Zone",1,1.6032,1.6032,0.0024,0.9609
+"330","ACE","EIN","Southeast","Riverine","Microtidal","Polyhaline","Halophyte Cover",142,"Residuals",138,91650.4512,664.1337,NA,1
+"331","ACE","EIS","Southeast","Riverine","Microtidal","Polyhaline","Halophyte Cover",122,"Year",1,7637.7765,7637.7765,12.3826,6e-04
+"332","ACE","EIS","Southeast","Riverine","Microtidal","Polyhaline","Halophyte Cover",122,"Vegetation_Zone",1,1154.1859,1154.1859,1.8712,0.1739
+"333","ACE","EIS","Southeast","Riverine","Microtidal","Polyhaline","Halophyte Cover",122,"Year:Vegetation_Zone",1,169.6932,169.6932,0.2751,0.6009
+"334","ACE","EIS","Southeast","Riverine","Microtidal","Polyhaline","Halophyte Cover",122,"Residuals",118,72784.0752,616.8142,NA,1
+"335","APA","PC","Gulf Coast","Bay Front","Microtidal","Polyhaline","Halophyte Cover",346,"Year",1,248.7683,248.7683,0.3809,0.5375
+"336","APA","PC","Gulf Coast","Bay Front","Microtidal","Polyhaline","Halophyte Cover",346,"Vegetation_Zone",2,67993.3518,33996.6759,52.0552,0
+"337","APA","PC","Gulf Coast","Bay Front","Microtidal","Polyhaline","Halophyte Cover",346,"Year:Vegetation_Zone",2,2410.4817,1205.2409,1.8454,0.1595
+"338","APA","PC","Gulf Coast","Bay Front","Microtidal","Polyhaline","Halophyte Cover",346,"Residuals",340,222050.3838,653.0894,NA,1
+"339","CBM","MB","Mid-Atlantic","Bay Front","Microtidal","Mesohaline","Halophyte Cover",160,"Year",1,3165.0064,3165.0064,14.5797,2e-04
+"340","CBM","MB","Mid-Atlantic","Bay Front","Microtidal","Mesohaline","Halophyte Cover",160,"Vegetation_Zone",1,242.6652,242.6652,1.1178,0.292
+"341","CBM","MB","Mid-Atlantic","Bay Front","Microtidal","Mesohaline","Halophyte Cover",160,"Year:Vegetation_Zone",1,445.1707,445.1707,2.0507,0.1541
+"342","CBM","MB","Mid-Atlantic","Bay Front","Microtidal","Mesohaline","Halophyte Cover",160,"Residuals",156,33864.9264,217.0829,NA,1
+"343","CBM","OPC","Mid-Atlantic","Riverine","Microtidal","Oligohaline","Halophyte Cover",419,"Year",1,0,0,NA,1
+"344","CBM","OPC","Mid-Atlantic","Riverine","Microtidal","Oligohaline","Halophyte Cover",419,"Vegetation_Zone",1,0,0,NA,1
+"345","CBM","OPC","Mid-Atlantic","Riverine","Microtidal","Oligohaline","Halophyte Cover",419,"Year:Vegetation_Zone",1,0,0,NA,1
+"346","CBM","OPC","Mid-Atlantic","Riverine","Microtidal","Oligohaline","Halophyte Cover",419,"Residuals",415,0,0,NA,1
+"347","DEL","SJR","Mid-Atlantic","Riverine","Microtidal","Mesohaline","Halophyte Cover",120,"Year",1,359.3837,359.3837,0.3448,0.5582
+"348","DEL","SJR","Mid-Atlantic","Riverine","Microtidal","Mesohaline","Halophyte Cover",120,"Vegetation_Zone",2,19581.0379,9790.519,9.3942,2e-04
+"349","DEL","SJR","Mid-Atlantic","Riverine","Microtidal","Mesohaline","Halophyte Cover",120,"Year:Vegetation_Zone",2,495.4706,247.7353,0.2377,0.7888
+"350","DEL","SJR","Mid-Atlantic","Riverine","Microtidal","Mesohaline","Halophyte Cover",120,"Residuals",114,118808.8867,1042.1832,NA,1
+"351","ELK","Upper","West Coast","Riverine","Mesotidal","Polyhaline","Halophyte Cover",60,"Year",1,49.199,49.199,0.785,0.3796
+"352","ELK","Upper","West Coast","Riverine","Mesotidal","Polyhaline","Halophyte Cover",60,"Vegetation_Zone",2,3207.0433,1603.5216,25.5839,0
+"353","ELK","Upper","West Coast","Riverine","Mesotidal","Polyhaline","Halophyte Cover",60,"Year:Vegetation_Zone",2,442.7909,221.3955,3.5323,0.0362
+"354","ELK","Upper","West Coast","Riverine","Mesotidal","Polyhaline","Halophyte Cover",60,"Residuals",54,3384.5581,62.677,NA,1
+"355","ELK","Lower","West Coast","Riverine","Mesotidal","Polyhaline","Halophyte Cover",100,"Year",1,0,0,NA,1
+"356","ELK","Lower","West Coast","Riverine","Mesotidal","Polyhaline","Halophyte Cover",100,"Vegetation_Zone",2,0,0,NA,1
+"357","ELK","Lower","West Coast","Riverine","Mesotidal","Polyhaline","Halophyte Cover",100,"Year:Vegetation_Zone",2,0,0,NA,1
+"358","ELK","Lower","West Coast","Riverine","Mesotidal","Polyhaline","Halophyte Cover",100,"Residuals",94,0,0,NA,1
+"359","GND","spalt","Gulf Coast","Bay Front","Microtidal","Polyhaline","Halophyte Cover",162,"Year",1,0,0,NA,1
+"360","GND","spalt","Gulf Coast","Bay Front","Microtidal","Polyhaline","Halophyte Cover",162,"Vegetation_Zone",1,0,0,NA,1
+"361","GND","spalt","Gulf Coast","Bay Front","Microtidal","Polyhaline","Halophyte Cover",162,"Year:Vegetation_Zone",1,0,0,NA,1
+"362","GND","spalt","Gulf Coast","Bay Front","Microtidal","Polyhaline","Halophyte Cover",162,"Residuals",158,0,0,NA,1
+"363","GND","juro low","Gulf Coast","Bay Front","Microtidal","Mesohaline","Halophyte Cover",210,"Year",1,0,0,NA,1
+"364","GND","juro low","Gulf Coast","Bay Front","Microtidal","Mesohaline","Halophyte Cover",210,"Vegetation_Zone",1,0,0,NA,1
+"365","GND","juro low","Gulf Coast","Bay Front","Microtidal","Mesohaline","Halophyte Cover",210,"Year:Vegetation_Zone",1,0,0,NA,1
+"366","GND","juro low","Gulf Coast","Bay Front","Microtidal","Mesohaline","Halophyte Cover",210,"Residuals",206,0,0,NA,1
+"367","GND","juro high","Gulf Coast","Riverine","Microtidal","Mesohaline","Halophyte Cover",128,"Year",1,0.24,0.24,0.112,0.7384
+"368","GND","juro high","Gulf Coast","Riverine","Microtidal","Mesohaline","Halophyte Cover",128,"Vegetation_Zone",1,6.9862,6.9862,3.26,0.0734
+"369","GND","juro high","Gulf Coast","Riverine","Microtidal","Mesohaline","Halophyte Cover",128,"Year:Vegetation_Zone",1,7.7202,7.7202,3.6025,0.06
+"370","GND","juro high","Gulf Coast","Riverine","Microtidal","Mesohaline","Halophyte Cover",128,"Residuals",124,265.7332,2.143,NA,1
+"371","GND","juro mid","Gulf Coast","Riverine","Microtidal","Mesohaline","Halophyte Cover",240,"Year",1,6.6544,6.6544,14.7159,2e-04
+"372","GND","juro mid","Gulf Coast","Riverine","Microtidal","Mesohaline","Halophyte Cover",240,"Vegetation_Zone",2,62.4271,31.2135,69.0275,0
+"373","GND","juro mid","Gulf Coast","Riverine","Microtidal","Mesohaline","Halophyte Cover",240,"Year:Vegetation_Zone",2,48.7301,24.3651,53.8824,0
+"374","GND","juro mid","Gulf Coast","Riverine","Microtidal","Mesohaline","Halophyte Cover",240,"Residuals",234,105.8124,0.4522,NA,1
+"375","GRB","SP","Northeast","Bay Front","Mesotidal","Polyhaline","Halophyte Cover",491,"Year",1,101.5013,101.5013,0.1405,0.7079
+"376","GRB","SP","Northeast","Bay Front","Mesotidal","Polyhaline","Halophyte Cover",491,"Vegetation_Zone",2,229299.1362,114649.5681,158.7464,0
+"377","GRB","SP","Northeast","Bay Front","Mesotidal","Polyhaline","Halophyte Cover",491,"Year:Vegetation_Zone",2,12564.4938,6282.2469,8.6985,2e-04
+"378","GRB","SP","Northeast","Bay Front","Mesotidal","Polyhaline","Halophyte Cover",491,"Residuals",485,350275.9512,722.2185,NA,1
+"379","GRB","GBF","Northeast","Riverine","Mesotidal","Polyhaline","Halophyte Cover",429,"Year",1,37.293,37.293,0.0628,0.8022
+"380","GRB","GBF","Northeast","Riverine","Mesotidal","Polyhaline","Halophyte Cover",429,"Vegetation_Zone",2,327566.606,163783.303,275.7973,0
+"381","GRB","GBF","Northeast","Riverine","Mesotidal","Polyhaline","Halophyte Cover",429,"Year:Vegetation_Zone",2,152.6351,76.3175,0.1285,0.8794
+"382","GRB","GBF","Northeast","Riverine","Mesotidal","Polyhaline","Halophyte Cover",429,"Residuals",423,251200.2422,593.854,NA,1
+"383","GRB","BC","Northeast","Riverine","Mesotidal","Polyhaline","Halophyte Cover",329,"Year",1,937.0543,937.0543,1.2441,0.2655
+"384","GRB","BC","Northeast","Riverine","Mesotidal","Polyhaline","Halophyte Cover",329,"Vegetation_Zone",2,68274.0793,34137.0396,45.3244,0
+"385","GRB","BC","Northeast","Riverine","Mesotidal","Polyhaline","Halophyte Cover",329,"Year:Vegetation_Zone",2,970.6602,485.3301,0.6444,0.5257
+"386","GRB","BC","Northeast","Riverine","Mesotidal","Polyhaline","Halophyte Cover",329,"Residuals",323,243274.204,753.1709,NA,1
+"387","GTM","46","Southeast","Riverine","Microtidal","Oligohaline","Halophyte Cover",406,"Year",1,13266.0839,13266.0839,44.1131,0
+"388","GTM","46","Southeast","Riverine","Microtidal","Oligohaline","Halophyte Cover",406,"Vegetation_Zone",2,476.9435,238.4718,0.793,0.4532
+"389","GTM","46","Southeast","Riverine","Microtidal","Oligohaline","Halophyte Cover",406,"Residuals",402,120893.0372,300.7289,NA,1
+"390","KAC","FR","West Coast","Bay Front","Macrotidal","Mesohaline","Halophyte Cover",546,"Year",1,3550.2713,3550.2713,4.6805,0.0309
+"391","KAC","FR","West Coast","Bay Front","Macrotidal","Mesohaline","Halophyte Cover",546,"Vegetation_Zone",2,37256.726,18628.363,24.5586,0
+"392","KAC","FR","West Coast","Bay Front","Macrotidal","Mesohaline","Halophyte Cover",546,"Year:Vegetation_Zone",2,433.0338,216.5169,0.2854,0.7518
+"393","KAC","FR","West Coast","Bay Front","Macrotidal","Mesohaline","Halophyte Cover",546,"Residuals",540,409605.3054,758.5283,NA,1
+"394","KAC","BS","West Coast","Back Barrier","Macrotidal","Oligohaline","Halophyte Cover",346,"Year",1,6137.7058,6137.7058,4.4078,0.0365
+"395","KAC","BS","West Coast","Back Barrier","Macrotidal","Oligohaline","Halophyte Cover",346,"Vegetation_Zone",2,35021.9976,17510.9988,12.5756,0
+"396","KAC","BS","West Coast","Back Barrier","Macrotidal","Oligohaline","Halophyte Cover",346,"Year:Vegetation_Zone",2,364.026,182.013,0.1307,0.8775
+"397","KAC","BS","West Coast","Back Barrier","Macrotidal","Oligohaline","Halophyte Cover",346,"Residuals",340,473434.1302,1392.4533,NA,1
+"398","KAC","CP","West Coast","Bay Front","Macrotidal","Mesohaline","Halophyte Cover",463,"Year",1,903.5501,903.5501,0.5201,0.4712
+"399","KAC","CP","West Coast","Bay Front","Macrotidal","Mesohaline","Halophyte Cover",463,"Vegetation_Zone",1,11850.5471,11850.5471,6.8211,0.0093
+"400","KAC","CP","West Coast","Bay Front","Macrotidal","Mesohaline","Halophyte Cover",463,"Year:Vegetation_Zone",1,132.2969,132.2969,0.0761,0.7827
+"401","KAC","CP","West Coast","Bay Front","Macrotidal","Mesohaline","Halophyte Cover",463,"Residuals",459,797435.2342,1737.3317,NA,1
+"402","KAC","SC","West Coast","Bay Front","Macrotidal","Mesohaline","Halophyte Cover",161,"Year",1,1740.3919,1740.3919,1.4439,0.2313
+"403","KAC","SC","West Coast","Bay Front","Macrotidal","Mesohaline","Halophyte Cover",161,"Vegetation_Zone",1,43.6658,43.6658,0.0362,0.8493
+"404","KAC","SC","West Coast","Bay Front","Macrotidal","Mesohaline","Halophyte Cover",161,"Year:Vegetation_Zone",1,208.2555,208.2555,0.1728,0.6782
+"405","KAC","SC","West Coast","Bay Front","Macrotidal","Mesohaline","Halophyte Cover",161,"Residuals",157,189237.3653,1205.3335,NA,1
+"406","NAR","Nag","Northeast","Bay Front","Microtidal","Polyhaline","Halophyte Cover",312,"Year",1,9234.8891,9234.8891,39.1035,0
+"407","NAR","Nag","Northeast","Bay Front","Microtidal","Polyhaline","Halophyte Cover",312,"Vegetation_Zone",2,2197.5413,1098.7706,4.6525,0.0102
+"408","NAR","Nag","Northeast","Bay Front","Microtidal","Polyhaline","Halophyte Cover",312,"Year:Vegetation_Zone",2,4095.4031,2047.7016,8.6706,2e-04
+"409","NAR","Nag","Northeast","Bay Front","Microtidal","Polyhaline","Halophyte Cover",312,"Residuals",306,72266.6644,236.1656,NA,1
+"410","NAR","Coggeshall","Northeast","Bay Front","Microtidal","Polyhaline","Halophyte Cover",273,"Year",1,15625.7653,15625.7653,42.7309,0
+"411","NAR","Coggeshall","Northeast","Bay Front","Microtidal","Polyhaline","Halophyte Cover",273,"Vegetation_Zone",2,2990.6286,1495.3143,4.0892,0.0178
+"412","NAR","Coggeshall","Northeast","Bay Front","Microtidal","Polyhaline","Halophyte Cover",273,"Year:Vegetation_Zone",2,138.6309,69.3155,0.1896,0.8274
+"413","NAR","Coggeshall","Northeast","Bay Front","Microtidal","Polyhaline","Halophyte Cover",273,"Residuals",267,97636.063,365.6781,NA,1
+"414","NIW","Segment A","Southeast","Riverine","Microtidal","Polyhaline","Halophyte Cover",319,"Year",1,5806.4502,5806.4502,5.5421,0.0192
+"415","NIW","Segment A","Southeast","Riverine","Microtidal","Polyhaline","Halophyte Cover",319,"Vegetation_Zone",2,30505.7144,15252.8572,14.5583,0
+"416","NIW","Segment A","Southeast","Riverine","Microtidal","Polyhaline","Halophyte Cover",319,"Year:Vegetation_Zone",2,6072.7635,3036.3817,2.8981,0.0566
+"417","NIW","Segment A","Southeast","Riverine","Microtidal","Polyhaline","Halophyte Cover",319,"Residuals",313,327932.0716,1047.7063,NA,1
+"418","NIW","Segment B","Southeast","Riverine","Microtidal","Polyhaline","Halophyte Cover",338,"Year",1,5161.9256,5161.9256,4.6375,0.032
+"419","NIW","Segment B","Southeast","Riverine","Microtidal","Polyhaline","Halophyte Cover",338,"Vegetation_Zone",1,4793.3531,4793.3531,4.3063,0.0387
+"420","NIW","Segment B","Southeast","Riverine","Microtidal","Polyhaline","Halophyte Cover",338,"Year:Vegetation_Zone",1,588.1323,588.1323,0.5284,0.4678
+"421","NIW","Segment B","Southeast","Riverine","Microtidal","Polyhaline","Halophyte Cover",338,"Residuals",334,371773.8508,1113.0954,NA,1
+"422","NOC","MI","Southeast","Back Barrier","Microtidal","Polyhaline","Halophyte Cover",789,"Year",1,7009.5234,7009.5234,5.8034,0.0162
+"423","NOC","MI","Southeast","Back Barrier","Microtidal","Polyhaline","Halophyte Cover",789,"Vegetation_Zone",1,55608.689,55608.689,46.04,0
+"424","NOC","MI","Southeast","Back Barrier","Microtidal","Polyhaline","Halophyte Cover",789,"Year:Vegetation_Zone",1,1783.1431,1783.1431,1.4763,0.2247
+"425","NOC","MI","Southeast","Back Barrier","Microtidal","Polyhaline","Halophyte Cover",789,"Residuals",785,948149.5723,1207.8339,NA,1
+"426","SOS","DM","West Coast","Riverine","Mesotidal","Mesohaline","Halophyte Cover",70,"Year",1,185.25,185.25,1.1417,0.2892
+"427","SOS","DM","West Coast","Riverine","Mesotidal","Mesohaline","Halophyte Cover",70,"Vegetation_Zone",1,81.7906,81.7906,0.5041,0.4802
+"428","SOS","DM","West Coast","Riverine","Mesotidal","Mesohaline","Halophyte Cover",70,"Year:Vegetation_Zone",1,38.6049,38.6049,0.2379,0.6273
+"429","SOS","DM","West Coast","Riverine","Mesotidal","Mesohaline","Halophyte Cover",70,"Residuals",66,10709.1054,162.2592,NA,1
+"430","SOS","MM","West Coast","Bay Front","Mesotidal","Polyhaline","Halophyte Cover",120,"Year",1,7.5182,7.5182,0.05,0.8235
+"431","SOS","MM","West Coast","Bay Front","Mesotidal","Polyhaline","Halophyte Cover",120,"Vegetation_Zone",1,106088.5333,106088.5333,705.1208,0
+"432","SOS","MM","West Coast","Bay Front","Mesotidal","Polyhaline","Halophyte Cover",120,"Year:Vegetation_Zone",1,3.4688,3.4688,0.0231,0.8796
+"433","SOS","MM","West Coast","Bay Front","Mesotidal","Polyhaline","Halophyte Cover",120,"Residuals",116,17452.7126,150.4544,NA,1
+"434","SOS","HC","West Coast","Riverine","Mesotidal","Mesohaline","Halophyte Cover",122,"Year",1,1428.0529,1428.0529,3.455,0.0656
+"435","SOS","HC","West Coast","Riverine","Mesotidal","Mesohaline","Halophyte Cover",122,"Vegetation_Zone",1,13183.5993,13183.5993,31.8957,0
+"436","SOS","HC","West Coast","Riverine","Mesotidal","Mesohaline","Halophyte Cover",122,"Year:Vegetation_Zone",1,1624.0151,1624.0151,3.9291,0.0498
+"437","SOS","HC","West Coast","Riverine","Mesotidal","Mesohaline","Halophyte Cover",122,"Residuals",118,48773.4959,413.3347,NA,1
+"438","SOS","VM","West Coast","Riverine","Mesotidal","Polyhaline","Halophyte Cover",100,"Year",1,76.411,76.411,0.2011,0.6548
+"439","SOS","VM","West Coast","Riverine","Mesotidal","Polyhaline","Halophyte Cover",100,"Vegetation_Zone",1,27725.0992,27725.0992,72.9683,0
+"440","SOS","VM","West Coast","Riverine","Mesotidal","Polyhaline","Halophyte Cover",100,"Year:Vegetation_Zone",1,46.4089,46.4089,0.1221,0.7275
+"441","SOS","VM","West Coast","Riverine","Mesotidal","Polyhaline","Halophyte Cover",100,"Residuals",96,36476.2461,379.9609,NA,1
+"442","SOS","VI","West Coast","Riverine","Mesotidal","Polyhaline","Halophyte Cover",60,"Year",1,1044.638,1044.638,9.9408,0.0026
+"443","SOS","VI","West Coast","Riverine","Mesotidal","Polyhaline","Halophyte Cover",60,"Vegetation_Zone",1,2654.9462,2654.9462,25.2646,0
+"444","SOS","VI","West Coast","Riverine","Mesotidal","Polyhaline","Halophyte Cover",60,"Year:Vegetation_Zone",1,8.413,8.413,0.0801,0.7783
+"445","SOS","VI","West Coast","Riverine","Mesotidal","Polyhaline","Halophyte Cover",60,"Residuals",56,5884.8054,105.0858,NA,1
+"446","TJR","McCoy North","West Coast","Back Barrier","Mesotidal","Polyhaline","Halophyte Cover",50,"Year",1,63.9797,63.9797,0.0512,0.8221
+"447","TJR","McCoy North","West Coast","Back Barrier","Mesotidal","Polyhaline","Halophyte Cover",50,"Vegetation_Zone",1,21118.6186,21118.6186,16.8854,2e-04
+"448","TJR","McCoy North","West Coast","Back Barrier","Mesotidal","Polyhaline","Halophyte Cover",50,"Year:Vegetation_Zone",1,553.3735,553.3735,0.4425,0.5093
+"449","TJR","McCoy North","West Coast","Back Barrier","Mesotidal","Polyhaline","Halophyte Cover",50,"Residuals",46,57532.2311,1250.7007,NA,1
+"450","TJR","McCoy South","West Coast","Back Barrier","Mesotidal","Polyhaline","Halophyte Cover",240,"Year",1,1031.3338,1031.3338,1.4546,0.229
+"451","TJR","McCoy South","West Coast","Back Barrier","Mesotidal","Polyhaline","Halophyte Cover",240,"Vegetation_Zone",2,203121.6838,101560.8419,143.2396,0
+"452","TJR","McCoy South","West Coast","Back Barrier","Mesotidal","Polyhaline","Halophyte Cover",240,"Year:Vegetation_Zone",2,217.5488,108.7744,0.1534,0.8579
+"453","TJR","McCoy South","West Coast","Back Barrier","Mesotidal","Polyhaline","Halophyte Cover",240,"Residuals",234,165912.4658,709.0276,NA,1
+"454","TJR","South Beach","West Coast","Back Barrier","Mesotidal","Polyhaline","Halophyte Cover",210,"Year",1,644.09,644.09,0.4791,0.4896
+"455","TJR","South Beach","West Coast","Back Barrier","Mesotidal","Polyhaline","Halophyte Cover",210,"Vegetation_Zone",1,42411.8078,42411.8078,31.5445,0
+"456","TJR","South Beach","West Coast","Back Barrier","Mesotidal","Polyhaline","Halophyte Cover",210,"Year:Vegetation_Zone",1,6.4211,6.4211,0.0048,0.945
+"457","TJR","South Beach","West Coast","Back Barrier","Mesotidal","Polyhaline","Halophyte Cover",210,"Residuals",206,276968.2156,1344.5059,NA,1
+"458","TJR","V1","West Coast","Back Barrier","Mesotidal","Polyhaline","Halophyte Cover",270,"Year",1,3767.9338,3767.9338,14.3771,2e-04
+"459","TJR","V1","West Coast","Back Barrier","Mesotidal","Polyhaline","Halophyte Cover",270,"Vegetation_Zone",2,7299.846,3649.923,13.9268,0
+"460","TJR","V1","West Coast","Back Barrier","Mesotidal","Polyhaline","Halophyte Cover",270,"Year:Vegetation_Zone",2,2131.4861,1065.743,4.0665,0.0182
+"461","TJR","V1","West Coast","Back Barrier","Mesotidal","Polyhaline","Halophyte Cover",270,"Residuals",264,69188.6463,262.0782,NA,1
+"462","TJR","V4","West Coast","Back Barrier","Mesotidal","Polyhaline","Halophyte Cover",240,"Year",1,1385.0265,1385.0265,4.3857,0.0373
+"463","TJR","V4","West Coast","Back Barrier","Mesotidal","Polyhaline","Halophyte Cover",240,"Vegetation_Zone",1,257.3122,257.3122,0.8148,0.3676
+"464","TJR","V4","West Coast","Back Barrier","Mesotidal","Polyhaline","Halophyte Cover",240,"Year:Vegetation_Zone",1,34.0691,34.0691,0.1079,0.7429
+"465","TJR","V4","West Coast","Back Barrier","Mesotidal","Polyhaline","Halophyte Cover",240,"Residuals",236,74529.508,315.803,NA,1
+"466","TJR","Brazo Creek","West Coast","Back Barrier","Mesotidal","Polyhaline","Halophyte Cover",48,"Year",1,235.026,235.026,0.9579,0.3331
+"467","TJR","Brazo Creek","West Coast","Back Barrier","Mesotidal","Polyhaline","Halophyte Cover",48,"Vegetation_Zone",1,1593.2045,1593.2045,6.4934,0.0144
+"468","TJR","Brazo Creek","West Coast","Back Barrier","Mesotidal","Polyhaline","Halophyte Cover",48,"Year:Vegetation_Zone",1,169.0501,169.0501,0.689,0.411
+"469","TJR","Brazo Creek","West Coast","Back Barrier","Mesotidal","Polyhaline","Halophyte Cover",48,"Residuals",44,10795.7044,245.3569,NA,1
+"470","TJR","Model Marsh","West Coast","Back Barrier","Mesotidal","Polyhaline","Halophyte Cover",120,"Year",1,1370.3305,1370.3305,1.7499,0.1885
+"471","TJR","Model Marsh","West Coast","Back Barrier","Mesotidal","Polyhaline","Halophyte Cover",120,"Vegetation_Zone",1,1479.6581,1479.6581,1.8895,0.1719
+"472","TJR","Model Marsh","West Coast","Back Barrier","Mesotidal","Polyhaline","Halophyte Cover",120,"Year:Vegetation_Zone",1,121.6741,121.6741,0.1554,0.6942
+"473","TJR","Model Marsh","West Coast","Back Barrier","Mesotidal","Polyhaline","Halophyte Cover",120,"Residuals",116,90838.3025,783.0888,NA,1
+"474","WEL","WB","Northeast","Back Barrier","Mesotidal","Polyhaline","Halophyte Cover",265,"Year",1,305.8986,305.8986,0.4647,0.4961
+"475","WEL","WB","Northeast","Back Barrier","Mesotidal","Polyhaline","Halophyte Cover",265,"Vegetation_Zone",2,10741.5981,5370.799,8.1587,4e-04
+"476","WEL","WB","Northeast","Back Barrier","Mesotidal","Polyhaline","Halophyte Cover",265,"Year:Vegetation_Zone",2,1864.2515,932.1257,1.416,0.2446
+"477","WEL","WB","Northeast","Back Barrier","Mesotidal","Polyhaline","Halophyte Cover",265,"Residuals",259,170497.9129,658.2931,NA,1
+"478","WQB","Section 2","Northeast","Back Barrier","Microtidal","Polyhaline","Halophyte Cover",420,"Year",1,57.7645,57.7645,0.0839,0.7722
+"479","WQB","Section 2","Northeast","Back Barrier","Microtidal","Polyhaline","Halophyte Cover",420,"Vegetation_Zone",2,123764.4825,61882.2413,89.8997,0
+"480","WQB","Section 2","Northeast","Back Barrier","Microtidal","Polyhaline","Halophyte Cover",420,"Year:Vegetation_Zone",2,1510.3736,755.1868,1.0971,0.3348
+"481","WQB","Section 2","Northeast","Back Barrier","Microtidal","Polyhaline","Halophyte Cover",420,"Residuals",414,284975.8418,688.3474,NA,1
+"482","WQB","Section 1","Northeast","Back Barrier","Microtidal","Polyhaline","Halophyte Cover",307,"Year",1,3894.929,3894.929,4.4912,0.0349
+"483","WQB","Section 1","Northeast","Back Barrier","Microtidal","Polyhaline","Halophyte Cover",307,"Vegetation_Zone",2,25222.6392,12611.3196,14.5419,0
+"484","WQB","Section 1","Northeast","Back Barrier","Microtidal","Polyhaline","Halophyte Cover",307,"Year:Vegetation_Zone",2,671.6233,335.8116,0.3872,0.6793
+"485","WQB","Section 1","Northeast","Back Barrier","Microtidal","Polyhaline","Halophyte Cover",307,"Residuals",301,261039.7142,867.2416,NA,1
+"486","WQB","Section 3","Northeast","Back Barrier","Microtidal","Polyhaline","Halophyte Cover",331,"Year",1,218.8969,218.8969,0.3186,0.5728
+"487","WQB","Section 3","Northeast","Back Barrier","Microtidal","Polyhaline","Halophyte Cover",331,"Vegetation_Zone",2,69208.6167,34604.3084,50.3665,0
+"488","WQB","Section 3","Northeast","Back Barrier","Microtidal","Polyhaline","Halophyte Cover",331,"Year:Vegetation_Zone",2,2976.1599,1488.08,2.1659,0.1163
+"489","WQB","Section 3","Northeast","Back Barrier","Microtidal","Polyhaline","Halophyte Cover",331,"Residuals",325,223291.0815,687.0495,NA,1
+"490","ACE","EIN","Southeast","Riverine","Microtidal","Polyhaline","Freshwater Cover",142,"Year",1,0,0,NA,1
+"491","ACE","EIN","Southeast","Riverine","Microtidal","Polyhaline","Freshwater Cover",142,"Vegetation_Zone",1,0,0,NA,1
+"492","ACE","EIN","Southeast","Riverine","Microtidal","Polyhaline","Freshwater Cover",142,"Year:Vegetation_Zone",1,0,0,NA,1
+"493","ACE","EIN","Southeast","Riverine","Microtidal","Polyhaline","Freshwater Cover",142,"Residuals",138,0,0,NA,1
+"494","ACE","EIS","Southeast","Riverine","Microtidal","Polyhaline","Freshwater Cover",122,"Year",1,0,0,NA,1
+"495","ACE","EIS","Southeast","Riverine","Microtidal","Polyhaline","Freshwater Cover",122,"Vegetation_Zone",1,0,0,NA,1
+"496","ACE","EIS","Southeast","Riverine","Microtidal","Polyhaline","Freshwater Cover",122,"Year:Vegetation_Zone",1,0,0,NA,1
+"497","ACE","EIS","Southeast","Riverine","Microtidal","Polyhaline","Freshwater Cover",122,"Residuals",118,0,0,NA,1
+"498","APA","PC","Gulf Coast","Bay Front","Microtidal","Polyhaline","Freshwater Cover",346,"Year",1,627.5351,627.5351,8.6358,0.0035
+"499","APA","PC","Gulf Coast","Bay Front","Microtidal","Polyhaline","Freshwater Cover",346,"Vegetation_Zone",2,926.3974,463.1987,6.3743,0.0019
+"500","APA","PC","Gulf Coast","Bay Front","Microtidal","Polyhaline","Freshwater Cover",346,"Year:Vegetation_Zone",2,685.6624,342.8312,4.7179,0.0095
+"501","APA","PC","Gulf Coast","Bay Front","Microtidal","Polyhaline","Freshwater Cover",346,"Residuals",340,24706.5877,72.6664,NA,1
+"502","CBM","MB","Mid-Atlantic","Bay Front","Microtidal","Mesohaline","Freshwater Cover",160,"Year",1,0,0,NA,1
+"503","CBM","MB","Mid-Atlantic","Bay Front","Microtidal","Mesohaline","Freshwater Cover",160,"Vegetation_Zone",1,0,0,NA,1
+"504","CBM","MB","Mid-Atlantic","Bay Front","Microtidal","Mesohaline","Freshwater Cover",160,"Year:Vegetation_Zone",1,0,0,NA,1
+"505","CBM","MB","Mid-Atlantic","Bay Front","Microtidal","Mesohaline","Freshwater Cover",160,"Residuals",156,0,0,NA,1
+"506","CBM","OPC","Mid-Atlantic","Riverine","Microtidal","Oligohaline","Freshwater Cover",419,"Year",1,30345.7786,30345.7786,96.5692,0
+"507","CBM","OPC","Mid-Atlantic","Riverine","Microtidal","Oligohaline","Freshwater Cover",419,"Vegetation_Zone",1,940.3843,940.3843,2.9926,0.0844
+"508","CBM","OPC","Mid-Atlantic","Riverine","Microtidal","Oligohaline","Freshwater Cover",419,"Year:Vegetation_Zone",1,1273.3612,1273.3612,4.0522,0.0448
+"509","CBM","OPC","Mid-Atlantic","Riverine","Microtidal","Oligohaline","Freshwater Cover",419,"Residuals",415,130409.0377,314.2386,NA,1
+"510","DEL","SJR","Mid-Atlantic","Riverine","Microtidal","Mesohaline","Freshwater Cover",120,"Year",1,0,0,NA,1
+"511","DEL","SJR","Mid-Atlantic","Riverine","Microtidal","Mesohaline","Freshwater Cover",120,"Vegetation_Zone",2,0,0,NA,1
+"512","DEL","SJR","Mid-Atlantic","Riverine","Microtidal","Mesohaline","Freshwater Cover",120,"Year:Vegetation_Zone",2,0,0,NA,1
+"513","DEL","SJR","Mid-Atlantic","Riverine","Microtidal","Mesohaline","Freshwater Cover",120,"Residuals",114,0,0,NA,1
+"514","ELK","Upper","West Coast","Riverine","Mesotidal","Polyhaline","Freshwater Cover",60,"Year",1,0,0,NA,1
+"515","ELK","Upper","West Coast","Riverine","Mesotidal","Polyhaline","Freshwater Cover",60,"Vegetation_Zone",2,0,0,NA,1
+"516","ELK","Upper","West Coast","Riverine","Mesotidal","Polyhaline","Freshwater Cover",60,"Year:Vegetation_Zone",2,0,0,NA,1
+"517","ELK","Upper","West Coast","Riverine","Mesotidal","Polyhaline","Freshwater Cover",60,"Residuals",54,0,0,NA,1
+"518","ELK","Lower","West Coast","Riverine","Mesotidal","Polyhaline","Freshwater Cover",100,"Year",1,0,0,NA,1
+"519","ELK","Lower","West Coast","Riverine","Mesotidal","Polyhaline","Freshwater Cover",100,"Vegetation_Zone",2,0,0,NA,1
+"520","ELK","Lower","West Coast","Riverine","Mesotidal","Polyhaline","Freshwater Cover",100,"Year:Vegetation_Zone",2,0,0,NA,1
+"521","ELK","Lower","West Coast","Riverine","Mesotidal","Polyhaline","Freshwater Cover",100,"Residuals",94,0,0,NA,1
+"522","GND","spalt","Gulf Coast","Bay Front","Microtidal","Polyhaline","Freshwater Cover",162,"Year",1,0,0,NA,1
+"523","GND","spalt","Gulf Coast","Bay Front","Microtidal","Polyhaline","Freshwater Cover",162,"Vegetation_Zone",1,0,0,NA,1
+"524","GND","spalt","Gulf Coast","Bay Front","Microtidal","Polyhaline","Freshwater Cover",162,"Year:Vegetation_Zone",1,0,0,NA,1
+"525","GND","spalt","Gulf Coast","Bay Front","Microtidal","Polyhaline","Freshwater Cover",162,"Residuals",158,0,0,NA,1
+"526","GND","juro low","Gulf Coast","Bay Front","Microtidal","Mesohaline","Freshwater Cover",210,"Year",1,0,0,NA,1
+"527","GND","juro low","Gulf Coast","Bay Front","Microtidal","Mesohaline","Freshwater Cover",210,"Vegetation_Zone",1,0,0,NA,1
+"528","GND","juro low","Gulf Coast","Bay Front","Microtidal","Mesohaline","Freshwater Cover",210,"Year:Vegetation_Zone",1,0,0,NA,1
+"529","GND","juro low","Gulf Coast","Bay Front","Microtidal","Mesohaline","Freshwater Cover",210,"Residuals",206,0,0,NA,1
+"530","GND","juro high","Gulf Coast","Riverine","Microtidal","Mesohaline","Freshwater Cover",128,"Year",1,2.2792,2.2792,0.0976,0.7553
+"531","GND","juro high","Gulf Coast","Riverine","Microtidal","Mesohaline","Freshwater Cover",128,"Vegetation_Zone",1,44.3497,44.3497,1.8991,0.1707
+"532","GND","juro high","Gulf Coast","Riverine","Microtidal","Mesohaline","Freshwater Cover",128,"Year:Vegetation_Zone",1,0.3898,0.3898,0.0167,0.8974
+"533","GND","juro high","Gulf Coast","Riverine","Microtidal","Mesohaline","Freshwater Cover",128,"Residuals",124,2895.786,23.3531,NA,1
+"534","GND","juro mid","Gulf Coast","Riverine","Microtidal","Mesohaline","Freshwater Cover",240,"Year",1,21.8772,21.8772,0.3061,0.5806
+"535","GND","juro mid","Gulf Coast","Riverine","Microtidal","Mesohaline","Freshwater Cover",240,"Vegetation_Zone",2,12514.7391,6257.3695,87.5592,0
+"536","GND","juro mid","Gulf Coast","Riverine","Microtidal","Mesohaline","Freshwater Cover",240,"Year:Vegetation_Zone",2,2650.4783,1325.2392,18.544,0
+"537","GND","juro mid","Gulf Coast","Riverine","Microtidal","Mesohaline","Freshwater Cover",240,"Residuals",234,16722.671,71.4644,NA,1
+"538","GRB","SP","Northeast","Bay Front","Mesotidal","Polyhaline","Freshwater Cover",491,"Year",1,0.0899,0.0899,0.0014,0.9706
+"539","GRB","SP","Northeast","Bay Front","Mesotidal","Polyhaline","Freshwater Cover",491,"Vegetation_Zone",2,21580.5307,10790.2654,163.7547,0
+"540","GRB","SP","Northeast","Bay Front","Mesotidal","Polyhaline","Freshwater Cover",491,"Year:Vegetation_Zone",2,20.5553,10.2777,0.156,0.8556
+"541","GRB","SP","Northeast","Bay Front","Mesotidal","Polyhaline","Freshwater Cover",491,"Residuals",485,31958.0368,65.8929,NA,1
+"542","GRB","GBF","Northeast","Riverine","Mesotidal","Polyhaline","Freshwater Cover",429,"Year",1,281.6889,281.6889,5.5993,0.0184
+"543","GRB","GBF","Northeast","Riverine","Mesotidal","Polyhaline","Freshwater Cover",429,"Vegetation_Zone",2,7019.0732,3509.5366,69.7613,0
+"544","GRB","GBF","Northeast","Riverine","Mesotidal","Polyhaline","Freshwater Cover",429,"Year:Vegetation_Zone",2,745.9071,372.9536,7.4134,7e-04
+"545","GRB","GBF","Northeast","Riverine","Mesotidal","Polyhaline","Freshwater Cover",429,"Residuals",423,21280.1962,50.3078,NA,1
+"546","GRB","BC","Northeast","Riverine","Mesotidal","Polyhaline","Freshwater Cover",329,"Year",1,450.3518,450.3518,10.8488,0.0011
+"547","GRB","BC","Northeast","Riverine","Mesotidal","Polyhaline","Freshwater Cover",329,"Vegetation_Zone",2,6356.3641,3178.1821,76.5613,0
+"548","GRB","BC","Northeast","Riverine","Mesotidal","Polyhaline","Freshwater Cover",329,"Year:Vegetation_Zone",2,1546.0092,773.0046,18.6214,0
+"549","GRB","BC","Northeast","Riverine","Mesotidal","Polyhaline","Freshwater Cover",329,"Residuals",323,13408.244,41.5116,NA,1
+"550","GTM","46","Southeast","Riverine","Microtidal","Oligohaline","Freshwater Cover",406,"Year",1,2278.5068,2278.5068,73.2416,0
+"551","GTM","46","Southeast","Riverine","Microtidal","Oligohaline","Freshwater Cover",406,"Vegetation_Zone",2,17974.9932,8987.4966,288.8992,0
+"552","GTM","46","Southeast","Riverine","Microtidal","Oligohaline","Freshwater Cover",406,"Residuals",402,12506,31.1095,NA,1
+"553","KAC","FR","West Coast","Bay Front","Macrotidal","Mesohaline","Freshwater Cover",546,"Year",1,69.1883,69.1883,1.9696,0.1611
+"554","KAC","FR","West Coast","Bay Front","Macrotidal","Mesohaline","Freshwater Cover",546,"Vegetation_Zone",2,8654.3129,4327.1565,123.1834,0
+"555","KAC","FR","West Coast","Bay Front","Macrotidal","Mesohaline","Freshwater Cover",546,"Year:Vegetation_Zone",2,2498.3626,1249.1813,35.5611,0
+"556","KAC","FR","West Coast","Bay Front","Macrotidal","Mesohaline","Freshwater Cover",546,"Residuals",540,18968.9873,35.1278,NA,1
+"557","KAC","BS","West Coast","Back Barrier","Macrotidal","Oligohaline","Freshwater Cover",346,"Year",1,170.8808,170.8808,11.2303,9e-04
+"558","KAC","BS","West Coast","Back Barrier","Macrotidal","Oligohaline","Freshwater Cover",346,"Vegetation_Zone",2,94784.0214,47392.0107,3114.6029,0
+"559","KAC","BS","West Coast","Back Barrier","Macrotidal","Oligohaline","Freshwater Cover",346,"Year:Vegetation_Zone",2,2798.616,1399.308,91.9625,0
+"560","KAC","BS","West Coast","Back Barrier","Macrotidal","Oligohaline","Freshwater Cover",346,"Residuals",340,5173.4632,15.2161,NA,1
+"561","KAC","CP","West Coast","Bay Front","Macrotidal","Mesohaline","Freshwater Cover",463,"Year",1,1.7308,1.7308,0.5349,0.4649
+"562","KAC","CP","West Coast","Bay Front","Macrotidal","Mesohaline","Freshwater Cover",463,"Vegetation_Zone",1,7.5092,7.5092,2.3207,0.1283
+"563","KAC","CP","West Coast","Bay Front","Macrotidal","Mesohaline","Freshwater Cover",463,"Year:Vegetation_Zone",1,0.7469,0.7469,0.2308,0.6311
+"564","KAC","CP","West Coast","Bay Front","Macrotidal","Mesohaline","Freshwater Cover",463,"Residuals",459,1485.2032,3.2357,NA,1
+"565","KAC","SC","West Coast","Bay Front","Macrotidal","Mesohaline","Freshwater Cover",161,"Year",1,0,0,NA,1
+"566","KAC","SC","West Coast","Bay Front","Macrotidal","Mesohaline","Freshwater Cover",161,"Vegetation_Zone",1,0,0,NA,1
+"567","KAC","SC","West Coast","Bay Front","Macrotidal","Mesohaline","Freshwater Cover",161,"Year:Vegetation_Zone",1,0,0,NA,1
+"568","KAC","SC","West Coast","Bay Front","Macrotidal","Mesohaline","Freshwater Cover",161,"Residuals",157,0,0,NA,1
+"569","NAR","Nag","Northeast","Bay Front","Microtidal","Polyhaline","Freshwater Cover",312,"Year",1,0,0,NA,1
+"570","NAR","Nag","Northeast","Bay Front","Microtidal","Polyhaline","Freshwater Cover",312,"Vegetation_Zone",2,0,0,NA,1
+"571","NAR","Nag","Northeast","Bay Front","Microtidal","Polyhaline","Freshwater Cover",312,"Year:Vegetation_Zone",2,0,0,NA,1
+"572","NAR","Nag","Northeast","Bay Front","Microtidal","Polyhaline","Freshwater Cover",312,"Residuals",306,0,0,NA,1
+"573","NAR","Coggeshall","Northeast","Bay Front","Microtidal","Polyhaline","Freshwater Cover",273,"Year",1,0,0,NA,1
+"574","NAR","Coggeshall","Northeast","Bay Front","Microtidal","Polyhaline","Freshwater Cover",273,"Vegetation_Zone",2,0,0,NA,1
+"575","NAR","Coggeshall","Northeast","Bay Front","Microtidal","Polyhaline","Freshwater Cover",273,"Year:Vegetation_Zone",2,0,0,NA,1
+"576","NAR","Coggeshall","Northeast","Bay Front","Microtidal","Polyhaline","Freshwater Cover",273,"Residuals",267,0,0,NA,1
+"577","NIW","Segment A","Southeast","Riverine","Microtidal","Polyhaline","Freshwater Cover",319,"Year",1,10.718,10.718,1.7519,0.1866
+"578","NIW","Segment A","Southeast","Riverine","Microtidal","Polyhaline","Freshwater Cover",319,"Vegetation_Zone",2,56.2655,28.1327,4.5983,0.0108
+"579","NIW","Segment A","Southeast","Riverine","Microtidal","Polyhaline","Freshwater Cover",319,"Year:Vegetation_Zone",2,71.6888,35.8444,5.8588,0.0032
+"580","NIW","Segment A","Southeast","Riverine","Microtidal","Polyhaline","Freshwater Cover",319,"Residuals",313,1914.9521,6.1181,NA,1
+"581","NIW","Segment B","Southeast","Riverine","Microtidal","Polyhaline","Freshwater Cover",338,"Year",1,52.6239,52.6239,3.5351,0.061
+"582","NIW","Segment B","Southeast","Riverine","Microtidal","Polyhaline","Freshwater Cover",338,"Vegetation_Zone",1,93.3082,93.3082,6.2681,0.0128
+"583","NIW","Segment B","Southeast","Riverine","Microtidal","Polyhaline","Freshwater Cover",338,"Year:Vegetation_Zone",1,175.4131,175.4131,11.7836,7e-04
+"584","NIW","Segment B","Southeast","Riverine","Microtidal","Polyhaline","Freshwater Cover",338,"Residuals",334,4971.9776,14.8862,NA,1
+"585","NOC","MI","Southeast","Back Barrier","Microtidal","Polyhaline","Freshwater Cover",789,"Year",1,0,0,NA,1
+"586","NOC","MI","Southeast","Back Barrier","Microtidal","Polyhaline","Freshwater Cover",789,"Vegetation_Zone",1,0,0,NA,1
+"587","NOC","MI","Southeast","Back Barrier","Microtidal","Polyhaline","Freshwater Cover",789,"Year:Vegetation_Zone",1,0,0,NA,1
+"588","NOC","MI","Southeast","Back Barrier","Microtidal","Polyhaline","Freshwater Cover",789,"Residuals",785,0,0,NA,1
+"589","SOS","DM","West Coast","Riverine","Mesotidal","Mesohaline","Freshwater Cover",70,"Year",1,8.2374,8.2374,0.4327,0.513
+"590","SOS","DM","West Coast","Riverine","Mesotidal","Mesohaline","Freshwater Cover",70,"Vegetation_Zone",1,36.6908,36.6908,1.9273,0.1697
+"591","SOS","DM","West Coast","Riverine","Mesotidal","Mesohaline","Freshwater Cover",70,"Year:Vegetation_Zone",1,66.8475,66.8475,3.5114,0.0654
+"592","SOS","DM","West Coast","Riverine","Mesotidal","Mesohaline","Freshwater Cover",70,"Residuals",66,1256.4764,19.0375,NA,1
+"593","SOS","MM","West Coast","Bay Front","Mesotidal","Polyhaline","Freshwater Cover",120,"Year",1,0,0,NA,1
+"594","SOS","MM","West Coast","Bay Front","Mesotidal","Polyhaline","Freshwater Cover",120,"Vegetation_Zone",1,0,0,NA,1
+"595","SOS","MM","West Coast","Bay Front","Mesotidal","Polyhaline","Freshwater Cover",120,"Year:Vegetation_Zone",1,0,0,NA,1
+"596","SOS","MM","West Coast","Bay Front","Mesotidal","Polyhaline","Freshwater Cover",120,"Residuals",116,0,0,NA,1
+"597","SOS","HC","West Coast","Riverine","Mesotidal","Mesohaline","Freshwater Cover",122,"Year",1,25.5171,25.5171,2.7824,0.098
+"598","SOS","HC","West Coast","Riverine","Mesotidal","Mesohaline","Freshwater Cover",122,"Vegetation_Zone",1,54.5957,54.5957,5.9531,0.0162
+"599","SOS","HC","West Coast","Riverine","Mesotidal","Mesohaline","Freshwater Cover",122,"Year:Vegetation_Zone",1,8.6023,8.6023,0.938,0.3348
+"600","SOS","HC","West Coast","Riverine","Mesotidal","Mesohaline","Freshwater Cover",122,"Residuals",118,1082.1723,9.171,NA,1
+"601","SOS","VM","West Coast","Riverine","Mesotidal","Polyhaline","Freshwater Cover",100,"Year",1,0.0114,0.0114,0.0436,0.8351
+"602","SOS","VM","West Coast","Riverine","Mesotidal","Polyhaline","Freshwater Cover",100,"Vegetation_Zone",1,1.7593,1.7593,6.7145,0.0111
+"603","SOS","VM","West Coast","Riverine","Mesotidal","Polyhaline","Freshwater Cover",100,"Year:Vegetation_Zone",1,0.0171,0.0171,0.0654,0.7988
+"604","SOS","VM","West Coast","Riverine","Mesotidal","Polyhaline","Freshwater Cover",100,"Residuals",96,25.1537,0.262,NA,1
+"605","SOS","VI","West Coast","Riverine","Mesotidal","Polyhaline","Freshwater Cover",60,"Year",1,0,0,NA,1
+"606","SOS","VI","West Coast","Riverine","Mesotidal","Polyhaline","Freshwater Cover",60,"Vegetation_Zone",1,0,0,NA,1
+"607","SOS","VI","West Coast","Riverine","Mesotidal","Polyhaline","Freshwater Cover",60,"Year:Vegetation_Zone",1,0,0,NA,1
+"608","SOS","VI","West Coast","Riverine","Mesotidal","Polyhaline","Freshwater Cover",60,"Residuals",56,0,0,NA,1
+"609","TJR","McCoy North","West Coast","Back Barrier","Mesotidal","Polyhaline","Freshwater Cover",50,"Year",1,0,0,NA,1
+"610","TJR","McCoy North","West Coast","Back Barrier","Mesotidal","Polyhaline","Freshwater Cover",50,"Vegetation_Zone",1,0,0,NA,1
+"611","TJR","McCoy North","West Coast","Back Barrier","Mesotidal","Polyhaline","Freshwater Cover",50,"Year:Vegetation_Zone",1,0,0,NA,1
+"612","TJR","McCoy North","West Coast","Back Barrier","Mesotidal","Polyhaline","Freshwater Cover",50,"Residuals",46,0,0,NA,1
+"613","TJR","McCoy South","West Coast","Back Barrier","Mesotidal","Polyhaline","Freshwater Cover",240,"Year",1,0,0,NA,1
+"614","TJR","McCoy South","West Coast","Back Barrier","Mesotidal","Polyhaline","Freshwater Cover",240,"Vegetation_Zone",2,0,0,NA,1
+"615","TJR","McCoy South","West Coast","Back Barrier","Mesotidal","Polyhaline","Freshwater Cover",240,"Year:Vegetation_Zone",2,0,0,NA,1
+"616","TJR","McCoy South","West Coast","Back Barrier","Mesotidal","Polyhaline","Freshwater Cover",240,"Residuals",234,0,0,NA,1
+"617","TJR","South Beach","West Coast","Back Barrier","Mesotidal","Polyhaline","Freshwater Cover",210,"Year",1,0,0,NA,1
+"618","TJR","South Beach","West Coast","Back Barrier","Mesotidal","Polyhaline","Freshwater Cover",210,"Vegetation_Zone",1,0,0,NA,1
+"619","TJR","South Beach","West Coast","Back Barrier","Mesotidal","Polyhaline","Freshwater Cover",210,"Year:Vegetation_Zone",1,0,0,NA,1
+"620","TJR","South Beach","West Coast","Back Barrier","Mesotidal","Polyhaline","Freshwater Cover",210,"Residuals",206,0,0,NA,1
+"621","TJR","V1","West Coast","Back Barrier","Mesotidal","Polyhaline","Freshwater Cover",270,"Year",1,0,0,NA,1
+"622","TJR","V1","West Coast","Back Barrier","Mesotidal","Polyhaline","Freshwater Cover",270,"Vegetation_Zone",2,0,0,NA,1
+"623","TJR","V1","West Coast","Back Barrier","Mesotidal","Polyhaline","Freshwater Cover",270,"Year:Vegetation_Zone",2,0,0,NA,1
+"624","TJR","V1","West Coast","Back Barrier","Mesotidal","Polyhaline","Freshwater Cover",270,"Residuals",264,0,0,NA,1
+"625","TJR","V4","West Coast","Back Barrier","Mesotidal","Polyhaline","Freshwater Cover",240,"Year",1,0,0,NA,1
+"626","TJR","V4","West Coast","Back Barrier","Mesotidal","Polyhaline","Freshwater Cover",240,"Vegetation_Zone",1,0,0,NA,1
+"627","TJR","V4","West Coast","Back Barrier","Mesotidal","Polyhaline","Freshwater Cover",240,"Year:Vegetation_Zone",1,0,0,NA,1
+"628","TJR","V4","West Coast","Back Barrier","Mesotidal","Polyhaline","Freshwater Cover",240,"Residuals",236,0,0,NA,1
+"629","TJR","Brazo Creek","West Coast","Back Barrier","Mesotidal","Polyhaline","Freshwater Cover",48,"Year",1,0,0,NA,1
+"630","TJR","Brazo Creek","West Coast","Back Barrier","Mesotidal","Polyhaline","Freshwater Cover",48,"Vegetation_Zone",1,0,0,NA,1
+"631","TJR","Brazo Creek","West Coast","Back Barrier","Mesotidal","Polyhaline","Freshwater Cover",48,"Year:Vegetation_Zone",1,0,0,NA,1
+"632","TJR","Brazo Creek","West Coast","Back Barrier","Mesotidal","Polyhaline","Freshwater Cover",48,"Residuals",44,0,0,NA,1
+"633","TJR","Model Marsh","West Coast","Back Barrier","Mesotidal","Polyhaline","Freshwater Cover",120,"Year",1,0,0,NA,1
+"634","TJR","Model Marsh","West Coast","Back Barrier","Mesotidal","Polyhaline","Freshwater Cover",120,"Vegetation_Zone",1,0,0,NA,1
+"635","TJR","Model Marsh","West Coast","Back Barrier","Mesotidal","Polyhaline","Freshwater Cover",120,"Year:Vegetation_Zone",1,0,0,NA,1
+"636","TJR","Model Marsh","West Coast","Back Barrier","Mesotidal","Polyhaline","Freshwater Cover",120,"Residuals",116,0,0,NA,1
+"637","WEL","WB","Northeast","Back Barrier","Mesotidal","Polyhaline","Freshwater Cover",265,"Year",1,1.3466,1.3466,0.0268,0.87
+"638","WEL","WB","Northeast","Back Barrier","Mesotidal","Polyhaline","Freshwater Cover",265,"Vegetation_Zone",2,1173.8638,586.9319,11.7014,0
+"639","WEL","WB","Northeast","Back Barrier","Mesotidal","Polyhaline","Freshwater Cover",265,"Year:Vegetation_Zone",2,5.3865,2.6933,0.0537,0.9477
+"640","WEL","WB","Northeast","Back Barrier","Mesotidal","Polyhaline","Freshwater Cover",265,"Residuals",259,12991.2182,50.1591,NA,1
+"641","WQB","Section 2","Northeast","Back Barrier","Microtidal","Polyhaline","Freshwater Cover",420,"Year",1,0,0,NA,1
+"642","WQB","Section 2","Northeast","Back Barrier","Microtidal","Polyhaline","Freshwater Cover",420,"Vegetation_Zone",2,0,0,NA,1
+"643","WQB","Section 2","Northeast","Back Barrier","Microtidal","Polyhaline","Freshwater Cover",420,"Year:Vegetation_Zone",2,0,0,NA,1
+"644","WQB","Section 2","Northeast","Back Barrier","Microtidal","Polyhaline","Freshwater Cover",420,"Residuals",414,0,0,NA,1
+"645","WQB","Section 1","Northeast","Back Barrier","Microtidal","Polyhaline","Freshwater Cover",307,"Year",1,272.8979,272.8979,10.7123,0.0012
+"646","WQB","Section 1","Northeast","Back Barrier","Microtidal","Polyhaline","Freshwater Cover",307,"Vegetation_Zone",2,6446.0709,3223.0355,126.5167,0
+"647","WQB","Section 1","Northeast","Back Barrier","Microtidal","Polyhaline","Freshwater Cover",307,"Year:Vegetation_Zone",2,709.288,354.644,13.9212,0
+"648","WQB","Section 1","Northeast","Back Barrier","Microtidal","Polyhaline","Freshwater Cover",307,"Residuals",301,7668.0278,25.4752,NA,1
+"649","WQB","Section 3","Northeast","Back Barrier","Microtidal","Polyhaline","Freshwater Cover",331,"Year",1,6.3442,6.3442,6.4999,0.0112
+"650","WQB","Section 3","Northeast","Back Barrier","Microtidal","Polyhaline","Freshwater Cover",331,"Vegetation_Zone",2,119.6288,59.8144,61.2828,0
+"651","WQB","Section 3","Northeast","Back Barrier","Microtidal","Polyhaline","Freshwater Cover",331,"Year:Vegetation_Zone",2,48.6412,24.3206,24.9176,0
+"652","WQB","Section 3","Northeast","Back Barrier","Microtidal","Polyhaline","Freshwater Cover",331,"Residuals",325,317.2129,0.976,NA,1
+"653","ACE","EIN","Southeast","Riverine","Microtidal","Polyhaline","EMI",142,"Year",1,0.1181,0.1181,1.7818,0.1841
+"654","ACE","EIN","Southeast","Riverine","Microtidal","Polyhaline","EMI",142,"Vegetation_Zone",1,0.3953,0.3953,5.9633,0.0159
+"655","ACE","EIN","Southeast","Riverine","Microtidal","Polyhaline","EMI",142,"Year:Vegetation_Zone",1,0.0024,0.0024,0.0361,0.8495
+"656","ACE","EIN","Southeast","Riverine","Microtidal","Polyhaline","EMI",142,"Residuals",138,9.1485,0.0663,NA,1
+"657","ACE","EIS","Southeast","Riverine","Microtidal","Polyhaline","EMI",122,"Year",1,0.7653,0.7653,12.4403,6e-04
+"658","ACE","EIS","Southeast","Riverine","Microtidal","Polyhaline","EMI",122,"Vegetation_Zone",1,0.1355,0.1355,2.2031,0.1404
+"659","ACE","EIS","Southeast","Riverine","Microtidal","Polyhaline","EMI",122,"Year:Vegetation_Zone",1,0.0171,0.0171,0.2782,0.5989
+"660","ACE","EIS","Southeast","Riverine","Microtidal","Polyhaline","EMI",122,"Residuals",118,7.2591,0.0615,NA,1
+"661","APA","PC","Gulf Coast","Bay Front","Microtidal","Polyhaline","EMI",346,"Year",1,0.0246,0.0246,0.6323,0.4271
+"662","APA","PC","Gulf Coast","Bay Front","Microtidal","Polyhaline","EMI",346,"Vegetation_Zone",2,1.3031,0.6516,16.7755,0
+"663","APA","PC","Gulf Coast","Bay Front","Microtidal","Polyhaline","EMI",346,"Year:Vegetation_Zone",2,0.0387,0.0194,0.4984,0.608
+"664","APA","PC","Gulf Coast","Bay Front","Microtidal","Polyhaline","EMI",346,"Residuals",340,13.2056,0.0388,NA,1
+"665","CBM","MB","Mid-Atlantic","Bay Front","Microtidal","Mesohaline","EMI",160,"Year",1,0,0,0,0.9991
+"666","CBM","MB","Mid-Atlantic","Bay Front","Microtidal","Mesohaline","EMI",160,"Vegetation_Zone",1,1.6799,1.6799,46.1676,0
+"667","CBM","MB","Mid-Atlantic","Bay Front","Microtidal","Mesohaline","EMI",160,"Year:Vegetation_Zone",1,0.5611,0.5611,15.4203,1e-04
+"668","CBM","MB","Mid-Atlantic","Bay Front","Microtidal","Mesohaline","EMI",160,"Residuals",156,5.6764,0.0364,NA,1
+"669","CBM","OPC","Mid-Atlantic","Riverine","Microtidal","Oligohaline","EMI",419,"Year",1,0.3614,0.3614,32.3339,0
+"670","CBM","OPC","Mid-Atlantic","Riverine","Microtidal","Oligohaline","EMI",419,"Vegetation_Zone",1,5e-04,5e-04,0.0479,0.8268
+"671","CBM","OPC","Mid-Atlantic","Riverine","Microtidal","Oligohaline","EMI",419,"Year:Vegetation_Zone",1,0.0453,0.0453,4.0486,0.0449
+"672","CBM","OPC","Mid-Atlantic","Riverine","Microtidal","Oligohaline","EMI",419,"Residuals",415,4.6391,0.0112,NA,1
+"673","DEL","SJR","Mid-Atlantic","Riverine","Microtidal","Mesohaline","EMI",120,"Year",1,0.0607,0.0607,0.4052,0.5257
+"674","DEL","SJR","Mid-Atlantic","Riverine","Microtidal","Mesohaline","EMI",120,"Vegetation_Zone",2,0.7562,0.3781,2.5262,0.0844
+"675","DEL","SJR","Mid-Atlantic","Riverine","Microtidal","Mesohaline","EMI",120,"Year:Vegetation_Zone",2,0.036,0.018,0.1203,0.8867
+"676","DEL","SJR","Mid-Atlantic","Riverine","Microtidal","Mesohaline","EMI",120,"Residuals",114,17.0621,0.1497,NA,1
+"677","ELK","Upper","West Coast","Riverine","Mesotidal","Polyhaline","EMI",60,"Year",1,0.0258,0.0258,0.2908,0.5919
+"678","ELK","Upper","West Coast","Riverine","Mesotidal","Polyhaline","EMI",60,"Vegetation_Zone",2,5.4099,2.7049,30.4693,0
+"679","ELK","Upper","West Coast","Riverine","Mesotidal","Polyhaline","EMI",60,"Year:Vegetation_Zone",2,0.0122,0.0061,0.0685,0.9339
+"680","ELK","Upper","West Coast","Riverine","Mesotidal","Polyhaline","EMI",60,"Residuals",54,4.7939,0.0888,NA,1
+"681","ELK","Lower","West Coast","Riverine","Mesotidal","Polyhaline","EMI",100,"Year",1,0.0441,0.0441,0.4026,0.5273
+"682","ELK","Lower","West Coast","Riverine","Mesotidal","Polyhaline","EMI",100,"Vegetation_Zone",2,0.1331,0.0665,0.607,0.5471
+"683","ELK","Lower","West Coast","Riverine","Mesotidal","Polyhaline","EMI",100,"Year:Vegetation_Zone",2,0.0272,0.0136,0.1239,0.8836
+"684","ELK","Lower","West Coast","Riverine","Mesotidal","Polyhaline","EMI",100,"Residuals",94,10.3058,0.1096,NA,1
+"685","GND","spalt","Gulf Coast","Bay Front","Microtidal","Polyhaline","EMI",162,"Year",1,1.6037,1.6037,63.8186,0
+"686","GND","spalt","Gulf Coast","Bay Front","Microtidal","Polyhaline","EMI",162,"Vegetation_Zone",1,0.0221,0.0221,0.8782,0.3501
+"687","GND","spalt","Gulf Coast","Bay Front","Microtidal","Polyhaline","EMI",162,"Year:Vegetation_Zone",1,0.1591,0.1591,6.3309,0.0129
+"688","GND","spalt","Gulf Coast","Bay Front","Microtidal","Polyhaline","EMI",162,"Residuals",158,3.9705,0.0251,NA,1
+"689","GND","juro low","Gulf Coast","Bay Front","Microtidal","Mesohaline","EMI",210,"Year",1,4.1082,4.1082,81.228,0
+"690","GND","juro low","Gulf Coast","Bay Front","Microtidal","Mesohaline","EMI",210,"Vegetation_Zone",1,0.0177,0.0177,0.3491,0.5553
+"691","GND","juro low","Gulf Coast","Bay Front","Microtidal","Mesohaline","EMI",210,"Year:Vegetation_Zone",1,0.0448,0.0448,0.8858,0.3477
+"692","GND","juro low","Gulf Coast","Bay Front","Microtidal","Mesohaline","EMI",210,"Residuals",206,10.4187,0.0506,NA,1
+"693","GND","juro high","Gulf Coast","Riverine","Microtidal","Mesohaline","EMI",128,"Year",1,1.5155,1.5155,42.756,0
+"694","GND","juro high","Gulf Coast","Riverine","Microtidal","Mesohaline","EMI",128,"Vegetation_Zone",1,0.6252,0.6252,17.6395,1e-04
+"695","GND","juro high","Gulf Coast","Riverine","Microtidal","Mesohaline","EMI",128,"Year:Vegetation_Zone",1,0.1515,0.1515,4.2752,0.0408
+"696","GND","juro high","Gulf Coast","Riverine","Microtidal","Mesohaline","EMI",128,"Residuals",124,4.3952,0.0354,NA,1
+"697","GND","juro mid","Gulf Coast","Riverine","Microtidal","Mesohaline","EMI",240,"Year",1,1.5126,1.5126,43.7327,0
+"698","GND","juro mid","Gulf Coast","Riverine","Microtidal","Mesohaline","EMI",240,"Vegetation_Zone",2,5.7067,2.8534,82.495,0
+"699","GND","juro mid","Gulf Coast","Riverine","Microtidal","Mesohaline","EMI",240,"Year:Vegetation_Zone",2,0.4778,0.2389,6.907,0.0012
+"700","GND","juro mid","Gulf Coast","Riverine","Microtidal","Mesohaline","EMI",240,"Residuals",234,8.0937,0.0346,NA,1
+"701","GRB","SP","Northeast","Bay Front","Mesotidal","Polyhaline","EMI",491,"Year",1,1.65,1.65,15.0522,1e-04
+"702","GRB","SP","Northeast","Bay Front","Mesotidal","Polyhaline","EMI",491,"Vegetation_Zone",2,0.5085,0.2543,2.3196,0.0994
+"703","GRB","SP","Northeast","Bay Front","Mesotidal","Polyhaline","EMI",491,"Year:Vegetation_Zone",2,0.4152,0.2076,1.8938,0.1516
+"704","GRB","SP","Northeast","Bay Front","Mesotidal","Polyhaline","EMI",491,"Residuals",485,53.1637,0.1096,NA,1
+"705","GRB","GBF","Northeast","Riverine","Mesotidal","Polyhaline","EMI",429,"Year",1,0.4699,0.4699,3.5529,0.0601
+"706","GRB","GBF","Northeast","Riverine","Mesotidal","Polyhaline","EMI",429,"Vegetation_Zone",2,0.5449,0.2725,2.0601,0.1287
+"707","GRB","GBF","Northeast","Riverine","Mesotidal","Polyhaline","EMI",429,"Year:Vegetation_Zone",2,0.3348,0.1674,1.2657,0.2831
+"708","GRB","GBF","Northeast","Riverine","Mesotidal","Polyhaline","EMI",429,"Residuals",423,55.9433,0.1323,NA,1
+"709","GRB","BC","Northeast","Riverine","Mesotidal","Polyhaline","EMI",329,"Year",1,0.7853,0.7853,7.9355,0.0051
+"710","GRB","BC","Northeast","Riverine","Mesotidal","Polyhaline","EMI",329,"Vegetation_Zone",2,0.6904,0.3452,3.4887,0.0317
+"711","GRB","BC","Northeast","Riverine","Mesotidal","Polyhaline","EMI",329,"Year:Vegetation_Zone",2,0.058,0.029,0.2933,0.746
+"712","GRB","BC","Northeast","Riverine","Mesotidal","Polyhaline","EMI",329,"Residuals",323,31.9622,0.099,NA,1
+"713","GTM","46","Southeast","Riverine","Microtidal","Oligohaline","EMI",406,"Year",1,0.0011,0.0011,0.0109,0.9168
+"714","GTM","46","Southeast","Riverine","Microtidal","Oligohaline","EMI",406,"Vegetation_Zone",2,1.5032,0.7516,7.2147,8e-04
+"715","GTM","46","Southeast","Riverine","Microtidal","Oligohaline","EMI",406,"Residuals",402,41.8788,0.1042,NA,1
+"716","KAC","FR","West Coast","Bay Front","Macrotidal","Mesohaline","EMI",546,"Year",1,0.0051,0.0051,0.0996,0.7524
+"717","KAC","FR","West Coast","Bay Front","Macrotidal","Mesohaline","EMI",546,"Vegetation_Zone",2,9.9208,4.9604,97.2252,0
+"718","KAC","FR","West Coast","Bay Front","Macrotidal","Mesohaline","EMI",546,"Year:Vegetation_Zone",2,0.0555,0.0277,0.5437,0.5809
+"719","KAC","FR","West Coast","Bay Front","Macrotidal","Mesohaline","EMI",546,"Residuals",540,27.5505,0.051,NA,1
+"720","KAC","BS","West Coast","Back Barrier","Macrotidal","Oligohaline","EMI",346,"Year",1,0.016,0.016,0.2725,0.602
+"721","KAC","BS","West Coast","Back Barrier","Macrotidal","Oligohaline","EMI",346,"Vegetation_Zone",2,0.5521,0.2761,4.6907,0.0098
+"722","KAC","BS","West Coast","Back Barrier","Macrotidal","Oligohaline","EMI",346,"Year:Vegetation_Zone",2,0.0012,6e-04,0.0105,0.9896
+"723","KAC","BS","West Coast","Back Barrier","Macrotidal","Oligohaline","EMI",346,"Residuals",340,20.01,0.0589,NA,1
+"724","KAC","CP","West Coast","Bay Front","Macrotidal","Mesohaline","EMI",463,"Year",1,0.0238,0.0238,3.3851,0.0664
+"725","KAC","CP","West Coast","Bay Front","Macrotidal","Mesohaline","EMI",463,"Vegetation_Zone",1,0.0566,0.0566,8.0495,0.0048
+"726","KAC","CP","West Coast","Bay Front","Macrotidal","Mesohaline","EMI",463,"Year:Vegetation_Zone",1,0.0011,0.0011,0.1523,0.6965
+"727","KAC","CP","West Coast","Bay Front","Macrotidal","Mesohaline","EMI",463,"Residuals",459,3.2279,0.007,NA,1
+"728","KAC","SC","West Coast","Bay Front","Macrotidal","Mesohaline","EMI",161,"Year",1,0.1125,0.1125,0.8657,0.3536
+"729","KAC","SC","West Coast","Bay Front","Macrotidal","Mesohaline","EMI",161,"Vegetation_Zone",1,0.0388,0.0388,0.2986,0.5855
+"730","KAC","SC","West Coast","Bay Front","Macrotidal","Mesohaline","EMI",161,"Year:Vegetation_Zone",1,0.007,0.007,0.0542,0.8163
+"731","KAC","SC","West Coast","Bay Front","Macrotidal","Mesohaline","EMI",161,"Residuals",157,20.3947,0.1299,NA,1
+"732","NAR","Nag","Northeast","Bay Front","Microtidal","Polyhaline","EMI",312,"Year",1,1.2583,1.2583,17.142,0
+"733","NAR","Nag","Northeast","Bay Front","Microtidal","Polyhaline","EMI",312,"Vegetation_Zone",2,8.7125,4.3563,59.3449,0
+"734","NAR","Nag","Northeast","Bay Front","Microtidal","Polyhaline","EMI",312,"Year:Vegetation_Zone",2,0.2987,0.1493,2.0343,0.1325
+"735","NAR","Nag","Northeast","Bay Front","Microtidal","Polyhaline","EMI",312,"Residuals",306,22.4622,0.0734,NA,1
+"736","NAR","Coggeshall","Northeast","Bay Front","Microtidal","Polyhaline","EMI",273,"Year",1,0.3016,0.3016,5.9587,0.0153
+"737","NAR","Coggeshall","Northeast","Bay Front","Microtidal","Polyhaline","EMI",273,"Vegetation_Zone",2,6.8544,3.4272,67.7096,0
+"738","NAR","Coggeshall","Northeast","Bay Front","Microtidal","Polyhaline","EMI",273,"Year:Vegetation_Zone",2,0.2429,0.1215,2.3995,0.0927
+"739","NAR","Coggeshall","Northeast","Bay Front","Microtidal","Polyhaline","EMI",273,"Residuals",267,13.5145,0.0506,NA,1
+"740","NIW","Segment A","Southeast","Riverine","Microtidal","Polyhaline","EMI",319,"Year",1,0.506,0.506,9.9691,0.0017
+"741","NIW","Segment A","Southeast","Riverine","Microtidal","Polyhaline","EMI",319,"Vegetation_Zone",2,13.4553,6.7276,132.5439,0
+"742","NIW","Segment A","Southeast","Riverine","Microtidal","Polyhaline","EMI",319,"Year:Vegetation_Zone",2,0.4843,0.2422,4.7708,0.0091
+"743","NIW","Segment A","Southeast","Riverine","Microtidal","Polyhaline","EMI",319,"Residuals",313,15.8872,0.0508,NA,1
+"744","NIW","Segment B","Southeast","Riverine","Microtidal","Polyhaline","EMI",338,"Year",1,0.3856,0.3856,4.5164,0.0343
+"745","NIW","Segment B","Southeast","Riverine","Microtidal","Polyhaline","EMI",338,"Vegetation_Zone",1,10.2948,10.2948,120.5716,0
+"746","NIW","Segment B","Southeast","Riverine","Microtidal","Polyhaline","EMI",338,"Year:Vegetation_Zone",1,0.2087,0.2087,2.4442,0.1189
+"747","NIW","Segment B","Southeast","Riverine","Microtidal","Polyhaline","EMI",338,"Residuals",334,28.518,0.0854,NA,1
+"748","NOC","MI","Southeast","Back Barrier","Microtidal","Polyhaline","EMI",789,"Year",1,0.3978,0.3978,4.1769,0.0413
+"749","NOC","MI","Southeast","Back Barrier","Microtidal","Polyhaline","EMI",789,"Vegetation_Zone",1,9.6406,9.6406,101.2303,0
+"750","NOC","MI","Southeast","Back Barrier","Microtidal","Polyhaline","EMI",789,"Year:Vegetation_Zone",1,0.0623,0.0623,0.6537,0.419
+"751","NOC","MI","Southeast","Back Barrier","Microtidal","Polyhaline","EMI",789,"Residuals",785,74.759,0.0952,NA,1
+"752","SOS","DM","West Coast","Riverine","Mesotidal","Mesohaline","EMI",70,"Year",1,0.0192,0.0192,2.8266,0.0974
+"753","SOS","DM","West Coast","Riverine","Mesotidal","Mesohaline","EMI",70,"Vegetation_Zone",1,0.0256,0.0256,3.7667,0.0566
+"754","SOS","DM","West Coast","Riverine","Mesotidal","Mesohaline","EMI",70,"Year:Vegetation_Zone",1,0.0021,0.0021,0.3106,0.5792
+"755","SOS","DM","West Coast","Riverine","Mesotidal","Mesohaline","EMI",70,"Residuals",66,0.4483,0.0068,NA,1
+"756","SOS","MM","West Coast","Bay Front","Mesotidal","Polyhaline","EMI",120,"Year",1,0.0017,0.0017,0.123,0.7264
+"757","SOS","MM","West Coast","Bay Front","Mesotidal","Polyhaline","EMI",120,"Vegetation_Zone",1,2.7497,2.7497,194.7323,0
+"758","SOS","MM","West Coast","Bay Front","Mesotidal","Polyhaline","EMI",120,"Year:Vegetation_Zone",1,3e-04,3e-04,0.0214,0.8839
+"759","SOS","MM","West Coast","Bay Front","Mesotidal","Polyhaline","EMI",120,"Residuals",116,1.6379,0.0141,NA,1
+"760","SOS","HC","West Coast","Riverine","Mesotidal","Mesohaline","EMI",122,"Year",1,0.0098,0.0098,0.6094,0.4366
+"761","SOS","HC","West Coast","Riverine","Mesotidal","Mesohaline","EMI",122,"Vegetation_Zone",1,0.1429,0.1429,8.8813,0.0035
+"762","SOS","HC","West Coast","Riverine","Mesotidal","Mesohaline","EMI",122,"Year:Vegetation_Zone",1,0.0025,0.0025,0.1535,0.6959
+"763","SOS","HC","West Coast","Riverine","Mesotidal","Mesohaline","EMI",122,"Residuals",118,1.8987,0.0161,NA,1
+"764","SOS","VM","West Coast","Riverine","Mesotidal","Polyhaline","EMI",100,"Year",1,0.0457,0.0457,1.0203,0.315
+"765","SOS","VM","West Coast","Riverine","Mesotidal","Polyhaline","EMI",100,"Vegetation_Zone",1,1.6878,1.6878,37.6763,0
+"766","SOS","VM","West Coast","Riverine","Mesotidal","Polyhaline","EMI",100,"Year:Vegetation_Zone",1,0.0089,0.0089,0.1982,0.6572
+"767","SOS","VM","West Coast","Riverine","Mesotidal","Polyhaline","EMI",100,"Residuals",96,4.3005,0.0448,NA,1
+"768","SOS","VI","West Coast","Riverine","Mesotidal","Polyhaline","EMI",60,"Year",1,1e-04,1e-04,1.0381,0.3126
+"769","SOS","VI","West Coast","Riverine","Mesotidal","Polyhaline","EMI",60,"Vegetation_Zone",1,0,0,0.1078,0.7438
+"770","SOS","VI","West Coast","Riverine","Mesotidal","Polyhaline","EMI",60,"Year:Vegetation_Zone",1,0,0,0.1153,0.7354
+"771","SOS","VI","West Coast","Riverine","Mesotidal","Polyhaline","EMI",60,"Residuals",56,0.0033,1e-04,NA,1
+"772","TJR","McCoy North","West Coast","Back Barrier","Mesotidal","Polyhaline","EMI",50,"Year",1,0,0,NA,1
+"773","TJR","McCoy North","West Coast","Back Barrier","Mesotidal","Polyhaline","EMI",50,"Vegetation_Zone",1,0,0,NA,1
+"774","TJR","McCoy North","West Coast","Back Barrier","Mesotidal","Polyhaline","EMI",50,"Year:Vegetation_Zone",1,0,0,NA,1
+"775","TJR","McCoy North","West Coast","Back Barrier","Mesotidal","Polyhaline","EMI",50,"Residuals",46,0,0,NA,1
+"776","TJR","McCoy South","West Coast","Back Barrier","Mesotidal","Polyhaline","EMI",240,"Year",1,0.0029,0.0029,0.2296,0.6323
+"777","TJR","McCoy South","West Coast","Back Barrier","Mesotidal","Polyhaline","EMI",240,"Vegetation_Zone",2,12.3143,6.1572,486.9346,0
+"778","TJR","McCoy South","West Coast","Back Barrier","Mesotidal","Polyhaline","EMI",240,"Year:Vegetation_Zone",2,0.0558,0.0279,2.2055,0.1125
+"779","TJR","McCoy South","West Coast","Back Barrier","Mesotidal","Polyhaline","EMI",240,"Residuals",234,2.9589,0.0126,NA,1
+"780","TJR","South Beach","West Coast","Back Barrier","Mesotidal","Polyhaline","EMI",210,"Year",1,0.0174,0.0174,0.5787,0.4477
+"781","TJR","South Beach","West Coast","Back Barrier","Mesotidal","Polyhaline","EMI",210,"Vegetation_Zone",1,0.1052,0.1052,3.5034,0.0627
+"782","TJR","South Beach","West Coast","Back Barrier","Mesotidal","Polyhaline","EMI",210,"Year:Vegetation_Zone",1,0.0029,0.0029,0.0964,0.7564
+"783","TJR","South Beach","West Coast","Back Barrier","Mesotidal","Polyhaline","EMI",210,"Residuals",206,6.1859,0.03,NA,1
+"784","TJR","V1","West Coast","Back Barrier","Mesotidal","Polyhaline","EMI",270,"Year",1,0.0135,0.0135,0.9718,0.3251
+"785","TJR","V1","West Coast","Back Barrier","Mesotidal","Polyhaline","EMI",270,"Vegetation_Zone",2,1.6158,0.8079,57.97,0
+"786","TJR","V1","West Coast","Back Barrier","Mesotidal","Polyhaline","EMI",270,"Year:Vegetation_Zone",2,0.0051,0.0025,0.182,0.8337
+"787","TJR","V1","West Coast","Back Barrier","Mesotidal","Polyhaline","EMI",270,"Residuals",264,3.6792,0.0139,NA,1
+"788","TJR","V4","West Coast","Back Barrier","Mesotidal","Polyhaline","EMI",240,"Year",1,9e-04,9e-04,0.0494,0.8244
+"789","TJR","V4","West Coast","Back Barrier","Mesotidal","Polyhaline","EMI",240,"Vegetation_Zone",1,0.0019,0.0019,0.1085,0.7422
+"790","TJR","V4","West Coast","Back Barrier","Mesotidal","Polyhaline","EMI",240,"Year:Vegetation_Zone",1,0.0202,0.0202,1.1473,0.2852
+"791","TJR","V4","West Coast","Back Barrier","Mesotidal","Polyhaline","EMI",240,"Residuals",236,4.1571,0.0176,NA,1
+"792","TJR","Brazo Creek","West Coast","Back Barrier","Mesotidal","Polyhaline","EMI",48,"Year",1,0.0186,0.0186,0.4262,0.5173
+"793","TJR","Brazo Creek","West Coast","Back Barrier","Mesotidal","Polyhaline","EMI",48,"Vegetation_Zone",1,0.032,0.032,0.7312,0.3971
+"794","TJR","Brazo Creek","West Coast","Back Barrier","Mesotidal","Polyhaline","EMI",48,"Year:Vegetation_Zone",1,0.0037,0.0037,0.0852,0.7717
+"795","TJR","Brazo Creek","West Coast","Back Barrier","Mesotidal","Polyhaline","EMI",48,"Residuals",44,1.9253,0.0438,NA,1
+"796","TJR","Model Marsh","West Coast","Back Barrier","Mesotidal","Polyhaline","EMI",120,"Year",1,0.0951,0.0951,9.9794,0.002
+"797","TJR","Model Marsh","West Coast","Back Barrier","Mesotidal","Polyhaline","EMI",120,"Vegetation_Zone",1,1.537,1.537,161.2318,0
+"798","TJR","Model Marsh","West Coast","Back Barrier","Mesotidal","Polyhaline","EMI",120,"Year:Vegetation_Zone",1,0.0434,0.0434,4.5559,0.0349
+"799","TJR","Model Marsh","West Coast","Back Barrier","Mesotidal","Polyhaline","EMI",120,"Residuals",116,1.1058,0.0095,NA,1
+"800","WEL","WB","Northeast","Back Barrier","Mesotidal","Polyhaline","EMI",265,"Year",1,0.0082,0.0082,0.1246,0.7244
+"801","WEL","WB","Northeast","Back Barrier","Mesotidal","Polyhaline","EMI",265,"Vegetation_Zone",2,17.6548,8.8274,134.6725,0
+"802","WEL","WB","Northeast","Back Barrier","Mesotidal","Polyhaline","EMI",265,"Year:Vegetation_Zone",2,0.0743,0.0372,0.567,0.5679
+"803","WEL","WB","Northeast","Back Barrier","Mesotidal","Polyhaline","EMI",265,"Residuals",259,16.9767,0.0655,NA,1
+"804","WQB","Section 2","Northeast","Back Barrier","Microtidal","Polyhaline","EMI",420,"Year",1,0.3812,0.3812,7.7514,0.0056
+"805","WQB","Section 2","Northeast","Back Barrier","Microtidal","Polyhaline","EMI",420,"Vegetation_Zone",2,16.7696,8.3848,170.504,0
+"806","WQB","Section 2","Northeast","Back Barrier","Microtidal","Polyhaline","EMI",420,"Year:Vegetation_Zone",2,0.3416,0.1708,3.473,0.0319
+"807","WQB","Section 2","Northeast","Back Barrier","Microtidal","Polyhaline","EMI",420,"Residuals",414,20.3591,0.0492,NA,1
+"808","WQB","Section 1","Northeast","Back Barrier","Microtidal","Polyhaline","EMI",307,"Year",1,0.3513,0.3513,6.2176,0.0132
+"809","WQB","Section 1","Northeast","Back Barrier","Microtidal","Polyhaline","EMI",307,"Vegetation_Zone",2,3.49,1.745,30.8883,0
+"810","WQB","Section 1","Northeast","Back Barrier","Microtidal","Polyhaline","EMI",307,"Year:Vegetation_Zone",2,0.4829,0.2415,4.274,0.0148
+"811","WQB","Section 1","Northeast","Back Barrier","Microtidal","Polyhaline","EMI",307,"Residuals",301,17.0049,0.0565,NA,1
+"812","WQB","Section 3","Northeast","Back Barrier","Microtidal","Polyhaline","EMI",331,"Year",1,0.5831,0.5831,10.6018,0.0012
+"813","WQB","Section 3","Northeast","Back Barrier","Microtidal","Polyhaline","EMI",331,"Vegetation_Zone",2,13.1191,6.5596,119.2681,0
+"814","WQB","Section 3","Northeast","Back Barrier","Microtidal","Polyhaline","EMI",331,"Year:Vegetation_Zone",2,0.0748,0.0374,0.68,0.5073
+"815","WQB","Section 3","Northeast","Back Barrier","Microtidal","Polyhaline","EMI",331,"Residuals",325,17.8745,0.055,NA,1
+"816","ACE","EIN","Southeast","Riverine","Microtidal","Polyhaline","Richness",142,"Year",1,0.0013,0.0013,0.0066,0.9353
+"817","ACE","EIN","Southeast","Riverine","Microtidal","Polyhaline","Richness",142,"Vegetation_Zone",1,0.0551,0.0551,0.2804,0.5973
+"818","ACE","EIN","Southeast","Riverine","Microtidal","Polyhaline","Richness",142,"Year:Vegetation_Zone",1,0.6096,0.6096,3.0994,0.0805
+"819","ACE","EIN","Southeast","Riverine","Microtidal","Polyhaline","Richness",142,"Residuals",138,27.1438,0.1967,NA,1
+"820","ACE","EIS","Southeast","Riverine","Microtidal","Polyhaline","Richness",122,"Year",1,2.3781,2.3781,7.4558,0.0073
+"821","ACE","EIS","Southeast","Riverine","Microtidal","Polyhaline","Richness",122,"Vegetation_Zone",1,0.4976,0.4976,1.56,0.2141
+"822","ACE","EIS","Southeast","Riverine","Microtidal","Polyhaline","Richness",122,"Year:Vegetation_Zone",1,1.8806,1.8806,5.8961,0.0167
+"823","ACE","EIS","Southeast","Riverine","Microtidal","Polyhaline","Richness",122,"Residuals",118,37.6372,0.319,NA,1
+"824","APA","PC","Gulf Coast","Bay Front","Microtidal","Polyhaline","Richness",346,"Year",1,0.7057,0.7057,0.2289,0.6326
+"825","APA","PC","Gulf Coast","Bay Front","Microtidal","Polyhaline","Richness",346,"Vegetation_Zone",2,101.8387,50.9194,16.5163,0
+"826","APA","PC","Gulf Coast","Bay Front","Microtidal","Polyhaline","Richness",346,"Year:Vegetation_Zone",2,0.1771,0.0885,0.0287,0.9717
+"827","APA","PC","Gulf Coast","Bay Front","Microtidal","Polyhaline","Richness",346,"Residuals",340,1048.2149,3.083,NA,1
+"828","CBM","MB","Mid-Atlantic","Bay Front","Microtidal","Mesohaline","Richness",160,"Year",1,3.3215,3.3215,1.5228,0.2191
+"829","CBM","MB","Mid-Atlantic","Bay Front","Microtidal","Mesohaline","Richness",160,"Vegetation_Zone",1,10.2194,10.2194,4.6852,0.0319
+"830","CBM","MB","Mid-Atlantic","Bay Front","Microtidal","Mesohaline","Richness",160,"Year:Vegetation_Zone",1,9.9685,9.9685,4.5702,0.0341
+"831","CBM","MB","Mid-Atlantic","Bay Front","Microtidal","Mesohaline","Richness",160,"Residuals",156,340.2657,2.1812,NA,1
+"832","CBM","OPC","Mid-Atlantic","Riverine","Microtidal","Oligohaline","Richness",419,"Year",1,19.9575,19.9575,2.3012,0.13
+"833","CBM","OPC","Mid-Atlantic","Riverine","Microtidal","Oligohaline","Richness",419,"Vegetation_Zone",1,659.6682,659.6682,76.0616,0
+"834","CBM","OPC","Mid-Atlantic","Riverine","Microtidal","Oligohaline","Richness",419,"Year:Vegetation_Zone",1,0.0552,0.0552,0.0064,0.9364
+"835","CBM","OPC","Mid-Atlantic","Riverine","Microtidal","Oligohaline","Richness",419,"Residuals",415,3599.2165,8.6728,NA,1
+"836","DEL","SJR","Mid-Atlantic","Riverine","Microtidal","Mesohaline","Richness",120,"Year",1,2.2817,2.2817,8.907,0.0035
+"837","DEL","SJR","Mid-Atlantic","Riverine","Microtidal","Mesohaline","Richness",120,"Vegetation_Zone",2,1.0634,0.5317,2.0756,0.1302
+"838","DEL","SJR","Mid-Atlantic","Riverine","Microtidal","Mesohaline","Richness",120,"Year:Vegetation_Zone",2,2.377,1.1885,4.6395,0.0116
+"839","DEL","SJR","Mid-Atlantic","Riverine","Microtidal","Mesohaline","Richness",120,"Residuals",114,29.203,0.2562,NA,1
+"840","ELK","Upper","West Coast","Riverine","Mesotidal","Polyhaline","Richness",60,"Year",1,0.0036,0.0036,0.02,0.888
+"841","ELK","Upper","West Coast","Riverine","Mesotidal","Polyhaline","Richness",60,"Vegetation_Zone",2,16.15,8.075,45.2535,0
+"842","ELK","Upper","West Coast","Riverine","Mesotidal","Polyhaline","Richness",60,"Year:Vegetation_Zone",2,0.394,0.197,1.1042,0.3389
+"843","ELK","Upper","West Coast","Riverine","Mesotidal","Polyhaline","Richness",60,"Residuals",54,9.6357,0.1784,NA,1
+"844","ELK","Lower","West Coast","Riverine","Mesotidal","Polyhaline","Richness",100,"Year",1,0.4425,0.4425,1.2489,0.2666
+"845","ELK","Lower","West Coast","Riverine","Mesotidal","Polyhaline","Richness",100,"Vegetation_Zone",2,63.9764,31.9882,90.2884,0
+"846","ELK","Lower","West Coast","Riverine","Mesotidal","Polyhaline","Richness",100,"Year:Vegetation_Zone",2,0.388,0.194,0.5476,0.5802
+"847","ELK","Lower","West Coast","Riverine","Mesotidal","Polyhaline","Richness",100,"Residuals",94,33.3032,0.3543,NA,1
+"848","GND","spalt","Gulf Coast","Bay Front","Microtidal","Polyhaline","Richness",162,"Year",1,1.1196,1.1196,4.6771,0.0321
+"849","GND","spalt","Gulf Coast","Bay Front","Microtidal","Polyhaline","Richness",162,"Vegetation_Zone",1,0.6776,0.6776,2.8309,0.0944
+"850","GND","spalt","Gulf Coast","Bay Front","Microtidal","Polyhaline","Richness",162,"Year:Vegetation_Zone",1,0.5794,0.5794,2.4204,0.1218
+"851","GND","spalt","Gulf Coast","Bay Front","Microtidal","Polyhaline","Richness",162,"Residuals",158,37.8209,0.2394,NA,1
+"852","GND","juro low","Gulf Coast","Bay Front","Microtidal","Mesohaline","Richness",210,"Year",1,1.7245,1.7245,7.4509,0.0069
+"853","GND","juro low","Gulf Coast","Bay Front","Microtidal","Mesohaline","Richness",210,"Vegetation_Zone",1,6.1229,6.1229,26.4548,0
+"854","GND","juro low","Gulf Coast","Bay Front","Microtidal","Mesohaline","Richness",210,"Year:Vegetation_Zone",1,0.0986,0.0986,0.4259,0.5147
+"855","GND","juro low","Gulf Coast","Bay Front","Microtidal","Mesohaline","Richness",210,"Residuals",206,47.6779,0.2314,NA,1
+"856","GND","juro high","Gulf Coast","Riverine","Microtidal","Mesohaline","Richness",128,"Year",1,50.8004,50.8004,19.4695,0
+"857","GND","juro high","Gulf Coast","Riverine","Microtidal","Mesohaline","Richness",128,"Vegetation_Zone",1,0.0522,0.0522,0.02,0.8877
+"858","GND","juro high","Gulf Coast","Riverine","Microtidal","Mesohaline","Richness",128,"Year:Vegetation_Zone",1,0.0319,0.0319,0.0122,0.9122
+"859","GND","juro high","Gulf Coast","Riverine","Microtidal","Mesohaline","Richness",128,"Residuals",124,323.5452,2.6092,NA,1
+"860","GND","juro mid","Gulf Coast","Riverine","Microtidal","Mesohaline","Richness",240,"Year",1,27.8004,27.8004,13.1029,4e-04
+"861","GND","juro mid","Gulf Coast","Riverine","Microtidal","Mesohaline","Richness",240,"Vegetation_Zone",2,61.5736,30.7868,14.5104,0
+"862","GND","juro mid","Gulf Coast","Riverine","Microtidal","Mesohaline","Richness",240,"Year:Vegetation_Zone",2,19.1108,9.5554,4.5037,0.012
+"863","GND","juro mid","Gulf Coast","Riverine","Microtidal","Mesohaline","Richness",240,"Residuals",234,496.4777,2.1217,NA,1
+"864","GRB","SP","Northeast","Bay Front","Mesotidal","Polyhaline","Richness",491,"Year",1,0.9112,0.9112,0.2329,0.6296
+"865","GRB","SP","Northeast","Bay Front","Mesotidal","Polyhaline","Richness",491,"Vegetation_Zone",2,1383.1028,691.5514,176.7352,0
+"866","GRB","SP","Northeast","Bay Front","Mesotidal","Polyhaline","Richness",491,"Year:Vegetation_Zone",2,5.2318,2.6159,0.6685,0.5129
+"867","GRB","SP","Northeast","Bay Front","Mesotidal","Polyhaline","Richness",491,"Residuals",485,1897.7684,3.9129,NA,1
+"868","GRB","GBF","Northeast","Riverine","Mesotidal","Polyhaline","Richness",429,"Year",1,14.6143,14.6143,6.1764,0.0133
+"869","GRB","GBF","Northeast","Riverine","Mesotidal","Polyhaline","Richness",429,"Vegetation_Zone",2,207.5166,103.7583,43.8508,0
+"870","GRB","GBF","Northeast","Riverine","Mesotidal","Polyhaline","Richness",429,"Year:Vegetation_Zone",2,1.6702,0.8351,0.3529,0.7028
+"871","GRB","GBF","Northeast","Riverine","Mesotidal","Polyhaline","Richness",429,"Residuals",423,1000.8889,2.3662,NA,1
+"872","GRB","BC","Northeast","Riverine","Mesotidal","Polyhaline","Richness",329,"Year",1,21.1866,21.1866,5.5477,0.0191
+"873","GRB","BC","Northeast","Riverine","Mesotidal","Polyhaline","Richness",329,"Vegetation_Zone",2,1153.4685,576.7342,151.0172,0
+"874","GRB","BC","Northeast","Riverine","Mesotidal","Polyhaline","Richness",329,"Year:Vegetation_Zone",2,33.0735,16.5368,4.3301,0.0139
+"875","GRB","BC","Northeast","Riverine","Mesotidal","Polyhaline","Richness",329,"Residuals",323,1233.5358,3.819,NA,1
+"876","GTM","46","Southeast","Riverine","Microtidal","Oligohaline","Richness",406,"Year",1,3.1298,3.1298,1.7063,0.1922
+"877","GTM","46","Southeast","Riverine","Microtidal","Oligohaline","Richness",406,"Vegetation_Zone",2,530.7802,265.3901,144.6908,0
+"878","GTM","46","Southeast","Riverine","Microtidal","Oligohaline","Richness",406,"Residuals",402,737.3437,1.8342,NA,1
+"879","KAC","FR","West Coast","Bay Front","Macrotidal","Mesohaline","Richness",546,"Year",1,29.2721,29.2721,8.2475,0.0042
+"880","KAC","FR","West Coast","Bay Front","Macrotidal","Mesohaline","Richness",546,"Vegetation_Zone",2,361.0071,180.5035,50.8576,0
+"881","KAC","FR","West Coast","Bay Front","Macrotidal","Mesohaline","Richness",546,"Year:Vegetation_Zone",2,34.8408,17.4204,4.9083,0.0077
+"882","KAC","FR","West Coast","Bay Front","Macrotidal","Mesohaline","Richness",546,"Residuals",540,1916.5649,3.5492,NA,1
+"883","KAC","BS","West Coast","Back Barrier","Macrotidal","Oligohaline","Richness",346,"Year",1,53.3303,53.3303,14.8299,1e-04
+"884","KAC","BS","West Coast","Back Barrier","Macrotidal","Oligohaline","Richness",346,"Vegetation_Zone",2,11.259,5.6295,1.5654,0.2105
+"885","KAC","BS","West Coast","Back Barrier","Macrotidal","Oligohaline","Richness",346,"Year:Vegetation_Zone",2,7.3885,3.6943,1.0273,0.3591
+"886","KAC","BS","West Coast","Back Barrier","Macrotidal","Oligohaline","Richness",346,"Residuals",340,1222.684,3.5961,NA,1
+"887","KAC","CP","West Coast","Bay Front","Macrotidal","Mesohaline","Richness",463,"Year",1,16.5748,16.5748,5.6363,0.018
+"888","KAC","CP","West Coast","Bay Front","Macrotidal","Mesohaline","Richness",463,"Vegetation_Zone",1,87.777,87.777,29.8486,0
+"889","KAC","CP","West Coast","Bay Front","Macrotidal","Mesohaline","Richness",463,"Year:Vegetation_Zone",1,1.128,1.128,0.3836,0.536
+"890","KAC","CP","West Coast","Bay Front","Macrotidal","Mesohaline","Richness",463,"Residuals",459,1349.7988,2.9407,NA,1
+"891","KAC","SC","West Coast","Bay Front","Macrotidal","Mesohaline","Richness",161,"Year",1,1.1888,1.1888,0.4146,0.5206
+"892","KAC","SC","West Coast","Bay Front","Macrotidal","Mesohaline","Richness",161,"Vegetation_Zone",1,2.8452,2.8452,0.9922,0.3207
+"893","KAC","SC","West Coast","Bay Front","Macrotidal","Mesohaline","Richness",161,"Year:Vegetation_Zone",1,1.4181,1.4181,0.4945,0.4829
+"894","KAC","SC","West Coast","Bay Front","Macrotidal","Mesohaline","Richness",161,"Residuals",157,450.1876,2.8674,NA,1
+"895","NAR","Nag","Northeast","Bay Front","Microtidal","Polyhaline","Richness",312,"Year",1,2.9753,2.9753,2.7034,0.1012
+"896","NAR","Nag","Northeast","Bay Front","Microtidal","Polyhaline","Richness",312,"Vegetation_Zone",2,168.0474,84.0237,76.3456,0
+"897","NAR","Nag","Northeast","Bay Front","Microtidal","Polyhaline","Richness",312,"Year:Vegetation_Zone",2,1.4209,0.7104,0.6455,0.5251
+"898","NAR","Nag","Northeast","Bay Front","Microtidal","Polyhaline","Richness",312,"Residuals",306,336.7744,1.1006,NA,1
+"899","NAR","Coggeshall","Northeast","Bay Front","Microtidal","Polyhaline","Richness",273,"Year",1,7.5615,7.5615,6.9994,0.0086
+"900","NAR","Coggeshall","Northeast","Bay Front","Microtidal","Polyhaline","Richness",273,"Vegetation_Zone",2,285.2767,142.6384,132.0358,0
+"901","NAR","Coggeshall","Northeast","Bay Front","Microtidal","Polyhaline","Richness",273,"Year:Vegetation_Zone",2,2.9706,1.4853,1.3749,0.2547
+"902","NAR","Coggeshall","Northeast","Bay Front","Microtidal","Polyhaline","Richness",273,"Residuals",267,288.4403,1.0803,NA,1
+"903","NIW","Segment A","Southeast","Riverine","Microtidal","Polyhaline","Richness",319,"Year",1,0.3224,0.3224,0.219,0.6401
+"904","NIW","Segment A","Southeast","Riverine","Microtidal","Polyhaline","Richness",319,"Vegetation_Zone",2,327.8419,163.9209,111.3529,0
+"905","NIW","Segment A","Southeast","Riverine","Microtidal","Polyhaline","Richness",319,"Year:Vegetation_Zone",2,23.9194,11.9597,8.1243,4e-04
+"906","NIW","Segment A","Southeast","Riverine","Microtidal","Polyhaline","Richness",319,"Residuals",313,460.7627,1.4721,NA,1
+"907","NIW","Segment B","Southeast","Riverine","Microtidal","Polyhaline","Richness",338,"Year",1,2.3474,2.3474,5.8018,0.0166
+"908","NIW","Segment B","Southeast","Riverine","Microtidal","Polyhaline","Richness",338,"Vegetation_Zone",1,139.4202,139.4202,344.589,0
+"909","NIW","Segment B","Southeast","Riverine","Microtidal","Polyhaline","Richness",338,"Year:Vegetation_Zone",1,4.6615,4.6615,11.5214,8e-04
+"910","NIW","Segment B","Southeast","Riverine","Microtidal","Polyhaline","Richness",338,"Residuals",334,135.1359,0.4046,NA,1
+"911","NOC","MI","Southeast","Back Barrier","Microtidal","Polyhaline","Richness",789,"Year",1,0.2193,0.2193,0.3992,0.5277
+"912","NOC","MI","Southeast","Back Barrier","Microtidal","Polyhaline","Richness",789,"Vegetation_Zone",1,409.7941,409.7941,745.902,0
+"913","NOC","MI","Southeast","Back Barrier","Microtidal","Polyhaline","Richness",789,"Year:Vegetation_Zone",1,5.0115,5.0115,9.1219,0.0026
+"914","NOC","MI","Southeast","Back Barrier","Microtidal","Polyhaline","Richness",789,"Residuals",785,431.2742,0.5494,NA,1
+"915","SOS","DM","West Coast","Riverine","Mesotidal","Mesohaline","Richness",70,"Year",1,0.0087,0.0087,0.0025,0.9602
+"916","SOS","DM","West Coast","Riverine","Mesotidal","Mesohaline","Richness",70,"Vegetation_Zone",1,7.9179,7.9179,2.2991,0.1342
+"917","SOS","DM","West Coast","Riverine","Mesotidal","Mesohaline","Richness",70,"Year:Vegetation_Zone",1,7.8654,7.8654,2.2839,0.1355
+"918","SOS","DM","West Coast","Riverine","Mesotidal","Mesohaline","Richness",70,"Residuals",66,227.2938,3.4438,NA,1
+"919","SOS","MM","West Coast","Bay Front","Mesotidal","Polyhaline","Richness",120,"Year",1,1.9106,1.9106,1.5556,0.2148
+"920","SOS","MM","West Coast","Bay Front","Mesotidal","Polyhaline","Richness",120,"Vegetation_Zone",1,224.1333,224.1333,182.4915,0
+"921","SOS","MM","West Coast","Bay Front","Mesotidal","Polyhaline","Richness",120,"Year:Vegetation_Zone",1,20.2866,20.2866,16.5175,1e-04
+"922","SOS","MM","West Coast","Bay Front","Mesotidal","Polyhaline","Richness",120,"Residuals",116,142.4695,1.2282,NA,1
+"923","SOS","HC","West Coast","Riverine","Mesotidal","Mesohaline","Richness",122,"Year",1,1.513,1.513,0.6799,0.4113
+"924","SOS","HC","West Coast","Riverine","Mesotidal","Mesohaline","Richness",122,"Vegetation_Zone",1,98.2959,98.2959,44.1726,0
+"925","SOS","HC","West Coast","Riverine","Mesotidal","Mesohaline","Richness",122,"Year:Vegetation_Zone",1,8.0356,8.0356,3.6111,0.0598
+"926","SOS","HC","West Coast","Riverine","Mesotidal","Mesohaline","Richness",122,"Residuals",118,262.5817,2.2253,NA,1
+"927","SOS","VM","West Coast","Riverine","Mesotidal","Polyhaline","Richness",100,"Year",1,0.5354,0.5354,0.1128,0.7378
+"928","SOS","VM","West Coast","Riverine","Mesotidal","Polyhaline","Richness",100,"Vegetation_Zone",1,500.5067,500.5067,105.3971,0
+"929","SOS","VM","West Coast","Riverine","Mesotidal","Polyhaline","Richness",100,"Year:Vegetation_Zone",1,0.1161,0.1161,0.0244,0.8761
+"930","SOS","VM","West Coast","Riverine","Mesotidal","Polyhaline","Richness",100,"Residuals",96,455.8818,4.7488,NA,1
+"931","SOS","VI","West Coast","Riverine","Mesotidal","Polyhaline","Richness",60,"Year",1,0.0381,0.0381,0.0224,0.8817
+"932","SOS","VI","West Coast","Riverine","Mesotidal","Polyhaline","Richness",60,"Vegetation_Zone",1,23.6463,23.6463,13.8836,5e-04
+"933","SOS","VI","West Coast","Riverine","Mesotidal","Polyhaline","Richness",60,"Year:Vegetation_Zone",1,5.121,5.121,3.0067,0.0884
+"934","SOS","VI","West Coast","Riverine","Mesotidal","Polyhaline","Richness",60,"Residuals",56,95.378,1.7032,NA,1
+"935","TJR","McCoy North","West Coast","Back Barrier","Mesotidal","Polyhaline","Richness",50,"Year",1,0.2673,0.2673,0.0571,0.8123
+"936","TJR","McCoy North","West Coast","Back Barrier","Mesotidal","Polyhaline","Richness",50,"Vegetation_Zone",1,76.88,76.88,16.4103,2e-04
+"937","TJR","McCoy North","West Coast","Back Barrier","Mesotidal","Polyhaline","Richness",50,"Year:Vegetation_Zone",1,2.3297,2.3297,0.4973,0.4843
+"938","TJR","McCoy North","West Coast","Back Barrier","Mesotidal","Polyhaline","Richness",50,"Residuals",46,215.503,4.6848,NA,1
+"939","TJR","McCoy South","West Coast","Back Barrier","Mesotidal","Polyhaline","Richness",240,"Year",1,19.2045,19.2045,22.8345,0
+"940","TJR","McCoy South","West Coast","Back Barrier","Mesotidal","Polyhaline","Richness",240,"Vegetation_Zone",2,137.4056,68.7028,81.6887,0
+"941","TJR","McCoy South","West Coast","Back Barrier","Mesotidal","Polyhaline","Richness",240,"Year:Vegetation_Zone",2,4.5719,2.2859,2.718,0.0681
+"942","TJR","McCoy South","West Coast","Back Barrier","Mesotidal","Polyhaline","Richness",240,"Residuals",234,196.8013,0.841,NA,1
+"943","TJR","South Beach","West Coast","Back Barrier","Mesotidal","Polyhaline","Richness",210,"Year",1,0.2545,0.2545,0.14,0.7086
+"944","TJR","South Beach","West Coast","Back Barrier","Mesotidal","Polyhaline","Richness",210,"Vegetation_Zone",1,0.8127,0.8127,0.4471,0.5045
+"945","TJR","South Beach","West Coast","Back Barrier","Mesotidal","Polyhaline","Richness",210,"Year:Vegetation_Zone",1,0.0047,0.0047,0.0026,0.9594
+"946","TJR","South Beach","West Coast","Back Barrier","Mesotidal","Polyhaline","Richness",210,"Residuals",206,374.4519,1.8177,NA,1
+"947","TJR","V1","West Coast","Back Barrier","Mesotidal","Polyhaline","Richness",270,"Year",1,0.0818,0.0818,0.0407,0.8402
+"948","TJR","V1","West Coast","Back Barrier","Mesotidal","Polyhaline","Richness",270,"Vegetation_Zone",2,87.8015,43.9007,21.8476,0
+"949","TJR","V1","West Coast","Back Barrier","Mesotidal","Polyhaline","Richness",270,"Year:Vegetation_Zone",2,0.9991,0.4996,0.2486,0.7801
+"950","TJR","V1","West Coast","Back Barrier","Mesotidal","Polyhaline","Richness",270,"Residuals",264,530.4843,2.0094,NA,1
+"951","TJR","V4","West Coast","Back Barrier","Mesotidal","Polyhaline","Richness",240,"Year",1,30.192,30.192,19.488,0
+"952","TJR","V4","West Coast","Back Barrier","Mesotidal","Polyhaline","Richness",240,"Vegetation_Zone",1,0.4712,0.4712,0.3041,0.5818
+"953","TJR","V4","West Coast","Back Barrier","Mesotidal","Polyhaline","Richness",240,"Year:Vegetation_Zone",1,0.874,0.874,0.5641,0.4534
+"954","TJR","V4","West Coast","Back Barrier","Mesotidal","Polyhaline","Richness",240,"Residuals",236,365.6253,1.5493,NA,1
+"955","TJR","Brazo Creek","West Coast","Back Barrier","Mesotidal","Polyhaline","Richness",48,"Year",1,0.2667,0.2667,0.2466,0.6219
+"956","TJR","Brazo Creek","West Coast","Back Barrier","Mesotidal","Polyhaline","Richness",48,"Vegetation_Zone",1,2.0167,2.0167,1.8649,0.179
+"957","TJR","Brazo Creek","West Coast","Back Barrier","Mesotidal","Polyhaline","Richness",48,"Year:Vegetation_Zone",1,0.0533,0.0533,0.0493,0.8253
+"958","TJR","Brazo Creek","West Coast","Back Barrier","Mesotidal","Polyhaline","Richness",48,"Residuals",44,47.58,1.0814,NA,1
+"959","TJR","Model Marsh","West Coast","Back Barrier","Mesotidal","Polyhaline","Richness",120,"Year",1,0.3375,0.3375,0.3858,0.5357
+"960","TJR","Model Marsh","West Coast","Back Barrier","Mesotidal","Polyhaline","Richness",120,"Vegetation_Zone",1,2.1,2.1,2.4005,0.124
+"961","TJR","Model Marsh","West Coast","Back Barrier","Mesotidal","Polyhaline","Richness",120,"Year:Vegetation_Zone",1,0.0482,0.0482,0.0551,0.8148
+"962","TJR","Model Marsh","West Coast","Back Barrier","Mesotidal","Polyhaline","Richness",120,"Residuals",116,101.481,0.8748,NA,1
+"963","WEL","WB","Northeast","Back Barrier","Mesotidal","Polyhaline","Richness",265,"Year",1,1.7947,1.7947,0.5022,0.4792
+"964","WEL","WB","Northeast","Back Barrier","Mesotidal","Polyhaline","Richness",265,"Vegetation_Zone",2,9.8365,4.9182,1.3762,0.2544
+"965","WEL","WB","Northeast","Back Barrier","Mesotidal","Polyhaline","Richness",265,"Year:Vegetation_Zone",2,20.3636,10.1818,2.8491,0.0597
+"966","WEL","WB","Northeast","Back Barrier","Mesotidal","Polyhaline","Richness",265,"Residuals",259,925.5901,3.5737,NA,1
+"967","WQB","Section 2","Northeast","Back Barrier","Microtidal","Polyhaline","Richness",420,"Year",1,0.0965,0.0965,0.0338,0.8542
+"968","WQB","Section 2","Northeast","Back Barrier","Microtidal","Polyhaline","Richness",420,"Vegetation_Zone",2,1558.1195,779.0597,273.2501,0
+"969","WQB","Section 2","Northeast","Back Barrier","Microtidal","Polyhaline","Richness",420,"Year:Vegetation_Zone",2,1.0985,0.5492,0.1926,0.8249
+"970","WQB","Section 2","Northeast","Back Barrier","Microtidal","Polyhaline","Richness",420,"Residuals",414,1180.3499,2.8511,NA,1
+"971","WQB","Section 1","Northeast","Back Barrier","Microtidal","Polyhaline","Richness",307,"Year",1,67.4512,67.4512,49.0282,0
+"972","WQB","Section 1","Northeast","Back Barrier","Microtidal","Polyhaline","Richness",307,"Vegetation_Zone",2,762.2897,381.1449,277.0424,0
+"973","WQB","Section 1","Northeast","Back Barrier","Microtidal","Polyhaline","Richness",307,"Year:Vegetation_Zone",2,0.8838,0.4419,0.3212,0.7255
+"974","WQB","Section 1","Northeast","Back Barrier","Microtidal","Polyhaline","Richness",307,"Residuals",301,414.1049,1.3758,NA,1
+"975","WQB","Section 3","Northeast","Back Barrier","Microtidal","Polyhaline","Richness",331,"Year",1,4.2039,4.2039,1.1927,0.2756
+"976","WQB","Section 3","Northeast","Back Barrier","Microtidal","Polyhaline","Richness",331,"Vegetation_Zone",2,746.4989,373.2494,105.8942,0
+"977","WQB","Section 3","Northeast","Back Barrier","Microtidal","Polyhaline","Richness",331,"Year:Vegetation_Zone",2,7.1587,3.5794,1.0155,0.3634
+"978","WQB","Section 3","Northeast","Back Barrier","Microtidal","Polyhaline","Richness",331,"Residuals",325,1145.5403,3.5247,NA,1
+"979","ACE","EIN","Southeast","Riverine","Microtidal","Polyhaline","Shannon-Weiner Diversity",142,"Year",1,0.0016,0.0016,0.0497,0.8239
+"980","ACE","EIN","Southeast","Riverine","Microtidal","Polyhaline","Shannon-Weiner Diversity",142,"Vegetation_Zone",1,0.0168,0.0168,0.5119,0.4755
+"981","ACE","EIN","Southeast","Riverine","Microtidal","Polyhaline","Shannon-Weiner Diversity",142,"Year:Vegetation_Zone",1,0.0859,0.0859,2.6137,0.1082
+"982","ACE","EIN","Southeast","Riverine","Microtidal","Polyhaline","Shannon-Weiner Diversity",142,"Residuals",138,4.5343,0.0329,NA,1
+"983","ACE","EIS","Southeast","Riverine","Microtidal","Polyhaline","Shannon-Weiner Diversity",122,"Year",1,0.0297,0.0297,0.7373,0.3923
+"984","ACE","EIS","Southeast","Riverine","Microtidal","Polyhaline","Shannon-Weiner Diversity",122,"Vegetation_Zone",1,0.0572,0.0572,1.421,0.2356
+"985","ACE","EIS","Southeast","Riverine","Microtidal","Polyhaline","Shannon-Weiner Diversity",122,"Year:Vegetation_Zone",1,0.0721,0.0721,1.7905,0.1834
+"986","ACE","EIS","Southeast","Riverine","Microtidal","Polyhaline","Shannon-Weiner Diversity",122,"Residuals",118,4.753,0.0403,NA,1
+"987","APA","PC","Gulf Coast","Bay Front","Microtidal","Polyhaline","Shannon-Weiner Diversity",346,"Year",1,0.117,0.117,1.0128,0.315
+"988","APA","PC","Gulf Coast","Bay Front","Microtidal","Polyhaline","Shannon-Weiner Diversity",346,"Vegetation_Zone",2,0.6532,0.3266,2.8272,0.0606
+"989","APA","PC","Gulf Coast","Bay Front","Microtidal","Polyhaline","Shannon-Weiner Diversity",346,"Year:Vegetation_Zone",2,0.1493,0.0747,0.6462,0.5247
+"990","APA","PC","Gulf Coast","Bay Front","Microtidal","Polyhaline","Shannon-Weiner Diversity",346,"Residuals",340,39.2788,0.1155,NA,1
+"991","CBM","MB","Mid-Atlantic","Bay Front","Microtidal","Mesohaline","Shannon-Weiner Diversity",160,"Year",1,0.1742,0.1742,1.0482,0.3075
+"992","CBM","MB","Mid-Atlantic","Bay Front","Microtidal","Mesohaline","Shannon-Weiner Diversity",160,"Vegetation_Zone",1,0.5695,0.5695,3.4269,0.066
+"993","CBM","MB","Mid-Atlantic","Bay Front","Microtidal","Mesohaline","Shannon-Weiner Diversity",160,"Year:Vegetation_Zone",1,0.6646,0.6646,3.9987,0.0473
+"994","CBM","MB","Mid-Atlantic","Bay Front","Microtidal","Mesohaline","Shannon-Weiner Diversity",160,"Residuals",156,25.9264,0.1662,NA,1
+"995","CBM","OPC","Mid-Atlantic","Riverine","Microtidal","Oligohaline","Shannon-Weiner Diversity",419,"Year",1,0.9252,0.9252,4.2044,0.0409
+"996","CBM","OPC","Mid-Atlantic","Riverine","Microtidal","Oligohaline","Shannon-Weiner Diversity",419,"Vegetation_Zone",1,19.8168,19.8168,90.0538,0
+"997","CBM","OPC","Mid-Atlantic","Riverine","Microtidal","Oligohaline","Shannon-Weiner Diversity",419,"Year:Vegetation_Zone",1,0.0011,0.0011,0.0049,0.944
+"998","CBM","OPC","Mid-Atlantic","Riverine","Microtidal","Oligohaline","Shannon-Weiner Diversity",419,"Residuals",415,91.3226,0.2201,NA,1
+"999","DEL","SJR","Mid-Atlantic","Riverine","Microtidal","Mesohaline","Shannon-Weiner Diversity",120,"Year",1,0.3268,0.3268,6.7121,0.0108
+"1000","DEL","SJR","Mid-Atlantic","Riverine","Microtidal","Mesohaline","Shannon-Weiner Diversity",120,"Vegetation_Zone",2,0.4072,0.2036,4.1812,0.0177
+"1001","DEL","SJR","Mid-Atlantic","Riverine","Microtidal","Mesohaline","Shannon-Weiner Diversity",120,"Year:Vegetation_Zone",2,0.2626,0.1313,2.697,0.0717
+"1002","DEL","SJR","Mid-Atlantic","Riverine","Microtidal","Mesohaline","Shannon-Weiner Diversity",120,"Residuals",114,5.5506,0.0487,NA,1
+"1003","ELK","Upper","West Coast","Riverine","Mesotidal","Polyhaline","Shannon-Weiner Diversity",60,"Year",1,0.0319,0.0319,0.6335,0.4295
+"1004","ELK","Upper","West Coast","Riverine","Mesotidal","Polyhaline","Shannon-Weiner Diversity",60,"Vegetation_Zone",2,3.8029,1.9015,37.716,0
+"1005","ELK","Upper","West Coast","Riverine","Mesotidal","Polyhaline","Shannon-Weiner Diversity",60,"Year:Vegetation_Zone",2,0.0622,0.0311,0.6168,0.5434
+"1006","ELK","Upper","West Coast","Riverine","Mesotidal","Polyhaline","Shannon-Weiner Diversity",60,"Residuals",54,2.7224,0.0504,NA,1
+"1007","ELK","Lower","West Coast","Riverine","Mesotidal","Polyhaline","Shannon-Weiner Diversity",100,"Year",1,0.0287,0.0287,0.6939,0.4069
+"1008","ELK","Lower","West Coast","Riverine","Mesotidal","Polyhaline","Shannon-Weiner Diversity",100,"Vegetation_Zone",2,7.945,3.9725,96.0713,0
+"1009","ELK","Lower","West Coast","Riverine","Mesotidal","Polyhaline","Shannon-Weiner Diversity",100,"Year:Vegetation_Zone",2,0.017,0.0085,0.2058,0.8144
+"1010","ELK","Lower","West Coast","Riverine","Mesotidal","Polyhaline","Shannon-Weiner Diversity",100,"Residuals",94,3.8869,0.0413,NA,1
+"1011","GND","spalt","Gulf Coast","Bay Front","Microtidal","Polyhaline","Shannon-Weiner Diversity",162,"Year",1,0.2692,0.2692,4.2512,0.0409
+"1012","GND","spalt","Gulf Coast","Bay Front","Microtidal","Polyhaline","Shannon-Weiner Diversity",162,"Vegetation_Zone",1,0.0014,0.0014,0.0228,0.8802
+"1013","GND","spalt","Gulf Coast","Bay Front","Microtidal","Polyhaline","Shannon-Weiner Diversity",162,"Year:Vegetation_Zone",1,0.0134,0.0134,0.211,0.6466
+"1014","GND","spalt","Gulf Coast","Bay Front","Microtidal","Polyhaline","Shannon-Weiner Diversity",162,"Residuals",158,10.006,0.0633,NA,1
+"1015","GND","juro low","Gulf Coast","Bay Front","Microtidal","Mesohaline","Shannon-Weiner Diversity",210,"Year",1,0.1199,0.1199,3.23,0.0738
+"1016","GND","juro low","Gulf Coast","Bay Front","Microtidal","Mesohaline","Shannon-Weiner Diversity",210,"Vegetation_Zone",1,1.2682,1.2682,34.1532,0
+"1017","GND","juro low","Gulf Coast","Bay Front","Microtidal","Mesohaline","Shannon-Weiner Diversity",210,"Year:Vegetation_Zone",1,0.2139,0.2139,5.7594,0.0173
+"1018","GND","juro low","Gulf Coast","Bay Front","Microtidal","Mesohaline","Shannon-Weiner Diversity",210,"Residuals",206,7.6495,0.0371,NA,1
+"1019","GND","juro high","Gulf Coast","Riverine","Microtidal","Mesohaline","Shannon-Weiner Diversity",128,"Year",1,5.8301,5.8301,28.1508,0
+"1020","GND","juro high","Gulf Coast","Riverine","Microtidal","Mesohaline","Shannon-Weiner Diversity",128,"Vegetation_Zone",1,1.4431,1.4431,6.9682,0.0094
+"1021","GND","juro high","Gulf Coast","Riverine","Microtidal","Mesohaline","Shannon-Weiner Diversity",128,"Year:Vegetation_Zone",1,0.0279,0.0279,0.1348,0.7141
+"1022","GND","juro high","Gulf Coast","Riverine","Microtidal","Mesohaline","Shannon-Weiner Diversity",128,"Residuals",124,25.6806,0.2071,NA,1
+"1023","GND","juro mid","Gulf Coast","Riverine","Microtidal","Mesohaline","Shannon-Weiner Diversity",240,"Year",1,2.9306,2.9306,14.9522,1e-04
+"1024","GND","juro mid","Gulf Coast","Riverine","Microtidal","Mesohaline","Shannon-Weiner Diversity",240,"Vegetation_Zone",2,4.5,2.25,11.4795,0
+"1025","GND","juro mid","Gulf Coast","Riverine","Microtidal","Mesohaline","Shannon-Weiner Diversity",240,"Year:Vegetation_Zone",2,1.3106,0.6553,3.3433,0.037
+"1026","GND","juro mid","Gulf Coast","Riverine","Microtidal","Mesohaline","Shannon-Weiner Diversity",240,"Residuals",234,45.864,0.196,NA,1
+"1027","GRB","SP","Northeast","Bay Front","Mesotidal","Polyhaline","Shannon-Weiner Diversity",491,"Year",1,0.1411,0.1411,0.6745,0.4119
+"1028","GRB","SP","Northeast","Bay Front","Mesotidal","Polyhaline","Shannon-Weiner Diversity",491,"Vegetation_Zone",2,32.0865,16.0433,76.6999,0
+"1029","GRB","SP","Northeast","Bay Front","Mesotidal","Polyhaline","Shannon-Weiner Diversity",491,"Year:Vegetation_Zone",2,0.2782,0.1391,0.6651,0.5147
+"1030","GRB","SP","Northeast","Bay Front","Mesotidal","Polyhaline","Shannon-Weiner Diversity",491,"Residuals",485,101.4472,0.2092,NA,1
+"1031","GRB","GBF","Northeast","Riverine","Mesotidal","Polyhaline","Shannon-Weiner Diversity",429,"Year",1,1.4674,1.4674,7.9476,0.005
+"1032","GRB","GBF","Northeast","Riverine","Mesotidal","Polyhaline","Shannon-Weiner Diversity",429,"Vegetation_Zone",2,14.5407,7.2704,39.3783,0
+"1033","GRB","GBF","Northeast","Riverine","Mesotidal","Polyhaline","Shannon-Weiner Diversity",429,"Year:Vegetation_Zone",2,0.1189,0.0595,0.3221,0.7248
+"1034","GRB","GBF","Northeast","Riverine","Mesotidal","Polyhaline","Shannon-Weiner Diversity",429,"Residuals",423,78.0979,0.1846,NA,1
+"1035","GRB","BC","Northeast","Riverine","Mesotidal","Polyhaline","Shannon-Weiner Diversity",329,"Year",1,0.9723,0.9723,5.2888,0.0221
+"1036","GRB","BC","Northeast","Riverine","Mesotidal","Polyhaline","Shannon-Weiner Diversity",329,"Vegetation_Zone",2,54.7444,27.3722,148.8943,0
+"1037","GRB","BC","Northeast","Riverine","Mesotidal","Polyhaline","Shannon-Weiner Diversity",329,"Year:Vegetation_Zone",2,0.9626,0.4813,2.6181,0.0745
+"1038","GRB","BC","Northeast","Riverine","Mesotidal","Polyhaline","Shannon-Weiner Diversity",329,"Residuals",323,59.3792,0.1838,NA,1
+"1039","GTM","46","Southeast","Riverine","Microtidal","Oligohaline","Shannon-Weiner Diversity",406,"Year",1,0.0294,0.0294,0.1962,0.6581
+"1040","GTM","46","Southeast","Riverine","Microtidal","Oligohaline","Shannon-Weiner Diversity",406,"Vegetation_Zone",2,11.3554,5.6777,37.9269,0
+"1041","GTM","46","Southeast","Riverine","Microtidal","Oligohaline","Shannon-Weiner Diversity",406,"Residuals",402,60.1797,0.1497,NA,1
+"1042","KAC","FR","West Coast","Bay Front","Macrotidal","Mesohaline","Shannon-Weiner Diversity",546,"Year",1,1.0432,1.0432,4.5517,0.0333
+"1043","KAC","FR","West Coast","Bay Front","Macrotidal","Mesohaline","Shannon-Weiner Diversity",546,"Vegetation_Zone",2,16.0038,8.0019,34.913,0
+"1044","KAC","FR","West Coast","Bay Front","Macrotidal","Mesohaline","Shannon-Weiner Diversity",546,"Year:Vegetation_Zone",2,0.4389,0.2195,0.9576,0.3845
+"1045","KAC","FR","West Coast","Bay Front","Macrotidal","Mesohaline","Shannon-Weiner Diversity",546,"Residuals",540,123.7657,0.2292,NA,1
+"1046","KAC","BS","West Coast","Back Barrier","Macrotidal","Oligohaline","Shannon-Weiner Diversity",346,"Year",1,5.6063,5.6063,23.9136,0
+"1047","KAC","BS","West Coast","Back Barrier","Macrotidal","Oligohaline","Shannon-Weiner Diversity",346,"Vegetation_Zone",2,1.1998,0.5999,2.5589,0.0789
+"1048","KAC","BS","West Coast","Back Barrier","Macrotidal","Oligohaline","Shannon-Weiner Diversity",346,"Year:Vegetation_Zone",2,0.363,0.1815,0.7742,0.4619
+"1049","KAC","BS","West Coast","Back Barrier","Macrotidal","Oligohaline","Shannon-Weiner Diversity",346,"Residuals",340,79.7091,0.2344,NA,1
+"1050","KAC","CP","West Coast","Bay Front","Macrotidal","Mesohaline","Shannon-Weiner Diversity",463,"Year",1,0.0018,0.0018,0.0097,0.9218
+"1051","KAC","CP","West Coast","Bay Front","Macrotidal","Mesohaline","Shannon-Weiner Diversity",463,"Vegetation_Zone",1,2.5845,2.5845,13.9142,2e-04
+"1052","KAC","CP","West Coast","Bay Front","Macrotidal","Mesohaline","Shannon-Weiner Diversity",463,"Year:Vegetation_Zone",1,0.018,0.018,0.0967,0.7559
+"1053","KAC","CP","West Coast","Bay Front","Macrotidal","Mesohaline","Shannon-Weiner Diversity",463,"Residuals",459,85.2584,0.1857,NA,1
+"1054","KAC","SC","West Coast","Bay Front","Macrotidal","Mesohaline","Shannon-Weiner Diversity",161,"Year",1,0.0566,0.0566,0.3086,0.5793
+"1055","KAC","SC","West Coast","Bay Front","Macrotidal","Mesohaline","Shannon-Weiner Diversity",161,"Vegetation_Zone",1,3.9959,3.9959,21.7897,0
+"1056","KAC","SC","West Coast","Bay Front","Macrotidal","Mesohaline","Shannon-Weiner Diversity",161,"Year:Vegetation_Zone",1,0.0014,0.0014,0.0078,0.9296
+"1057","KAC","SC","West Coast","Bay Front","Macrotidal","Mesohaline","Shannon-Weiner Diversity",161,"Residuals",157,28.7911,0.1834,NA,1
+"1058","NAR","Nag","Northeast","Bay Front","Microtidal","Polyhaline","Shannon-Weiner Diversity",312,"Year",1,0.9486,0.9486,10.156,0.0016
+"1059","NAR","Nag","Northeast","Bay Front","Microtidal","Polyhaline","Shannon-Weiner Diversity",312,"Vegetation_Zone",2,16.389,8.1945,87.736,0
+"1060","NAR","Nag","Northeast","Bay Front","Microtidal","Polyhaline","Shannon-Weiner Diversity",312,"Year:Vegetation_Zone",2,0.0304,0.0152,0.1627,0.8499
+"1061","NAR","Nag","Northeast","Bay Front","Microtidal","Polyhaline","Shannon-Weiner Diversity",312,"Residuals",306,28.5802,0.0934,NA,1
+"1062","NAR","Coggeshall","Northeast","Bay Front","Microtidal","Polyhaline","Shannon-Weiner Diversity",273,"Year",1,2.0919,2.0919,24.3316,0
+"1063","NAR","Coggeshall","Northeast","Bay Front","Microtidal","Polyhaline","Shannon-Weiner Diversity",273,"Vegetation_Zone",2,31.8047,15.9023,184.9664,0
+"1064","NAR","Coggeshall","Northeast","Bay Front","Microtidal","Polyhaline","Shannon-Weiner Diversity",273,"Year:Vegetation_Zone",2,0.8416,0.4208,4.8946,0.0082
+"1065","NAR","Coggeshall","Northeast","Bay Front","Microtidal","Polyhaline","Shannon-Weiner Diversity",273,"Residuals",267,22.9551,0.086,NA,1
+"1066","NIW","Segment A","Southeast","Riverine","Microtidal","Polyhaline","Shannon-Weiner Diversity",319,"Year",1,0.0178,0.0178,0.2166,0.642
+"1067","NIW","Segment A","Southeast","Riverine","Microtidal","Polyhaline","Shannon-Weiner Diversity",319,"Vegetation_Zone",2,15.0344,7.5172,91.6582,0
+"1068","NIW","Segment A","Southeast","Riverine","Microtidal","Polyhaline","Shannon-Weiner Diversity",319,"Year:Vegetation_Zone",2,0.525,0.2625,3.2008,0.0421
+"1069","NIW","Segment A","Southeast","Riverine","Microtidal","Polyhaline","Shannon-Weiner Diversity",319,"Residuals",313,25.6702,0.082,NA,1
+"1070","NIW","Segment B","Southeast","Riverine","Microtidal","Polyhaline","Shannon-Weiner Diversity",338,"Year",1,0.0622,0.0622,3.1561,0.0766
+"1071","NIW","Segment B","Southeast","Riverine","Microtidal","Polyhaline","Shannon-Weiner Diversity",338,"Vegetation_Zone",1,5.7229,5.7229,290.4836,0
+"1072","NIW","Segment B","Southeast","Riverine","Microtidal","Polyhaline","Shannon-Weiner Diversity",338,"Year:Vegetation_Zone",1,0.1932,0.1932,9.8051,0.0019
+"1073","NIW","Segment B","Southeast","Riverine","Microtidal","Polyhaline","Shannon-Weiner Diversity",338,"Residuals",334,6.5802,0.0197,NA,1
+"1074","NOC","MI","Southeast","Back Barrier","Microtidal","Polyhaline","Shannon-Weiner Diversity",789,"Year",1,0.1599,0.1599,3.4438,0.0639
+"1075","NOC","MI","Southeast","Back Barrier","Microtidal","Polyhaline","Shannon-Weiner Diversity",789,"Vegetation_Zone",1,33.1195,33.1195,713.4197,0
+"1076","NOC","MI","Southeast","Back Barrier","Microtidal","Polyhaline","Shannon-Weiner Diversity",789,"Year:Vegetation_Zone",1,0.8377,0.8377,18.0449,0
+"1077","NOC","MI","Southeast","Back Barrier","Microtidal","Polyhaline","Shannon-Weiner Diversity",789,"Residuals",785,36.4425,0.0464,NA,1
+"1078","SOS","DM","West Coast","Riverine","Mesotidal","Mesohaline","Shannon-Weiner Diversity",70,"Year",1,0.062,0.062,0.7567,0.3875
+"1079","SOS","DM","West Coast","Riverine","Mesotidal","Mesohaline","Shannon-Weiner Diversity",70,"Vegetation_Zone",1,0.3443,0.3443,4.2021,0.0443
+"1080","SOS","DM","West Coast","Riverine","Mesotidal","Mesohaline","Shannon-Weiner Diversity",70,"Year:Vegetation_Zone",1,0.7186,0.7186,8.7707,0.0043
+"1081","SOS","DM","West Coast","Riverine","Mesotidal","Mesohaline","Shannon-Weiner Diversity",70,"Residuals",66,5.4078,0.0819,NA,1
+"1082","SOS","MM","West Coast","Bay Front","Mesotidal","Polyhaline","Shannon-Weiner Diversity",120,"Year",1,0.272,0.272,6.4693,0.0123
+"1083","SOS","MM","West Coast","Bay Front","Mesotidal","Polyhaline","Shannon-Weiner Diversity",120,"Vegetation_Zone",1,7.1206,7.1206,169.3495,0
+"1084","SOS","MM","West Coast","Bay Front","Mesotidal","Polyhaline","Shannon-Weiner Diversity",120,"Year:Vegetation_Zone",1,0.1997,0.1997,4.7492,0.0313
+"1085","SOS","MM","West Coast","Bay Front","Mesotidal","Polyhaline","Shannon-Weiner Diversity",120,"Residuals",116,4.8774,0.042,NA,1
+"1086","SOS","HC","West Coast","Riverine","Mesotidal","Mesohaline","Shannon-Weiner Diversity",122,"Year",1,0.5531,0.5531,16.1158,1e-04
+"1087","SOS","HC","West Coast","Riverine","Mesotidal","Mesohaline","Shannon-Weiner Diversity",122,"Vegetation_Zone",1,0.9438,0.9438,27.5,0
+"1088","SOS","HC","West Coast","Riverine","Mesotidal","Mesohaline","Shannon-Weiner Diversity",122,"Year:Vegetation_Zone",1,0.0844,0.0844,2.4596,0.1195
+"1089","SOS","HC","West Coast","Riverine","Mesotidal","Mesohaline","Shannon-Weiner Diversity",122,"Residuals",118,4.0496,0.0343,NA,1
+"1090","SOS","VM","West Coast","Riverine","Mesotidal","Polyhaline","Shannon-Weiner Diversity",100,"Year",1,0.7614,0.7614,4.8182,0.0306
+"1091","SOS","VM","West Coast","Riverine","Mesotidal","Polyhaline","Shannon-Weiner Diversity",100,"Vegetation_Zone",1,19.4696,19.4696,123.1966,0
+"1092","SOS","VM","West Coast","Riverine","Mesotidal","Polyhaline","Shannon-Weiner Diversity",100,"Year:Vegetation_Zone",1,0.0294,0.0294,0.1861,0.6672
+"1093","SOS","VM","West Coast","Riverine","Mesotidal","Polyhaline","Shannon-Weiner Diversity",100,"Residuals",96,15.1715,0.158,NA,1
+"1094","SOS","VI","West Coast","Riverine","Mesotidal","Polyhaline","Shannon-Weiner Diversity",60,"Year",1,0.4476,0.4476,3.9084,0.053
+"1095","SOS","VI","West Coast","Riverine","Mesotidal","Polyhaline","Shannon-Weiner Diversity",60,"Vegetation_Zone",1,0.7248,0.7248,6.3288,0.0148
+"1096","SOS","VI","West Coast","Riverine","Mesotidal","Polyhaline","Shannon-Weiner Diversity",60,"Year:Vegetation_Zone",1,0.1247,0.1247,1.0891,0.3012
+"1097","SOS","VI","West Coast","Riverine","Mesotidal","Polyhaline","Shannon-Weiner Diversity",60,"Residuals",56,6.413,0.1145,NA,1
+"1098","TJR","McCoy North","West Coast","Back Barrier","Mesotidal","Polyhaline","Shannon-Weiner Diversity",50,"Year",1,0.0674,0.0674,0.5794,0.4504
+"1099","TJR","McCoy North","West Coast","Back Barrier","Mesotidal","Polyhaline","Shannon-Weiner Diversity",50,"Vegetation_Zone",1,1.9811,1.9811,17.0414,2e-04
+"1100","TJR","McCoy North","West Coast","Back Barrier","Mesotidal","Polyhaline","Shannon-Weiner Diversity",50,"Year:Vegetation_Zone",1,0.0482,0.0482,0.4144,0.5229
+"1101","TJR","McCoy North","West Coast","Back Barrier","Mesotidal","Polyhaline","Shannon-Weiner Diversity",50,"Residuals",46,5.3475,0.1162,NA,1
+"1102","TJR","McCoy South","West Coast","Back Barrier","Mesotidal","Polyhaline","Shannon-Weiner Diversity",240,"Year",1,0.6892,0.6892,8.151,0.0047
+"1103","TJR","McCoy South","West Coast","Back Barrier","Mesotidal","Polyhaline","Shannon-Weiner Diversity",240,"Vegetation_Zone",2,12.6309,6.3155,74.6947,0
+"1104","TJR","McCoy South","West Coast","Back Barrier","Mesotidal","Polyhaline","Shannon-Weiner Diversity",240,"Year:Vegetation_Zone",2,0.2804,0.1402,1.6579,0.1928
+"1105","TJR","McCoy South","West Coast","Back Barrier","Mesotidal","Polyhaline","Shannon-Weiner Diversity",240,"Residuals",234,19.7848,0.0846,NA,1
+"1106","TJR","South Beach","West Coast","Back Barrier","Mesotidal","Polyhaline","Shannon-Weiner Diversity",210,"Year",1,0.002,0.002,0.0158,0.9002
+"1107","TJR","South Beach","West Coast","Back Barrier","Mesotidal","Polyhaline","Shannon-Weiner Diversity",210,"Vegetation_Zone",1,0.0927,0.0927,0.7281,0.3945
+"1108","TJR","South Beach","West Coast","Back Barrier","Mesotidal","Polyhaline","Shannon-Weiner Diversity",210,"Year:Vegetation_Zone",1,0.0254,0.0254,0.1998,0.6553
+"1109","TJR","South Beach","West Coast","Back Barrier","Mesotidal","Polyhaline","Shannon-Weiner Diversity",210,"Residuals",206,26.2286,0.1273,NA,1
+"1110","TJR","V1","West Coast","Back Barrier","Mesotidal","Polyhaline","Shannon-Weiner Diversity",270,"Year",1,8e-04,8e-04,0.0048,0.9447
+"1111","TJR","V1","West Coast","Back Barrier","Mesotidal","Polyhaline","Shannon-Weiner Diversity",270,"Vegetation_Zone",2,6.1151,3.0575,17.6276,0
+"1112","TJR","V1","West Coast","Back Barrier","Mesotidal","Polyhaline","Shannon-Weiner Diversity",270,"Year:Vegetation_Zone",2,0.0157,0.0078,0.0453,0.9558
+"1113","TJR","V1","West Coast","Back Barrier","Mesotidal","Polyhaline","Shannon-Weiner Diversity",270,"Residuals",264,45.7912,0.1735,NA,1
+"1114","TJR","V4","West Coast","Back Barrier","Mesotidal","Polyhaline","Shannon-Weiner Diversity",240,"Year",1,0.6046,0.6046,6.384,0.0122
+"1115","TJR","V4","West Coast","Back Barrier","Mesotidal","Polyhaline","Shannon-Weiner Diversity",240,"Vegetation_Zone",1,0.1826,0.1826,1.9283,0.1663
+"1116","TJR","V4","West Coast","Back Barrier","Mesotidal","Polyhaline","Shannon-Weiner Diversity",240,"Year:Vegetation_Zone",1,0.0048,0.0048,0.0507,0.822
+"1117","TJR","V4","West Coast","Back Barrier","Mesotidal","Polyhaline","Shannon-Weiner Diversity",240,"Residuals",236,22.3495,0.0947,NA,1
+"1118","TJR","Brazo Creek","West Coast","Back Barrier","Mesotidal","Polyhaline","Shannon-Weiner Diversity",48,"Year",1,0.2792,0.2792,2.3943,0.1289
+"1119","TJR","Brazo Creek","West Coast","Back Barrier","Mesotidal","Polyhaline","Shannon-Weiner Diversity",48,"Vegetation_Zone",1,0.0544,0.0544,0.4664,0.4982
+"1120","TJR","Brazo Creek","West Coast","Back Barrier","Mesotidal","Polyhaline","Shannon-Weiner Diversity",48,"Year:Vegetation_Zone",1,0.0174,0.0174,0.1494,0.701
+"1121","TJR","Brazo Creek","West Coast","Back Barrier","Mesotidal","Polyhaline","Shannon-Weiner Diversity",48,"Residuals",44,5.1307,0.1166,NA,1
+"1122","TJR","Model Marsh","West Coast","Back Barrier","Mesotidal","Polyhaline","Shannon-Weiner Diversity",120,"Year",1,0.0063,0.0063,0.0594,0.8078
+"1123","TJR","Model Marsh","West Coast","Back Barrier","Mesotidal","Polyhaline","Shannon-Weiner Diversity",120,"Vegetation_Zone",1,0.0648,0.0648,0.6114,0.4358
+"1124","TJR","Model Marsh","West Coast","Back Barrier","Mesotidal","Polyhaline","Shannon-Weiner Diversity",120,"Year:Vegetation_Zone",1,0.06,0.06,0.5663,0.4532
+"1125","TJR","Model Marsh","West Coast","Back Barrier","Mesotidal","Polyhaline","Shannon-Weiner Diversity",120,"Residuals",116,12.2908,0.106,NA,1
+"1126","WEL","WB","Northeast","Back Barrier","Mesotidal","Polyhaline","Shannon-Weiner Diversity",265,"Year",1,0.1227,0.1227,0.603,0.4381
+"1127","WEL","WB","Northeast","Back Barrier","Mesotidal","Polyhaline","Shannon-Weiner Diversity",265,"Vegetation_Zone",2,0.8235,0.4118,2.0244,0.1342
+"1128","WEL","WB","Northeast","Back Barrier","Mesotidal","Polyhaline","Shannon-Weiner Diversity",265,"Year:Vegetation_Zone",2,1.216,0.608,2.9892,0.0521
+"1129","WEL","WB","Northeast","Back Barrier","Mesotidal","Polyhaline","Shannon-Weiner Diversity",265,"Residuals",259,52.6808,0.2034,NA,1
+"1130","WQB","Section 2","Northeast","Back Barrier","Microtidal","Polyhaline","Shannon-Weiner Diversity",420,"Year",1,1.4273,1.4273,10.6314,0.0012
+"1131","WQB","Section 2","Northeast","Back Barrier","Microtidal","Polyhaline","Shannon-Weiner Diversity",420,"Vegetation_Zone",2,51.7352,25.8676,192.6777,0
+"1132","WQB","Section 2","Northeast","Back Barrier","Microtidal","Polyhaline","Shannon-Weiner Diversity",420,"Year:Vegetation_Zone",2,0.9922,0.4961,3.6951,0.0257
+"1133","WQB","Section 2","Northeast","Back Barrier","Microtidal","Polyhaline","Shannon-Weiner Diversity",420,"Residuals",414,55.5808,0.1343,NA,1
+"1134","WQB","Section 1","Northeast","Back Barrier","Microtidal","Polyhaline","Shannon-Weiner Diversity",307,"Year",1,2.4144,2.4144,29.1266,0
+"1135","WQB","Section 1","Northeast","Back Barrier","Microtidal","Polyhaline","Shannon-Weiner Diversity",307,"Vegetation_Zone",2,40.3345,20.1672,243.2919,0
+"1136","WQB","Section 1","Northeast","Back Barrier","Microtidal","Polyhaline","Shannon-Weiner Diversity",307,"Year:Vegetation_Zone",2,0.5771,0.2886,3.481,0.032
+"1137","WQB","Section 1","Northeast","Back Barrier","Microtidal","Polyhaline","Shannon-Weiner Diversity",307,"Residuals",301,24.9509,0.0829,NA,1
+"1138","WQB","Section 3","Northeast","Back Barrier","Microtidal","Polyhaline","Shannon-Weiner Diversity",331,"Year",1,5e-04,5e-04,0.003,0.9564
+"1139","WQB","Section 3","Northeast","Back Barrier","Microtidal","Polyhaline","Shannon-Weiner Diversity",331,"Vegetation_Zone",2,28.3769,14.1884,94.2803,0
+"1140","WQB","Section 3","Northeast","Back Barrier","Microtidal","Polyhaline","Shannon-Weiner Diversity",331,"Year:Vegetation_Zone",2,0.5793,0.2896,1.9245,0.1476
+"1141","WQB","Section 3","Northeast","Back Barrier","Microtidal","Polyhaline","Shannon-Weiner Diversity",331,"Residuals",325,48.9099,0.1505,NA,1
+"1142","ACE","EIN","Southeast","Riverine","Microtidal","Polyhaline","Salt Ratio",142,"Year",1,0.0612,0.0612,1.1594,0.2835
+"1143","ACE","EIN","Southeast","Riverine","Microtidal","Polyhaline","Salt Ratio",142,"Vegetation_Zone",1,0.0367,0.0367,0.6951,0.4059
+"1144","ACE","EIN","Southeast","Riverine","Microtidal","Polyhaline","Salt Ratio",142,"Year:Vegetation_Zone",1,0.165,0.165,3.1258,0.0793
+"1145","ACE","EIN","Southeast","Riverine","Microtidal","Polyhaline","Salt Ratio",142,"Residuals",138,7.2863,0.0528,NA,1
+"1146","ACE","EIS","Southeast","Riverine","Microtidal","Polyhaline","Salt Ratio",122,"Year",1,0.4116,0.4116,4.037,0.0468
+"1147","ACE","EIS","Southeast","Riverine","Microtidal","Polyhaline","Salt Ratio",122,"Vegetation_Zone",1,0.0236,0.0236,0.2317,0.6311
+"1148","ACE","EIS","Southeast","Riverine","Microtidal","Polyhaline","Salt Ratio",122,"Year:Vegetation_Zone",1,0.6899,0.6899,6.7667,0.0105
+"1149","ACE","EIS","Southeast","Riverine","Microtidal","Polyhaline","Salt Ratio",122,"Residuals",118,12.0306,0.102,NA,1
+"1150","APA","PC","Gulf Coast","Bay Front","Microtidal","Polyhaline","Salt Ratio",346,"Year",1,0.0607,0.0607,2.4647,0.1174
+"1151","APA","PC","Gulf Coast","Bay Front","Microtidal","Polyhaline","Salt Ratio",346,"Vegetation_Zone",2,0.2153,0.1077,4.3712,0.0134
+"1152","APA","PC","Gulf Coast","Bay Front","Microtidal","Polyhaline","Salt Ratio",346,"Year:Vegetation_Zone",2,0.1018,0.0509,2.0676,0.1281
+"1153","APA","PC","Gulf Coast","Bay Front","Microtidal","Polyhaline","Salt Ratio",346,"Residuals",340,8.3736,0.0246,NA,1
+"1154","CBM","MB","Mid-Atlantic","Bay Front","Microtidal","Mesohaline","Salt Ratio",160,"Year",1,1e-04,1e-04,3.4144,0.0665
+"1155","CBM","MB","Mid-Atlantic","Bay Front","Microtidal","Mesohaline","Salt Ratio",160,"Vegetation_Zone",1,0,0,0.4706,0.4937
+"1156","CBM","MB","Mid-Atlantic","Bay Front","Microtidal","Mesohaline","Salt Ratio",160,"Year:Vegetation_Zone",1,0,0,0.6916,0.4069
+"1157","CBM","MB","Mid-Atlantic","Bay Front","Microtidal","Mesohaline","Salt Ratio",160,"Residuals",156,0.0031,0,NA,1
+"1158","CBM","OPC","Mid-Atlantic","Riverine","Microtidal","Oligohaline","Salt Ratio",419,"Year",1,0.0253,0.0253,2.9145,0.0885
+"1159","CBM","OPC","Mid-Atlantic","Riverine","Microtidal","Oligohaline","Salt Ratio",419,"Vegetation_Zone",1,0.0657,0.0657,7.5777,0.0062
+"1160","CBM","OPC","Mid-Atlantic","Riverine","Microtidal","Oligohaline","Salt Ratio",419,"Year:Vegetation_Zone",1,0.0017,0.0017,0.1953,0.6588
+"1161","CBM","OPC","Mid-Atlantic","Riverine","Microtidal","Oligohaline","Salt Ratio",419,"Residuals",415,3.5995,0.0087,NA,1
+"1162","DEL","SJR","Mid-Atlantic","Riverine","Microtidal","Mesohaline","Salt Ratio",120,"Year",1,0,0,211311.1016,0
+"1163","DEL","SJR","Mid-Atlantic","Riverine","Microtidal","Mesohaline","Salt Ratio",120,"Vegetation_Zone",2,3.8667,1.9333,1.36078739905189e+30,0
+"1164","DEL","SJR","Mid-Atlantic","Riverine","Microtidal","Mesohaline","Salt Ratio",120,"Year:Vegetation_Zone",2,0,0,67.3992,0
+"1165","DEL","SJR","Mid-Atlantic","Riverine","Microtidal","Mesohaline","Salt Ratio",120,"Residuals",114,0,0,NA,1
+"1166","ELK","Upper","West Coast","Riverine","Mesotidal","Polyhaline","Salt Ratio",60,"Year",1,0.0193,0.0193,5.6084,0.0215
+"1167","ELK","Upper","West Coast","Riverine","Mesotidal","Polyhaline","Salt Ratio",60,"Vegetation_Zone",2,0.5115,0.2557,74.1745,0
+"1168","ELK","Upper","West Coast","Riverine","Mesotidal","Polyhaline","Salt Ratio",60,"Year:Vegetation_Zone",2,0.174,0.087,25.2379,0
+"1169","ELK","Upper","West Coast","Riverine","Mesotidal","Polyhaline","Salt Ratio",60,"Residuals",54,0.1862,0.0034,NA,1
+"1170","ELK","Lower","West Coast","Riverine","Mesotidal","Polyhaline","Salt Ratio",100,"Year",1,0,0,NA,1
+"1171","ELK","Lower","West Coast","Riverine","Mesotidal","Polyhaline","Salt Ratio",100,"Vegetation_Zone",2,0,0,NA,1
+"1172","ELK","Lower","West Coast","Riverine","Mesotidal","Polyhaline","Salt Ratio",100,"Year:Vegetation_Zone",2,0,0,NA,1
+"1173","ELK","Lower","West Coast","Riverine","Mesotidal","Polyhaline","Salt Ratio",100,"Residuals",94,0,0,NA,1
+"1174","GND","spalt","Gulf Coast","Bay Front","Microtidal","Polyhaline","Salt Ratio",162,"Year",1,0.0362,0.0362,0.4217,0.517
+"1175","GND","spalt","Gulf Coast","Bay Front","Microtidal","Polyhaline","Salt Ratio",162,"Vegetation_Zone",1,14.3669,14.3669,167.4963,0
+"1176","GND","spalt","Gulf Coast","Bay Front","Microtidal","Polyhaline","Salt Ratio",162,"Year:Vegetation_Zone",1,0.1582,0.1582,1.8447,0.1763
+"1177","GND","spalt","Gulf Coast","Bay Front","Microtidal","Polyhaline","Salt Ratio",162,"Residuals",158,13.5523,0.0858,NA,1
+"1178","GND","juro low","Gulf Coast","Bay Front","Microtidal","Mesohaline","Salt Ratio",210,"Year",1,0.2459,0.2459,2.8673,0.0919
+"1179","GND","juro low","Gulf Coast","Bay Front","Microtidal","Mesohaline","Salt Ratio",210,"Vegetation_Zone",1,3.0726,3.0726,35.8312,0
+"1180","GND","juro low","Gulf Coast","Bay Front","Microtidal","Mesohaline","Salt Ratio",210,"Year:Vegetation_Zone",1,0.3798,0.3798,4.4295,0.0365
+"1181","GND","juro low","Gulf Coast","Bay Front","Microtidal","Mesohaline","Salt Ratio",210,"Residuals",206,17.6648,0.0858,NA,1
+"1182","GND","juro high","Gulf Coast","Riverine","Microtidal","Mesohaline","Salt Ratio",128,"Year",1,0.0975,0.0975,1.6545,0.2007
+"1183","GND","juro high","Gulf Coast","Riverine","Microtidal","Mesohaline","Salt Ratio",128,"Vegetation_Zone",1,0.1688,0.1688,2.8647,0.0931
+"1184","GND","juro high","Gulf Coast","Riverine","Microtidal","Mesohaline","Salt Ratio",128,"Year:Vegetation_Zone",1,0.0031,0.0031,0.0531,0.8182
+"1185","GND","juro high","Gulf Coast","Riverine","Microtidal","Mesohaline","Salt Ratio",128,"Residuals",124,7.3052,0.0589,NA,1
+"1186","GND","juro mid","Gulf Coast","Riverine","Microtidal","Mesohaline","Salt Ratio",240,"Year",1,0.0022,0.0022,0.0657,0.798
+"1187","GND","juro mid","Gulf Coast","Riverine","Microtidal","Mesohaline","Salt Ratio",240,"Vegetation_Zone",2,7.1895,3.5947,109.6592,0
+"1188","GND","juro mid","Gulf Coast","Riverine","Microtidal","Mesohaline","Salt Ratio",240,"Year:Vegetation_Zone",2,1.4902,0.7451,22.7297,0
+"1189","GND","juro mid","Gulf Coast","Riverine","Microtidal","Mesohaline","Salt Ratio",240,"Residuals",234,7.6707,0.0328,NA,1
+"1190","GRB","SP","Northeast","Bay Front","Mesotidal","Polyhaline","Salt Ratio",491,"Year",1,0.0068,0.0068,0.3579,0.55
+"1191","GRB","SP","Northeast","Bay Front","Mesotidal","Polyhaline","Salt Ratio",491,"Vegetation_Zone",2,13.4554,6.7277,353.7394,0
+"1192","GRB","SP","Northeast","Bay Front","Mesotidal","Polyhaline","Salt Ratio",491,"Year:Vegetation_Zone",2,0.1322,0.0661,3.4746,0.0317
+"1193","GRB","SP","Northeast","Bay Front","Mesotidal","Polyhaline","Salt Ratio",491,"Residuals",485,9.2241,0.019,NA,1
+"1194","GRB","GBF","Northeast","Riverine","Mesotidal","Polyhaline","Salt Ratio",429,"Year",1,0.0351,0.0351,0.5881,0.4436
+"1195","GRB","GBF","Northeast","Riverine","Mesotidal","Polyhaline","Salt Ratio",429,"Vegetation_Zone",2,25.2193,12.6097,211.1199,0
+"1196","GRB","GBF","Northeast","Riverine","Mesotidal","Polyhaline","Salt Ratio",429,"Year:Vegetation_Zone",2,0.0275,0.0137,0.23,0.7947
+"1197","GRB","GBF","Northeast","Riverine","Mesotidal","Polyhaline","Salt Ratio",429,"Residuals",423,25.2647,0.0597,NA,1
+"1198","GRB","BC","Northeast","Riverine","Mesotidal","Polyhaline","Salt Ratio",329,"Year",1,0.0214,0.0214,0.7402,0.3902
+"1199","GRB","BC","Northeast","Riverine","Mesotidal","Polyhaline","Salt Ratio",329,"Vegetation_Zone",2,7.2578,3.6289,125.6833,0
+"1200","GRB","BC","Northeast","Riverine","Mesotidal","Polyhaline","Salt Ratio",329,"Year:Vegetation_Zone",2,0.1006,0.0503,1.7422,0.1768
+"1201","GRB","BC","Northeast","Riverine","Mesotidal","Polyhaline","Salt Ratio",329,"Residuals",323,9.3261,0.0289,NA,1
+"1202","GTM","46","Southeast","Riverine","Microtidal","Oligohaline","Salt Ratio",406,"Year",1,3.5208,3.5208,58.3102,0
+"1203","GTM","46","Southeast","Riverine","Microtidal","Oligohaline","Salt Ratio",406,"Vegetation_Zone",2,3.1688,1.5844,26.2405,0
+"1204","GTM","46","Southeast","Riverine","Microtidal","Oligohaline","Salt Ratio",406,"Residuals",402,24.2727,0.0604,NA,1
+"1205","KAC","FR","West Coast","Bay Front","Macrotidal","Mesohaline","Salt Ratio",546,"Year",1,0.1287,0.1287,3.4311,0.0645
+"1206","KAC","FR","West Coast","Bay Front","Macrotidal","Mesohaline","Salt Ratio",546,"Vegetation_Zone",2,4.7401,2.37,63.179,0
+"1207","KAC","FR","West Coast","Bay Front","Macrotidal","Mesohaline","Salt Ratio",546,"Year:Vegetation_Zone",2,0.0808,0.0404,1.0771,0.3413
+"1208","KAC","FR","West Coast","Bay Front","Macrotidal","Mesohaline","Salt Ratio",546,"Residuals",540,20.257,0.0375,NA,1
+"1209","KAC","BS","West Coast","Back Barrier","Macrotidal","Oligohaline","Salt Ratio",346,"Year",1,0.0827,0.0827,1.9248,0.1662
+"1210","KAC","BS","West Coast","Back Barrier","Macrotidal","Oligohaline","Salt Ratio",346,"Vegetation_Zone",2,10.543,5.2715,122.6753,0
+"1211","KAC","BS","West Coast","Back Barrier","Macrotidal","Oligohaline","Salt Ratio",346,"Year:Vegetation_Zone",2,0.3293,0.1646,3.8312,0.0226
+"1212","KAC","BS","West Coast","Back Barrier","Macrotidal","Oligohaline","Salt Ratio",346,"Residuals",340,14.6102,0.043,NA,1
+"1213","KAC","CP","West Coast","Bay Front","Macrotidal","Mesohaline","Salt Ratio",463,"Year",1,1e-04,1e-04,0.0018,0.9666
+"1214","KAC","CP","West Coast","Bay Front","Macrotidal","Mesohaline","Salt Ratio",463,"Vegetation_Zone",1,0.2909,0.2909,5.0968,0.0244
+"1215","KAC","CP","West Coast","Bay Front","Macrotidal","Mesohaline","Salt Ratio",463,"Year:Vegetation_Zone",1,0.1203,0.1203,2.1086,0.1472
+"1216","KAC","CP","West Coast","Bay Front","Macrotidal","Mesohaline","Salt Ratio",463,"Residuals",459,26.1975,0.0571,NA,1
+"1217","KAC","SC","West Coast","Bay Front","Macrotidal","Mesohaline","Salt Ratio",161,"Year",1,0.0378,0.0378,0.8254,0.365
+"1218","KAC","SC","West Coast","Bay Front","Macrotidal","Mesohaline","Salt Ratio",161,"Vegetation_Zone",1,0.0689,0.0689,1.5028,0.2221
+"1219","KAC","SC","West Coast","Bay Front","Macrotidal","Mesohaline","Salt Ratio",161,"Year:Vegetation_Zone",1,1e-04,1e-04,0.0013,0.9715
+"1220","KAC","SC","West Coast","Bay Front","Macrotidal","Mesohaline","Salt Ratio",161,"Residuals",157,7.1936,0.0458,NA,1
+"1221","NAR","Nag","Northeast","Bay Front","Microtidal","Polyhaline","Salt Ratio",312,"Year",1,0,0,3.3811,0.0669
+"1222","NAR","Nag","Northeast","Bay Front","Microtidal","Polyhaline","Salt Ratio",312,"Vegetation_Zone",2,7e-04,3e-04,46.8403,0
+"1223","NAR","Nag","Northeast","Bay Front","Microtidal","Polyhaline","Salt Ratio",312,"Year:Vegetation_Zone",2,1e-04,1e-04,9.6586,1e-04
+"1224","NAR","Nag","Northeast","Bay Front","Microtidal","Polyhaline","Salt Ratio",312,"Residuals",306,0.0023,0,NA,1
+"1225","NAR","Coggeshall","Northeast","Bay Front","Microtidal","Polyhaline","Salt Ratio",273,"Year",1,0,0,2.5793,0.1094
+"1226","NAR","Coggeshall","Northeast","Bay Front","Microtidal","Polyhaline","Salt Ratio",273,"Vegetation_Zone",2,0,0,0.4559,0.6343
+"1227","NAR","Coggeshall","Northeast","Bay Front","Microtidal","Polyhaline","Salt Ratio",273,"Year:Vegetation_Zone",2,0,0,1.1724,0.3112
+"1228","NAR","Coggeshall","Northeast","Bay Front","Microtidal","Polyhaline","Salt Ratio",273,"Residuals",267,0,0,NA,1
+"1229","NIW","Segment A","Southeast","Riverine","Microtidal","Polyhaline","Salt Ratio",319,"Year",1,0.0041,0.0041,0.0474,0.8279
+"1230","NIW","Segment A","Southeast","Riverine","Microtidal","Polyhaline","Salt Ratio",319,"Vegetation_Zone",2,0.0372,0.0186,0.213,0.8083
+"1231","NIW","Segment A","Southeast","Riverine","Microtidal","Polyhaline","Salt Ratio",319,"Year:Vegetation_Zone",2,0.3621,0.181,2.076,0.1272
+"1232","NIW","Segment A","Southeast","Riverine","Microtidal","Polyhaline","Salt Ratio",319,"Residuals",313,27.2964,0.0872,NA,1
+"1233","NIW","Segment B","Southeast","Riverine","Microtidal","Polyhaline","Salt Ratio",338,"Year",1,0.0882,0.0882,1.083,0.2988
+"1234","NIW","Segment B","Southeast","Riverine","Microtidal","Polyhaline","Salt Ratio",338,"Vegetation_Zone",1,3e-04,3e-04,0.0041,0.9488
+"1235","NIW","Segment B","Southeast","Riverine","Microtidal","Polyhaline","Salt Ratio",338,"Year:Vegetation_Zone",1,0.0144,0.0144,0.1763,0.6748
+"1236","NIW","Segment B","Southeast","Riverine","Microtidal","Polyhaline","Salt Ratio",338,"Residuals",334,27.2099,0.0815,NA,1
+"1237","NOC","MI","Southeast","Back Barrier","Microtidal","Polyhaline","Salt Ratio",789,"Year",1,1.8108,1.8108,16.525,1e-04
+"1238","NOC","MI","Southeast","Back Barrier","Microtidal","Polyhaline","Salt Ratio",789,"Vegetation_Zone",1,2.1762,2.1762,19.8595,0
+"1239","NOC","MI","Southeast","Back Barrier","Microtidal","Polyhaline","Salt Ratio",789,"Year:Vegetation_Zone",1,0.2852,0.2852,2.6031,0.1071
+"1240","NOC","MI","Southeast","Back Barrier","Microtidal","Polyhaline","Salt Ratio",789,"Residuals",785,86.0193,0.1096,NA,1
+"1241","SOS","DM","West Coast","Riverine","Mesotidal","Mesohaline","Salt Ratio",70,"Year",1,8e-04,8e-04,0.4224,0.518
+"1242","SOS","DM","West Coast","Riverine","Mesotidal","Mesohaline","Salt Ratio",70,"Vegetation_Zone",1,0.0036,0.0036,1.8992,0.1728
+"1243","SOS","DM","West Coast","Riverine","Mesotidal","Mesohaline","Salt Ratio",70,"Year:Vegetation_Zone",1,0.0067,0.0067,3.5227,0.065
+"1244","SOS","DM","West Coast","Riverine","Mesotidal","Mesohaline","Salt Ratio",70,"Residuals",66,0.1256,0.0019,NA,1
+"1245","SOS","MM","West Coast","Bay Front","Mesotidal","Polyhaline","Salt Ratio",120,"Year",1,0,0,0.0026,0.9594
+"1246","SOS","MM","West Coast","Bay Front","Mesotidal","Polyhaline","Salt Ratio",120,"Vegetation_Zone",1,0,0,0.9831,0.3235
+"1247","SOS","MM","West Coast","Bay Front","Mesotidal","Polyhaline","Salt Ratio",120,"Year:Vegetation_Zone",1,0,0,0.0026,0.9594
+"1248","SOS","MM","West Coast","Bay Front","Mesotidal","Polyhaline","Salt Ratio",120,"Residuals",116,1e-04,0,NA,1
+"1249","SOS","HC","West Coast","Riverine","Mesotidal","Mesohaline","Salt Ratio",122,"Year",1,0.0029,0.0029,1.8126,0.1808
+"1250","SOS","HC","West Coast","Riverine","Mesotidal","Mesohaline","Salt Ratio",122,"Vegetation_Zone",1,0.0073,0.0073,4.6164,0.0337
+"1251","SOS","HC","West Coast","Riverine","Mesotidal","Mesohaline","Salt Ratio",122,"Year:Vegetation_Zone",1,0.001,0.001,0.6198,0.4327
+"1252","SOS","HC","West Coast","Riverine","Mesotidal","Mesohaline","Salt Ratio",122,"Residuals",118,0.1858,0.0016,NA,1
+"1253","SOS","VM","West Coast","Riverine","Mesotidal","Polyhaline","Salt Ratio",100,"Year",1,0,0,0.0525,0.8192
+"1254","SOS","VM","West Coast","Riverine","Mesotidal","Polyhaline","Salt Ratio",100,"Vegetation_Zone",1,3e-04,3e-04,6.2954,0.0138
+"1255","SOS","VM","West Coast","Riverine","Mesotidal","Polyhaline","Salt Ratio",100,"Year:Vegetation_Zone",1,0,0,0.0788,0.7796
+"1256","SOS","VM","West Coast","Riverine","Mesotidal","Polyhaline","Salt Ratio",100,"Residuals",96,0.0041,0,NA,1
+"1257","SOS","VI","West Coast","Riverine","Mesotidal","Polyhaline","Salt Ratio",60,"Year",1,0,0,0.0965,0.7572
+"1258","SOS","VI","West Coast","Riverine","Mesotidal","Polyhaline","Salt Ratio",60,"Vegetation_Zone",1,0,0,0.1059,0.7461
+"1259","SOS","VI","West Coast","Riverine","Mesotidal","Polyhaline","Salt Ratio",60,"Year:Vegetation_Zone",1,0,0,0.0107,0.9179
+"1260","SOS","VI","West Coast","Riverine","Mesotidal","Polyhaline","Salt Ratio",60,"Residuals",56,3e-04,0,NA,1
+"1261","TJR","McCoy North","West Coast","Back Barrier","Mesotidal","Polyhaline","Salt Ratio",50,"Year",1,0.2604,0.2604,15.7641,2e-04
+"1262","TJR","McCoy North","West Coast","Back Barrier","Mesotidal","Polyhaline","Salt Ratio",50,"Vegetation_Zone",1,3.9427,3.9427,238.6864,0
+"1263","TJR","McCoy North","West Coast","Back Barrier","Mesotidal","Polyhaline","Salt Ratio",50,"Year:Vegetation_Zone",1,1.0326,1.0326,62.5143,0
+"1264","TJR","McCoy North","West Coast","Back Barrier","Mesotidal","Polyhaline","Salt Ratio",50,"Residuals",46,0.7599,0.0165,NA,1
+"1265","TJR","McCoy South","West Coast","Back Barrier","Mesotidal","Polyhaline","Salt Ratio",240,"Year",1,0.0014,0.0014,0.017,0.8964
+"1266","TJR","McCoy South","West Coast","Back Barrier","Mesotidal","Polyhaline","Salt Ratio",240,"Vegetation_Zone",2,16.8568,8.4284,103.8735,0
+"1267","TJR","McCoy South","West Coast","Back Barrier","Mesotidal","Polyhaline","Salt Ratio",240,"Year:Vegetation_Zone",2,0.0728,0.0364,0.4486,0.6391
+"1268","TJR","McCoy South","West Coast","Back Barrier","Mesotidal","Polyhaline","Salt Ratio",240,"Residuals",234,18.987,0.0811,NA,1
+"1269","TJR","South Beach","West Coast","Back Barrier","Mesotidal","Polyhaline","Salt Ratio",210,"Year",1,0.001,0.001,0.0086,0.926
+"1270","TJR","South Beach","West Coast","Back Barrier","Mesotidal","Polyhaline","Salt Ratio",210,"Vegetation_Zone",1,0.9132,0.9132,7.9957,0.0052
+"1271","TJR","South Beach","West Coast","Back Barrier","Mesotidal","Polyhaline","Salt Ratio",210,"Year:Vegetation_Zone",1,2e-04,2e-04,0.0014,0.9697
+"1272","TJR","South Beach","West Coast","Back Barrier","Mesotidal","Polyhaline","Salt Ratio",210,"Residuals",206,23.5282,0.1142,NA,1
+"1273","TJR","V1","West Coast","Back Barrier","Mesotidal","Polyhaline","Salt Ratio",270,"Year",1,0,0,1.0552,0.3052
+"1274","TJR","V1","West Coast","Back Barrier","Mesotidal","Polyhaline","Salt Ratio",270,"Vegetation_Zone",2,0,0,2.2419,0.1083
+"1275","TJR","V1","West Coast","Back Barrier","Mesotidal","Polyhaline","Salt Ratio",270,"Year:Vegetation_Zone",2,0,0,1.5075,0.2234
+"1276","TJR","V1","West Coast","Back Barrier","Mesotidal","Polyhaline","Salt Ratio",270,"Residuals",264,5e-04,0,NA,1
+"1277","TJR","V4","West Coast","Back Barrier","Mesotidal","Polyhaline","Salt Ratio",240,"Year",1,0,0,0.238,0.6261
+"1278","TJR","V4","West Coast","Back Barrier","Mesotidal","Polyhaline","Salt Ratio",240,"Vegetation_Zone",1,0,0,0.0558,0.8135
+"1279","TJR","V4","West Coast","Back Barrier","Mesotidal","Polyhaline","Salt Ratio",240,"Year:Vegetation_Zone",1,0,0,0.0103,0.9191
+"1280","TJR","V4","West Coast","Back Barrier","Mesotidal","Polyhaline","Salt Ratio",240,"Residuals",236,0.0011,0,NA,1
+"1281","TJR","Brazo Creek","West Coast","Back Barrier","Mesotidal","Polyhaline","Salt Ratio",48,"Year",1,0.0021,0.0021,0.61,0.439
+"1282","TJR","Brazo Creek","West Coast","Back Barrier","Mesotidal","Polyhaline","Salt Ratio",48,"Vegetation_Zone",1,0,0,2e-04,0.989
+"1283","TJR","Brazo Creek","West Coast","Back Barrier","Mesotidal","Polyhaline","Salt Ratio",48,"Year:Vegetation_Zone",1,0,0,0.011,0.9171
+"1284","TJR","Brazo Creek","West Coast","Back Barrier","Mesotidal","Polyhaline","Salt Ratio",48,"Residuals",44,0.1531,0.0035,NA,1
+"1285","TJR","Model Marsh","West Coast","Back Barrier","Mesotidal","Polyhaline","Salt Ratio",120,"Year",1,0.0167,0.0167,1.9902,0.161
+"1286","TJR","Model Marsh","West Coast","Back Barrier","Mesotidal","Polyhaline","Salt Ratio",120,"Vegetation_Zone",1,0.0012,0.0012,0.1422,0.7068
+"1287","TJR","Model Marsh","West Coast","Back Barrier","Mesotidal","Polyhaline","Salt Ratio",120,"Year:Vegetation_Zone",1,0.0024,0.0024,0.2843,0.5949
+"1288","TJR","Model Marsh","West Coast","Back Barrier","Mesotidal","Polyhaline","Salt Ratio",120,"Residuals",116,0.9714,0.0084,NA,1
+"1289","WEL","WB","Northeast","Back Barrier","Mesotidal","Polyhaline","Salt Ratio",265,"Year",1,0.004,0.004,0.571,0.4506
+"1290","WEL","WB","Northeast","Back Barrier","Mesotidal","Polyhaline","Salt Ratio",265,"Vegetation_Zone",2,0.3514,0.1757,24.8573,0
+"1291","WEL","WB","Northeast","Back Barrier","Mesotidal","Polyhaline","Salt Ratio",265,"Year:Vegetation_Zone",2,0.0175,0.0087,1.2374,0.2918
+"1292","WEL","WB","Northeast","Back Barrier","Mesotidal","Polyhaline","Salt Ratio",265,"Residuals",259,1.8306,0.0071,NA,1
+"1293","WQB","Section 2","Northeast","Back Barrier","Microtidal","Polyhaline","Salt Ratio",420,"Year",1,1e-04,1e-04,0.0026,0.9593
+"1294","WQB","Section 2","Northeast","Back Barrier","Microtidal","Polyhaline","Salt Ratio",420,"Vegetation_Zone",2,1.2508,0.6254,12.0676,0
+"1295","WQB","Section 2","Northeast","Back Barrier","Microtidal","Polyhaline","Salt Ratio",420,"Year:Vegetation_Zone",2,0,0,4e-04,0.9996
+"1296","WQB","Section 2","Northeast","Back Barrier","Microtidal","Polyhaline","Salt Ratio",420,"Residuals",414,21.455,0.0518,NA,1
+"1297","WQB","Section 1","Northeast","Back Barrier","Microtidal","Polyhaline","Salt Ratio",307,"Year",1,0.0575,0.0575,0.8235,0.3649
+"1298","WQB","Section 1","Northeast","Back Barrier","Microtidal","Polyhaline","Salt Ratio",307,"Vegetation_Zone",2,1.5753,0.7877,11.2764,0
+"1299","WQB","Section 1","Northeast","Back Barrier","Microtidal","Polyhaline","Salt Ratio",307,"Year:Vegetation_Zone",2,0.3804,0.1902,2.7228,0.0673
+"1300","WQB","Section 1","Northeast","Back Barrier","Microtidal","Polyhaline","Salt Ratio",307,"Residuals",301,21.0249,0.0699,NA,1
+"1301","WQB","Section 3","Northeast","Back Barrier","Microtidal","Polyhaline","Salt Ratio",331,"Year",1,0.0017,0.0017,0.1375,0.7111
+"1302","WQB","Section 3","Northeast","Back Barrier","Microtidal","Polyhaline","Salt Ratio",331,"Vegetation_Zone",2,0.1431,0.0715,5.8688,0.0031
+"1303","WQB","Section 3","Northeast","Back Barrier","Microtidal","Polyhaline","Salt Ratio",331,"Year:Vegetation_Zone",2,0.0405,0.0203,1.6619,0.1914
+"1304","WQB","Section 3","Northeast","Back Barrier","Microtidal","Polyhaline","Salt Ratio",331,"Residuals",325,3.9614,0.0122,NA,1

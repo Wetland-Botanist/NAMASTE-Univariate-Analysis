@@ -1,0 +1,329 @@
+"","Reserve","SiteID","Metric","Region","salinity","tidal_range","Geomorphology","pvalue_count","pvalue_check"
+"1","ACE","EIN","Abiotic Cover","Southeast","Polyhaline","Microtidal","Riverine",0,0
+"2","ACE","EIN","Live Cover","Southeast","Polyhaline","Microtidal","Riverine",0,0
+"3","ACE","EIN","Halophyte Cover","Southeast","Polyhaline","Microtidal","Riverine",0,0
+"4","ACE","EIN","Freshwater Cover","Southeast","Polyhaline","Microtidal","Riverine",0,0
+"5","ACE","EIN","EMI","Southeast","Polyhaline","Microtidal","Riverine",0,0
+"6","ACE","EIN","Salt Ratio","Southeast","Polyhaline","Microtidal","Riverine",0,0
+"7","ACE","EIN","Shannon-Weiner Diversity","Southeast","Polyhaline","Microtidal","Riverine",0,0
+"8","ACE","EIN","Richness","Southeast","Polyhaline","Microtidal","Riverine",0,0
+"9","ACE","EIS","Abiotic Cover","Southeast","Polyhaline","Microtidal","Riverine",0,0
+"10","ACE","EIS","Live Cover","Southeast","Polyhaline","Microtidal","Riverine",0,0
+"11","ACE","EIS","Halophyte Cover","Southeast","Polyhaline","Microtidal","Riverine",0,0
+"12","ACE","EIS","Freshwater Cover","Southeast","Polyhaline","Microtidal","Riverine",0,0
+"13","ACE","EIS","EMI","Southeast","Polyhaline","Microtidal","Riverine",0,0
+"14","ACE","EIS","Salt Ratio","Southeast","Polyhaline","Microtidal","Riverine",3,1
+"15","ACE","EIS","Shannon-Weiner Diversity","Southeast","Polyhaline","Microtidal","Riverine",0,0
+"16","ACE","EIS","Richness","Southeast","Polyhaline","Microtidal","Riverine",2,1
+"17","APA","PC","Abiotic Cover","Gulf Coast","Polyhaline","Microtidal","Bay Front",0,0
+"18","APA","PC","Live Cover","Gulf Coast","Polyhaline","Microtidal","Bay Front",0,0
+"19","APA","PC","Halophyte Cover","Gulf Coast","Polyhaline","Microtidal","Bay Front",0,0
+"20","APA","PC","Freshwater Cover","Gulf Coast","Polyhaline","Microtidal","Bay Front",3,1
+"21","APA","PC","EMI","Gulf Coast","Polyhaline","Microtidal","Bay Front",0,0
+"22","APA","PC","Salt Ratio","Gulf Coast","Polyhaline","Microtidal","Bay Front",3,1
+"23","APA","PC","Shannon-Weiner Diversity","Gulf Coast","Polyhaline","Microtidal","Bay Front",0,0
+"24","APA","PC","Richness","Gulf Coast","Polyhaline","Microtidal","Bay Front",0,0
+"25","CBM","MB","Abiotic Cover","Mid-Atlantic","Mesohaline","Microtidal","Bay Front",1,1
+"26","CBM","MB","Live Cover","Mid-Atlantic","Mesohaline","Microtidal","Bay Front",1,1
+"27","CBM","MB","Halophyte Cover","Mid-Atlantic","Mesohaline","Microtidal","Bay Front",1,1
+"28","CBM","MB","Freshwater Cover","Mid-Atlantic","Mesohaline","Microtidal","Bay Front",0,0
+"29","CBM","MB","EMI","Mid-Atlantic","Mesohaline","Microtidal","Bay Front",2,1
+"30","CBM","MB","Salt Ratio","Mid-Atlantic","Mesohaline","Microtidal","Bay Front",1,1
+"31","CBM","MB","Shannon-Weiner Diversity","Mid-Atlantic","Mesohaline","Microtidal","Bay Front",2,1
+"32","CBM","MB","Richness","Mid-Atlantic","Mesohaline","Microtidal","Bay Front",3,1
+"33","CBM","OPC","Abiotic Cover","Mid-Atlantic","Oligohaline","Microtidal","Riverine",1,1
+"34","CBM","OPC","Live Cover","Mid-Atlantic","Oligohaline","Microtidal","Riverine",1,1
+"35","CBM","OPC","Halophyte Cover","Mid-Atlantic","Oligohaline","Microtidal","Riverine",0,0
+"36","CBM","OPC","Freshwater Cover","Mid-Atlantic","Oligohaline","Microtidal","Riverine",3,1
+"37","CBM","OPC","EMI","Mid-Atlantic","Oligohaline","Microtidal","Riverine",3,1
+"38","CBM","OPC","Salt Ratio","Mid-Atlantic","Oligohaline","Microtidal","Riverine",0,0
+"39","CBM","OPC","Shannon-Weiner Diversity","Mid-Atlantic","Oligohaline","Microtidal","Riverine",0,0
+"40","CBM","OPC","Richness","Mid-Atlantic","Oligohaline","Microtidal","Riverine",0,0
+"41","DEL","SJR","Abiotic Cover","Mid-Atlantic","Mesohaline","Microtidal","Riverine",0,0
+"42","DEL","SJR","Live Cover","Mid-Atlantic","Mesohaline","Microtidal","Riverine",0,0
+"43","DEL","SJR","Halophyte Cover","Mid-Atlantic","Mesohaline","Microtidal","Riverine",0,0
+"44","DEL","SJR","Freshwater Cover","Mid-Atlantic","Mesohaline","Microtidal","Riverine",0,0
+"45","DEL","SJR","EMI","Mid-Atlantic","Mesohaline","Microtidal","Riverine",0,0
+"46","DEL","SJR","Salt Ratio","Mid-Atlantic","Mesohaline","Microtidal","Riverine",2,1
+"47","DEL","SJR","Shannon-Weiner Diversity","Mid-Atlantic","Mesohaline","Microtidal","Riverine",2,1
+"48","DEL","SJR","Richness","Mid-Atlantic","Mesohaline","Microtidal","Riverine",2,1
+"49","ELK","Lower","Abiotic Cover","West Coast","Polyhaline","Mesotidal","Riverine",0,0
+"50","ELK","Lower","Live Cover","West Coast","Polyhaline","Mesotidal","Riverine",0,0
+"51","ELK","Lower","Halophyte Cover","West Coast","Polyhaline","Mesotidal","Riverine",0,0
+"52","ELK","Lower","Freshwater Cover","West Coast","Polyhaline","Mesotidal","Riverine",0,0
+"53","ELK","Lower","EMI","West Coast","Polyhaline","Mesotidal","Riverine",0,0
+"54","ELK","Lower","Salt Ratio","West Coast","Polyhaline","Mesotidal","Riverine",0,0
+"55","ELK","Lower","Shannon-Weiner Diversity","West Coast","Polyhaline","Mesotidal","Riverine",0,0
+"56","ELK","Lower","Richness","West Coast","Polyhaline","Mesotidal","Riverine",0,0
+"57","ELK","Upper","Abiotic Cover","West Coast","Polyhaline","Mesotidal","Riverine",0,0
+"58","ELK","Upper","Live Cover","West Coast","Polyhaline","Mesotidal","Riverine",0,0
+"59","ELK","Upper","Halophyte Cover","West Coast","Polyhaline","Mesotidal","Riverine",2,1
+"60","ELK","Upper","Freshwater Cover","West Coast","Polyhaline","Mesotidal","Riverine",0,0
+"61","ELK","Upper","EMI","West Coast","Polyhaline","Mesotidal","Riverine",0,0
+"62","ELK","Upper","Salt Ratio","West Coast","Polyhaline","Mesotidal","Riverine",2,1
+"63","ELK","Upper","Shannon-Weiner Diversity","West Coast","Polyhaline","Mesotidal","Riverine",0,0
+"64","ELK","Upper","Richness","West Coast","Polyhaline","Mesotidal","Riverine",0,0
+"65","GND","juro high","Abiotic Cover","Gulf Coast","Mesohaline","Microtidal","Riverine",2,1
+"66","GND","juro high","Live Cover","Gulf Coast","Mesohaline","Microtidal","Riverine",2,1
+"67","GND","juro high","Halophyte Cover","Gulf Coast","Mesohaline","Microtidal","Riverine",0,0
+"68","GND","juro high","Freshwater Cover","Gulf Coast","Mesohaline","Microtidal","Riverine",0,0
+"69","GND","juro high","EMI","Gulf Coast","Mesohaline","Microtidal","Riverine",2,1
+"70","GND","juro high","Salt Ratio","Gulf Coast","Mesohaline","Microtidal","Riverine",0,0
+"71","GND","juro high","Shannon-Weiner Diversity","Gulf Coast","Mesohaline","Microtidal","Riverine",0,0
+"72","GND","juro high","Richness","Gulf Coast","Mesohaline","Microtidal","Riverine",0,0
+"73","GND","juro low","Abiotic Cover","Gulf Coast","Mesohaline","Microtidal","Bay Front",1,1
+"74","GND","juro low","Live Cover","Gulf Coast","Mesohaline","Microtidal","Bay Front",1,1
+"75","GND","juro low","Halophyte Cover","Gulf Coast","Mesohaline","Microtidal","Bay Front",0,0
+"76","GND","juro low","Freshwater Cover","Gulf Coast","Mesohaline","Microtidal","Bay Front",0,0
+"77","GND","juro low","EMI","Gulf Coast","Mesohaline","Microtidal","Bay Front",1,1
+"78","GND","juro low","Salt Ratio","Gulf Coast","Mesohaline","Microtidal","Bay Front",3,1
+"79","GND","juro low","Shannon-Weiner Diversity","Gulf Coast","Mesohaline","Microtidal","Bay Front",3,1
+"80","GND","juro low","Richness","Gulf Coast","Mesohaline","Microtidal","Bay Front",0,0
+"81","GND","juro mid","Abiotic Cover","Gulf Coast","Mesohaline","Microtidal","Riverine",4,1
+"82","GND","juro mid","Live Cover","Gulf Coast","Mesohaline","Microtidal","Riverine",4,1
+"83","GND","juro mid","Halophyte Cover","Gulf Coast","Mesohaline","Microtidal","Riverine",5,1
+"84","GND","juro mid","Freshwater Cover","Gulf Coast","Mesohaline","Microtidal","Riverine",2,1
+"85","GND","juro mid","EMI","Gulf Coast","Mesohaline","Microtidal","Riverine",2,1
+"86","GND","juro mid","Salt Ratio","Gulf Coast","Mesohaline","Microtidal","Riverine",5,1
+"87","GND","juro mid","Shannon-Weiner Diversity","Gulf Coast","Mesohaline","Microtidal","Riverine",2,1
+"88","GND","juro mid","Richness","Gulf Coast","Mesohaline","Microtidal","Riverine",0,0
+"89","GND","spalt","Abiotic Cover","Gulf Coast","Polyhaline","Microtidal","Bay Front",3,1
+"90","GND","spalt","Live Cover","Gulf Coast","Polyhaline","Microtidal","Bay Front",3,1
+"91","GND","spalt","Halophyte Cover","Gulf Coast","Polyhaline","Microtidal","Bay Front",0,0
+"92","GND","spalt","Freshwater Cover","Gulf Coast","Polyhaline","Microtidal","Bay Front",0,0
+"93","GND","spalt","EMI","Gulf Coast","Polyhaline","Microtidal","Bay Front",3,1
+"94","GND","spalt","Salt Ratio","Gulf Coast","Polyhaline","Microtidal","Bay Front",0,0
+"95","GND","spalt","Shannon-Weiner Diversity","Gulf Coast","Polyhaline","Microtidal","Bay Front",0,0
+"96","GND","spalt","Richness","Gulf Coast","Polyhaline","Microtidal","Bay Front",0,0
+"97","GRB","BC","Abiotic Cover","Northeast","Polyhaline","Mesotidal","Riverine",0,0
+"98","GRB","BC","Live Cover","Northeast","Polyhaline","Mesotidal","Riverine",0,0
+"99","GRB","BC","Halophyte Cover","Northeast","Polyhaline","Mesotidal","Riverine",0,0
+"100","GRB","BC","Freshwater Cover","Northeast","Polyhaline","Mesotidal","Riverine",2,1
+"101","GRB","BC","EMI","Northeast","Polyhaline","Mesotidal","Riverine",0,0
+"102","GRB","BC","Salt Ratio","Northeast","Polyhaline","Mesotidal","Riverine",0,0
+"103","GRB","BC","Shannon-Weiner Diversity","Northeast","Polyhaline","Mesotidal","Riverine",2,1
+"104","GRB","BC","Richness","Northeast","Polyhaline","Mesotidal","Riverine",3,1
+"105","GRB","GBF","Abiotic Cover","Northeast","Polyhaline","Mesotidal","Riverine",0,0
+"106","GRB","GBF","Live Cover","Northeast","Polyhaline","Mesotidal","Riverine",0,0
+"107","GRB","GBF","Halophyte Cover","Northeast","Polyhaline","Mesotidal","Riverine",0,0
+"108","GRB","GBF","Freshwater Cover","Northeast","Polyhaline","Mesotidal","Riverine",2,1
+"109","GRB","GBF","EMI","Northeast","Polyhaline","Mesotidal","Riverine",0,0
+"110","GRB","GBF","Salt Ratio","Northeast","Polyhaline","Mesotidal","Riverine",0,0
+"111","GRB","GBF","Shannon-Weiner Diversity","Northeast","Polyhaline","Mesotidal","Riverine",0,0
+"112","GRB","GBF","Richness","Northeast","Polyhaline","Mesotidal","Riverine",0,0
+"113","GRB","SP","Abiotic Cover","Northeast","Polyhaline","Mesotidal","Bay Front",5,1
+"114","GRB","SP","Live Cover","Northeast","Polyhaline","Mesotidal","Bay Front",5,1
+"115","GRB","SP","Halophyte Cover","Northeast","Polyhaline","Mesotidal","Bay Front",5,1
+"116","GRB","SP","Freshwater Cover","Northeast","Polyhaline","Mesotidal","Bay Front",0,0
+"117","GRB","SP","EMI","Northeast","Polyhaline","Mesotidal","Bay Front",1,1
+"118","GRB","SP","Salt Ratio","Northeast","Polyhaline","Mesotidal","Bay Front",2,1
+"119","GRB","SP","Shannon-Weiner Diversity","Northeast","Polyhaline","Mesotidal","Bay Front",0,0
+"120","GRB","SP","Richness","Northeast","Polyhaline","Mesotidal","Bay Front",0,0
+"121","GTM","46","Abiotic Cover","Southeast","Oligohaline","Microtidal","Riverine",0,0
+"122","GTM","46","Live Cover","Southeast","Oligohaline","Microtidal","Riverine",0,0
+"123","GTM","46","Halophyte Cover","Southeast","Oligohaline","Microtidal","Riverine",1,1
+"124","GTM","46","Freshwater Cover","Southeast","Oligohaline","Microtidal","Riverine",2,1
+"125","GTM","46","EMI","Southeast","Oligohaline","Microtidal","Riverine",1,1
+"126","GTM","46","Salt Ratio","Southeast","Oligohaline","Microtidal","Riverine",3,1
+"127","GTM","46","Shannon-Weiner Diversity","Southeast","Oligohaline","Microtidal","Riverine",3,1
+"128","GTM","46","Richness","Southeast","Oligohaline","Microtidal","Riverine",3,1
+"129","KAC","BS","Abiotic Cover","West Coast","Oligohaline","Macrotidal","Back Barrier",0,0
+"130","KAC","BS","Live Cover","West Coast","Oligohaline","Macrotidal","Back Barrier",0,0
+"131","KAC","BS","Halophyte Cover","West Coast","Oligohaline","Macrotidal","Back Barrier",1,1
+"132","KAC","BS","Freshwater Cover","West Coast","Oligohaline","Macrotidal","Back Barrier",4,1
+"133","KAC","BS","EMI","West Coast","Oligohaline","Macrotidal","Back Barrier",0,0
+"134","KAC","BS","Salt Ratio","West Coast","Oligohaline","Macrotidal","Back Barrier",2,1
+"135","KAC","BS","Shannon-Weiner Diversity","West Coast","Oligohaline","Macrotidal","Back Barrier",1,1
+"136","KAC","BS","Richness","West Coast","Oligohaline","Macrotidal","Back Barrier",1,1
+"137","KAC","CP","Abiotic Cover","West Coast","Mesohaline","Macrotidal","Bay Front",0,0
+"138","KAC","CP","Live Cover","West Coast","Mesohaline","Macrotidal","Bay Front",0,0
+"139","KAC","CP","Halophyte Cover","West Coast","Mesohaline","Macrotidal","Bay Front",0,0
+"140","KAC","CP","Freshwater Cover","West Coast","Mesohaline","Macrotidal","Bay Front",0,0
+"141","KAC","CP","EMI","West Coast","Mesohaline","Macrotidal","Bay Front",0,0
+"142","KAC","CP","Salt Ratio","West Coast","Mesohaline","Macrotidal","Bay Front",0,0
+"143","KAC","CP","Shannon-Weiner Diversity","West Coast","Mesohaline","Macrotidal","Bay Front",0,0
+"144","KAC","CP","Richness","West Coast","Mesohaline","Macrotidal","Bay Front",0,0
+"145","KAC","FR","Abiotic Cover","West Coast","Mesohaline","Macrotidal","Bay Front",1,1
+"146","KAC","FR","Live Cover","West Coast","Mesohaline","Macrotidal","Bay Front",1,1
+"147","KAC","FR","Halophyte Cover","West Coast","Mesohaline","Macrotidal","Bay Front",0,0
+"148","KAC","FR","Freshwater Cover","West Coast","Mesohaline","Macrotidal","Bay Front",2,1
+"149","KAC","FR","EMI","West Coast","Mesohaline","Macrotidal","Bay Front",0,0
+"150","KAC","FR","Salt Ratio","West Coast","Mesohaline","Macrotidal","Bay Front",0,0
+"151","KAC","FR","Shannon-Weiner Diversity","West Coast","Mesohaline","Macrotidal","Bay Front",0,0
+"152","KAC","FR","Richness","West Coast","Mesohaline","Macrotidal","Bay Front",2,1
+"153","KAC","SC","Abiotic Cover","West Coast","Mesohaline","Macrotidal","Bay Front",0,0
+"154","KAC","SC","Live Cover","West Coast","Mesohaline","Macrotidal","Bay Front",0,0
+"155","KAC","SC","Halophyte Cover","West Coast","Mesohaline","Macrotidal","Bay Front",0,0
+"156","KAC","SC","Freshwater Cover","West Coast","Mesohaline","Macrotidal","Bay Front",0,0
+"157","KAC","SC","EMI","West Coast","Mesohaline","Macrotidal","Bay Front",0,0
+"158","KAC","SC","Salt Ratio","West Coast","Mesohaline","Macrotidal","Bay Front",0,0
+"159","KAC","SC","Shannon-Weiner Diversity","West Coast","Mesohaline","Macrotidal","Bay Front",0,0
+"160","KAC","SC","Richness","West Coast","Mesohaline","Macrotidal","Bay Front",0,0
+"161","NAR","Coggeshall","Abiotic Cover","Northeast","Polyhaline","Microtidal","Bay Front",1,1
+"162","NAR","Coggeshall","Live Cover","Northeast","Polyhaline","Microtidal","Bay Front",1,1
+"163","NAR","Coggeshall","Halophyte Cover","Northeast","Polyhaline","Microtidal","Bay Front",1,1
+"164","NAR","Coggeshall","Freshwater Cover","Northeast","Polyhaline","Microtidal","Bay Front",0,0
+"165","NAR","Coggeshall","EMI","Northeast","Polyhaline","Microtidal","Bay Front",3,1
+"166","NAR","Coggeshall","Salt Ratio","Northeast","Polyhaline","Microtidal","Bay Front",0,0
+"167","NAR","Coggeshall","Shannon-Weiner Diversity","Northeast","Polyhaline","Microtidal","Bay Front",2,1
+"168","NAR","Coggeshall","Richness","Northeast","Polyhaline","Microtidal","Bay Front",0,0
+"169","NAR","Nag","Abiotic Cover","Northeast","Polyhaline","Microtidal","Bay Front",5,1
+"170","NAR","Nag","Live Cover","Northeast","Polyhaline","Microtidal","Bay Front",5,1
+"171","NAR","Nag","Halophyte Cover","Northeast","Polyhaline","Microtidal","Bay Front",5,1
+"172","NAR","Nag","Freshwater Cover","Northeast","Polyhaline","Microtidal","Bay Front",0,0
+"173","NAR","Nag","EMI","Northeast","Polyhaline","Microtidal","Bay Front",1,1
+"174","NAR","Nag","Salt Ratio","Northeast","Polyhaline","Microtidal","Bay Front",2,1
+"175","NAR","Nag","Shannon-Weiner Diversity","Northeast","Polyhaline","Microtidal","Bay Front",0,0
+"176","NAR","Nag","Richness","Northeast","Polyhaline","Microtidal","Bay Front",0,0
+"177","NIW","Segment A","Abiotic Cover","Southeast","Polyhaline","Microtidal","Riverine",3,1
+"178","NIW","Segment A","Live Cover","Southeast","Polyhaline","Microtidal","Riverine",3,1
+"179","NIW","Segment A","Halophyte Cover","Southeast","Polyhaline","Microtidal","Riverine",3,1
+"180","NIW","Segment A","Freshwater Cover","Southeast","Polyhaline","Microtidal","Riverine",2,1
+"181","NIW","Segment A","EMI","Southeast","Polyhaline","Microtidal","Riverine",3,1
+"182","NIW","Segment A","Salt Ratio","Southeast","Polyhaline","Microtidal","Riverine",2,1
+"183","NIW","Segment A","Shannon-Weiner Diversity","Southeast","Polyhaline","Microtidal","Riverine",2,1
+"184","NIW","Segment A","Richness","Southeast","Polyhaline","Microtidal","Riverine",2,1
+"185","NIW","Segment B","Abiotic Cover","Southeast","Polyhaline","Microtidal","Riverine",3,1
+"186","NIW","Segment B","Live Cover","Southeast","Polyhaline","Microtidal","Riverine",3,1
+"187","NIW","Segment B","Halophyte Cover","Southeast","Polyhaline","Microtidal","Riverine",1,1
+"188","NIW","Segment B","Freshwater Cover","Southeast","Polyhaline","Microtidal","Riverine",2,1
+"189","NIW","Segment B","EMI","Southeast","Polyhaline","Microtidal","Riverine",1,1
+"190","NIW","Segment B","Salt Ratio","Southeast","Polyhaline","Microtidal","Riverine",0,0
+"191","NIW","Segment B","Shannon-Weiner Diversity","Southeast","Polyhaline","Microtidal","Riverine",2,1
+"192","NIW","Segment B","Richness","Southeast","Polyhaline","Microtidal","Riverine",2,1
+"193","NOC","MI","Abiotic Cover","Southeast","Polyhaline","Microtidal","Back Barrier",0,0
+"194","NOC","MI","Live Cover","Southeast","Polyhaline","Microtidal","Back Barrier",0,0
+"195","NOC","MI","Halophyte Cover","Southeast","Polyhaline","Microtidal","Back Barrier",0,0
+"196","NOC","MI","Freshwater Cover","Southeast","Polyhaline","Microtidal","Back Barrier",0,0
+"197","NOC","MI","EMI","Southeast","Polyhaline","Microtidal","Back Barrier",1,1
+"198","NOC","MI","Salt Ratio","Southeast","Polyhaline","Microtidal","Back Barrier",1,1
+"199","NOC","MI","Shannon-Weiner Diversity","Southeast","Polyhaline","Microtidal","Back Barrier",2,1
+"200","NOC","MI","Richness","Southeast","Polyhaline","Microtidal","Back Barrier",2,1
+"201","SOS","DM","Abiotic Cover","West Coast","Mesohaline","Mesotidal","Riverine",0,0
+"202","SOS","DM","Live Cover","West Coast","Mesohaline","Mesotidal","Riverine",0,0
+"203","SOS","DM","Halophyte Cover","West Coast","Mesohaline","Mesotidal","Riverine",0,0
+"204","SOS","DM","Freshwater Cover","West Coast","Mesohaline","Mesotidal","Riverine",0,0
+"205","SOS","DM","EMI","West Coast","Mesohaline","Mesotidal","Riverine",0,0
+"206","SOS","DM","Salt Ratio","West Coast","Mesohaline","Mesotidal","Riverine",0,0
+"207","SOS","DM","Shannon-Weiner Diversity","West Coast","Mesohaline","Mesotidal","Riverine",3,1
+"208","SOS","DM","Richness","West Coast","Mesohaline","Mesotidal","Riverine",0,0
+"209","SOS","HC","Abiotic Cover","West Coast","Mesohaline","Mesotidal","Riverine",1,1
+"210","SOS","HC","Live Cover","West Coast","Mesohaline","Mesotidal","Riverine",1,1
+"211","SOS","HC","Halophyte Cover","West Coast","Mesohaline","Mesotidal","Riverine",2,1
+"212","SOS","HC","Freshwater Cover","West Coast","Mesohaline","Mesotidal","Riverine",0,0
+"213","SOS","HC","EMI","West Coast","Mesohaline","Mesotidal","Riverine",0,0
+"214","SOS","HC","Salt Ratio","West Coast","Mesohaline","Mesotidal","Riverine",0,0
+"215","SOS","HC","Shannon-Weiner Diversity","West Coast","Mesohaline","Mesotidal","Riverine",0,0
+"216","SOS","HC","Richness","West Coast","Mesohaline","Mesotidal","Riverine",0,0
+"217","SOS","MM","Abiotic Cover","West Coast","Polyhaline","Mesotidal","Bay Front",2,1
+"218","SOS","MM","Live Cover","West Coast","Polyhaline","Mesotidal","Bay Front",2,1
+"219","SOS","MM","Halophyte Cover","West Coast","Polyhaline","Mesotidal","Bay Front",0,0
+"220","SOS","MM","Freshwater Cover","West Coast","Polyhaline","Mesotidal","Bay Front",0,0
+"221","SOS","MM","EMI","West Coast","Polyhaline","Mesotidal","Bay Front",0,0
+"222","SOS","MM","Salt Ratio","West Coast","Polyhaline","Mesotidal","Bay Front",0,0
+"223","SOS","MM","Shannon-Weiner Diversity","West Coast","Polyhaline","Mesotidal","Bay Front",2,1
+"224","SOS","MM","Richness","West Coast","Polyhaline","Mesotidal","Bay Front",3,1
+"225","SOS","VI","Abiotic Cover","West Coast","Polyhaline","Mesotidal","Riverine",0,0
+"226","SOS","VI","Live Cover","West Coast","Polyhaline","Mesotidal","Riverine",0,0
+"227","SOS","VI","Halophyte Cover","West Coast","Polyhaline","Mesotidal","Riverine",1,1
+"228","SOS","VI","Freshwater Cover","West Coast","Polyhaline","Mesotidal","Riverine",0,0
+"229","SOS","VI","EMI","West Coast","Polyhaline","Mesotidal","Riverine",0,0
+"230","SOS","VI","Salt Ratio","West Coast","Polyhaline","Mesotidal","Riverine",0,0
+"231","SOS","VI","Shannon-Weiner Diversity","West Coast","Polyhaline","Mesotidal","Riverine",1,1
+"232","SOS","VI","Richness","West Coast","Polyhaline","Mesotidal","Riverine",0,0
+"233","SOS","VM","Abiotic Cover","West Coast","Polyhaline","Mesotidal","Riverine",0,0
+"234","SOS","VM","Live Cover","West Coast","Polyhaline","Mesotidal","Riverine",0,0
+"235","SOS","VM","Halophyte Cover","West Coast","Polyhaline","Mesotidal","Riverine",0,0
+"236","SOS","VM","Freshwater Cover","West Coast","Polyhaline","Mesotidal","Riverine",0,0
+"237","SOS","VM","EMI","West Coast","Polyhaline","Mesotidal","Riverine",0,0
+"238","SOS","VM","Salt Ratio","West Coast","Polyhaline","Mesotidal","Riverine",0,0
+"239","SOS","VM","Shannon-Weiner Diversity","West Coast","Polyhaline","Mesotidal","Riverine",0,0
+"240","SOS","VM","Richness","West Coast","Polyhaline","Mesotidal","Riverine",0,0
+"241","TJR","Brazo Creek","Abiotic Cover","West Coast","Polyhaline","Mesotidal","Back Barrier",0,0
+"242","TJR","Brazo Creek","Live Cover","West Coast","Polyhaline","Mesotidal","Back Barrier",0,0
+"243","TJR","Brazo Creek","Halophyte Cover","West Coast","Polyhaline","Mesotidal","Back Barrier",0,0
+"244","TJR","Brazo Creek","Freshwater Cover","West Coast","Polyhaline","Mesotidal","Back Barrier",0,0
+"245","TJR","Brazo Creek","EMI","West Coast","Polyhaline","Mesotidal","Back Barrier",0,0
+"246","TJR","Brazo Creek","Salt Ratio","West Coast","Polyhaline","Mesotidal","Back Barrier",0,0
+"247","TJR","Brazo Creek","Shannon-Weiner Diversity","West Coast","Polyhaline","Mesotidal","Back Barrier",0,0
+"248","TJR","Brazo Creek","Richness","West Coast","Polyhaline","Mesotidal","Back Barrier",0,0
+"249","TJR","McCoy North","Abiotic Cover","West Coast","Polyhaline","Mesotidal","Back Barrier",0,0
+"250","TJR","McCoy North","Live Cover","West Coast","Polyhaline","Mesotidal","Back Barrier",0,0
+"251","TJR","McCoy North","Halophyte Cover","West Coast","Polyhaline","Mesotidal","Back Barrier",0,0
+"252","TJR","McCoy North","Freshwater Cover","West Coast","Polyhaline","Mesotidal","Back Barrier",0,0
+"253","TJR","McCoy North","EMI","West Coast","Polyhaline","Mesotidal","Back Barrier",0,0
+"254","TJR","McCoy North","Salt Ratio","West Coast","Polyhaline","Mesotidal","Back Barrier",2,1
+"255","TJR","McCoy North","Shannon-Weiner Diversity","West Coast","Polyhaline","Mesotidal","Back Barrier",0,0
+"256","TJR","McCoy North","Richness","West Coast","Polyhaline","Mesotidal","Back Barrier",0,0
+"257","TJR","McCoy South","Abiotic Cover","West Coast","Polyhaline","Mesotidal","Back Barrier",0,0
+"258","TJR","McCoy South","Live Cover","West Coast","Polyhaline","Mesotidal","Back Barrier",0,0
+"259","TJR","McCoy South","Halophyte Cover","West Coast","Polyhaline","Mesotidal","Back Barrier",0,0
+"260","TJR","McCoy South","Freshwater Cover","West Coast","Polyhaline","Mesotidal","Back Barrier",0,0
+"261","TJR","McCoy South","EMI","West Coast","Polyhaline","Mesotidal","Back Barrier",3,1
+"262","TJR","McCoy South","Salt Ratio","West Coast","Polyhaline","Mesotidal","Back Barrier",0,0
+"263","TJR","McCoy South","Shannon-Weiner Diversity","West Coast","Polyhaline","Mesotidal","Back Barrier",0,0
+"264","TJR","McCoy South","Richness","West Coast","Polyhaline","Mesotidal","Back Barrier",2,1
+"265","TJR","Model Marsh","Abiotic Cover","West Coast","Polyhaline","Mesotidal","Back Barrier",0,0
+"266","TJR","Model Marsh","Live Cover","West Coast","Polyhaline","Mesotidal","Back Barrier",0,0
+"267","TJR","Model Marsh","Halophyte Cover","West Coast","Polyhaline","Mesotidal","Back Barrier",0,0
+"268","TJR","Model Marsh","Freshwater Cover","West Coast","Polyhaline","Mesotidal","Back Barrier",0,0
+"269","TJR","Model Marsh","EMI","West Coast","Polyhaline","Mesotidal","Back Barrier",3,1
+"270","TJR","Model Marsh","Salt Ratio","West Coast","Polyhaline","Mesotidal","Back Barrier",0,0
+"271","TJR","Model Marsh","Shannon-Weiner Diversity","West Coast","Polyhaline","Mesotidal","Back Barrier",0,0
+"272","TJR","Model Marsh","Richness","West Coast","Polyhaline","Mesotidal","Back Barrier",0,0
+"273","TJR","South Beach","Abiotic Cover","West Coast","Polyhaline","Mesotidal","Back Barrier",0,0
+"274","TJR","South Beach","Live Cover","West Coast","Polyhaline","Mesotidal","Back Barrier",0,0
+"275","TJR","South Beach","Halophyte Cover","West Coast","Polyhaline","Mesotidal","Back Barrier",0,0
+"276","TJR","South Beach","Freshwater Cover","West Coast","Polyhaline","Mesotidal","Back Barrier",0,0
+"277","TJR","South Beach","EMI","West Coast","Polyhaline","Mesotidal","Back Barrier",0,0
+"278","TJR","South Beach","Salt Ratio","West Coast","Polyhaline","Mesotidal","Back Barrier",0,0
+"279","TJR","South Beach","Shannon-Weiner Diversity","West Coast","Polyhaline","Mesotidal","Back Barrier",0,0
+"280","TJR","South Beach","Richness","West Coast","Polyhaline","Mesotidal","Back Barrier",0,0
+"281","TJR","V1","Abiotic Cover","West Coast","Polyhaline","Mesotidal","Back Barrier",2,1
+"282","TJR","V1","Live Cover","West Coast","Polyhaline","Mesotidal","Back Barrier",2,1
+"283","TJR","V1","Halophyte Cover","West Coast","Polyhaline","Mesotidal","Back Barrier",2,1
+"284","TJR","V1","Freshwater Cover","West Coast","Polyhaline","Mesotidal","Back Barrier",0,0
+"285","TJR","V1","EMI","West Coast","Polyhaline","Mesotidal","Back Barrier",0,0
+"286","TJR","V1","Salt Ratio","West Coast","Polyhaline","Mesotidal","Back Barrier",0,0
+"287","TJR","V1","Shannon-Weiner Diversity","West Coast","Polyhaline","Mesotidal","Back Barrier",0,0
+"288","TJR","V1","Richness","West Coast","Polyhaline","Mesotidal","Back Barrier",0,0
+"289","TJR","V4","Abiotic Cover","West Coast","Polyhaline","Mesotidal","Back Barrier",0,0
+"290","TJR","V4","Live Cover","West Coast","Polyhaline","Mesotidal","Back Barrier",0,0
+"291","TJR","V4","Halophyte Cover","West Coast","Polyhaline","Mesotidal","Back Barrier",0,0
+"292","TJR","V4","Freshwater Cover","West Coast","Polyhaline","Mesotidal","Back Barrier",0,0
+"293","TJR","V4","EMI","West Coast","Polyhaline","Mesotidal","Back Barrier",0,0
+"294","TJR","V4","Salt Ratio","West Coast","Polyhaline","Mesotidal","Back Barrier",0,0
+"295","TJR","V4","Shannon-Weiner Diversity","West Coast","Polyhaline","Mesotidal","Back Barrier",0,0
+"296","TJR","V4","Richness","West Coast","Polyhaline","Mesotidal","Back Barrier",0,0
+"297","WEL","WB","Abiotic Cover","Northeast","Polyhaline","Mesotidal","Back Barrier",0,0
+"298","WEL","WB","Live Cover","Northeast","Polyhaline","Mesotidal","Back Barrier",0,0
+"299","WEL","WB","Halophyte Cover","Northeast","Polyhaline","Mesotidal","Back Barrier",0,0
+"300","WEL","WB","Freshwater Cover","Northeast","Polyhaline","Mesotidal","Back Barrier",0,0
+"301","WEL","WB","EMI","Northeast","Polyhaline","Mesotidal","Back Barrier",0,0
+"302","WEL","WB","Salt Ratio","Northeast","Polyhaline","Mesotidal","Back Barrier",0,0
+"303","WEL","WB","Shannon-Weiner Diversity","Northeast","Polyhaline","Mesotidal","Back Barrier",2,1
+"304","WEL","WB","Richness","Northeast","Polyhaline","Mesotidal","Back Barrier",0,0
+"305","WQB","Section 1","Abiotic Cover","Northeast","Polyhaline","Microtidal","Back Barrier",0,0
+"306","WQB","Section 1","Live Cover","Northeast","Polyhaline","Microtidal","Back Barrier",0,0
+"307","WQB","Section 1","Halophyte Cover","Northeast","Polyhaline","Microtidal","Back Barrier",0,0
+"308","WQB","Section 1","Freshwater Cover","Northeast","Polyhaline","Microtidal","Back Barrier",2,1
+"309","WQB","Section 1","EMI","Northeast","Polyhaline","Microtidal","Back Barrier",2,1
+"310","WQB","Section 1","Salt Ratio","Northeast","Polyhaline","Microtidal","Back Barrier",2,1
+"311","WQB","Section 1","Shannon-Weiner Diversity","Northeast","Polyhaline","Microtidal","Back Barrier",3,1
+"312","WQB","Section 1","Richness","Northeast","Polyhaline","Microtidal","Back Barrier",1,1
+"313","WQB","Section 2","Abiotic Cover","Northeast","Polyhaline","Microtidal","Back Barrier",0,0
+"314","WQB","Section 2","Live Cover","Northeast","Polyhaline","Microtidal","Back Barrier",0,0
+"315","WQB","Section 2","Halophyte Cover","Northeast","Polyhaline","Microtidal","Back Barrier",0,0
+"316","WQB","Section 2","Freshwater Cover","Northeast","Polyhaline","Microtidal","Back Barrier",0,0
+"317","WQB","Section 2","EMI","Northeast","Polyhaline","Microtidal","Back Barrier",2,1
+"318","WQB","Section 2","Salt Ratio","Northeast","Polyhaline","Microtidal","Back Barrier",0,0
+"319","WQB","Section 2","Shannon-Weiner Diversity","Northeast","Polyhaline","Microtidal","Back Barrier",2,1
+"320","WQB","Section 2","Richness","Northeast","Polyhaline","Microtidal","Back Barrier",0,0
+"321","WQB","Section 3","Abiotic Cover","Northeast","Polyhaline","Microtidal","Back Barrier",0,0
+"322","WQB","Section 3","Live Cover","Northeast","Polyhaline","Microtidal","Back Barrier",0,0
+"323","WQB","Section 3","Halophyte Cover","Northeast","Polyhaline","Microtidal","Back Barrier",0,0
+"324","WQB","Section 3","Freshwater Cover","Northeast","Polyhaline","Microtidal","Back Barrier",2,1
+"325","WQB","Section 3","EMI","Northeast","Polyhaline","Microtidal","Back Barrier",0,0
+"326","WQB","Section 3","Salt Ratio","Northeast","Polyhaline","Microtidal","Back Barrier",0,0
+"327","WQB","Section 3","Shannon-Weiner Diversity","Northeast","Polyhaline","Microtidal","Back Barrier",0,0
+"328","WQB","Section 3","Richness","Northeast","Polyhaline","Microtidal","Back Barrier",0,0
