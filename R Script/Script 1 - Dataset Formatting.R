@@ -16,7 +16,7 @@
 #   are exported as CSV. First, the national plot dataset is formatted and then averaged by (1) Vegetation 
 #   Zone within each Site and (2) within each Site. Second, vegetation slopes by plot datasets were 
 #   averaged by (1) Vegetation Zone within each Site and (2) Vegetation Zone by other NERR staff. In 
-#   this script, they are then formatted for future analyses. 
+#   this script, they are then formatted for future analyses. Skimr data summary are conducted at the end of script. 
 
 
 #-------------------------------------
@@ -60,7 +60,10 @@ veg_format <- veg %>%
     invasive_cover = Invasive_Cover,
     salt_ratio = Salt_to_Total,
     tidal_range = Tidal.Range,
-    salinity = Salinity.category)
+    salinity = Salinity.category) %>%
+#Change all NAs of visual cover types to zero
+mutate(across(abiotic_cover:salt_ratio,
+              ~ifelse(is.na(.) == TRUE, 0,.)))
 
 glimpse(veg_format)
 
@@ -180,8 +183,11 @@ write.csv(slope_format,
 
 #Task 1: Create and export a summary table for the Plot Dataframe
 
+#Note - Used the original, non-formatted dataset, to conduct skimr data summary
+# We wanted to analyze all of the vegetation cover types and retain the NAs in the original dataset
 veg_plot_skim <- veg %>%
   select(Total.unvegetated:Salicornia.pacifica) %>%
+  #Convert all zeroes into NAs to analyze the presence/abasence of all vegetation metrics
   mutate(across(c(Total.unvegetated:Other.live.vegetation,
                   Invasive_Cover, Spartina.alterniflora:Salicornia.pacifica),
                 ~ifelse(. == 0, NA, .))) %>%
@@ -194,30 +200,6 @@ veg_plot_skim
 
 write.csv(veg_plot_skim,
           "Output Stats\\Dataset Summary - Skim - Plot Dataframe.csv")
-
-
-#Task 2: Create and export a summary table for the Site Dataframe
-
-veg_site_skim <- veg_site %>%
-  rename(Live_Cover = live_cover,
-         Abiotic_Cover = abiotic_cover,
-         Halophyte_Cover = halophyte,
-         Freshwater_Cover = freshwater,
-         Salt_Ratio = salt_ratio,
-         Shannon_Weiner = SWdiv,
-         Species_Richness = Richness) %>%
-  select(Abiotic_Cover:Salt_Ratio) %>%
-  skim_without_charts(.)
-
-veg_site_skim
-
-write.csv(veg_site_skim,
-          "Output Stats\\Dataset Summary - Skim - Site Dataframe.csv")
-
-
-
-
-
 
 
 

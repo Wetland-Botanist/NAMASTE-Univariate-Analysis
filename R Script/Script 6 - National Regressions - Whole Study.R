@@ -12,7 +12,7 @@
 #   a series of explanatory and grouping factors. 
 
 #Script Description: Script 5.5 conducts national regression across the entire study region. Script 5.5
-# is very simiilar to scripst 4 & 5. 
+# is very similar to scripts 4 & 5. 
 
 
 #-----------------------------------
@@ -136,7 +136,7 @@ regression_predicted <- veg_format %>%
   rename(Year = x,
          Value_pred = predicted) %>%
   mutate(stderr.low = Value_pred - std.error,
-         stderr.high = Value_pred + std.error) %>%
+         stderr.high = Value_pred + std.error)
   select(Metric, Year, Value_pred, std.error, stderr.low, stderr.high) %>%
   mutate(across(Value_pred:stderr.high, ~round(., 3)))
 
@@ -172,12 +172,12 @@ write.csv(regression_slopes,
 #and Freshwater Cover
 
 regression_predicted_cover <- regression_predicted %>%
-  filter(Metric == "EMI") %>%
+  filter(Metric == "Live Cover") %>%
   mutate(stderr.high = ifelse(stderr.high > 1, 1, stderr.high), 
          stderr.low = ifelse(stderr.low < 0, 0, stderr.low))
   
 veg_graph <- veg_format %>%
-  filter(Metric == "EMI")
+  filter(Metric == "Live Cover")
          
          
 national_cover_graph <- ggplot(data = regression_predicted_cover,
@@ -188,12 +188,13 @@ national_cover_graph <- ggplot(data = regression_predicted_cover,
                          y = Value),
                      colour = "darkblue",
                      size = 4.5, alpha = 0.35) +
-  geom_ribbon(aes(x = Year, ymin = stderr.low, ymax = stderr.high),
+  geom_ribbon(aes(x = Year, 
+                  ymin = conf.low, ymax = conf.high),
               alpha = 0.75, fill = "gray") + 
            geom_line(linewidth = 1.25, 
                      colour = "orange") + 
-           scale_y_continuous(limits = c(0, 1.02),
-                              breaks = seq(0, 1, 0.20),
+           scale_y_continuous(limits = c(0, 100),
+                              breaks = seq(0, 100, 20),
                               expand = c(0,0)) +
            scale_x_continuous(limits = c(2005, 2022.5),
                               breaks = seq(2006, 2022, 2),
@@ -213,7 +214,7 @@ national_cover_graph <- ggplot(data = regression_predicted_cover,
              strip.text = element_text(size = 18)) +
   facet_wrap(~Metric)
          
-         national_cover_graph
+  national_cover_graph
          
          
          ggsave(national_cover_graph,

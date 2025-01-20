@@ -193,7 +193,6 @@ ggsave(EMI_veg_zone_graph,
 #Task 1: Formatting and organizing the dataset for regression slopes including:
 
 veg_format_site <- veg %>%
-  filter(Vegetation_Zone != "Up") %>%
   #Format the dataset from WIDE --> LONG by consolidating the site characteristics
   gather(Region:salinity,
          key = "site_variable",
@@ -281,10 +280,11 @@ write.csv(score_stats_site,
           "Output Stats\\Compilation Analysis - EMI Score Stats - Site-level.csv")
 
 
+#-----------------------------------------------------------------------
+#Chapter 5: Graphing the Compilation Analysis by Site Characteristics
+#-----------------------------------------------------------------------
 
-
-
-#Task 7: Graph the compilation analysis score by Region
+#Task 1: Graph the compilation analysis score by Region
 
 #Formatting the EMI scores for visualization by Region
 score_stats_region <- score_stats_site %>%
@@ -336,7 +336,7 @@ ggsave(meta_region_graph,
 
 
 
-#Task 8: Graph the compilation analysis score by Tidal Range
+#Task 2: Graph the compilation analysis score by Tidal Range
 
 #Formatting the EMI scores for visualization by Tidal Range
 score_stats_tides <- score_stats_site %>%
@@ -386,9 +386,7 @@ ggsave(meta_tides_graph,
 
 
 
-
-
-#Task 9: Graph the compilation analysis score by Salinity Regime
+#Task 3: Graph the compilation analysis score by Salinity Regime
 
 #Formatting the EMI scores for visualization by Salinity Regime
 score_stats_salinity <- score_stats_site %>%
@@ -437,7 +435,7 @@ ggsave(meta_salinity_graph,
 
 
 
-#Task 10: Graph the compilation analysis score by Geomorphology
+#Task 4: Graph the compilation analysis score by Geomorphology
 
 #Formatting the EMI scores for visualization by Geomorphology
 score_stats_geomorphology <- score_stats_site %>%
@@ -488,7 +486,7 @@ ggsave(meta_geomorphology_graph,
 
 
 
-#Task 11: Combine the Bar Graphs into One Graphic
+#Task 5: Combine the Bar Graphs into One Graphic
 
 meta_bargraph_compiled <- (meta_region_graph + meta_geomorphology_graph) / (meta_salinity_graph + meta_tides_graph)
 

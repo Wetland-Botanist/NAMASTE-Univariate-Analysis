@@ -46,9 +46,7 @@ library(patchwork)
 veg <- read.csv("Formatted Datasets\\Veg Plot Dataframe Formatted.csv") %>%
   select(-X, -invasive_cover) %>%
   select(Reserve:Year, Region:salinity, abiotic_cover:salt_ratio) %>%
-  rename(EMI = EIR) %>%
-  mutate(across(abiotic_cover:salt_ratio,
-                ~ifelse(is.na(.), 0, .)))
+  rename(EMI = EIR)
 
 glimpse(veg)
 
@@ -124,7 +122,10 @@ regression_multi_zones <- veg_format %>%
   rename(pvalue = p.value)
 
 
-glimpse(regression_slopes_zones)
+glimpse(regression_multi_zones)
+
+write.csv(regression_multi_zones,
+          "Output Stats\\Site - Zone Compilation - Veg Zone 2 or more - ANOVA Tables.csv")
 
 
 #Determine the number of significant p-values for each site based on the vegetation zone interaction
@@ -170,6 +171,9 @@ mutate(across(sumsq:p.value, ~round(., 4))) %>%
 
 glimpse(regression_single_zone)
 
+write.csv(regression_single_zone,
+          "Output Stats\\Site - Zone Compilation - Veg Zone 1 - ANOVA Tables.csv")
+
 
 #Determine the number of significant p-values for each site based on the vegetation zone interaction
 # regressions
@@ -188,6 +192,10 @@ pvalue_single_zone <- regression_single_zone %>%
 pvalue_scores <- rbind(pvalue_multi_zones, pvalue_single_zone)
 
 glimpse(pvalue_scores)
+
+
+write.csv(pvalue_scores,
+          "Output Stats\\Site - Zone Compilation - pvalue count.csv")
 
 
 #Task 3: Calculate the percent of significant p-values for sites across metrics and site categories
@@ -209,7 +217,7 @@ glimpse(regression_stats_zone)
 
 
 write.csv(regression_stats_zone,
-          "Output Stats\\Compilation Analysis - Veg Metrics Trend Stats - Veg Zone.csv")
+          "Output Stats\\Site - Zone Compilation - pvalue summary statistics.csv")
 
 
 #Task 4: Graph the p-value and slopes of the metrics besides EMI
@@ -223,8 +231,8 @@ write.csv(regression_stats_zone,
 
 pvalue_vegzone <- regression_stats_zone %>%
   filter(Metric != "Abiotic Cover",
-         site_variable == "salinity") %>%
-  mutate(value = factor(value, levels = c("Oligohaline", "Mesohaline", "Polyhaline")))
+         site_variable == "Geomorphology") %>%
+  mutate(value = factor(value, levels = c("Back Barrier", "Bay Front", "Riverine")))
 
 
 #Graph of the percent of significant regressions based on p-value < 0.05
@@ -235,9 +243,9 @@ pvalue_vegzone_graph <- ggplot(data = pvalue_vegzone,
   geom_bar(aes(fill = value),
                     stat = 'identity', position = position_dodge(0.9),
                     linewidth = 1.5, colour = "black") + 
-#  geom_text(aes(label = SampleSize),
- #           stat = 'identity', vjust = -0.75,
-  #          size = 6, fontface = "bold") +
+  geom_text(aes(label = SampleSize),
+            stat = 'identity', vjust = -0.75,
+            size = 6, fontface = "bold") +
   labs(y = "Percent Regressions Significant (p < 0.05)",
        x = "") +
   scale_y_continuous(limits = c(0, 102),
@@ -247,134 +255,24 @@ pvalue_vegzone_graph <- ggplot(data = pvalue_vegzone,
   theme(
     legend.position = "none",
     legend.title = element_blank(),
-    legend.text = element_text(size = 18, colour = "black"),
+    legend.text = element_text(size = 16, colour = "black"),
     panel.grid.major.x = element_blank(),
     panel.grid.minor.x = element_blank(),
-    axis.title = element_text(size = 18, colour = "black"),
-    axis.text = element_text(size = 18, colour = "black"),
+    axis.title = element_text(size = 16, colour = "black"),
+    axis.text =  element_text(size = 16, colour = "black"),
     strip.background = element_blank(),
-    strip.text = element_text(size = 18)) +
+    strip.text = element_text(size = 16)) +
 facet_wrap(~Metric,
            nrow = 2, ncol = 4)
 
 pvalue_vegzone_graph
 
 ggsave(pvalue_vegzone_graph,
-       filename = "Output Figures\\Site Level Regressions - pvalues - veg interaction - no label.jpg",
+       filename = "Output Figures\\Site Level Regressions - geomorphology - tides - label.jpg",
        units = "in",
        height = 10, width = 18, dpi = 300, limitsize = FALSE)
 
 
-
-#Graph of the descriptive statistics of the slopes
-
-#For the following graphs, the code is written to be a 'plug n play' by editing 
-# the metrics filtered out in the first chunk of code. The user can then edit the 
-# larger graph to their own purposes / aesthetics. 
-
-# Filter out the vegetation metrics not to be contained in the visual cover 
-# pannelled graph
-pvalue_vegzone_cover <- regression_stats_zone %>%
-  filter(Metric == "Live Cover" |
-           Metric == "Halophyte Cover" |
-           Metric == "Freshwater Cover")
-
-
-slope_vegzone_cover_graph <- ggplot(data = pvalue_vegzone_cover,
-                               aes(x = Vegetation_Zone,
-                                   y = slope.m,
-                                   group = Vegetation_Zone)) + 
-  geom_bar(aes(fill = Vegetation_Zone),
-           stat = 'identity', position = position_dodge(0.9),
-           linewidth = 1.5, colour = "black") +  
-  geom_errorbar(aes(x = Vegetation_Zone,
-                    ymax = slope.m + slope.se, 
-                    ymin = slope.m - slope.se,
-                    group = Vegetation_Zone),
-                position = position_dodge(0.9),
-                width = 0.5, linewidth = 1.25) + 
-  labs(y = "Mean Slopes",
-       x = "Vegetation Zone") +
-  scale_y_continuous(limits = c(-1.5, 1.0),
-                     breaks = seq(-1.5, 1.0, 0.5)) + 
-  theme_bw() +
-  theme(
-    legend.position = "none",
-    legend.title = element_blank(),
-    legend.text = element_text(size = 18, colour = "black"),
-    panel.grid.major.x = element_blank(),
-    panel.grid.minor.x = element_blank(),
-    axis.title = element_text(size = 18, colour = "black"),
-    axis.text = element_text(size = 18, colour = "black"),
-    strip.background = element_blank(),
-    strip.text = element_text(size = 18)) +
-  facet_wrap(~Metric,
-             nrow = 2, ncol = 3)
-
-slope_vegzone_cover_graph
-
-ggsave(slope_vegzone_cover_graph,
-       filename = "Output Figures\\Site Level Regressions - Cover Slopes - Veg Zone.jpg",
-       units = "in",
-       height = 10, width = 14, dpi = 300, limitsize = FALSE)
-
-
-# Filter out the vegetation metrics not to be contained in the misc. metrics
-# pannelled graph
-
-pvalue_vegzone_misc <- regression_stats_zone %>%
-  filter(Metric == "Richness" |
-           Metric == "Salt Ratio" |
-           Metric == "Shannon-Weiner Diversity")
-
-
-slope_vegzone_misc_graph <- ggplot(data = pvalue_vegzone_misc,
-                              aes(x = Vegetation_Zone,
-                                  y = slope.m,
-                                  group = Vegetation_Zone)) + 
-  geom_bar(aes(fill = Vegetation_Zone),
-           stat = 'identity', position = position_dodge(0.9),
-           linewidth = 1.5, colour = "black") +  
-  geom_errorbar(aes(x = Vegetation_Zone,
-                    ymax = slope.m + slope.se, 
-                    ymin = slope.m - slope.se,
-                    group = Vegetation_Zone),
-                position = position_dodge(0.9),
-                width = 0.5, linewidth = 1.25) + 
-  labs(y = "Mean Slopes",
-       x = "Vegetation Zone") +
-  scale_y_continuous(limits = c(-0.04, 0.10),
-                     breaks = seq(-0.04, 0.10, 0.02)) + 
-  theme_bw() +
-  theme(
-    legend.position = "none",
-    legend.title = element_blank(),
-    legend.text = element_text(size = 18, colour = "black"),
-    panel.grid.major.x = element_blank(),
-    panel.grid.minor.x = element_blank(),
-    axis.title = element_text(size = 18, colour = "black"),
-    axis.text = element_text(size = 18, colour = "black"),
-    strip.background = element_blank(),
-    strip.text = element_text(size = 18)) +
-  facet_wrap(~Metric,
-             nrow = 2, ncol = 3)
-
-slope_vegzone_misc_graph
-
-ggsave(slope_vegzone_misc_graph,
-       filename = "Output Figures\\Site Level Regressions - Misc Slopes - Veg Zone.jpg",
-       units = "in",
-       height = 10, width = 14, dpi = 300, limitsize = FALSE)
-
-slope_vegzone <- slope_vegzone_cover_graph / slope_vegzone_misc_graph
-
-slope_vegzone
-
-
-ggsave(slope_vegzone,
-       filename = "Output Figures\\Site Level Regressions - Pannel Slopes - Veg Zone.jpg",
-       units = "in",
-       height = 10, width = 14, dpi = 300, limitsize = FALSE)
 
 #-----------------------------------------------------------------------------------
 #Chapter 4: Compilation Analysis by Site
@@ -426,7 +324,7 @@ regression_slopes_site <- veg_site %>%
 glimpse(regression_slopes_site)
 
 write.csv(regression_slopes_site,
-          "Output Stats\\Compilation Analysis - Veg Metrics Trends - Site Level.csv")
+          "Output Stats\\Site Compilation - ANOVA Tables.csv")
 
 slopes_site_stats <- regression_slopes_site %>%
   filter(site_variable == "Region") %>%
@@ -437,7 +335,7 @@ slopes_site_stats <- regression_slopes_site %>%
   
 
 write.csv(slopes_site_stats,
-          "Output Stats\\Compilation Analysis - Veg Metrics Trends - Site - National Summ.csv")
+          "Output Stats\\Site Compilation - National Metric - Slope Summary Statistics.csv")
 
 #Task 5: Calculate descriptive statistics for the slope and score by site characteristic
 
@@ -448,9 +346,7 @@ write.csv(slopes_site_stats,
 regression_stats_site <- regression_slopes_site %>%
   group_by(site_variable, Category, Metric) %>%
   summarise(slope.m = mean(slope, na.rm = TRUE),
-            slope.se = sd(slope, na.rm = TRUE)/sqrt(n()),
-            #Calculates the % of sites that have a significant trend
-            pvalue.score = (length(pvalue[pvalue <= 0.05]) / n()) * 100 ) %>%
+            slope.se = sd(slope, na.rm = TRUE)/sqrt(n())) %>%
   ungroup() %>%
   mutate(across(slope.m:pvalue.score, ~round(., 3)))
 
@@ -458,65 +354,12 @@ glimpse(regression_stats_site)
 
 
 write.csv(regression_stats_site,
-          "Output Stats\\Compilation Analysis - Veg Metrics Trend Stats - Site Level.csv")
+          "Output Stats\\Site Compilation - Site Characteristic - Slope Summary Statistics.csv")
 
 
 
 
-#Task 6: Graph the p-value and slopes of vegetation metrics
-
-#For the following graphs, the code is written to be a 'plug n play' by editing 
-# the metrics filtered out in the first chunk of code. The user can then edit the 
-# larger graph to their own purposes / aesthetics. 
-
-
-# Filter out the vegetation metrics not to be contained in the pannelled graph
-
-#Graph of the percent of significant regressions based on p-value < 0.05
-
-# Filter out the site characteristics not to be contained in the pannelled graph
-
-pvalue_site <- regression_stats_site %>%
-  filter(Metric != "EMI",
-         Metric != "Abiotic Cover",
-         site_variable == "Geomorphology") %>%
-  mutate(Category = factor(Category,
-                           levels = c("Back Barrier", "Bay Front", "Riverine")))
-
-
-pvalue_site_graph <- ggplot(data = pvalue_site,
-                               aes(x = Category,
-                                   y = pvalue.score,
-                                   group = Category)) + 
-  geom_bar(aes(fill = Category),
-           stat = 'identity', position = position_dodge(0.9),
-           linewidth = 1.5, colour = "black") +  
-  labs(y = "Percent Regressions Significant (p < 0.05)",
-       x = "") +
-  scale_y_continuous(limits = c(0, 100),
-                     breaks = seq(0, 100, 20)) + 
-  theme_bw() +
-  theme(
-    legend.position = "none",
-    legend.title = element_blank(),
-    legend.text = element_text(size = 18, colour = "black"),
-    panel.grid.major.x = element_blank(),
-    panel.grid.minor.x = element_blank(),
-    axis.title = element_text(size = 18, colour = "black"),
-    axis.text = element_text(size = 18, colour = "black"),
-    strip.background = element_blank(),
-    strip.text = element_text(size = 18)) +
-  facet_wrap(~Metric,
-             nrow = 2, ncol = 3)
-
-pvalue_site_graph
-
-ggsave(pvalue_site_graph,
-       filename = "Output Figures\\Site Level Regressions - significant pvalues - Geomorph - 100 xaxis.jpg",
-       units = "in",
-       height = 10, width = 14, dpi = 300, limitsize = FALSE)
-
-
+#Task 6: Graph the slopes of vegetation metrics
 
 #Graph of the descriptive statistics of the slopes
 
@@ -526,10 +369,17 @@ ggsave(pvalue_site_graph,
 
 # Filter out the vegetation metrics not to be contained in the visual cover 
 # pannelled graph
+
+pvalue_site <- regression_stats_site %>%
+  filter(site_variable == "tidal_range") %>%
+  mutate(Category = factor(Category, levels = c("Microtidal", "Mesotidal", "Macrotidal")))
+
+
 pvalue_site_cover <- pvalue_site %>%
   filter(Metric == "Live Cover" |
            Metric == "Halophyte Cover" |
            Metric == "Freshwater Cover")
+
 
 
 slope_site_cover_graph <- ggplot(data = pvalue_site_cover,
@@ -545,10 +395,10 @@ slope_site_cover_graph <- ggplot(data = pvalue_site_cover,
                     group = Category),
                 position = position_dodge(0.9),
                 width = 0.5, linewidth = 1.25) + 
-  labs(y = "Mean Slopes",
+  labs(y = "Slopes",
        x = "") +
-  scale_y_continuous(limits = c(-3.5, 1.0),
-                     breaks = seq(-4.0, 1.0, 1.0)) + 
+  scale_y_continuous(limits = c(-3, 2),
+                     breaks = seq(-3.0, 2, 1.0)) + 
   theme_bw() +
   theme(
     legend.position = "none",
@@ -566,7 +416,7 @@ slope_site_cover_graph <- ggplot(data = pvalue_site_cover,
 slope_site_cover_graph
 
 ggsave(slope_site_cover_graph,
-       filename = "Output Figures\\Site Level Regressions - Cover Slopes - Geomoprh.jpg",
+       filename = "Output Figures\\Site Level Regressions - Cover Slopes - tides.jpg",
        units = "in",
        height = 10, width = 14, dpi = 300, limitsize = FALSE)
 
@@ -592,10 +442,10 @@ slope_site_misc_graph <- ggplot(data = pvalue_site_misc,
                     group = Category),
                 position = position_dodge(0.9),
                 width = 0.5, linewidth = 1.25) + 
-  labs(y = "Mean Slopes",
+  labs(y = "Slopes",
        x = "") +
-  scale_y_continuous(limits = c(-0.10, 0.15),
-                     breaks = seq(-0.10, 0.15, 0.05)) + 
+  scale_y_continuous(limits = c(-0.10, 0.1),
+                     breaks = seq(-0.10, 0.1, 0.05)) + 
   theme_bw() +
   theme(
     legend.position = "none",
@@ -604,7 +454,8 @@ slope_site_misc_graph <- ggplot(data = pvalue_site_misc,
     panel.grid.major.x = element_blank(),
     panel.grid.minor.x = element_blank(),
     axis.title = element_text(size = 18, colour = "black"),
-    axis.text = element_text(size = 18, colour = "black"),
+    axis.text.x = element_text(size = 18, colour = "black", angle = 25, hjust = 1.0),
+    axis.text.y = element_text(size = 18, colour = "black"),
     strip.background = element_blank(),
     strip.text = element_text(size = 18)) +
   facet_wrap(~Metric,
@@ -613,7 +464,7 @@ slope_site_misc_graph <- ggplot(data = pvalue_site_misc,
 slope_site_misc_graph
 
 ggsave(slope_site_misc_graph,
-       filename = "Output Figures\\Site Level Regressions - Misc Slopes - Geomorph.jpg",
+       filename = "Output Figures\\Site Level Regressions - Misc Slopes - tides.jpg",
        units = "in",
        height = 10, width = 14, dpi = 300, limitsize = FALSE)
 
@@ -623,7 +474,7 @@ slope_site
 
 
 ggsave(slope_site,
-       filename = "Output Figures\\Site Level Regressions - Pannel Slopes - Geomorph.jpg",
+       filename = "Output Figures\\Site Level Regressions - Pannel Slopes - tides.jpg",
        units = "in",
        height = 10, width = 14, dpi = 300, limitsize = FALSE)
 

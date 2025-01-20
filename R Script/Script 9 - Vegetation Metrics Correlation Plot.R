@@ -11,8 +11,8 @@
 #   series of scripts conducts an exploratory analysis of different vegetation response factors to 
 #   a series of explanatory and grouping factors. 
 
-#Script Description: Script 9 conducts a correlation analysis between vegetation metrics at the plot 
-# level to better understand how vegeation metrics respond. 
+#Script Description: Script 9 conducts a Spearman Rank correlation analysis between vegetation metrics at the plot 
+# level to better understand how vegetation metrics respond. Several types of correlation graphs are created. 
 
 
 #-----------------------------------
@@ -21,26 +21,103 @@
 
 #Data Analysis Packages
 
-library(dplyr)
-library(tidyr)
+library(tidyverse)
+library(Hmisc)
 
 #Graphing and Data Visualization Packages
 
 library(corrplot)
+library(GGally)
 
 #--------------------------------------------
 #Chapter 2: Format the vegetation dataset
 #------------------------------------------
+
+veg <- read.csv("Formatted Datasets\\Veg Dataframe Summarised By Site.csv") %>%
+  select(-X)
+  
+glimpse(veg)
+
+veg_format <- veg %>%
+  select(abiotic_cover, live_cover, halophyte, freshwater, EIR, salt_ratio, Richness, SWdiv) %>%
+  rename(
+    Abiotic_Cover = abiotic_cover,
+    Live_Cover = live_cover,
+    Halophyte_Cover = halophyte,
+    Freshwater_Cover = freshwater,
+    EMI = EIR,
+    Salt_Ratio = salt_ratio,
+    Species_Richness = Richness,
+    Shannon_Weiner = SWdiv)
+
+
+#-------------------------------------------
+#Chapter 3: Calculate Correlation Matrix
+#-------------------------------------------
+
+spearman_corr <- rcorr(x = as.matrix(veg_format),
+                     type = "spearman")
+
+glimpse(spearman_corr)
+
+spearman_r <- tidy(spearman_corr$r)
+
+spearman_p <- tidy(spearman_corr$P)
+
+write.csv(spearman_r, 
+          "Output Stats\\Vegetation Spearman Correlation - r values.csv")
+
+write.csv(spearman_p,
+          "Output Stats\\Vegetation Spearman Correlation - p values.csv")
+
+
+#--------------------------------------------------------------------------
+#Chapter 4: Create Correlation Matrix, Create Plot - Cressman Method
+#------------------------------------------------------------------------
+
+# function to format the scatterplots
+# could change method to lm, gam, whatever other things you
+# can use in geom_smooth. can also change colors, transparency, etc.
+lowerFn <- function(data, mapping, method = "lm", ...) {
+  p <- ggplot(data = data, mapping = mapping) +
+    geom_point(colour = "navy", alpha = 0.8) +
+    geom_smooth(method = method, color = "darkorange", 
+                se = FALSE, linewidth = 0.9, ...)
+  p
+}
+
+# build the plot and correlation matrix
+# with 'method' can use pearson, spearman, kendall
+# make sure your data frame is either all numeric or
+# that you subset the numeric columns
+veg_spearman_corr <- veg_format |> 
+  ggpairs(upper = list(continuous = wrap("cor", 
+                                         method = "spearman", 
+                                         use = "pairwise.complete.obs",
+                                         colour = "black")),
+          lower = list(continuous = wrap(lowerFn)))
+
+veg_spearman_graph <- veg_spearman_corr + 
+  theme(
+    axis.text = element_text(size = 10, colour = "black"),
+    strip.background = element_blank(),
+    strip.text = element_text(size = 10, colour = "black")
+  )
+
+veg_spearman_graph
+
+ggsave(veg_spearman_graph,
+       height = 10, width = 14, dpi = 300,
+       filename = "Output Figures\\Veg Spearman Correlation - Mini Graph Compilation.jpg")
+
 #-------------------------------------------------------------
-# Chapter 3: Create Correlation Matrix, Create Plot
+# Chapter 5: Create Correlation Figure - Oval Type
 #------------------------------------------------------------
 
 #subset out the columns you want to correlate and run that matrix through “cor” function
 
-selected_h3_data <- veg %>%
-  select(Abiotic_Cover:Salt_Ratio)
-
-correlation_matrix <- cor(selected_h3_data,  use = "pairwise.complete.obs") 
+correlation_matrix <- cor(veg_format,  use = "pairwise.complete.obs",
+                          method = "spearman") 
 
 
 # Create a correlation heatmap
@@ -65,11 +142,11 @@ corrplot(correlation_matrix,
 
 #Then re-run to get the asterisks for significance placed ontop
 
-numeric_columns <- sapply(selected_h3_data, is.numeric)
+numeric_columns <- sapply(veg_format, is.numeric)
 
 # Subset data to include only numeric columns
 
-numeric_data <- selected_h3_data[, numeric_columns]
+numeric_data <- veg_format[, numeric_columns]
 
 # Calculate the correlation matrix and obtain p-values
 
@@ -131,3 +208,4 @@ corrplot(
 
 
 dev.off()
+

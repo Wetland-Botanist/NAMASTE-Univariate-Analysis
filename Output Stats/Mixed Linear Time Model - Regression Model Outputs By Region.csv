@@ -1,0 +1,46 @@
+"","Region","Metric","SampleSize","term","sumsq","meansq","statistic","p.value"
+"1","Southeast","Abiotic Cover",104,"Year",4.779,4.779,0.029,0.865
+"2","Gulf Coast","Abiotic Cover",73,"Year",14474.732,14474.732,73.284,0
+"3","Mid-Atlantic","Abiotic Cover",23,"Year",544.104,544.104,6.237,0.023
+"4","West Coast","Abiotic Cover",128,"Year",8.114,8.114,0.391,0.533
+"5","Northeast","Abiotic Cover",96,"Year",434.389,434.389,12.942,0.001
+"6","Southeast","Live Cover",104,"Year",7.488,7.488,0.045,0.832
+"7","Gulf Coast","Live Cover",73,"Year",14466.164,14466.164,73.275,0
+"8","Mid-Atlantic","Live Cover",23,"Year",544.005,544.005,6.236,0.023
+"9","West Coast","Live Cover",128,"Year",8.135,8.135,0.392,0.533
+"10","Northeast","Live Cover",96,"Year",434.228,434.228,12.937,0.001
+"11","Southeast","Halophyte Cover",104,"Year",16.958,16.958,0.112,0.739
+"12","Gulf Coast","Halophyte Cover",73,"Year",9612.434,9612.434,51.283,0
+"13","Mid-Atlantic","Halophyte Cover",23,"Year",149.644,149.644,5.943,0.026
+"14","West Coast","Halophyte Cover",128,"Year",83.516,83.516,2.745,0.101
+"15","Northeast","Halophyte Cover",96,"Year",655.514,655.514,20.997,0
+"16","Southeast","Freshwater Cover",104,"Year",0.293,0.293,0.369,0.545
+"17","Gulf Coast","Freshwater Cover",73,"Year",7.962,7.962,2.116,0.151
+"18","Mid-Atlantic","Freshwater Cover",23,"Year",90.889,90.889,1.56,0.228
+"19","West Coast","Freshwater Cover",128,"Year",0.92,0.92,7.627,0.007
+"20","Northeast","Freshwater Cover",96,"Year",1.352,1.352,1.101,0.297
+"21","Southeast","EMI",104,"Year",0.004,0.004,0.277,0.6
+"22","Gulf Coast","EMI",73,"Year",0.289,0.289,23.334,0
+"23","Mid-Atlantic","EMI",23,"Year",0.001,0.001,0.119,0.735
+"24","West Coast","EMI",128,"Year",0.001,0.001,1.727,0.192
+"25","Northeast","EMI",96,"Year",0.136,0.136,81.938,0
+"26","Southeast","Invasive Cover",104,"Year",0,0,2.156,0.145
+"27","Gulf Coast","Invasive Cover",73,"Year",0.001,0.001,0.017,0.896
+"28","Mid-Atlantic","Invasive Cover",23,"Year",2.022,2.022,0.539,0.472
+"29","West Coast","Invasive Cover",128,"Year",0,0,0.104,0.749
+"30","Northeast","Invasive Cover",96,"Year",0.047,0.047,0.106,0.745
+"31","Southeast","Richness",104,"Year",0.002,0.002,0.036,0.851
+"32","Gulf Coast","Richness",73,"Year",2.144,2.144,3.991,0.05
+"33","Mid-Atlantic","Richness",23,"Year",0.065,0.065,0.762,0.395
+"34","West Coast","Richness",128,"Year",0.024,0.024,0.204,0.652
+"35","Northeast","Richness",96,"Year",0.072,0.072,0.457,0.501
+"36","Southeast","Shannon-Weiner Diversity",104,"Year",0.014,0.014,3.492,0.065
+"37","Gulf Coast","Shannon-Weiner Diversity",73,"Year",0.146,0.146,3.337,0.072
+"38","Mid-Atlantic","Shannon-Weiner Diversity",23,"Year",0,0,0.02,0.888
+"39","West Coast","Shannon-Weiner Diversity",128,"Year",0.034,0.034,4.9,0.029
+"40","Northeast","Shannon-Weiner Diversity",96,"Year",0.066,0.066,8.206,0.005
+"41","Southeast","Salt Ratio",104,"Year",0.113,0.113,19.139,0
+"42","Gulf Coast","Salt Ratio",73,"Year",0.594,0.594,40.583,0
+"43","Mid-Atlantic","Salt Ratio",23,"Year",0,0,0.934,0.347
+"44","West Coast","Salt Ratio",128,"Year",0.006,0.006,5.069,0.026
+"45","Northeast","Salt Ratio",96,"Year",0.001,0.001,1.449,0.232
