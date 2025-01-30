@@ -1,0 +1,28 @@
+"","Metric","SampleSize","term","sumsq","meansq","statistic","p.value"
+"1","Abiotic Cover",884,"Year",2720.514,2720.514,12.222,0
+"2","Abiotic Cover",884,"Vegetation_Zone",579.001,289.5,1.301,0.273
+"3","Abiotic Cover",884,"Year:Vegetation_Zone",589.28,294.64,1.324,0.267
+"4","Live Cover",884,"Year",2906.922,2906.922,12.868,0
+"5","Live Cover",884,"Vegetation_Zone",600.135,300.068,1.328,0.265
+"6","Live Cover",884,"Year:Vegetation_Zone",610.206,305.103,1.351,0.26
+"7","Halophyte Cover",884,"Year",1723.092,1723.092,5.719,0.017
+"8","Halophyte Cover",884,"Vegetation_Zone",527.336,263.668,0.875,0.417
+"9","Halophyte Cover",884,"Year:Vegetation_Zone",531.667,265.834,0.882,0.414
+"10","Freshwater Cover",884,"Year",13.508,13.508,0.252,0.616
+"11","Freshwater Cover",884,"Vegetation_Zone",134.286,67.143,1.253,0.286
+"12","Freshwater Cover",884,"Year:Vegetation_Zone",130.546,65.273,1.218,0.296
+"13","EMI",884,"Year",0.028,0.028,0.8,0.371
+"14","EMI",884,"Vegetation_Zone",1.126,0.563,16.312,0
+"15","EMI",884,"Year:Vegetation_Zone",1.122,0.561,16.258,0
+"16","Invasive Cover",884,"Year",0.475,0.475,0.15,0.699
+"17","Invasive Cover",884,"Vegetation_Zone",7.629,3.814,1.201,0.301
+"18","Invasive Cover",884,"Year:Vegetation_Zone",7.522,3.761,1.184,0.307
+"19","Richness",884,"Year",2.675,2.675,2.543,0.111
+"20","Richness",884,"Vegetation_Zone",1.118,0.559,0.531,0.588
+"21","Richness",884,"Year:Vegetation_Zone",1.036,0.518,0.493,0.611
+"22","Shannon-Weiner Diversity",884,"Year",0.149,0.149,2.971,0.085
+"23","Shannon-Weiner Diversity",884,"Vegetation_Zone",0.03,0.015,0.297,0.743
+"24","Shannon-Weiner Diversity",884,"Year:Vegetation_Zone",0.026,0.013,0.264,0.768
+"25","Salt Ratio",884,"Year",0.035,0.035,1.293,0.256
+"26","Salt Ratio",884,"Vegetation_Zone",0.127,0.063,2.317,0.099
+"27","Salt Ratio",884,"Year:Vegetation_Zone",0.125,0.062,2.279,0.103

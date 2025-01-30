@@ -1,0 +1,28 @@
+"","Vegetation_Zone","Metric","slope"
+"1","Low","Abiotic Cover",0.632
+"2","Low","Live Cover",-0.639
+"3","Low","Halophyte Cover",-0.695
+"4","Low","Freshwater Cover",0.072
+"5","Low","Invasive Cover",0.026
+"6","Low","EMI",0.01
+"7","Low","Salt Ratio",-0.007
+"8","Low","Shannon-Weiner Diversity",-0.002
+"9","Low","Richness",-0.012
+"10","Mid","Abiotic Cover",0.223
+"11","Mid","Live Cover",-0.237
+"12","Mid","Halophyte Cover",-0.199
+"13","Mid","Freshwater Cover",0.168
+"14","Mid","Invasive Cover",0.03
+"15","Mid","EMI",0.01
+"16","Mid","Salt Ratio",-0.001
+"17","Mid","Shannon-Weiner Diversity",-0.005
+"18","Mid","Richness",-0.007
+"19","Up","Abiotic Cover",0.788
+"20","Up","Live Cover",-0.822
+"21","Up","Halophyte Cover",-0.414
+"22","Up","Freshwater Cover",-0.124
+"23","Up","Invasive Cover",-0.034
+"24","Up","EMI",-0.014
+"25","Up","Salt Ratio",0.002
+"26","Up","Shannon-Weiner Diversity",-0.005
+"27","Up","Richness",-0.033

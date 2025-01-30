@@ -51,11 +51,6 @@ veg <- read.csv("Formatted Datasets\\Veg Dataframe Summarised By Site and Zone.c
 glimpse(veg)
 
 
-
-#-----------------------------------------------------------------------------
-#Chapter 3: Calculate live cover slope of each individual site, vegetation zone
-#-----------------------------------------------------------------------------
-
 # Formatting and organizing the dataset for regression slopes including:
 # Gathering the Site Variables and gathering the vegetation metrics, thus transforming the dataset
 # into a very LONG dataset. Essentially, breaking down each row into ~30 rows. This will allow
@@ -85,9 +80,8 @@ veg_format <- veg %>%
 
 glimpse(veg_format)
 
-
 #------------------------------------------------------------------------------------------
-#Chapter 4: National mixed linear regressions of each vegetation metric by vegetation zone
+#Chapter 3: National mixed linear regressions of each vegetation metric by vegetation zone
 #------------------------------------------------------------------------------------------
 
 # This is accomplished by nesting the data essentially by Vegetation Zone and Vegetation Metric (long dataset)
@@ -125,7 +119,7 @@ write.csv(regression_models_veg,
 
 
 #---------------------------------------------------------------------------------------
-#Chapter 5: Calculate the Slopes of each Vegetation Metric Across All Vegetation Zones 
+#Chapter 4: Calculate the Slopes of each Vegetation Metric Across All Vegetation Zones 
 #---------------------------------------------------------------------------------------
 
 # Run a dplyr loop to predict the values of the regressions across time itself (not considering zone)
@@ -165,7 +159,7 @@ write.csv(regression_slopes,
 
 
 #---------------------------------------------------------------------------------------
-#Chapter 6: Calculate the Slopes of each Vegetation Metric For Each Vegetation Zone 
+#Chapter 5: Calculate the Slopes of each Vegetation Metric For Each Vegetation Zone 
 #---------------------------------------------------------------------------------------
 
 #Re-run the combination of map, ggpredict chunk of code, except with the addition of the "Vegetation_Zone [all]"
@@ -206,7 +200,7 @@ write.csv(regression_slopes_veg,
 
 
 #-----------------------------------------------------------------------------
-#Chapter 7: Graph the General Trends Across Time and Vegetation Zone
+#Chapter 6: Graph the General Trends Across Time and Vegetation Zone
 #----------------------------------------------------------------------------
 
 #Data visualization is broken down into 4 graphs:
@@ -222,8 +216,7 @@ write.csv(regression_slopes_veg,
 regression_predicted_cover <- regression_predicted %>%
   filter(Metric == "Abiotic Cover" |
           Metric == "Live Cover" |
-          Metric == "Halophyte Cover" |
-          Metric == "Freshwater Cover") %>%
+          Metric == "Halophyte Cover") %>%
   mutate(conf.high = ifelse(conf.high > 100, 100, conf.high),
          conf.low = ifelse(conf.low < 0, 0, conf.low))
 
@@ -270,25 +263,23 @@ ggsave(national_cover_graph,
 #Task 2 - Graph the results of the predicted values for the Shannon-Diversity & Richness
 
 regression_predicted_richness <- regression_predicted %>%
-  filter(Metric == "Richness" |
-           Metric == "Shannon-Weiner Diversity")
+  filter(Metric == "Shannon-Weiner Diversity")
 
 national_richness_graph <- ggplot(data = regression_predicted_richness,
                                aes(x = Year,
                                    y = Value_pred,
                                    group = Metric)) + 
-  geom_line(aes(colour = Metric),
-            linewidth = 1.25, linetype = "dashed") + 
-  geom_ribbon(aes(x = Year, ymin = conf.low, ymax = conf.high,
-                  fill = Metric),
-              alpha = 0.5) +   
-  scale_y_continuous(limits = c(0, 3.5),
-                     breaks = seq(0, 3.5, 0.5),
+  geom_ribbon(aes(x = Year, 
+                  ymin = conf.low, ymax = conf.high),
+              alpha = 0.75, fill = "gray") +  
+  geom_line(linewidth = 1.5, linetype = "dashed") + 
+  scale_y_continuous(limits = c(0, 1.1),
+                     breaks = seq(0, 1, 0.25),
                      expand = c(0,0)) +
   scale_x_continuous(limits = c(2005, 2024),
                      breaks = seq(2006, 2022, 2),
                      expand = c(0,0)) +
-  labs(y = "",
+  labs(y = "Shannon-Weiner Diversity",
        x = "") +
   theme_bw() +
   theme(
@@ -307,7 +298,7 @@ national_richness_graph
 
 
 ggsave(national_richness_graph,
-       filename = "Output Figures\\National Time Mixed Model - Richness & Diversity.jpg",
+       filename = "Output Figures\\National Time Mixed Model - Diversity.jpg",
        units = "in",
        height = 8, width = 12, dpi = 300, limitsize = FALSE)
 
@@ -316,7 +307,7 @@ ggsave(national_richness_graph,
 #Task 3 - Graph the results of the predicted values for the Salt Ratio and EMI
 
 regression_predicted_ratio <- regression_predicted_veg %>%
-  filter(Metric == "EMI") %>%
+  filter(Metric == "Salt Ratio") %>%
   mutate(conf.high = ifelse(conf.high > 1, 1, conf.high))
   
 
@@ -325,27 +316,27 @@ national_ratio_graph <- ggplot(data = regression_predicted_ratio,
                                       y = Value_pred,
                                       group = Vegetation_Zone)) + 
   geom_line(aes(colour = Vegetation_Zone),
-            linewidth = 1.25, linetype = "dashed") + 
+            linewidth = 1.5, linetype = "dashed") + 
   geom_ribbon(aes(x = Year, ymin = conf.low, ymax = conf.high,
                   fill = Vegetation_Zone),
               alpha = 0.5) +   
-  scale_y_continuous(limits = c(0, 1),
+  scale_y_continuous(limits = c(0, 1.1),
                      breaks = seq(0, 1, 0.20),
                      expand = c(0,0)) +
   scale_x_continuous(limits = c(2005, 2023),
                      breaks = seq(2006, 2022, 2),
                      expand = c(0,0)) +
-  labs(y = "EMI",
+  labs(y = "Salt Ratio",
        x = "") +
   theme_bw() +
   theme(
-    legend.position = c(0.10, 0.875),
+    legend.position = c(0.125, 0.125),
     legend.title = element_blank(),
-    legend.text = element_text(size = 14, colour = "black"),
+    legend.text = element_text(size = 18, colour = "black"),
     panel.grid.major.x = element_blank(),
     panel.grid.minor.x = element_blank(),
     axis.title = element_text(size = 18, colour = "black"),
-    axis.text = element_text(size = 15, colour = "black"),
+    axis.text = element_text(size = 18, colour = "black"),
     strip.background = element_blank(),
     strip.text = element_text(size = 18))
 
@@ -354,22 +345,9 @@ national_ratio_graph
 
 
 ggsave(national_ratio_graph,
-       filename = "Output Figures\\National Time Mixed Model - EMI.jpg",
+       filename = "Output Figures\\National Time Mixed Model - Salt Ratio.jpg",
        units = "in",
        height = 8, width = 12, dpi = 300, limitsize = FALSE)
 
 
 
-
-#Task 4 - Combine the three graphs and export it for the ultimate Natinal Time Mixed Model Figure
-
-
-national_model_graph <- national_cover_graph / national_richness_graph / national_ratio_graph
-
-national_model_graph
-
-
-ggsave(national_model_graph,
-       filename = "Output Figures\\National Time Mixed Model - Combined Graph.jpg",
-       units = "in",
-       height = 14, width = 20, dpi = 300, limitsize = FALSE)

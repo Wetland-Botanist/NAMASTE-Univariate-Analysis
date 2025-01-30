@@ -1,5 +1,5 @@
 #Project: NAMASTE National Univariate Exploratory Analysis
-#Script: Script 5.5 - National Mixed Linear Regressions Across Study
+#Script: Script 6 - National Mixed Linear Regressions Across Study
 
 #Author: Grant McKown, Jackson Estuarine Laboratory, University of New Hampshire
 #Contact: james.mckown@unh.edu
@@ -11,7 +11,7 @@
 #   series of scripts conducts an exploratory analysis of different vegetation response factors to 
 #   a series of explanatory and grouping factors. 
 
-#Script Description: Script 5.5 conducts national regression across the entire study region. Script 5.5
+#Script Description: Script 6 conducts national regression across the entire study region. Script 6
 # is very similar to scripts 4 & 5. 
 
 
@@ -49,12 +49,6 @@ veg <- read.csv("Formatted Datasets\\Veg Dataframe Summarised By Site.csv") %>%
 
 glimpse(veg)
 
-
-
-#-----------------------------------------------------------------------------
-#Chapter 3: Calculate live cover slope of each individual site, vegetation zone
-#-----------------------------------------------------------------------------
-
 # Formatting and organizing the dataset for regression slopes including:
 # Gathering the Site Variables and gathering the vegetation metrics, thus transforming the dataset
 # into a very LONG dataset. Essentially, breaking down each row into ~30 rows. This will allow
@@ -80,10 +74,8 @@ veg_format <- veg %>%
 glimpse(veg_format)
 
 
-
-
 #------------------------------------------------------------------------------------------
-#Chapter 4: #Conduct mixed linear regressions of each vegetation metric by vegetation zone
+#Chapter 3: Conduct mixed linear regressions of each vegetation metric
 #------------------------------------------------------------------------------------------
 
 # This is accomplished by nesting the data essentially by Vegetation Zone and Vegetation Metric (long dataset)
@@ -117,7 +109,7 @@ write.csv(regression_models_site,
 
 
 #---------------------------------------------------------------------------------------
-#Chapter 5: Calculate the Slopes of each Vegetation Metric Across All Site Characteristics
+#Chapter 4: Calculate the Slopes of each Vegetation Metric
 #---------------------------------------------------------------------------------------
 
 # Run a dplyr loop to predict the values of the national vegetation regressions
@@ -136,14 +128,14 @@ regression_predicted <- veg_format %>%
   rename(Year = x,
          Value_pred = predicted) %>%
   mutate(stderr.low = Value_pred - std.error,
-         stderr.high = Value_pred + std.error)
-  select(Metric, Year, Value_pred, std.error, stderr.low, stderr.high) %>%
+         stderr.high = Value_pred + std.error) %>%
+  select(Metric, Year, Value_pred, std.error, stderr.low, stderr.high, conf.low, conf.high) %>%
   mutate(across(Value_pred:stderr.high, ~round(., 3)))
 
 glimpse(regression_predicted)
 
 
-#Calculate the slopes of each vegetation metric across site characteristics
+#Calculate the slopes of each vegetation metric
 
 regression_slopes <- regression_predicted %>%
   group_by(Metric) %>%
@@ -157,7 +149,7 @@ write.csv(regression_slopes,
 
 
 #-----------------------------------------------------------------------------
-#Chapter 6: Graph the General Trends Across Time and Region
+#Chapter 4: Graph the General Trends Across Time
 #----------------------------------------------------------------------------
 
 #Data visualization is broken down into 4 graphs:
@@ -172,12 +164,12 @@ write.csv(regression_slopes,
 #and Freshwater Cover
 
 regression_predicted_cover <- regression_predicted %>%
-  filter(Metric == "Live Cover") %>%
-  mutate(stderr.high = ifelse(stderr.high > 1, 1, stderr.high), 
-         stderr.low = ifelse(stderr.low < 0, 0, stderr.low))
+  filter(Metric == "Abiotic Cover") %>%
+  mutate(conf.high = ifelse(conf.high > 100, 100, conf.high), 
+         conf.low = ifelse(conf.low < 0, 0, conf.low))
   
 veg_graph <- veg_format %>%
-  filter(Metric == "Live Cover")
+  filter(Metric == "Abiotic Cover")
          
          
 national_cover_graph <- ggplot(data = regression_predicted_cover,
@@ -191,7 +183,7 @@ national_cover_graph <- ggplot(data = regression_predicted_cover,
   geom_ribbon(aes(x = Year, 
                   ymin = conf.low, ymax = conf.high),
               alpha = 0.75, fill = "gray") + 
-           geom_line(linewidth = 1.25, 
+           geom_line(linewidth = 1.5, 
                      colour = "orange") + 
            scale_y_continuous(limits = c(0, 100),
                               breaks = seq(0, 100, 20),
@@ -216,11 +208,11 @@ national_cover_graph <- ggplot(data = regression_predicted_cover,
          
   national_cover_graph
          
-         
-         ggsave(national_cover_graph,
-                filename = "Output Figures\\National Time Mixed Model - EMI - Whole Study.jpg",
-                units = "in",
-                height = 8, width = 12, dpi = 300, limitsize = FALSE)
+
+ggsave(national_cover_graph,
+          filename = "Output Figures\\National Time Mixed Model - Abiotic Color - Whole Study.jpg",
+          units = "in",
+          height = 8, width = 12, dpi = 300, limitsize = FALSE)
          
          
 #Task 2 - Graph the results of the predicted values for the Shannon-Diversity & Richness
@@ -230,11 +222,11 @@ national_cover_graph <- ggplot(data = regression_predicted_cover,
  # different regions, will be shown. 
          
 regression_predicted_species <- regression_predicted %>%
-           filter(Metric == "Salt Ratio") %>%
-           mutate(stderr.low = ifelse(stderr.low < 0, 0, stderr.low))
+           filter(Metric == "EMI") %>%
+           mutate(conf.low = ifelse(conf.low < 0, 0, conf.low))
 
 veg_graph <- veg_format %>%
-           filter(Metric == "Salt Ratio")
+           filter(Metric == "EMI")
          
          national_cover_graph <- ggplot(data = regression_predicted_species,
                                         aes(x = Year,
@@ -242,18 +234,18 @@ veg_graph <- veg_format %>%
            geom_point(data = veg_graph,
                       aes(x = Year,
                           y = Value),
-                      size = 4.5, alpha = 0.35) +
-           geom_ribbon(aes(x = Year, ymin = stderr.low, ymax = stderr.high),
-                       alpha = 0.75, fill = "gray") + 
-           geom_line(linewidth = 1.5, 
-                     linetype = "dashed") + 
+                      size = 4.5, alpha = 0.35, colour = "darkblue") +
+           geom_ribbon(aes(x = Year, ymin = conf.low, ymax = conf.high),
+                       alpha = 0.65, fill = "gray") + 
+           geom_line(linewidth = 1.5,
+                     colour = "orange") + 
            scale_y_continuous(limits = c(0, 1.1),
                               breaks = seq(0, 1, 0.25),
                               expand = c(0,0)) +
            scale_x_continuous(limits = c(2005, 2022.5),
                               breaks = seq(2006, 2022, 2),
                               expand = c(0,0)) +
-           labs(y = "Salt Ratio",
+           labs(y = "Ecotone Migration Index",
                 x = "") +
            theme_bw() +
            theme(
@@ -272,7 +264,7 @@ veg_graph <- veg_format %>%
          
          
          ggsave(national_cover_graph,
-                filename = "Output Figures\\National Time Mixed Model - Salt Ratio - Whole Study.jpg",
+                filename = "Output Figures\\National Time Mixed Model - EMI Color - Whole Study.jpg",
                 units = "in",
                 height = 8, width = 12, dpi = 300, limitsize = FALSE)
          

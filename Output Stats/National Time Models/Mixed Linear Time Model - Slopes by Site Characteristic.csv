@@ -1,0 +1,127 @@
+"","Site_variable","Category","Metric","slope"
+"1","Geomorphology","Back Barrier","Abiotic Cover",0.475
+"2","Geomorphology","Back Barrier","Live Cover",-0.475
+"3","Geomorphology","Back Barrier","Halophyte Cover",-0.633
+"4","Geomorphology","Back Barrier","Freshwater Cover",0.042
+"5","Geomorphology","Back Barrier","Invasive Cover",0.006
+"6","Geomorphology","Back Barrier","EMI",0.006
+"7","Geomorphology","Back Barrier","Salt Ratio",-0.002
+"8","Geomorphology","Back Barrier","Shannon-Weiner Diversity",0.002
+"9","Geomorphology","Back Barrier","Richness",0.007
+"10","Geomorphology","Bay Front","Abiotic Cover",1.592
+"11","Geomorphology","Bay Front","Live Cover",-1.591
+"12","Geomorphology","Bay Front","Halophyte Cover",-1.556
+"13","Geomorphology","Bay Front","Freshwater Cover",-0.004
+"14","Geomorphology","Bay Front","Invasive Cover",0.004
+"15","Geomorphology","Bay Front","EMI",0.011
+"16","Geomorphology","Bay Front","Salt Ratio",-0.011
+"17","Geomorphology","Bay Front","Shannon-Weiner Diversity",-0.014
+"18","Geomorphology","Bay Front","Richness",-0.036
+"19","Geomorphology","Riverine","Abiotic Cover",-0.252
+"20","Geomorphology","Riverine","Live Cover",0.24
+"21","Geomorphology","Riverine","Halophyte Cover",0.476
+"22","Geomorphology","Riverine","Freshwater Cover",0.043
+"23","Geomorphology","Riverine","Invasive Cover",0.012
+"24","Geomorphology","Riverine","EMI",0.002
+"25","Geomorphology","Riverine","Salt Ratio",-0.003
+"26","Geomorphology","Riverine","Shannon-Weiner Diversity",0.006
+"27","Geomorphology","Riverine","Richness",0.006
+"28","Region","Gulf Coast","Abiotic Cover",6.191
+"29","Region","Gulf Coast","Live Cover",-6.189
+"30","Region","Gulf Coast","Halophyte Cover",-5.004
+"31","Region","Gulf Coast","Freshwater Cover",-0.144
+"32","Region","Gulf Coast","Invasive Cover",0.003
+"33","Region","Gulf Coast","EMI",0.028
+"34","Region","Gulf Coast","Salt Ratio",-0.04
+"35","Region","Gulf Coast","Shannon-Weiner Diversity",-0.021
+"36","Region","Gulf Coast","Richness",-0.079
+"37","Region","Mid-Atlantic","Abiotic Cover",-1.455
+"38","Region","Mid-Atlantic","Live Cover",1.455
+"39","Region","Mid-Atlantic","Halophyte Cover",0.831
+"40","Region","Mid-Atlantic","Freshwater Cover",0.609
+"41","Region","Mid-Atlantic","Invasive Cover",0.086
+"42","Region","Mid-Atlantic","EMI",-0.001
+"43","Region","Mid-Atlantic","Salt Ratio",0.002
+"44","Region","Mid-Atlantic","Shannon-Weiner Diversity",-0.001
+"45","Region","Mid-Atlantic","Richness",0.013
+"46","Region","Northeast","Abiotic Cover",0.58
+"47","Region","Northeast","Live Cover",-0.58
+"48","Region","Northeast","Halophyte Cover",-0.708
+"49","Region","Northeast","Freshwater Cover",-0.033
+"50","Region","Northeast","Invasive Cover",0.007
+"51","Region","Northeast","EMI",0.01
+"52","Region","Northeast","Salt Ratio",0.001
+"53","Region","Northeast","Shannon-Weiner Diversity",-0.007
+"54","Region","Northeast","Richness",-0.007
+"55","Region","Southeast","Abiotic Cover",0.036
+"56","Region","Southeast","Live Cover",-0.052
+"57","Region","Southeast","Halophyte Cover",-0.09
+"58","Region","Southeast","Freshwater Cover",0.019
+"59","Region","Southeast","Invasive Cover",0
+"60","Region","Southeast","EMI",0.002
+"61","Region","Southeast","Salt Ratio",-0.01
+"62","Region","Southeast","Shannon-Weiner Diversity",0.003
+"63","Region","Southeast","Richness",-0.001
+"64","Region","West Coast","Abiotic Cover",-0.138
+"65","Region","West Coast","Live Cover",0.138
+"66","Region","West Coast","Halophyte Cover",0.295
+"67","Region","West Coast","Freshwater Cover",0.028
+"68","Region","West Coast","Invasive Cover",0
+"69","Region","West Coast","EMI",0.001
+"70","Region","West Coast","Salt Ratio",0.002
+"71","Region","West Coast","Shannon-Weiner Diversity",0.005
+"72","Region","West Coast","Richness",0.003
+"73","salinity","Mesohaline","Abiotic Cover",0.207
+"74","salinity","Mesohaline","Live Cover",-0.207
+"75","salinity","Mesohaline","Halophyte Cover",0.334
+"76","salinity","Mesohaline","Freshwater Cover",0.038
+"77","salinity","Mesohaline","Invasive Cover",-0.039
+"78","salinity","Mesohaline","EMI",0.009
+"79","salinity","Mesohaline","Salt Ratio",-0.001
+"80","salinity","Mesohaline","Shannon-Weiner Diversity",0.011
+"81","salinity","Mesohaline","Richness",0.031
+"82","salinity","Oligohaline","Abiotic Cover",-0.936
+"83","salinity","Oligohaline","Live Cover",0.936
+"84","salinity","Oligohaline","Halophyte Cover",0.493
+"85","salinity","Oligohaline","Freshwater Cover",0.312
+"86","salinity","Oligohaline","Invasive Cover",0.077
+"87","salinity","Oligohaline","EMI",-0.005
+"88","salinity","Oligohaline","Salt Ratio",-0.011
+"89","salinity","Oligohaline","Shannon-Weiner Diversity",0.017
+"90","salinity","Oligohaline","Richness",0.047
+"91","salinity","Polyhaline","Abiotic Cover",0.911
+"92","salinity","Polyhaline","Live Cover",-0.917
+"93","salinity","Polyhaline","Halophyte Cover",-0.856
+"94","salinity","Polyhaline","Freshwater Cover",-0.024
+"95","salinity","Polyhaline","Invasive Cover",0.003
+"96","salinity","Polyhaline","EMI",0.007
+"97","salinity","Polyhaline","Salt Ratio",-0.005
+"98","salinity","Polyhaline","Shannon-Weiner Diversity",-0.007
+"99","salinity","Polyhaline","Richness",-0.023
+"100","tidal_range","Macrotidal","Abiotic Cover",-0.777
+"101","tidal_range","Macrotidal","Live Cover",0.777
+"102","tidal_range","Macrotidal","Halophyte Cover",0.366
+"103","tidal_range","Macrotidal","Freshwater Cover",0.091
+"104","tidal_range","Macrotidal","Invasive Cover",0
+"105","tidal_range","Macrotidal","EMI",0.002
+"106","tidal_range","Macrotidal","Salt Ratio",0.001
+"107","tidal_range","Macrotidal","Shannon-Weiner Diversity",0.009
+"108","tidal_range","Macrotidal","Richness",0.03
+"109","tidal_range","Mesotidal","Abiotic Cover",0.128
+"110","tidal_range","Mesotidal","Live Cover",-0.128
+"111","tidal_range","Mesotidal","Halophyte Cover",0.062
+"112","tidal_range","Mesotidal","Freshwater Cover",-0.053
+"113","tidal_range","Mesotidal","Invasive Cover",-0.003
+"114","tidal_range","Mesotidal","EMI",0.004
+"115","tidal_range","Mesotidal","Salt Ratio",0.002
+"116","tidal_range","Mesotidal","Shannon-Weiner Diversity",-0.001
+"117","tidal_range","Mesotidal","Richness",-0.015
+"118","tidal_range","Microtidal","Abiotic Cover",1.089
+"119","tidal_range","Microtidal","Live Cover",-1.097
+"120","tidal_range","Microtidal","Halophyte Cover",-1.074
+"121","tidal_range","Microtidal","Freshwater Cover",0.072
+"122","tidal_range","Microtidal","Invasive Cover",0.016
+"123","tidal_range","Microtidal","EMI",0.008
+"124","tidal_range","Microtidal","Salt Ratio",-0.011
+"125","tidal_range","Microtidal","Shannon-Weiner Diversity",-0.004
+"126","tidal_range","Microtidal","Richness",-0.008

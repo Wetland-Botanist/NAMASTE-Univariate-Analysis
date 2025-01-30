@@ -104,7 +104,7 @@ regression_multi_zones <- veg_format %>%
   ungroup() %>%
   filter(Veg_Zone_Count > 1) %>%
   group_by(Reserve, SiteID, Metric, SampleSize, Region, salinity, tidal_range, Geomorphology) %>%
-  nest() %>%
+  nest()
   mutate(regression = map(.x = data,
                           ~anova(lm(Value ~ Year * Vegetation_Zone,
                                       data = .x)) %>%
@@ -285,7 +285,6 @@ veg_site <- veg_format %>%
   gather(Region:salinity,
          key = "site_variable",
          value = "Category") %>%
-  #with less than 3 years of data, must span at least 5 years
   select(-c(Vegetation_Zone))
 
 glimpse(veg_site)
@@ -296,12 +295,11 @@ glimpse(veg_site)
 
 # This is accomplished by nesting the data essentially by Site and Metric
 regression_slopes_site <- veg_site %>%
-  group_by(Reserve, SiteID, Metric) %>%
+  group_by(Reserve, SiteID, Metric, site_variable) %>%
   mutate(SampleSize = n()) %>%
   ungroup() %>%
-  filter(SampleSize > 2) %>%
   group_by(Reserve, SiteID, site_variable, Category, Metric, SampleSize) %>%
-  nest() %>%
+  nest()
   mutate(regression = map(.x = data,
                           ~summary(lm(Value ~ Year,
                                       data = .x)) %>%

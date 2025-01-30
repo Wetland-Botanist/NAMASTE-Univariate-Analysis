@@ -1,0 +1,109 @@
+,Site_variable,Metric,SampleSize,term,sumsq,meansq,statistic,p.value
+28,Geomorphology,Abiotic Cover,424,Year,1573.653,1573.653,12.468,0
+29,Geomorphology,Abiotic Cover,424,Category,2546.696,1273.348,10.089,0
+30,Geomorphology,Abiotic Cover,424,Year:Category,2545.029,1272.515,10.082,0
+40,Geomorphology,EMI,424,Year,0.162,0.162,23.569,0
+41,Geomorphology,EMI,424,Category,0.064,0.032,4.68,0.01
+42,Geomorphology,EMI,424,Year:Category,0.065,0.032,4.715,0.01
+37,Geomorphology,Freshwater Cover,424,Year,3.118,3.118,0.743,0.389
+38,Geomorphology,Freshwater Cover,424,Category,1.851,0.925,0.221,0.802
+39,Geomorphology,Freshwater Cover,424,Year:Category,2.001,1,0.238,0.788
+34,Geomorphology,Halophyte Cover,424,Year,1396.092,1396.092,13.124,0
+35,Geomorphology,Halophyte Cover,424,Category,3075.845,1537.923,14.457,0
+36,Geomorphology,Halophyte Cover,424,Year:Category,3061.395,1530.697,14.39,0
+43,Geomorphology,Invasive Cover,424,Year,0.23,0.23,0.732,0.393
+44,Geomorphology,Invasive Cover,424,Category,0.049,0.025,0.078,0.925
+45,Geomorphology,Invasive Cover,424,Year:Category,0.048,0.024,0.077,0.926
+31,Geomorphology,Live Cover,424,Year,1592.618,1592.618,12.616,0
+32,Geomorphology,Live Cover,424,Category,2515.51,1257.755,9.964,0
+33,Geomorphology,Live Cover,424,Year:Category,2513.841,1256.921,9.957,0
+46,Geomorphology,Richness,424,Year,0.243,0.243,1.344,0.247
+47,Geomorphology,Richness,424,Category,1.644,0.822,4.548,0.011
+48,Geomorphology,Richness,424,Year:Category,1.672,0.836,4.626,0.01
+52,Geomorphology,Salt Ratio,424,Year,0.113,0.113,19.093,0
+53,Geomorphology,Salt Ratio,424,Category,0.066,0.033,5.547,0.004
+54,Geomorphology,Salt Ratio,424,Year:Category,0.065,0.033,5.502,0.004
+49,Geomorphology,Shannon-Weiner Diversity,424,Year,0.015,0.015,1.202,0.274
+50,Geomorphology,Shannon-Weiner Diversity,424,Category,0.306,0.153,12.201,0
+51,Geomorphology,Shannon-Weiner Diversity,424,Year:Category,0.308,0.154,12.304,0
+1,Region,Abiotic Cover,424,Year,3056.583,3056.583,31.684,0
+2,Region,Abiotic Cover,424,Category,13754.963,3438.741,35.645,0
+3,Region,Abiotic Cover,424,Year:Category,13769.661,3442.415,35.683,0
+13,Region,EMI,424,Year,0.172,0.172,27.157,0
+14,Region,EMI,424,Category,0.266,0.067,10.521,0
+15,Region,EMI,424,Year:Category,0.268,0.067,10.599,0
+10,Region,Freshwater Cover,424,Year,25.596,25.596,6.56,0.011
+11,Region,Freshwater Cover,424,Category,103.802,25.95,6.651,0
+12,Region,Freshwater Cover,424,Year:Category,104.858,26.215,6.719,0
+7,Region,Halophyte Cover,424,Year,2446.761,2446.761,26.9,0
+8,Region,Halophyte Cover,424,Category,8965.785,2241.446,24.643,0
+9,Region,Halophyte Cover,424,Year:Category,9002.065,2250.516,24.742,0
+16,Region,Invasive Cover,424,Year,1.069,1.069,3.463,0.064
+17,Region,Invasive Cover,424,Category,1.749,0.437,1.417,0.228
+18,Region,Invasive Cover,424,Year:Category,1.837,0.459,1.488,0.205
+4,Region,Live Cover,424,Year,3072.697,3072.697,31.85,0
+5,Region,Live Cover,424,Category,13726.948,3431.737,35.571,0
+6,Region,Live Cover,424,Year:Category,13741.922,3435.48,35.61,0
+19,Region,Richness,424,Year,0.565,0.565,3.139,0.077
+20,Region,Richness,424,Category,2.202,0.551,3.057,0.017
+21,Region,Richness,424,Year:Category,2.207,0.552,3.064,0.017
+25,Region,Salt Ratio,424,Year,0.226,0.226,50.147,0
+26,Region,Salt Ratio,424,Category,0.59,0.148,32.722,0
+27,Region,Salt Ratio,424,Year:Category,0.591,0.148,32.754,0
+22,Region,Shannon-Weiner Diversity,424,Year,0.051,0.051,4.008,0.046
+23,Region,Shannon-Weiner Diversity,424,Category,0.263,0.066,5.174,0
+24,Region,Shannon-Weiner Diversity,424,Year:Category,0.262,0.066,5.16,0
+82,salinity,Abiotic Cover,424,Year,8.106,8.106,0.063,0.802
+83,salinity,Abiotic Cover,424,Category,1789.3,894.65,6.975,0.001
+84,salinity,Abiotic Cover,424,Year:Category,1778.334,889.167,6.932,0.001
+94,salinity,EMI,424,Year,0.033,0.033,4.834,0.029
+95,salinity,EMI,424,Category,0.079,0.04,5.757,0.003
+96,salinity,EMI,424,Year:Category,0.08,0.04,5.844,0.003
+91,salinity,Freshwater Cover,424,Year,25.652,25.652,6.35,0.012
+92,salinity,Freshwater Cover,424,Category,52.817,26.408,6.537,0.002
+93,salinity,Freshwater Cover,424,Year:Category,55.549,27.774,6.875,0.001
+88,salinity,Halophyte Cover,424,Year,0.215,0.215,0.002,0.965
+89,salinity,Halophyte Cover,424,Category,1333.776,666.888,6.006,0.003
+90,salinity,Halophyte Cover,424,Year:Category,1310.529,655.265,5.901,0.003
+97,salinity,Invasive Cover,424,Year,0.409,0.409,1.356,0.245
+98,salinity,Invasive Cover,424,Category,4.328,2.164,7.18,0.001
+99,salinity,Invasive Cover,424,Year:Category,4.344,2.172,7.208,0.001
+85,salinity,Live Cover,424,Year,8.571,8.571,0.067,0.796
+86,salinity,Live Cover,424,Category,1800.593,900.297,7.025,0.001
+87,salinity,Live Cover,424,Year:Category,1789.6,894.8,6.982,0.001
+100,salinity,Richness,424,Year,0.736,0.736,4.168,0.042
+101,salinity,Richness,424,Category,3.067,1.534,8.681,0
+102,salinity,Richness,424,Year:Category,3.164,1.582,8.953,0
+106,salinity,Salt Ratio,424,Year,0.067,0.067,11.137,0.001
+107,salinity,Salt Ratio,424,Category,0.027,0.014,2.276,0.104
+108,salinity,Salt Ratio,424,Year:Category,0.029,0.014,2.381,0.094
+103,salinity,Shannon-Weiner Diversity,424,Year,0.103,0.103,8.326,0.004
+104,salinity,Shannon-Weiner Diversity,424,Category,0.349,0.175,14.083,0
+105,salinity,Shannon-Weiner Diversity,424,Year:Category,0.357,0.178,14.378,0
+55,tidal_range,Abiotic Cover,424,Year,49.322,49.322,0.382,0.537
+56,tidal_range,Abiotic Cover,424,Category,1556.552,778.276,6.023,0.003
+57,tidal_range,Abiotic Cover,424,Year:Category,1579.163,789.581,6.11,0.002
+67,tidal_range,EMI,424,Year,0.047,0.047,6.779,0.01
+68,tidal_range,EMI,424,Category,0.027,0.014,1.952,0.144
+69,tidal_range,EMI,424,Year:Category,0.028,0.014,2.007,0.136
+64,tidal_range,Freshwater Cover,424,Year,3.082,3.082,0.742,0.39
+65,tidal_range,Freshwater Cover,424,Category,15.919,7.96,1.916,0.149
+66,tidal_range,Freshwater Cover,424,Year:Category,16.147,8.073,1.943,0.145
+61,tidal_range,Halophyte Cover,424,Year,105.568,105.568,0.955,0.329
+62,tidal_range,Halophyte Cover,424,Category,1514.952,757.476,6.856,0.001
+63,tidal_range,Halophyte Cover,424,Year:Category,1531.439,765.72,6.931,0.001
+70,tidal_range,Invasive Cover,424,Year,0.046,0.046,0.147,0.701
+71,tidal_range,Invasive Cover,424,Category,0.374,0.187,0.601,0.549
+72,tidal_range,Invasive Cover,424,Year:Category,0.387,0.194,0.623,0.537
+58,tidal_range,Live Cover,424,Year,50.903,50.903,0.394,0.53
+59,tidal_range,Live Cover,424,Category,1573.757,786.879,6.095,0.002
+60,tidal_range,Live Cover,424,Year:Category,1596.564,798.282,6.183,0.002
+73,tidal_range,Richness,424,Year,0.013,0.013,0.069,0.792
+74,tidal_range,Richness,424,Category,0.574,0.287,1.559,0.212
+75,tidal_range,Richness,424,Year:Category,0.575,0.288,1.562,0.211
+79,tidal_range,Salt Ratio,424,Year,0.015,0.015,2.748,0.098
+80,tidal_range,Salt Ratio,424,Category,0.165,0.083,14.66,0
+81,tidal_range,Salt Ratio,424,Year:Category,0.164,0.082,14.607,0
+76,tidal_range,Shannon-Weiner Diversity,424,Year,0.004,0.004,0.273,0.602
+77,tidal_range,Shannon-Weiner Diversity,424,Category,0.044,0.022,1.669,0.19
+78,tidal_range,Shannon-Weiner Diversity,424,Year:Category,0.046,0.023,1.725,0.18
