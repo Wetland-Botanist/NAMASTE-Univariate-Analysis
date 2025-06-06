@@ -1,9 +1,0 @@
-"","Metric","slope.mean","slope.se"
-"1","Abiotic Cover",0.9,0.416
-"2","Live Cover",-0.901,0.415
-"3","Halophyte Cover",-0.37,0.353
-"4","Freshwater Cover",-0.009,0.078
-"5","EMI",0.009,0.003
-"6","Salt Ratio",-0.005,0.003
-"7","Shannon-Weiner Diversity",0.008,0.006
-"8","Richness",0.02,0.02

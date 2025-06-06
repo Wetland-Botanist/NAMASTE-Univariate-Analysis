@@ -1,9 +1,0 @@
-,x.Abiotic_Cover,x.Live_Cover,x.Halophyte_Cover,x.Freshwater_Cover,x.EMI,x.Salt_Ratio,x.Species_Richness,x.Shannon_Weiner
-x.Abiotic_Cover,NA,0,0,0.919482633,0,0,0,0
-x.Live_Cover,0,NA,0,0.91926872,0,0,0,0
-x.Halophyte_Cover,0,0,NA,1.06E-05,8.26E-10,0,3.39E-09,8.63E-08
-x.Freshwater_Cover,0.919482633,0.91926872,1.06E-05,NA,0.072193714,0.000389705,0,1.33E-15
-x.EMI,0,0,8.26E-10,0.072193714,NA,0.002402022,0,3.40E-14
-x.Salt_Ratio,0,0,0,0.000389705,0.002402022,NA,2.41E-13,2.60E-09
-x.Species_Richness,0,0,3.39E-09,0,0,2.41E-13,NA,0
-x.Shannon_Weiner,0,0,8.63E-08,1.33E-15,3.40E-14,2.60E-09,0,NA
