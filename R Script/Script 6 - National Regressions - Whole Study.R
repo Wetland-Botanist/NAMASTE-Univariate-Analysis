@@ -15,9 +15,8 @@
 # is very similar to scripts 4 & 5. 
 
 
-#-----------------------------------
-#Chapter 1: Import package library
-#-----------------------------------
+
+#Chapter 1: Import package library --------------------------------------------
 
 
 #Data Analysis Packages
@@ -39,13 +38,12 @@ library(ggeffects)
 library(ggplot2)
 library(patchwork)
 
-#---------------------------------------------------------------------------------------------
-#Chapter 2: Format the vegetation dataset for broom - map functions to create numerous models
-#---------------------------------------------------------------------------------------------
+
+#Chapter 2: Format the vegetation dataset for broom - map functions ------------------
+
 
 veg <- read.csv("Formatted Datasets\\Veg Dataframe Summarised By Site.csv") %>%
-  select(-X) %>%
-  rename(EMI = EIR)
+  select(-X)
 
 glimpse(veg)
 
@@ -55,10 +53,13 @@ glimpse(veg)
 # for simultaneous linear regressions for each vegetation metric for each site variable!
 
 veg_format <- veg %>%
+  # Format the data table from wide to long
   gather(abiotic_cover:salt_ratio,
          key = "Metric",
          value = "Value") %>%
+  # Remove any NA values from the dataset (QAQCing the dataset before analysis)
   filter(!is.na(Value)) %>%
+  # Long winded code to rename the variables 
   mutate(Metric = ifelse(Metric == "abiotic_cover", "Abiotic Cover", 
                          ifelse(Metric == "live_cover", "Live Cover",
                                 ifelse(Metric == "halophyte", "Halophyte Cover",
@@ -67,6 +68,7 @@ veg_format <- veg %>%
                                                      ifelse(Metric == "salt_ratio", "Salt Ratio", 
                                                             ifelse(Metric == "invasive_cover", "Invasive Cover",
                                                                    Metric)))))))) %>%
+  # Assign factors to each vegetation metric for review and graphing purposes
   mutate(Metric = factor(Metric, levels = c("Abiotic Cover", "Live Cover", "Halophyte Cover",
                                             "Freshwater Cover", "Invasive Cover", "EMI", 
                                             "Salt Ratio", "Shannon-Weiner Diversity", "Richness")))
@@ -74,59 +76,70 @@ veg_format <- veg %>%
 glimpse(veg_format)
 
 
-#------------------------------------------------------------------------------------------
-#Chapter 3: Conduct mixed linear regressions of each vegetation metric
-#------------------------------------------------------------------------------------------
 
-# This is accomplished by nesting the data essentially by Vegetation Zone and Vegetation Metric (long dataset)
+#Chapter 3: Mixed linear regressions of each vegetation metric -------------------------------
+
+
+# This is accomplished by nesting the data essentially by Vegetation Zone 
+# and Vegetation Metric (long dataset)
 
 # Mixed linear modeling is a simple time model with random factors of Reserve and nested Site 
 
 regression_models_site <- veg_format %>%
   group_by(Metric) %>%
+  # Calculate the sample size for reporting in the ANOVA table
   mutate(SampleSize = n()) %>%
   ungroup() %>%
+  # Group the metrics to create mixed linear models over time
   group_by(Metric, SampleSize) %>%
   nest() %>%
+  # Mixed linear models for each vegetation metric
   mutate(regression = map(.x = data,
                           ~lmer(Value ~ Year + (1|Reserve/SiteID),
                                 data = .x) %>%
+                            # Create the ANOVA Table for each model
                             anova() %>%
                             select(-NumDF, -DenDF) %>%
+                            # Format the ANOVA table into a dataframe
                             tidy())) %>%
-  
+  # Unnest and keep the ANOVA tables of the mixed linear models
   unnest(regression) %>%
   select(-data) %>%
+  # Format the ANOVA table by rounding all values to 3 decimal places
   mutate(across(sumsq:p.value, ~round(., 3))) %>%
   ungroup() 
 
 glimpse(regression_models_site)
 
-
+# Export and save the ANOVA tables of the time series mixed linear models
 write.csv(regression_models_site,
           "Output Stats\\Mixed Linear Time Model - Regression Model Outputs Across Study.csv")
 
 
 
-#---------------------------------------------------------------------------------------
-#Chapter 4: Calculate the Slopes of each Vegetation Metric
-#---------------------------------------------------------------------------------------
+
+# Chapter 4: Calculate the Slopes of each Vegetation Metric -------------------------
 
 # Run a dplyr loop to predict the values of the national vegetation regressions
 
 regression_predicted <- veg_format %>%
   group_by(Metric) %>%
   nest() %>%
+  # Again, create the mixed models and then use the models to predict the slopes
   mutate(regression = map(.x = data,
+                          # Create the mixed linear models
                           ~lmer(Value ~ Year + (1|Reserve/SiteID),
                                 data = .x) %>%
+                            # Use ggpredict to predict values of each model over time
                             ggpredict(., 
                                       terms = c("Year [all]"),
                                       type = "fixed", interval = "confidence"))) %>%
   select(-data) %>%
+  # Pull out the table of predicted values
   unnest(regression) %>%
   rename(Year = x,
          Value_pred = predicted) %>%
+  # Calculate the standard error low and high for graphing purposes
   mutate(stderr.low = Value_pred - std.error,
          stderr.high = Value_pred + std.error) %>%
   select(Metric, Year, Value_pred, std.error, stderr.low, stderr.high, conf.low, conf.high) %>%
@@ -139,6 +152,8 @@ glimpse(regression_predicted)
 
 regression_slopes <- regression_predicted %>%
   group_by(Metric) %>%
+  # Use the predicted values to calculate the slope based on first and last 
+  # predicted value
   summarise(slope = (Value_pred[which(Year == max(Year))] - Value_pred[which(Year == min(Year))]) / ((max(Year) - min(Year)))) %>%
   ungroup() %>%
   mutate(slope = round(slope, 3))
@@ -148,9 +163,8 @@ write.csv(regression_slopes,
 
 
 
-#-----------------------------------------------------------------------------
-#Chapter 4: Graph the General Trends Across Time
-#----------------------------------------------------------------------------
+
+#Chapter 5: Graph the General Trends Across Time -------------------------------
 
 #Data visualization is broken down into 4 graphs:
 # (1) Vegetation Cover - Live, Abiotic, Freshwater, and Halophyte
@@ -164,12 +178,12 @@ write.csv(regression_slopes,
 #and Freshwater Cover
 
 regression_predicted_cover <- regression_predicted %>%
-  filter(Metric == "Abiotic Cover") %>%
+  filter(Metric == "Halophyte Cover") %>%
   mutate(conf.high = ifelse(conf.high > 100, 100, conf.high), 
          conf.low = ifelse(conf.low < 0, 0, conf.low))
   
 veg_graph <- veg_format %>%
-  filter(Metric == "Abiotic Cover")
+  filter(Metric == "Halophyte Cover")
          
          
 national_cover_graph <- ggplot(data = regression_predicted_cover,
@@ -182,9 +196,9 @@ national_cover_graph <- ggplot(data = regression_predicted_cover,
                      size = 4.5, alpha = 0.35) +
   geom_ribbon(aes(x = Year, 
                   ymin = conf.low, ymax = conf.high),
-              alpha = 0.75, fill = "gray") + 
+              alpha = 0.85, fill = "gray") + 
            geom_line(linewidth = 1.5, 
-                     colour = "orange") + 
+                     colour = "black", linetype = "dashed") + 
            scale_y_continuous(limits = c(0, 100),
                               breaks = seq(0, 100, 20),
                               expand = c(0,0)) +
@@ -210,7 +224,7 @@ national_cover_graph <- ggplot(data = regression_predicted_cover,
          
 
 ggsave(national_cover_graph,
-          filename = "Output Figures\\National Time Mixed Model - Abiotic Color - Whole Study.jpg",
+          filename = "Output Figures\\National Time Mixed Model - Halophyte Color - Whole Study.jpg",
           units = "in",
           height = 8, width = 12, dpi = 300, limitsize = FALSE)
          
@@ -222,11 +236,11 @@ ggsave(national_cover_graph,
  # different regions, will be shown. 
          
 regression_predicted_species <- regression_predicted %>%
-           filter(Metric == "EMI") %>%
+           filter(Metric == "Salt Ratio") %>%
            mutate(conf.low = ifelse(conf.low < 0, 0, conf.low))
 
 veg_graph <- veg_format %>%
-           filter(Metric == "EMI")
+           filter(Metric == "Salt Ratio")
          
          national_cover_graph <- ggplot(data = regression_predicted_species,
                                         aes(x = Year,
@@ -236,16 +250,16 @@ veg_graph <- veg_format %>%
                           y = Value),
                       size = 4.5, alpha = 0.35, colour = "darkblue") +
            geom_ribbon(aes(x = Year, ymin = conf.low, ymax = conf.high),
-                       alpha = 0.65, fill = "gray") + 
+                       alpha = 0.85, fill = "gray") + 
            geom_line(linewidth = 1.5,
-                     colour = "orange") + 
+                     colour = "black", linetype = "dashed") + 
            scale_y_continuous(limits = c(0, 1.1),
                               breaks = seq(0, 1, 0.25),
                               expand = c(0,0)) +
            scale_x_continuous(limits = c(2005, 2022.5),
                               breaks = seq(2006, 2022, 2),
                               expand = c(0,0)) +
-           labs(y = "Ecotone Migration Index",
+           labs(y = "Salt Ratio",
                 x = "") +
            theme_bw() +
            theme(
@@ -264,7 +278,7 @@ veg_graph <- veg_format %>%
          
          
          ggsave(national_cover_graph,
-                filename = "Output Figures\\National Time Mixed Model - EMI Color - Whole Study.jpg",
+                filename = "Output Figures\\National Time Mixed Model - Salt Ratio - Whole Study.jpg",
                 units = "in",
                 height = 8, width = 12, dpi = 300, limitsize = FALSE)
          

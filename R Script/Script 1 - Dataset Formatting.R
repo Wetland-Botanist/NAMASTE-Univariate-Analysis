@@ -19,9 +19,9 @@
 #   this script, they are then formatted for future analyses. Skimr data summary are conducted at the end of script. 
 
 
-#-------------------------------------
-#Chapter 1: Import package library
-#-------------------------------------
+
+# Chapter 1: Import package library --------------------------------------------
+
 
 #Data Analysis
 
@@ -29,16 +29,15 @@ library(dplyr)
 library(tidyverse)
 library(skimr)
 
-#--------------------------------------------------------------
-#Chapter 2: Import and Format the National Plot Dataframe
-#----------------------------------------------------------------
+
+# Chapter 2: Import and Format the National Plot Dataframe --------------------------
 
 #Task 1: Import and format the 'veg_and_expl' dataset (aka the National Plot Dataset)
  
   # The 'veg_and_expl' dataset contains the calculated vegetation characteristics 
   # and the site characteristics
 
-veg <- read.csv("Input Data\\veg_and_expl_Sept24.csv")
+veg <- read.csv("Input Data\\Finalized National Plot Dataframe July 2025.csv")
 
 glimpse(veg)
 
@@ -48,7 +47,7 @@ veg_format <- veg %>%
   #Select the relevant site identifiers, site characteristics, and vegetation metrics for future analyses
   select(Reserve, SiteID, TransectID, PlotID, Vegetation_Zone, Year,
          Total.unvegetated, Total.live.veg, H.Halophyte,
-         F.Freshwater, EIR, Invasive_Cover, Richness, SWdiv, Salt_to_Total, 
+         F.Freshwater, EMI, Invasive_Cover, Richness, SWdiv, Salt_to_Total, 
          NERR.Region, Geomorphology, Tidal.Range, Salinity.category) %>%
   #Rename columns for ease of coding for the rest of the scripts
   rename(
@@ -103,9 +102,8 @@ write.csv(veg_site, "Formatted Datasets\\Veg Dataframe Summarised By Site.csv")
 
 
 
-#--------------------------------------------------------------
-#Chapter 3: Format the Slope - Site Data Frame
-#-------------------------------------------------------------
+
+#Chapter 3: Format the Slope - Site Data Frame ---------------------------------
 
 #Task 1: Import the vegetation metric slope data frame summarized by site 
 
@@ -117,7 +115,7 @@ slope_format <- slope_site %>%
   # Select the relevant site identifiers, characteristics, explanatory factors, and vegetation metrics
   select(Reserve, SiteID,
          Total.unvegetated_slope, Total.live.veg_slope, H.Halophyte_slope,
-         F.Freshwater_slope, EIR_slope, Invasive_Cover_slope, Richness_slope, 
+         F.Freshwater_slope, EMI_slope, Invasive_Cover_slope, Richness_slope, 
          SWdiv_slope, Salt_to_Total_slope, 
          NERR_Region, Geomorphology, Tidal_Range, Salinity_category,
          SLR_last19yrs, NERRs_Landscape_resiliency_condition_sum_quantile) %>%
@@ -139,9 +137,8 @@ write.csv(slope_format,
           "Formatted Datasets\\Veg Slope by Site Formatted.csv")
 
 
-#--------------------------------------------------------------
-#Chapter 4: Format the Slope - Site - Veg Zone Data Frame
-#-------------------------------------------------------------
+
+# Chapter 4: Format the Slope - Site - Veg Zone Data Frame ---------------------------
 
 #Task 1: Import the vegetation metric slope data frame summarized by site and veg zone
 
@@ -153,7 +150,7 @@ slope_format <- slope_zone %>%
   # Select the relevant site identifiers, characteristics, explanatory factors, and vegetation metrics
   select(Reserve, SiteID, Vegetation_Zone,
          Total.unvegetated_slope, Total.live.veg_slope, H.Halophyte_slope,
-         F.Freshwater_slope, EIR_slope, Invasive_Cover_slope, Richness_slope, 
+         F.Freshwater_slope, EMI_slope, Invasive_Cover_slope, Richness_slope, 
          SWdiv_slope, Salt_to_Total_slope, 
          NERR_Region, Geomorphology, Tidal_Range, Salinity_category,
          SLR_last19yrs, NERRs_Landscape_resiliency_condition_sum_quantile) %>%
@@ -187,12 +184,11 @@ write.csv(slope_format,
 # We wanted to analyze all of the vegetation cover types and retain the NAs in the original dataset
 veg_plot_skim <- veg %>%
   select(Total.unvegetated:Salicornia.pacifica) %>%
-  #Convert all zeroes into NAs to analyze the presence/abasence of all vegetation metrics
-  mutate(across(c(Total.unvegetated:Other.live.vegetation,
-                  Invasive_Cover, Spartina.alterniflora:Salicornia.pacifica),
+  #Convert all zeroes into NAs to analyze the presence/absence of all vegetation metrics
+  mutate(across(Total.unvegetated:Salicornia.pacifica,
                 ~ifelse(. == 0, NA, .))) %>%
   skim_without_charts(.) %>%
-  mutate(across(complete_rate:numeric.p100,
+  mutate(across(where(is.numeric),
                 ~round(., 2)))
        
 

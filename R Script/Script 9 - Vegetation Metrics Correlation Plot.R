@@ -15,9 +15,9 @@
 # level to better understand how vegetation metrics respond. Several types of correlation graphs are created. 
 
 
-#-----------------------------------
-#Chapter 1: Import package library
-#-----------------------------------
+
+#Chapter 1: Import package library --------------------------------------------
+
 
 #Data Analysis Packages
 
@@ -29,9 +29,8 @@ library(Hmisc)
 library(corrplot)
 library(GGally)
 
-#--------------------------------------------
-#Chapter 2: Format the vegetation dataset
-#------------------------------------------
+
+#Chapter 2: Format the vegetation dataset ------------------------------------
 
 veg <- read.csv("Formatted Datasets\\Veg Dataframe Summarised By Site.csv") %>%
   select(-X)
@@ -39,21 +38,20 @@ veg <- read.csv("Formatted Datasets\\Veg Dataframe Summarised By Site.csv") %>%
 glimpse(veg)
 
 veg_format <- veg %>%
-  select(abiotic_cover, live_cover, halophyte, freshwater, EIR, salt_ratio, Richness, SWdiv) %>%
+  select(abiotic_cover, live_cover, halophyte, freshwater, EMI, salt_ratio, Richness, SWdiv) %>%
   rename(
     Abiotic_Cover = abiotic_cover,
     Live_Cover = live_cover,
     Halophyte_Cover = halophyte,
     Freshwater_Cover = freshwater,
-    EMI = EIR,
     Salt_Ratio = salt_ratio,
     Species_Richness = Richness,
     Shannon_Weiner = SWdiv)
 
+glimpse(veg_format)
 
-#-------------------------------------------
-#Chapter 3: Calculate Correlation Matrix
-#-------------------------------------------
+
+#Chapter 3: Calculate Correlation Matrix ----------------------------------------
 
 spearman_corr <- rcorr(x = as.matrix(veg_format),
                      type = "spearman")
@@ -62,7 +60,9 @@ glimpse(spearman_corr)
 
 spearman_r <- tidy(spearman_corr$r)
 
-spearman_p <- tidy(spearman_corr$P)
+glimpse(spearman_r)
+
+spearman_p <- spearman_corr$P
 
 write.csv(spearman_r, 
           "Output Stats\\Vegetation Spearman Correlation - r values.csv")
@@ -71,11 +71,10 @@ write.csv(spearman_p,
           "Output Stats\\Vegetation Spearman Correlation - p values.csv")
 
 
-#--------------------------------------------------------------------------
-#Chapter 4: Create Correlation Matrix, Create Plot - Cressman Method
-#------------------------------------------------------------------------
 
-# function to format the scatterplots
+#Chapter 4: Create Correlation Matrix, Create Plot - Cressman Method ----------------------
+
+# function to format the scatter plots
 # could change method to lm, gam, whatever other things you
 # can use in geom_smooth. can also change colors, transparency, etc.
 lowerFn <- function(data, mapping, method = "lm", ...) {
@@ -110,9 +109,8 @@ ggsave(veg_spearman_graph,
        height = 10, width = 14, dpi = 300,
        filename = "Output Figures\\Veg Spearman Correlation - Mini Graph Compilation.jpg")
 
-#-------------------------------------------------------------
-# Chapter 5: Create Correlation Figure - Oval Type
-#------------------------------------------------------------
+
+# Chapter 5: Create Correlation Figure - Oval Type ------------------------------
 
 #subset out the columns you want to correlate and run that matrix through “cor” function
 
