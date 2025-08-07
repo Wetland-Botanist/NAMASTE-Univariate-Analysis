@@ -18,9 +18,8 @@
 #   and results are graphed. 
 
 
-#-----------------------------------
-#Chapter 1: Import package library
-#-----------------------------------
+
+#Chapter 1: Import package library --------------------------------------------
 
 
 #Data Analysis Packages
@@ -38,9 +37,9 @@ library(ggeffects)
 library(ggplot2)
 library(patchwork)
 
-#---------------------------------------------------------------------------------------------
-#Chapter 2: Import and Format the vegetation dataset
-#---------------------------------------------------------------------------------------------
+
+#Chapter 2: Import and Format the vegetation dataset -----------------------------------
+
 
 #Task 1 - Import the dataset and remove extraneous columns
 veg <- read.csv("Formatted Datasets\\Veg Slope by Site and Zone Formatted.csv") %>%
@@ -62,7 +61,7 @@ veg_format <- veg %>%
                                        ifelse(Metric == "SWdiv_slope", "Shannon-Weiner Diversity", 
                                               ifelse(Metric == "freshwater", "Freshwater Cover",
                                                      ifelse(Metric == "salt_ratio", "Salt Ratio", 
-                                                            ifelse(Metric == "EIR_slope", "EMI",
+                                                            ifelse(Metric == "EMI_slope", "EMI",
                                                                    ifelse(Metric == "Richness_slope", "Richness",
                                                                           Metric))))))))) %>%
   mutate(Metric = factor(Metric, levels = c("Abiotic Cover", "Live Cover", "Halophyte Cover",
@@ -73,9 +72,9 @@ veg_format <- veg %>%
 
 glimpse(veg_format)
 
-#--------------------------------------------------------------------------------------
-#Chapter 3: Sea Level Rise Regressions for the slope dataset
-#-------------------------------------------------------------------------------------
+
+#Chapter 3: Sea Level Rise Regressions for the slope dataset ---------------------------------
+
 
 #Task 1 - Run the national regressions for Sea Level Rise to vegetation metrics
 
@@ -113,6 +112,7 @@ write.csv(slr_regression,
 # Run a dplyr loop to predict the values of the regressions
 
 regression_predicted <- veg_format %>%
+  mutate(Vegetation_Zone = factor(Vegetation_Zone)) %>%
   group_by(Metric) %>%
   nest() %>%
   mutate(regression = map(.x = data,
@@ -136,7 +136,7 @@ glimpse(regression_predicted)
 #Calculate the slopes of each vegetation metric across Vegetation Zone
 
 regression_slopes <- regression_predicted %>%
-  group_by(Metric) %>%
+  group_by(Metric, Vegetation_Zone) %>%
   summarise(slope = (Value_pred[which(SLR == max(SLR))] - Value_pred[which(SLR == min(SLR))]) / ((max(SLR) - min(SLR)))) %>%
   ungroup() %>%
   mutate(slope = round(slope, 3))
@@ -195,9 +195,9 @@ ggsave(slr_graph,
        height = 8, width = 12, dpi = 300, limitsize = FALSE)
 
 
-#--------------------------------------------------------------------------------------
-#Chapter 4: Landscape Conditions Regressions for the slope dataset
-#-------------------------------------------------------------------------------------
+
+#Chapter 4: Landscape Conditions Regressions for the slope dataset --------------------------
+
 
 #Task 1 - Run the national regressions for Landscape Condition to vegetation metrics
 
@@ -231,6 +231,7 @@ write.csv(landscape_regression,
 # Run a dplyr loop to predict the values of the regressions
 
 regression_predicted <- veg_format %>%
+  mutate(Vegetation_Zone = factor(Vegetation_Zone)) %>%
   group_by(Metric) %>%
   nest() %>%
   mutate(regression = map(.x = data,
@@ -255,7 +256,7 @@ glimpse(regression_predicted)
 #Calculate the slopes of each vegetation metric across Vegetation Zone
 
 regression_slopes <- regression_predicted %>%
-  group_by(Metric) %>%
+  group_by(Metric, Vegetation_Zone) %>%
   summarise(slope = (Value_pred[which(Landscape == max(Landscape))] - Value_pred[which(Landscape == min(Landscape))]) / ((max(Landscape) - min(Landscape)))) %>%
   ungroup() %>%
   mutate(slope = round(slope, 3))

@@ -18,9 +18,8 @@
 #   and results are graphed. 
 
 
-#-----------------------------------
-#Chapter 1: Import package library
-#-----------------------------------
+
+#Chapter 1: Import package library --------------------------------------------
 
 
 #Data Analysis Packages
@@ -40,9 +39,9 @@ library(ggResidpanel)
 library(ggplot2)
 library(patchwork)
 
-#---------------------------------------------------------------------------------------------
-#Chapter 2: Import and Format the vegetation dataset
-#---------------------------------------------------------------------------------------------
+
+#Chapter 2: Import and Format the vegetation dataset -----------------------------------
+
 
 #Task 1 - Import the dataset and remove extraneous columns
 veg <- read.csv("Formatted Datasets\\Veg Slope by Site Formatted.csv") %>%
@@ -64,7 +63,7 @@ veg_format <- veg %>%
                                        ifelse(Metric == "SWdiv_slope", "Shannon-Weiner Diversity", 
                                               ifelse(Metric == "freshwater", "Freshwater Cover",
                                                      ifelse(Metric == "salt_ratio", "Salt Ratio", 
-                                                            ifelse(Metric == "EIR_slope", "EMI",
+                                                            ifelse(Metric == "EMI_slope", "EMI",
                                                                    ifelse(Metric == "Richness_slope", "Richness",
                                                                           Metric))))))))) %>%
   mutate(Metric = factor(Metric, levels = c("Abiotic Cover", "Live Cover", "Halophyte Cover",
@@ -74,9 +73,9 @@ veg_format <- veg %>%
          Landscape = NERRs_Landscape_resiliency_condition_sum_quantile)
 
 
-#--------------------------------------------------------------------------------------
-#Chapter 3: Sea Level Rise Regressions for the slope dataset
-#-------------------------------------------------------------------------------------
+
+#Chapter 3: Sea Level Rise Regressions for the slope dataset ------------------------------
+
 
 #Task 1 - Run the national regressions for Sea Level Rise to vegetation metrics
 
@@ -149,9 +148,9 @@ ggsave(slr_graph,
 
 
 
-#--------------------------------------------------------------------------------------
-#Chapter 4: Landscape Condition Regressions for the slope dataset
-#-------------------------------------------------------------------------------------
+
+#Chapter 4: Landscape Condition Regressions for the slope dataset --------------------------
+
 
 #Task 1 - Run the national regressions for Sea Level Rise to vegetation metrics
 

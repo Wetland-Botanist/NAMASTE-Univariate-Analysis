@@ -18,9 +18,8 @@
 #  is conducted to weigh the directionality and significance of the trends of EMI. Compilation analysis
 #  is then exported in CSV and graphed accordingly. 
 
-#-----------------------------------
-#Chapter 1: Import package library
-#-----------------------------------
+
+#Chapter 1: Import package library ----------------------------------------------
 
 #Data Analysis Packages
 
@@ -39,21 +38,18 @@ library(ggResidpanel)
 library(ggplot2)
 library(patchwork)
 
-#---------------------------------------------------------------------------------------------
-#Chapter 2: Format the vegetation dataset for broom - map functions to create numerous models
-#---------------------------------------------------------------------------------------------
+
+#Chapter 2: Format the vegetation dataset ---------------------------------------
 
 veg <- read.csv("Formatted Datasets\\Veg Plot Dataframe Formatted.csv") %>%
   select(-X) %>%
-  select(Reserve:Year, EIR, Region:salinity) %>%
-  rename(EMI = EIR)
+  select(Reserve:Year, EMI, Region:salinity)
 
 glimpse(veg)
 
 
-#-----------------------------------------------------------------------------------
-#Chapter 3: EMI Compilation Analysis by Vegetation Zone
-#-----------------------------------------------------------------------------------
+
+#Chapter 3: EMI Compilation Analysis by Vegetation Zone -------------------------
 
 #Task 1: Formatting and organizing the plot dataset for regression slopes
 
@@ -182,9 +178,8 @@ ggsave(EMI_veg_zone_graph,
 
 
 
-#-----------------------------------------------------------------------------
-#Chapter 4: EMI Compilation Analysis by Site Characteristics
-#-----------------------------------------------------------------------------
+
+#Chapter 4: EMI Compilation Analysis by Site Characteristics -----------------------------
 
 # Note the code in Chapter 3 is very similar to Chapter 2 with minor changes to accommodate
 # the change in the geographic scope of the analysis: from Vegetation Zone --> Site Level.  
@@ -280,9 +275,8 @@ write.csv(score_stats_site,
           "Output Stats\\Compilation Analysis - EMI Score Stats - Site-level.csv")
 
 
-#-----------------------------------------------------------------------
-#Chapter 5: Graphing the Compilation Analysis by Site Characteristics
-#-----------------------------------------------------------------------
+
+#Chapter 5: Graphing the Compilation Analysis by Site Characteristics ----------------------------
 
 #Task 1: Graph the compilation analysis score by Region
 

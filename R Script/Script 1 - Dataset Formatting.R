@@ -48,7 +48,8 @@ veg_format <- veg %>%
   select(Reserve, SiteID, TransectID, PlotID, Vegetation_Zone, Year,
          Total.unvegetated, Total.live.veg, H.Halophyte,
          F.Freshwater, EMI, Invasive_Cover, Richness, SWdiv, Salt_to_Total, 
-         NERR.Region, Geomorphology, Tidal.Range, Salinity.category) %>%
+         NERR.Region, Geomorphology, Tidal.Range, Salinity.category,
+         Local.linear.water.level.change.rate...19.yr.rate) %>%
   #Rename columns for ease of coding for the rest of the scripts
   rename(
     Region = NERR.Region,
@@ -59,7 +60,8 @@ veg_format <- veg %>%
     invasive_cover = Invasive_Cover,
     salt_ratio = Salt_to_Total,
     tidal_range = Tidal.Range,
-    salinity = Salinity.category) %>%
+    salinity = Salinity.category,
+    SLR_Rate_19yrs = Local.linear.water.level.change.rate...19.yr.rate) %>%
 #Change all NAs of visual cover types to zero
 mutate(across(abiotic_cover:salt_ratio,
               ~ifelse(is.na(.) == TRUE, 0,.)))
@@ -73,7 +75,8 @@ write.csv(veg_format,
 
 veg_zone <- veg_format %>%
   select(-TransectID, -PlotID) %>%
-  group_by(Reserve, SiteID, Year, Vegetation_Zone, Region, Geomorphology, tidal_range, salinity) %>%
+  group_by(Reserve, SiteID, Year, Vegetation_Zone, Region, Geomorphology, 
+           tidal_range, salinity, SLR_Rate_19yrs) %>%
   summarise(across(abiotic_cover:salt_ratio, 
                    ~mean(., na.rm = TRUE))) %>%
   mutate(across(abiotic_cover:salt_ratio, 
@@ -85,11 +88,18 @@ glimpse(veg_zone)
 write.csv(veg_zone, "Formatted Datasets\\Veg Dataframe Summarised By Site and Zone.csv")
 
 
+veg_zone_info <- veg_zone %>%
+  group_by(Vegetation_Zone) %>%
+  summarise(
+    Site_total = length(unique(SiteID))
+  )
+
 #Task 4: Summarize the national plot data frame by site
 
 veg_site <- veg_format %>%
   select(-TransectID, -PlotID) %>%
-  group_by(Reserve, SiteID, Year, Region, Geomorphology, tidal_range, salinity) %>%
+  group_by(Reserve, SiteID, Year, Region, Geomorphology, 
+           tidal_range, salinity, SLR_Rate_19yrs) %>%
   summarise(across(abiotic_cover:salt_ratio, 
                    ~mean(., na.rm = TRUE))) %>%
   mutate(across(abiotic_cover:salt_ratio, 
@@ -99,8 +109,6 @@ veg_site <- veg_format %>%
 glimpse(veg_site)
 
 write.csv(veg_site, "Formatted Datasets\\Veg Dataframe Summarised By Site.csv")
-
-
 
 
 #Chapter 3: Format the Slope - Site Data Frame ---------------------------------

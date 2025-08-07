@@ -1,5 +1,5 @@
 #Project: NAMASTE National Univariate Exploratory Analysis
-#Script: Script 5 - National Mixed Linear Regressions by Site
+#Script: Script 5 - National Mixed Linear Regressions by Region
 
 #Author: Grant McKown, Jackson Estuarine Laboratory, University of New Hampshire
 #Contact: james.mckown@unh.edu
@@ -18,9 +18,8 @@
 
 #Note - Script 5 is very similar to Script 3, since it accomplishes very similar analyses and research goals. 
 
-#-----------------------------------
-#Chapter 1: Import package library
-#-----------------------------------
+
+#Chapter 1: Import package library -----------------------------------------------
 
 
 #Data Analysis Packages
@@ -42,21 +41,20 @@ library(ggeffects)
 library(ggplot2)
 library(patchwork)
 
-#---------------------------------------------------------------------------------------------
-#Chapter 2: Format the vegetation dataset for broom - map functions to create numerous models
-#---------------------------------------------------------------------------------------------
+
+
+#Chapter 2: Format the vegetation dataset ---------------------------------------
+
 
 veg <- read.csv("Formatted Datasets\\Veg Dataframe Summarised By Site.csv") %>%
-  select(-X) %>%
-  rename(EMI = EIR)
+  select(-X)
 
 glimpse(veg)
 
 
 
-#-----------------------------------------------------------------------------
-#Chapter 3: Calculate live cover slope of each individual site, vegetation zone
-#-----------------------------------------------------------------------------
+
+#Chapter 3: Calculate live cover slope of each individual site, vegetation zone -------------------------
 
 # Formatting and organizing the dataset for regression slopes including:
 # Gathering the Site Variables and gathering the vegetation metrics, thus transforming the dataset
@@ -85,9 +83,9 @@ glimpse(veg_format)
 
 
 
-#------------------------------------------------------------------------------------------
-#Chapter 4: #Conduct mixed linear regressions of each vegetation metric by vegetation zone
-#------------------------------------------------------------------------------------------
+
+#Chapter 4: #Conduct mixed linear regressions of each vegetation metric by vegetation zone -------------------------
+
 
 # This is accomplished by nesting the data essentially by Vegetation Zone and Vegetation Metric (long dataset)
 
@@ -122,9 +120,7 @@ write.csv(regression_models_site,
 
 
 
-#---------------------------------------------------------------------------------------
-#Chapter 5: Calculate the Slopes of each Vegetation Metric Across All Site Characteristics
-#---------------------------------------------------------------------------------------
+#Chapter 5: Calculate the Slopes of each Vegetation Metric Across All Site Characteristics -------------------------
 
 # Run a dplyr loop to predict the values of the national vegetation regressions
 
@@ -163,9 +159,9 @@ write.csv(regression_slopes,
 
 
 
-#---------------------------------------------------------------------------------------
-#Chapter 6: Calculate the Slopes of each Vegetation Metric For Each Site Characteristic
-#---------------------------------------------------------------------------------------
+
+#Chapter 6: Calculate the Slopes of each Vegetation Metric For Each Site Characteristic ------------------------------
+
 
 #Re-run the combination of map, ggpredict chunk of code, except with the addition of the 
 # Category [all] to tell the software to also include individual site categories for each
@@ -211,9 +207,8 @@ write.csv(regression_slopes_site,
 
 
 
-#-----------------------------------------------------------------------------
-#Chapter 7: Graph the General Trends Across Time and Region
-#----------------------------------------------------------------------------
+
+#Chapter 7: Graph the General Trends Across Time and Site Characteristic ----------------------
 
 #Data visualization is broken down into 4 graphs:
   # (1) Vegetation Cover - Live, Abiotic, Freshwater, and Halophyte

@@ -17,9 +17,8 @@
 # The descriptive statistics and regression model summaries are exported as CSV files and graphed. 
 
 
-#-----------------------------------
-#Chapter 1: Import package library
-#-----------------------------------
+
+#Chapter 1: Import package library ---------------------------------------------
 
 #Data Analysis Packages
 
@@ -38,15 +37,13 @@ library(ggResidpanel)
 library(ggplot2)
 library(patchwork)
 
-#---------------------------------------------------------------------------------------------
-#Chapter 2: Format the vegetation dataset for broom - map functions to create numerous models
-#---------------------------------------------------------------------------------------------
+
+#Chapter 2: Format the vegetation dataset for broom - map functions to create numerous models ------------------------
 
 #Task 1: Import the national plot dataframe
 veg <- read.csv("Formatted Datasets\\Veg Plot Dataframe Formatted.csv") %>%
   select(-X, -invasive_cover) %>%
-  select(Reserve:Year, Region:salinity, abiotic_cover:salt_ratio) %>%
-  rename(EMI = EIR)
+  select(Reserve:Year, Region:salinity, abiotic_cover:salt_ratio)
 
 glimpse(veg)
 
@@ -73,9 +70,8 @@ veg_format <- veg %>%
 glimpse(veg_format)
 
 
-#-----------------------------------------------------------------------------------
-#Chapter 3: Compilation Analysis with Vegetation Zone as an Interaction (for pvalues)
-#-----------------------------------------------------------------------------------
+
+#Chapter 3: Compilation Analysis with Vegetation Zone as an Interaction (for pvalues) ----------------------------
 
 #To calculate the p-value of the compilation analysis, regressions will be run at the site-level
 # with models of: Vegetation Metric ~ Year + Veg_Zone * Veg_Zone
@@ -104,7 +100,7 @@ regression_multi_zones <- veg_format %>%
   ungroup() %>%
   filter(Veg_Zone_Count > 1) %>%
   group_by(Reserve, SiteID, Metric, SampleSize, Region, salinity, tidal_range, Geomorphology) %>%
-  nest()
+  nest() %>%
   mutate(regression = map(.x = data,
                           ~anova(lm(Value ~ Year * Vegetation_Zone,
                                       data = .x)) %>%
@@ -274,9 +270,9 @@ ggsave(pvalue_vegzone_graph,
 
 
 
-#-----------------------------------------------------------------------------------
-#Chapter 4: Compilation Analysis by Site
-#-----------------------------------------------------------------------------------
+
+#Chapter 4: Compilation Analysis by Site -----------------------------------------
+
 
 #Task 1: Formatting and organizing the dataset for regression slopes including:
 
@@ -299,7 +295,7 @@ regression_slopes_site <- veg_site %>%
   mutate(SampleSize = n()) %>%
   ungroup() %>%
   group_by(Reserve, SiteID, site_variable, Category, Metric, SampleSize) %>%
-  nest()
+  nest() %>%
   mutate(regression = map(.x = data,
                           ~summary(lm(Value ~ Year,
                                       data = .x)) %>%
@@ -328,12 +324,16 @@ slopes_site_stats <- regression_slopes_site %>%
   filter(site_variable == "Region") %>%
   group_by(Metric) %>%
   summarise(slope.mean = mean(slope, na.rm = TRUE),
-            slope.se = sd(slope, na.rm = TRUE)/sqrt(n())) %>%
-  mutate(across(slope.mean:slope.se, ~round(., 3)))
+            slope.se = sd(slope, na.rm = TRUE)/sqrt(n()),
+            pvalue.score = (length(pvalue[pvalue <= 0.05]) / n()) * 100) %>%
+  mutate(across(slope.mean:pvalue.score, ~round(., 3)))
   
 
 write.csv(slopes_site_stats,
           "Output Stats\\Site Compilation - National Metric - Slope Summary Statistics.csv")
+
+
+
 
 #Task 5: Calculate descriptive statistics for the slope and score by site characteristic
 
@@ -344,9 +344,10 @@ write.csv(slopes_site_stats,
 regression_stats_site <- regression_slopes_site %>%
   group_by(site_variable, Category, Metric) %>%
   summarise(slope.m = mean(slope, na.rm = TRUE),
-            slope.se = sd(slope, na.rm = TRUE)/sqrt(n())) %>%
+            slope.se = sd(slope, na.rm = TRUE)/sqrt(n()),
+            pvalue.percent = (length(pvalue[pvalue <= 0.05]) / n()) * 100) %>%
   ungroup() %>%
-  mutate(across(slope.m:pvalue.score, ~round(., 3)))
+  mutate(across(slope.m:pvalue.percent, ~round(., 3)))
 
 glimpse(regression_stats_site)
 

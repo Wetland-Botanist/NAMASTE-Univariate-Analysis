@@ -40,13 +40,11 @@ library(ggeffects)
 library(ggplot2)
 library(patchwork)
 
-#---------------------------------------------------------------------------------------------
-#Chapter 2: Format the vegetation dataset for broom - map functions to create numerous models
-#---------------------------------------------------------------------------------------------
+
+#Chapter 2: Format the vegetation dataset for broom - map functions to create numerous models ------------------------
 
 veg <- read.csv("Formatted Datasets\\Veg Dataframe Summarised By Site and Zone.csv") %>%
-  select(-X) %>%
-  dplyr::rename(EMI = EIR)
+  select(-X)
 
 glimpse(veg)
 
@@ -80,9 +78,8 @@ veg_format <- veg %>%
 
 glimpse(veg_format)
 
-#------------------------------------------------------------------------------------------
-#Chapter 3: National mixed linear regressions of each vegetation metric by vegetation zone
-#------------------------------------------------------------------------------------------
+
+#Chapter 3: National mixed linear regressions of each vegetation metric by vegetation zone ------------------------
 
 # This is accomplished by nesting the data essentially by Vegetation Zone and Vegetation Metric (long dataset)
 
@@ -118,9 +115,9 @@ write.csv(regression_models_veg,
 
 
 
-#---------------------------------------------------------------------------------------
-#Chapter 4: Calculate the Slopes of each Vegetation Metric Across All Vegetation Zones 
-#---------------------------------------------------------------------------------------
+
+#Chapter 4: Calculate the Slopes of each Vegetation Metric Across All Vegetation Zones -----------------------------
+
 
 # Run a dplyr loop to predict the values of the regressions across time itself (not considering zone)
 
@@ -158,9 +155,9 @@ write.csv(regression_slopes,
 
 
 
-#---------------------------------------------------------------------------------------
-#Chapter 5: Calculate the Slopes of each Vegetation Metric For Each Vegetation Zone 
-#---------------------------------------------------------------------------------------
+
+#Chapter 5: Calculate the Slopes of each Vegetation Metric For Each Vegetation Zone ------------------------------
+
 
 #Re-run the combination of map, ggpredict chunk of code, except with the addition of the "Vegetation_Zone [all]"
 # to tell the software to also include the Vegetation Zone factor in predicted values
@@ -199,9 +196,9 @@ write.csv(regression_slopes_veg,
 
 
 
-#-----------------------------------------------------------------------------
-#Chapter 6: Graph the General Trends Across Time and Vegetation Zone
-#----------------------------------------------------------------------------
+
+#Chapter 6: Graph the General Trends Across Time and Vegetation Zone -------------------------------------
+
 
 #Data visualization is broken down into 4 graphs:
   # (1) Vegetation Cover - Live, Abiotic, Freshwater, and Halophyte
