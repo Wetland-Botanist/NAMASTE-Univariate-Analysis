@@ -70,9 +70,9 @@ glimpse(veg_format)
 
 
 
-#Chapter 3: Effect Size of Zone - Site Regressions----------------------------
+#Chapter 3: Effect Size and Covariance Matrix of Zone - Site Regressions----------------------------
 
-#Task 1: Effect Size for sites with multiple vegetation zones
+#Task 1: Covariance Matrix for sites with multiple vegetation zones
 
 # This is accomplished by nesting the data essentially by Site, Vegetation Zone, and Metric
 effect_multi_zones <- veg_format %>%
@@ -84,16 +84,26 @@ effect_multi_zones <- veg_format %>%
   group_by(Reserve, SiteID, Metric, SampleSize, Region, salinity, 
            tidal_range, Geomorphology, SLR_Rate_19yrs) %>%
   nest() %>%
-  mutate(regression = map(.x = data,
-                          ~lm(Value ~ Year * Vegetation_Zone,
-                                    data = .x) %>%
-                            tidy())) %>%
-  unnest(regression) %>%
-  select(-data, -statistic, -p.value) %>%
   mutate(
-    term = ifelse(term == "(Intercept)",
-                  "VegetationZone_Low", term),
-    Regression_Type = "ANCOVA")
+    regression = map(.x = data,
+                     ~lm(Value ~ Year * Vegetation_Zone,
+                         data = .x)), 
+    regression_tidy = map(.x = regression,
+                          tidy),
+    covariate_matrix = map(.x = regression,
+                           ~ vcov(.x) %>%
+                             as.data.frame() %>%
+                             mutate(term = row.names(.)))) %>%
+  unnest(regression_tidy, covariate_matrix) %>%
+  select(-data, -statistic, -p.value, -data, -regression) %>%
+  rename(
+    Estimate_effect_size = estimate,
+    std_error_effect_size = std.error) %>%
+  filter(term == term1) %>%
+  select(-term1) %>%
+  mutate(
+    Regression_Type = "ANCOVA") %>%
+  select(Reserve:Metric, Regression_Type, SampleSize:Year:Vegetation_ZoneUp)
 
 
 glimpse(effect_multi_zones)
@@ -102,8 +112,22 @@ write.csv(effect_multi_zones,
           "Output Stats\\Site - Zone Compilation - Veg Zone 2 or more - Effect Size.csv")
 
 
-#Task 2: Calculate the p-values of the regressions of sites with only 1 site using simple linear 
-# regressions
+# Task 2: Determine the vegetation zone available in each site
+
+veg_zone_available <- veg_format %>%
+  group_by(Reserve, SiteID) %>%
+  summarise(
+    Veg_Zone_Count = length(unique(Vegetation_Zone)),
+    Veg_Zone1 = sort(unique(Vegetation_Zone))[1],
+    Veg_Zone2 = sort(unique(Vegetation_Zone))[2],
+    Veg_Zone3 = sort(unique(Vegetation_Zone))[3])
+
+glimpse(veg_zone_available)
+
+write.csv(veg_zone_available,
+          "Output Stats\\Vegetation Zone Summary by Site.csv")
+
+#Task 3: Calculate the effect size of the regressions of sites with 1 vegetation zone
 
 # This is accomplished by nesting the data essentially by Site, Vegetation Zone, and Metric
 regression_single_zone <- veg_format %>%
@@ -122,7 +146,9 @@ regression_single_zone <- veg_format %>%
                             tidy())) %>%
   unnest(regression) %>%
   select(-data, -statistic, -p.value) %>%
-  filter(term != "(Intercept)") %>%
+  rename(
+    Estimate_effect_size = estimate,
+    std_error_effect_size = std.error) %>%
   mutate(Regression_Type = "1 Veg Zone - Linear Regression")
 
 
@@ -133,7 +159,6 @@ write.csv(regression_single_zone,
 
 
 #Chapter 4: Size-level regressions -----------------------------------------
-
 
 #Task 1: Formatting and organizing the dataset for regression slopes including:
 
@@ -151,7 +176,9 @@ effect_site <- veg_format %>%
                             tidy())) %>%
   unnest(regression) %>%
   select(-data, -statistic, -p.value) %>%
-  filter(term != "(Intercept)") %>%
+  rename(
+    Estimate_effect_size = estimate,
+    std_error_effect_size = std.error) %>%
   mutate(Regression_Type = "Site - Level Linear Regression")
 
 
