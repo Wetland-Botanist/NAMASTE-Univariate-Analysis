@@ -89,7 +89,7 @@ slr_regression <- veg_format %>%
   mutate(regression = map(.x = data,
                           ~lm(Value ~ SLR,
                              data = .x) %>%
-                            tidy()),
+                            tidy()), 
          rsquared = map(.x = data,
                             ~lm(Value ~ SLR,
                                 data = .x) %>%
@@ -113,7 +113,7 @@ write.csv(slr_regression,
 # in ggplot2, since the regressions are simple linear regressions
 
 veg_slr <- veg_format %>%
-  filter(Metric == "EMI")
+  filter(Metric == "Halophyte Cover")
 
 slr_graph <- ggplot(aes(x = SLR,
                         y = Value),
@@ -128,7 +128,7 @@ slr_graph <- ggplot(aes(x = SLR,
   scale_x_continuous(limits = c(-8, 12),
                      breaks = seq(-8, 12, 2)) + 
   labs(x = "Sea Level Rise Last 19 Years (mm / yr)",
-       y = "EMI (per yr)") +
+       y = "Abiotic Cover (% per yr)") +
   theme_bw() +
   theme(
     legend.position = c(0.125, 0.875),
@@ -142,7 +142,7 @@ slr_graph <- ggplot(aes(x = SLR,
 slr_graph
 
 ggsave(slr_graph,
-       filename = "Output Figures\\National Regression - SLR & EMI.jpg",
+       filename = "Output Figures\\National Regression - SLR & Abiotic.jpg",
        units = "in",
        height = 8, width = 12, dpi = 300, limitsize = FALSE)
 

@@ -46,6 +46,7 @@ glimpse(veg)
 veg_format <- veg %>%
   #Select the relevant site identifiers, site characteristics, and vegetation metrics for future analyses
   select(Reserve, SiteID, TransectID, PlotID, Vegetation_Zone, Year,
+         Longitude, Latitude, 
          Total.unvegetated, Total.live.veg, H.Halophyte,
          F.Freshwater, EMI, Invasive_Cover, Richness, SWdiv, Salt_to_Total, 
          NERR.Region, Geomorphology, Tidal.Range, Salinity.category,

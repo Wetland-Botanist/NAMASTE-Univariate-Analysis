@@ -290,11 +290,47 @@ score_stats_region <- score_stats_site %>%
   
 glimpse(score_stats_region)
 
+# Box and Whisker Plot by Region
+
+regression_scores_site_region <- regression_scores_site %>%
+  filter(site_variable == "Region")
+
+meta_region_graph <- ggplot(data = regression_scores_site_region,
+                            aes(x = Category, 
+                                y = score)) +
+  geom_point(
+    position = position_jitter(height = 0.1
+                               , width = 0.9), 
+    size = 4.5, alpha = 0.75, colour = "darkblue") + 
+  geom_boxplot(
+           outlier.shape = NA, 
+           position = position_dodge(0.9),
+           linewidth = 1.5, alpha = 0.15, colour = "black") +
+  scale_y_continuous(limits = c(-2.2, 2.2),
+                     breaks = seq(-2.0, 2.0, 0.5),
+                     expand = c(0,0)) +
+  labs(y = "EMI Score",
+       x = "") +
+  theme_bw() +
+  theme(
+    legend.position = "none",
+    panel.grid.major.x = element_blank(),
+    panel.grid.minor.x = element_blank(),
+    axis.title = element_text(size = 20, colour = "black"),
+    axis.text = element_text(size = 20, colour = "black"))
+
+meta_region_graph
+
+
+
+
+
 #Graphing the EMI scores by Region
 
 meta_region_graph <- ggplot(data = score_stats_region,
                                 aes(x = Category, 
-                                    y = score.m)) +
+                                    y = score.m,
+                                    )) +
   geom_bar(aes(fill = Category),
            stat = 'identity', position = position_dodge(0.9),
            linewidth = 1.5, colour = "black") + 
@@ -304,8 +340,8 @@ meta_region_graph <- ggplot(data = score_stats_region,
                     group = Category),
                 position = position_dodge(0.9),
                 width = 0.5, linewidth = 1.25) + 
-  scale_y_continuous(limits = c(-1.1, 2.05),
-                     breaks = seq(-1.0, 2.0, 0.5),
+  scale_y_continuous(limits = c(-2.1, 2.1),
+                     breaks = seq(-2.0, 2.0, 0.5),
                      expand = c(0,0)) +
   labs(y = "EMI Score",
        x = "") +

@@ -104,7 +104,6 @@ regression_models_site <- veg_format %>%
                           ~lmer(Value ~ Year * Category + (1|Reserve/SiteID),
                                       data = .x) %>%
                             anova() %>%
-                            select(-NumDF, -DenDF) %>%
                             tidy())) %>%
         
   unnest(regression) %>%
@@ -216,42 +215,43 @@ write.csv(regression_slopes_site,
   # (3) Ratios - Salt Ratio, EMI
   # (4) Combine all three graphs into one comprehensive, national time model graph
 
-
-
 #Task 1: Graph the results of the predicted values for the Abiotic, Live Cover, Halophyte Cover, 
           #and Freshwater Cover
 
 regression_predicted_cover <- regression_predicted_site %>%
-  filter(Site_variable == "Geomorphology",
-         Metric == "Live Cover", ) %>%
+  filter(Site_variable == "tidal_range",
+         Metric == "Halophyte Cover", ) %>%
   mutate(stderr.high = ifelse(stderr.high > 100, 100, stderr.high),
          stderr.low = ifelse(stderr.low < 0, 0, stderr.low),
          Value_pred = ifelse(Value_pred < 0, 0, Value_pred),
          Category = factor(Category,
-                           levels = c("Back Barrier", "Bay Front", "Riverine")))
+                           levels = c("Microtidal", "Mesotidal", "Macrotidal")))
 
 
 national_cover_graph <- ggplot(data = regression_predicted_cover,
                                  aes(x = Year,
-                                     y = Value_pred,
-                                     group = Category)) + 
-  geom_line(aes(colour = Category),
+                                     y = Value_pred)) + 
+  geom_point(data = veg,
+             aes(x = Year,
+                 y = halophyte,
+                 colour = Region),
+             size = 4.5, alpha = 0.35, colour = "darkblue") +
+  geom_ribbon(aes(x = Year, ymin = stderr.low, 
+                  ymax = stderr.high),
+              alpha = 0.85, fill = "grey") + 
+  geom_line(colour = "black", 
             linewidth = 1.25, linetype = "dashed") + 
- geom_ribbon(aes(x = Year, ymin = stderr.low, 
-                 ymax = stderr.high,
-              fill = Category),
-              alpha = 0.35) +   
   scale_y_continuous(limits = c(0, 102),
                      breaks = seq(0, 100, 20),
                      expand = c(0,0)) +
   scale_x_continuous(limits = c(2005, 2022.5),
                      breaks = seq(2006, 2022, 2),
                      expand = c(0,0)) +
-  labs(y = "Visual Cover (%)",
+  labs(y = "Halophyte Cover (%)",
        x = "") +
   theme_bw() +
   theme(
-    legend.position = c(0.85, 0.175),
+    legend.position = "none",
     legend.title = element_blank(),
     legend.text = element_text(size = 18, colour = "black"),
     panel.grid.major.x = element_blank(),
@@ -259,16 +259,18 @@ national_cover_graph <- ggplot(data = regression_predicted_cover,
     axis.title = element_text(size = 18, colour = "black"),
     axis.text = element_text(size = 14, colour = "black"),
     strip.text = element_text(size = 18, colour = "black"),
-    strip.background = element_blank())
+    strip.background = element_blank()) + 
+  facet_wrap(~Category, 
+             ncol = 3)
 
 
 national_cover_graph
 
 
 ggsave(national_cover_graph,
-       filename = "Output Figures\\National Time Mixed Model - Geormophology - Live Cover.jpg",
+       filename = "Output Figures\\National Time Mixed Model - Tidal Range - Halophyte Cover.jpg",
        units = "in",
-       height = 8, width = 12, dpi = 300, limitsize = FALSE)
+       height = 6, width = 16, dpi = 300, limitsize = FALSE)
 
 
 
@@ -280,29 +282,33 @@ ggsave(national_cover_graph,
 
 
 regression_predicted_richness <- regression_predicted_site %>%
-  filter(Metric == "Richness", 
-         Site_variable == "tidal_range") %>%
+  filter(Metric == "Shannon-Weiner Diversity", 
+         Site_variable == "Region") %>%
     mutate(stderr.low = ifelse(stderr.low < 0, 0, stderr.low), 
            Category = factor(Category, levels = 
-                               c("Microtidal", "Mesotidal", "Macrotidal")))
+                               c("Northeast", "Mid-Atlantic", "Southeast", "Gulf Coast",
+                                          "West Coast")))
 
 national_richness_graph <- ggplot(data = regression_predicted_richness,
                                aes(x = Year,
-                                   y = Value_pred,
-                                   group = Category)) + 
-  geom_line(aes(colour = Category),
-            linewidth = 1.5, linetype = "dashed") + 
+                                   y = Value_pred)) + 
+  geom_point(data = veg,
+             aes(x = Year,
+                 y = EMI,
+                 colour = Region),
+             size = 4.5, alpha = 0.35, colour = "darkblue") +
   geom_ribbon(aes(x = Year, ymin = stderr.low, 
-                  ymax = stderr.high,
-                  fill = Category),
-              alpha = 0.35) +   
-  scale_y_continuous(limits = c(0, 6),
-                     breaks = seq(0, 6, 1),
+                  ymax = stderr.high),
+              alpha = 0.85, fill = "grey") + 
+  geom_line(colour = "black", 
+            linewidth = 1.25, linetype = "dashed") + 
+  scale_y_continuous(limits = c(0, 1.05),
+                     breaks = seq(0, 1, 0.20),
                      expand = c(0,0)) +
   scale_x_continuous(limits = c(2005, 2022.5),
                      breaks = seq(2006, 2022, 2),
                      expand = c(0,0)) +
-  labs(y = "Species Richness (per plot)",
+  labs(y = "Shannon-Weiner Diversity",
        x = "") +
   theme_bw() +
   theme(
@@ -312,17 +318,19 @@ national_richness_graph <- ggplot(data = regression_predicted_richness,
     panel.grid.major.x = element_blank(),
     panel.grid.minor.x = element_blank(),
     axis.title = element_text(size = 18, colour = "black"),
-    axis.text = element_text(size = 18, colour = "black"),
+    axis.text = element_text(size = 14, colour = "black"),
     strip.background = element_blank(),
-    strip.text = element_text(size = 18))
+    strip.text = element_text(size = 18)) + 
+  facet_wrap(~Category,
+             nrow = 2, ncol = 3)
 
 national_richness_graph
 
 
 ggsave(national_richness_graph,
-       filename = "Output Figures\\National Time Mixed Model - Tidal Range - Richness.jpg",
+       filename = "Output Figures\\National Time Mixed Model - Region - Diversity.jpg",
        units = "in",
-       height = 8, width = 12, dpi = 300, limitsize = FALSE)
+       height = 8, width = 16, dpi = 300, limitsize = FALSE)
 
 
 
@@ -343,13 +351,17 @@ regression_predicted_ratio <- regression_predicted_site %>%
 
 national_ratio_graph <- ggplot(data = regression_predicted_ratio,
                                   aes(x = Year,
-                                      y = Value_pred,
-                                      group = Category)) + 
-  geom_line(aes(colour = Category),
-            linewidth = 1.5, linetype = "dashed") + 
-  geom_ribbon(aes(x = Year, ymin = stderr.low, ymax = stderr.high,
-                  fill = Category),
-              alpha = 0.35) +   
+                                      y = Value_pred)) + 
+  geom_point(data = veg,
+             aes(x = Year,
+                 y = EMI,
+                 colour = Region),
+             size = 4.5, alpha = 0.35, colour = "darkblue") +
+  geom_ribbon(aes(x = Year, ymin = stderr.low, 
+                  ymax = stderr.high),
+              alpha = 0.85, fill = "grey") + 
+  geom_line(colour = "black", 
+            linewidth = 1.25, linetype = "dashed") + 
   scale_y_continuous(limits = c(0, 1.05),
                      breaks = seq(0, 1, 0.20),
                      expand = c(0,0)) +

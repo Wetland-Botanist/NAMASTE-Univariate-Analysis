@@ -99,7 +99,7 @@ regression_models_site <- veg_format %>%
                                 data = .x) %>%
                             # Create the ANOVA Table for each model
                             anova() %>%
-                            select(-NumDF, -DenDF) %>%
+                            # select(-NumDF, -DenDF) %>%
                             # Format the ANOVA table into a dataframe
                             tidy())) %>%
   # Unnest and keep the ANOVA tables of the mixed linear models
@@ -196,10 +196,10 @@ national_cover_graph <- ggplot(data = regression_predicted_cover,
                      size = 4.5, alpha = 0.35) +
   geom_ribbon(aes(x = Year, 
                   ymin = conf.low, ymax = conf.high),
-              alpha = 0.85, fill = "gray") + 
+              alpha = 0.75, fill = "gray") + 
            geom_line(linewidth = 1.5, 
                      colour = "black", linetype = "dashed") + 
-           scale_y_continuous(limits = c(0, 100),
+           scale_y_continuous(limits = c(0, 105),
                               breaks = seq(0, 100, 20),
                               expand = c(0,0)) +
            scale_x_continuous(limits = c(2005, 2022.5),
@@ -217,7 +217,7 @@ national_cover_graph <- ggplot(data = regression_predicted_cover,
              axis.title = element_text(size = 18, colour = "black"),
              axis.text = element_text(size = 18, colour = "black"),
              strip.background = element_blank(),
-             strip.text = element_text(size = 18)) +
+             strip.text = element_blank()) +
   facet_wrap(~Metric)
          
   national_cover_graph
@@ -236,11 +236,11 @@ ggsave(national_cover_graph,
  # different regions, will be shown. 
          
 regression_predicted_species <- regression_predicted %>%
-           filter(Metric == "Salt Ratio") %>%
+           filter(Metric == "EMI") %>%
            mutate(conf.low = ifelse(conf.low < 0, 0, conf.low))
 
 veg_graph <- veg_format %>%
-           filter(Metric == "Salt Ratio")
+           filter(Metric == "EMI")
          
          national_cover_graph <- ggplot(data = regression_predicted_species,
                                         aes(x = Year,
@@ -250,7 +250,7 @@ veg_graph <- veg_format %>%
                           y = Value),
                       size = 4.5, alpha = 0.35, colour = "darkblue") +
            geom_ribbon(aes(x = Year, ymin = conf.low, ymax = conf.high),
-                       alpha = 0.85, fill = "gray") + 
+                       alpha = 0.75, fill = "gray") + 
            geom_line(linewidth = 1.5,
                      colour = "black", linetype = "dashed") + 
            scale_y_continuous(limits = c(0, 1.1),
@@ -259,7 +259,7 @@ veg_graph <- veg_format %>%
            scale_x_continuous(limits = c(2005, 2022.5),
                               breaks = seq(2006, 2022, 2),
                               expand = c(0,0)) +
-           labs(y = "Salt Ratio",
+           labs(y = "Ecotone Migration Index",
                 x = "") +
            theme_bw() +
            theme(
@@ -271,14 +271,14 @@ veg_graph <- veg_format %>%
              axis.title = element_text(size = 18, colour = "black"),
              axis.text = element_text(size = 18, colour = "black"),
              strip.background = element_blank(),
-             strip.text = element_text(size = 18)) +
+             strip.text = element_blank()) +
            facet_wrap(~Metric)
          
          national_cover_graph
          
          
          ggsave(national_cover_graph,
-                filename = "Output Figures\\National Time Mixed Model - Salt Ratio - Whole Study.jpg",
+                filename = "Output Figures\\National Time Mixed Model - EMI - Whole Study.jpg",
                 units = "in",
                 height = 8, width = 12, dpi = 300, limitsize = FALSE)
          

@@ -176,7 +176,7 @@ slr_graph <- ggplot() +
   scale_x_continuous(limits = c(-8, 12),
                      breaks = seq(-8, 12, 2)) + 
   labs(x = "Sea Level Rise Last 19 Years (mm / yr)",
-       y = "Shannon-Weiner Diversity (per yr)") +
+       y = "EMI(per yr)") +
   theme_bw() +
   theme(
     legend.position = c(0.125, 0.875),
