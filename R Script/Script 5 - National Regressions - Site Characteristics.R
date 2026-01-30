@@ -219,13 +219,14 @@ write.csv(regression_slopes_site,
           #and Freshwater Cover
 
 regression_predicted_cover <- regression_predicted_site %>%
-  filter(Site_variable == "tidal_range",
+  filter(Site_variable == "Region",
          Metric == "Halophyte Cover", ) %>%
   mutate(stderr.high = ifelse(stderr.high > 100, 100, stderr.high),
          stderr.low = ifelse(stderr.low < 0, 0, stderr.low),
          Value_pred = ifelse(Value_pred < 0, 0, Value_pred),
          Category = factor(Category,
-                           levels = c("Microtidal", "Mesotidal", "Macrotidal")))
+                           levels = c("Northeast", "Mid-Atlantic", "Southeast",
+                                      "Gulf Coast", "West Coast")))
 
 
 national_cover_graph <- ggplot(data = regression_predicted_cover,
@@ -245,7 +246,7 @@ national_cover_graph <- ggplot(data = regression_predicted_cover,
                      breaks = seq(0, 100, 20),
                      expand = c(0,0)) +
   scale_x_continuous(limits = c(2005, 2022.5),
-                     breaks = seq(2006, 2022, 2),
+                     breaks = seq(2006, 2022, 3),
                      expand = c(0,0)) +
   labs(y = "Halophyte Cover (%)",
        x = "") +
@@ -253,12 +254,12 @@ national_cover_graph <- ggplot(data = regression_predicted_cover,
   theme(
     legend.position = "none",
     legend.title = element_blank(),
-    legend.text = element_text(size = 18, colour = "black"),
+    legend.text = element_text(size = 20, colour = "black"),
     panel.grid.major.x = element_blank(),
     panel.grid.minor.x = element_blank(),
-    axis.title = element_text(size = 18, colour = "black"),
-    axis.text = element_text(size = 14, colour = "black"),
-    strip.text = element_text(size = 18, colour = "black"),
+    axis.title = element_text(size = 28, colour = "black"),
+    axis.text = element_text(size = 22, colour = "black"),
+    strip.text = element_text(size = 28, colour = "black"),
     strip.background = element_blank()) + 
   facet_wrap(~Category, 
              ncol = 3)
@@ -268,9 +269,9 @@ national_cover_graph
 
 
 ggsave(national_cover_graph,
-       filename = "Output Figures\\National Time Mixed Model - Tidal Range - Halophyte Cover.jpg",
+       filename = "Output Figures\\National Time Mixed Model - Region - Halophyte Cover.jpg",
        units = "in",
-       height = 6, width = 16, dpi = 300, limitsize = FALSE)
+       height = 9, width = 16, dpi = 300, limitsize = FALSE)
 
 
 

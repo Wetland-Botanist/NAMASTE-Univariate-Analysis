@@ -39,9 +39,8 @@ library(patchwork)
 
 
 
-#-----------------------------------------------------------------------------
-# Chapter 2: Create compilation of site-level regressions
-#-----------------------------------------------------------------------------
+
+# Chapter 2: Create compilation of site-level regressions ----------------------------
 
 #Task 1: Import the Formatted Plot Data frame
 
@@ -92,9 +91,9 @@ ggsave(site_regression,
        units = "in",
        height = 8, width = 12, dpi = 300, limitsize = FALSE)
 
-#-----------------------------------------------------------------------------
-# Chapter 2: Create compilation of region-level regressions
-#-----------------------------------------------------------------------------
+
+# Chapter 2: Create compilation of region-level regressions ------------------------
+
 
 #Task 1: Import the Formatted Plot Dataframe
 

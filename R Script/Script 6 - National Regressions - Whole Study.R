@@ -205,7 +205,7 @@ national_cover_graph <- ggplot(data = regression_predicted_cover,
            scale_x_continuous(limits = c(2005, 2022.5),
                               breaks = seq(2006, 2022, 2),
                               expand = c(0,0)) +
-           labs(y = "Visual Cover (%)",
+           labs(y = "Halophoyte Cover (%)",
                 x = "") +
            theme_bw() +
            theme(
@@ -214,8 +214,8 @@ national_cover_graph <- ggplot(data = regression_predicted_cover,
              legend.text = element_text(size = 18, colour = "black"),
              panel.grid.major.x = element_blank(),
              panel.grid.minor.x = element_blank(),
-             axis.title = element_text(size = 18, colour = "black"),
-             axis.text = element_text(size = 18, colour = "black"),
+             axis.title = element_text(size = 24, colour = "black"),
+             axis.text = element_text(size = 22, colour = "black"),
              strip.background = element_blank(),
              strip.text = element_blank()) +
   facet_wrap(~Metric)

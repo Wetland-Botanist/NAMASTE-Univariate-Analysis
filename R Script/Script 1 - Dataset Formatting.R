@@ -95,6 +95,8 @@ veg_zone_info <- veg_zone %>%
     Site_total = length(unique(SiteID))
   )
 
+glimpse(veg_zone_info)
+
 #Task 4: Summarize the national plot data frame by site
 
 veg_site <- veg_format %>%
@@ -180,9 +182,9 @@ glimpse(slope_format)
 write.csv(slope_format,
           "Formatted Datasets\\Veg Slope by Site and Zone Formatted.csv")
 
-#-----------------------------------------------------------------------
-#Chapter 5: Summary Statistics for the Plot & Site Datasets
-#----------------------------------------------------------------------
+
+#Chapter 5: Summary Statistics for the Plot & Site Datasets -----------------------------
+
 
 #Create a data summary table for the entire plot dataframe with the skim() function
 # from the skimr package
@@ -205,6 +207,35 @@ veg_plot_skim
 
 write.csv(veg_plot_skim,
           "Output Stats\\Dataset Summary - Skim - Plot Dataframe.csv")
+
+
+# Task 2: Summarise the distribution of plots and sites for each of the categorical variables
+
+namaste_info <- veg_format %>%
+  mutate(
+    SiteID = as.factor(SiteID),
+    Site_Year = paste(SiteID, Year, " - ")) %>%
+  gather(c(Region:salinity, Vegetation_Zone),
+         key = "Explanatory_Metric",
+         value = "Factor") %>%
+  group_by(Explanatory_Metric, Factor) %>%
+  summarise(
+    Plot_Count = n(),
+    Site_Count = length(unique(SiteID)),
+    Site_Year_Count = length(unique(Site_Year))) %>%
+  ungroup()
+
+glimpse(namaste_info)
+
+write.csv(namaste_info,
+          "Output Stats\\Dataset Summary - Summary of Site Counts Dataframe.csv")
+
+
+
+
+
+
+
 
 
 
